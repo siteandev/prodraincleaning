@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you
+Disallow: /*?nocoupon=
+ 
+User-agent: GPTBot
+Allow: /
+ 
+User-agent: PerplexityBot
+Allow: /
+ 
+Sitemap: https://prodraincleaning.ca/sitemap.xml

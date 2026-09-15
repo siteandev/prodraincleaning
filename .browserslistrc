@@ -1,0 +1,7 @@
+# Browserslist config is defined in package.json "browserslist" field.
+# This file intentionally left empty to avoid conflicts.
+last 2 Chrome versions
+last 2 Firefox versions
+last 2 Safari versions
+last 2 Edge versions
+
