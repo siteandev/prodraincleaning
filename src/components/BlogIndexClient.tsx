@@ -16,6 +16,16 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'frozen-pipes-winnipeg-how-to-thaw-safely',
+    title: 'Frozen Pipes in Winnipeg — How to Thaw Them Safely Before They Burst',
+    category: 'Plumbing',
+    readTime: 8,
+    date: '2026-09-17',
+    excerpt:
+      'Frozen pipes in your Winnipeg home? Here\'s how to thaw them safely without causing a burst — and when to call a plumber instead of risking it yourself.',
+    isPillar: true,
+  },
+  {
     slug: 'water-heater-repair-winnipeg',
     title: 'Water Heater Repair in Winnipeg — Is Replacement Actually Needed?',
     category: 'Plumbing',

@@ -89,6 +89,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/plumbing-drain-cleaning-services-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/drain-cleaning-company-near-me-response-time-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/water-heater-repair-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/frozen-pipes-winnipeg-how-to-thaw-safely`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
 
   // De-duplication safety net: remove any repeated <loc> values
