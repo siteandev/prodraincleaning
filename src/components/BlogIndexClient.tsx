@@ -16,6 +16,26 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'home-inspection-plumbing-issue-now-what',
+    title: 'Home Inspection Flagged a Plumbing Issue — Now What?',
+    category: 'Plumbing',
+    readTime: 6,
+    date: '2026-09-17',
+    excerpt:
+      "Home inspection report flagged a plumbing issue in Winnipeg? Here's how to get a second opinion, understand the real cost, and decide your next move before closing.",
+    isPillar: true,
+  },
+  {
+    slug: 'buying-old-house-winnipeg-plumbing-checklist',
+    title: 'Buying an Old House in Winnipeg? What to Check in the Plumbing Before You Close',
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Buying an older home in Winnipeg? Here's what to check in the plumbing before closing — pipe material, age-related red flags, and when to get a second look.",
+    isPillar: true,
+  },
+  {
     slug: 'condo-plumbing-winnipeg-your-responsibility-or-condo-corporation',
     title: "Condo Plumbing in Winnipeg — Is It You or the Condo Corporation's Responsibility?",
     category: 'Plumbing',
