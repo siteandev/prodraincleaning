@@ -15,36 +15,35 @@ const PHONE_WA = 'https://wa.me/12043994413';
 const EMAIL = 'prodraincleaningcentre@gmail.com';
 
 const tocItems = [
-{ id: 'first-10-minutes', label: 'The First 10 Minutes — In Order' },
-{ id: 'why-shutoff-first', label: 'Why the Shutoff Comes Before Everything Else' },
-{ id: 'common-causes', label: 'Common Causes of a Burst Pipe in Winnipeg' },
-{ id: 'what-happens', label: 'What Happens When We Arrive' },
-{ id: 'insurance', label: "Don't Forget the Insurance Side" },
-{ id: 'service-areas', label: 'Every Area We Provide Emergency Burst Pipe Response In' },
+{ id: 'documentation-includes', label: "What a Plumber's Documentation Typically Includes" },
+{ id: 'gather-checklist', label: 'What to Gather Before the Adjuster Visits' },
+{ id: 'why-fast', label: 'Why Acting Fast Matters for Your Claim, Not Just Your Home' },
+{ id: 'what-we-help-with', label: 'What We Can and Can\'t Help With' },
+{ id: 'service-areas', label: 'Every Area We Serve for This' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
 
 const faqs = [
 {
-  q: 'Where is my main water shutoff valve?',
-  a: "Usually in the basement, utility room, or near where the water line enters the house — if you're not sure right now, that's worth confirming today before you need it in an emergency."
+  q: 'Will you provide a written report for my insurance claim?',
+  a: 'Yes — a service record identifying the cause and the work performed is standard with any call.'
 },
 {
-  q: 'Should I try to fix the burst pipe myself before you arrive?',
-  a: 'No — focus on the shutoff and containment; the repair itself needs proper assessment first.'
+  q: 'Do you deal directly with my insurance company?',
+  a: 'We can provide documentation your insurer or adjuster requests, but the claim itself is between you and them.'
 },
 {
-  q: 'How fast can you get there?',
-  a: "We answer 24/7 and treat burst pipe calls as a priority emergency — call and we'll give you a real-time estimate."
+  q: "Does calling a plumber before the adjuster visits hurt my claim?",
+  a: 'Generally the opposite — prompt action to stop damage from worsening is usually expected, and a professional service record supports your claim rather than complicating it.'
 },
 {
-  q: 'Will my insurance cover this?',
-  a: 'Often yes for sudden burst-pipe damage — document everything and see our insurance claim checklist for what to gather.'
+  q: "What if the adjuster asks a question you can't answer?",
+  a: 'We answer anything about the plumbing cause and work performed; policy-specific questions go to your insurer.'
 },
 {
-  q: "What if I can't find the shutoff valve at all?",
-  a: 'Call us immediately — we can talk you through locating it over the phone while help is on the way.'
+  q: 'Can you help with an emergency and the documentation at the same time?',
+  a: 'Yes — that\'s the standard call: stop the immediate problem, then leave you with the record you need.'
 }];
 
 
@@ -53,10 +52,10 @@ const pageSchema = {
   '@graph': [
   {
     '@type': 'BlogPosting',
-    headline: 'Burst Pipe Emergency — What to Do in the First 10 Minutes (Winnipeg)',
+    headline: 'Water Damage Insurance Claim — What Your Adjuster Wants to See',
     description:
-    "Pipe just burst? Shut off water, protect what you can, then get help fast. Step-by-step emergency guide for Winnipeg homeowners. Call +1 (204) 399-4413.",
-    url: 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do',
+    "Filing a water damage insurance claim in Winnipeg? Here's the documentation a plumber can provide to support your claim — and what to gather before the adjuster visits.",
+    url: 'https://prodraincleaning.ca/blog/water-damage-insurance-claim-plumbing-checklist',
     datePublished: '2026-09-17',
     dateModified: '2026-09-17',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
@@ -67,12 +66,12 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/emergency-plumber-main-shutoff-valve.png',
-      description: 'Shutting off the main water valve during a burst pipe emergency in Winnipeg'
+      url: 'https://prodraincleaning.ca/assets/images/technician-upfront-pricing-homeowner-winnipeg.png',
+      description: 'Plumber documenting water damage for an insurance claim in Winnipeg'
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do'
+      '@id': 'https://prodraincleaning.ca/blog/water-damage-insurance-claim-plumbing-checklist'
     }
   },
   {
@@ -91,8 +90,8 @@ const pageSchema = {
     {
       '@type': 'ListItem',
       position: 3,
-      name: 'Burst Pipe Emergency',
-      item: 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do'
+      name: 'Water Damage Insurance Claim',
+      item: 'https://prodraincleaning.ca/blog/water-damage-insurance-claim-plumbing-checklist'
     }]
 
   }]
@@ -167,7 +166,7 @@ const serviceAreaTowns: {name: string;href?: string;}[] = [
 { name: 'Carman' }];
 
 
-export default function BurstPipeEmergencyPost() {
+export default function WaterDamageInsuranceClaimPost() {
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
@@ -215,7 +214,7 @@ export default function BurstPipeEmergencyPost() {
               </li>
               <li aria-hidden="true">›</li>
               <li aria-current="page" className="truncate max-w-xs" style={{ color: 'var(--ink)' }}>
-                Burst Pipe Emergency
+                Water Damage Insurance Claim
               </li>
             </ol>
           </div>
@@ -235,13 +234,13 @@ export default function BurstPipeEmergencyPost() {
                 className="text-xs font-700 px-2.5 py-1 rounded-full"
                 style={{ backgroundColor: 'var(--brand-700)', color: 'white', fontWeight: 700 }}>
 
-                Emergency
+                Guides
               </span>
-              <span className="text-sm" style={{ color: 'var(--muted)' }}>6 min read</span>
+              <span className="text-sm" style={{ color: 'var(--muted)' }}>7 min read</span>
             </div>
 
             <h1 className="mb-4">
-              Burst Pipe Emergency — What to Do in the First 10 Minutes
+              Water Damage Insurance Claim — What Your Adjuster Wants to See
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
@@ -252,12 +251,12 @@ export default function BurstPipeEmergencyPost() {
             <div className="rounded-xl overflow-hidden mb-8">
               {/*
                 UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/burst-pipe-shutoff-valve-winnipeg.jpg"
+                Example: src="/assets/images/plumber-documenting-water-damage-winnipeg.jpg"
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/emergency-plumber-main-shutoff-valve.png"
-                alt="Shutting off the main water valve during a burst pipe emergency in Winnipeg"
+                src="/assets/images/technician-upfront-pricing-homeowner-winnipeg.png"
+                alt="Plumber documenting water damage for an insurance claim in Winnipeg"
                 lazy={false}
                 width={1600}
                 height={900}
@@ -265,26 +264,27 @@ export default function BurstPipeEmergencyPost() {
               />
             </div>
 
-            {/* Answer-first callout box — urgency framing */}
+            {/* Answer-first callout box */}
             <div
               className="rounded-xl p-6 mb-6"
               style={{
-                backgroundColor: '#fff8f5',
-                border: '2px solid var(--accent-600)'
+                backgroundColor: 'var(--brand-100)',
+                border: '1px solid var(--brand-700)',
+                borderLeftWidth: '4px',
+                borderLeft: '4px solid var(--brand-700)'
               }}>
 
               <p
                 className="text-xs font-700 uppercase tracking-wider mb-3"
-                style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
+                style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
 
-                Act Now — Every Minute Adds to the Damage
+                The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                If a pipe has burst in your home: shut off the main water valve first, then the electricity to any affected area if water is near outlets or fixtures, then call for emergency plumbing help. Every minute the water keeps running adds to the damage — the shutoff comes before anything else, including trying to clean up. Pro Drain Cleaning Limited answers emergency calls 24 hours a day across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                Most insurance adjusters want clear evidence of what happened, when, and what was done about it: photos of the damage before cleanup, a written service record from a licensed plumber identifying the cause, and documentation of any repair work completed. Getting a plumber out promptly does two things at once — it stops the damage from getting worse, and it creates the professional record your claim will likely need. Pro Drain Cleaning Limited provides both emergency response and written service documentation across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
-                </PhoneLink>{' '}
-                right now.
+                </PhoneLink>.
               </p>
             </div>
 
@@ -307,66 +307,43 @@ export default function BurstPipeEmergencyPost() {
               </Link>
             </div>
 
-            {/* First 10 Minutes checklist box — most prominent element after H1 */}
+            {/* What a Plumber's Documentation Typically Includes quick-reference box */}
             <div
-              id="first-10-minutes"
-              className="rounded-xl p-6 sm:p-8 scroll-mt-24"
+              id="documentation-includes"
+              className="rounded-xl p-6 scroll-mt-24"
               style={{
-                backgroundColor: 'var(--brand-100)',
-                border: '2px solid var(--brand-700)'
+                backgroundColor: '#fff8f5',
+                border: '2px solid var(--accent-600)'
               }}>
 
               <p
-                className="text-sm font-700 uppercase tracking-wider mb-5"
-                style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
+                className="text-sm font-700 uppercase tracking-wider mb-4"
+                style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
 
-                The First 10 Minutes — In Order
+                What a Plumber's Documentation Typically Includes
               </p>
-              <ol className="flex flex-col gap-5">
+              <ul className="flex flex-col gap-3">
                 {[
-                {
-                  title: 'Shut off the main water valve.',
-                  text: "Usually near where the water line enters the house — basement, utility room, or near the water meter. If you don't know where it is, this is worth finding out today, before an emergency, not during one."
-                },
-                {
-                  title: 'Turn off electricity to the affected area',
-                  text: 'if water is anywhere near outlets, switches, or fixtures — from the breaker panel, not by touching anything wet.'
-                },
-                {
-                  title: 'Call for emergency plumbing help.',
-                  text: "Don't wait to see how bad it gets — call while you're still doing the next steps."
-                },
-                {
-                  title: "Move anything valuable out of the water's path",
-                  text: '— furniture, electronics, documents, anything you can lift or drag clear.'
-                },
-                {
-                  title: 'Start containing the water',
-                  text: 'with towels, a wet vac if you have one, or by directing it toward a floor drain.'
-                },
-                {
-                  title: 'Photograph the damage before you clean anything up',
-                  text: '— this matters for your insurance claim later.'
-                },
-                {
-                  title: "Don't run any other taps or appliances",
-                  text: 'until the shutoff is confirmed fully off and a plumber has assessed the situation.'
-                }].
-                map((step, i) =>
-                <li key={i} className="flex items-start gap-4">
+                'Cause identification — what actually failed (burst pipe, frozen line, fixture failure, drain backup) and why',
+                'Date and time of service — establishes the timeline your claim will reference',
+                'Description of work performed — what was repaired, replaced, or remediated',
+                'Photos of the affected area, taken as part of the service call',
+                "A licensed business's letterhead/contact information on the written record"].
+                map((item, i) =>
+                <li key={i} className="flex items-start gap-3 text-sm" style={{ color: 'var(--ink)' }}>
                     <span
-                    className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center text-lg font-700"
-                    style={{ backgroundColor: 'var(--brand-700)', color: 'white', fontWeight: 700 }}>
+                    className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5"
+                    style={{ backgroundColor: 'var(--accent-600)' }}
+                    aria-hidden="true">
 
-                      {i + 1}
+                      <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                        <path d="M2 5l2 2 4-4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
                     </span>
-                    <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                      <span style={{ fontWeight: 700, color: 'var(--navy-900)' }}>{step.title}</span>{' '}
-                      {step.text}
-                    </p>
+                    <span>{item}</span>
                   </li>
                 )}
-              </ol>
+              </ul>
             </div>
           </div>
         </section>
@@ -378,40 +355,61 @@ export default function BurstPipeEmergencyPost() {
               {/* Article body */}
               <article className="lg:col-span-3">
 
-                {/* Section: Why Shutoff First */}
-                <div id="why-shutoff-first" className="scroll-mt-24">
-                  <h2 className="mt-0 mb-4">Why the Shutoff Comes Before Everything Else</h2>
-                  <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    A burst pipe under mains pressure can release a large volume of water in a short time. Every minute spent doing anything else first — even something that feels urgent, like moving furniture — is water that keeps flowing and damage that keeps spreading. The shutoff is always step one.
-                  </p>
+                {/* Section: What to Gather */}
+                <div id="gather-checklist" className="scroll-mt-24">
+                  <h2 className="mt-0 mb-4">What to Gather Before the Adjuster Visits</h2>
+                  <ul className="flex flex-col gap-4 mb-6">
+                    {[
+                    {
+                      title: 'Photos of the damage',
+                      text: 'taken before anything is moved or cleaned up, from multiple angles, including anything visibly affected (flooring, walls, belongings).'
+                    },
+                    {
+                      title: 'A timeline',
+                      text: 'when you first noticed the issue, when you called for help, when the plumber arrived.'
+                    },
+                    {
+                      title: "The plumber's service record",
+                      text: 'the written documentation described above.'
+                    },
+                    {
+                      title: 'A list of damaged belongings,',
+                      text: "with approximate value where you can reasonably estimate it — we don't provide dollar valuations of your possessions, that's between you and your adjuster."
+                    },
+                    {
+                      title: 'Receipts for any emergency mitigation you paid for yourself',
+                      text: '(a wet vac rental, temporary tarping, etc.) before the adjuster arrived.'
+                    }].
+                    map((item, i) =>
+                    <li key={i} className="flex items-start gap-3 text-sm" style={{ color: 'var(--ink)' }}>
+                        <span
+                        className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5"
+                        style={{ backgroundColor: 'var(--brand-700)' }}
+                        aria-hidden="true">
+
+                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                            <path d="M2 5l2 2 4-4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        </span>
+                        <span>
+                          <span style={{ fontWeight: 700, color: 'var(--navy-900)' }}>{item.title}</span>{' '}
+                          {item.text}
+                        </span>
+                      </li>
+                    )}
+                  </ul>
                 </div>
 
-                {/* Section: Common Causes */}
-                <div id="common-causes" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Common Causes of a Burst Pipe in Winnipeg</h2>
-                  <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    A pipe that froze and then split as the ice expanded is the most common winter cause — see our{' '}
-                    <Link
-                      href="/blog/frozen-pipes-winnipeg-how-to-thaw-safely"
-                      className="hover:underline font-600"
-                      style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
-
-                      frozen pipes guide
-                    </Link>{' '}
-                    if the pipe hadn't burst yet and you want to prevent that outcome. Aging pipe material, a sudden pressure spike, or a joint that finally failed after years of slow wear are other common causes, especially in older Winnipeg homes.
-                  </p>
-                </div>
-
-                {/* Mid-article CTA box (orange accent) — after First 10 Minutes checklist */}
+                {/* Mid-article CTA box (orange accent) — after "What to Gather" section */}
                 <div
                   className="rounded-xl p-6 mb-12"
                   style={{ backgroundColor: '#fff8f5', border: '2px solid var(--accent-600)' }}>
 
                   <p className="font-700 mb-2 text-lg" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
-                    Water still running or damage spreading?
+                    Need a written service record for your claim?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Stop reading and call. Pro Drain Cleaning Limited answers burst pipe emergencies 24 hours a day, across Winnipeg and every community within 100km.
+                    Pro Drain Cleaning Limited documents the cause and the work performed on every call, 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -439,33 +437,25 @@ export default function BurstPipeEmergencyPost() {
                   </div>
                 </div>
 
-                {/* Section: What Happens When We Arrive */}
-                <div id="what-happens" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">What Happens When We Arrive</h2>
+                {/* Section: Why Acting Fast Matters */}
+                <div id="why-fast" className="scroll-mt-24 mt-12">
+                  <h2 className="mb-4">Why Acting Fast Matters for Your Claim, Not Just Your Home</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    The immediate priority is stopping any remaining active leak and assessing what's actually damaged — which pipe, how much of the system is affected, and what repair is actually needed rather than guessing. Any cost is confirmed with you before work starts, not after.
+                    Most policies expect reasonable steps to prevent further damage once an issue is discovered — leaving standing water for days before addressing it can complicate a claim, separate from the original cause. Getting a plumber out quickly supports both the repair and the claim.
                   </p>
                 </div>
 
-                {/* Section: Insurance */}
-                <div id="insurance" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Don't Forget the Insurance Side</h2>
+                {/* Section: What We Can and Can't Help With */}
+                <div id="what-we-help-with" className="scroll-mt-24 mt-12">
+                  <h2 className="mb-4">What We Can and Can't Help With</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    A burst pipe is one of the more commonly covered types of water damage, but documentation matters. See our guide on{' '}
-                    <Link
-                      href="/blog/water-damage-insurance-claim-plumbing-checklist"
-                      className="hover:underline font-600"
-                      style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
-
-                      what your insurance adjuster actually wants to see
-                    </Link>{' '}
-                    — photos from tonight and a service record from a licensed plumber both help.
+                    We can identify the cause, document the plumbing work performed, and provide a clear written record you can hand to your adjuster. We're not insurance advisors and don't speak to your policy's specific terms, coverage limits, or deductible — that conversation is between you and your insurer or broker.
                   </p>
                 </div>
 
                 {/* Section: Service Areas */}
                 <div id="service-areas" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Every Area We Provide Emergency Burst Pipe Response In</h2>
+                  <h2 className="mb-4">Every Area We Serve for This</h2>
                   <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
                     {serviceAreaTowns.map((town) =>
                     <li key={town.name} className="flex items-center gap-2 text-sm" style={{ color: 'var(--ink)' }}>
@@ -523,8 +513,8 @@ export default function BurstPipeEmergencyPost() {
                       Request a Callback
                     </p>
                     <ContactForm
-                      prefilledService="Emergency Drain Cleaning"
-                      prefilledUrgency="Emergency – happening now" />
+                      prefilledService="General Plumbing & Drain Cleaning"
+                      prefilledUrgency="few-days" />
 
                   </div>
                 </div>
@@ -535,16 +525,16 @@ export default function BurstPipeEmergencyPost() {
                   <ul className="flex flex-col gap-3">
                     {[
                     {
+                      href: '/blog/burst-pipe-emergency-what-to-do',
+                      label: 'Burst Pipe Emergency: What to Do in the First 10 Minutes'
+                    },
+                    {
                       href: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
                       label: 'Frozen Pipes in Winnipeg: How to Thaw Them Safely'
                     },
                     {
-                      href: '/blog/water-damage-insurance-claim-plumbing-checklist',
-                      label: 'Water Damage Insurance Claim: What Your Adjuster Wants to See'
-                    },
-                    {
-                      href: '/blog/emergency-plumber-winnipeg-24-7-guide',
-                      label: 'Emergency Plumber in Winnipeg: 24/7 Guide'
+                      href: '/blog/sewer-backup-what-to-do',
+                      label: 'Sewer Backup in Your Basement? Do These 7 Things First'
                     }].
                     map((link) =>
                     <li key={link.href} className="flex items-start gap-2 text-sm">
@@ -595,7 +585,7 @@ export default function BurstPipeEmergencyPost() {
                       style={{ borderTop: '1px solid var(--brand-700)' }}>
 
                       <p className="text-xs font-700 mb-3" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
-                        Pipe burst right now?
+                        Need documentation for a claim?
                       </p>
                       <PhoneLink
                         className="block w-full text-center text-sm font-700 py-3 px-4 rounded-lg transition-opacity hover:opacity-90"
@@ -637,10 +627,10 @@ export default function BurstPipeEmergencyPost() {
 
           <div className="container-wide max-w-3xl text-center">
             <h2 className="mb-4" style={{ color: 'white' }}>
-              Pipe Burst Right Now?
+              Dealing With Water Damage and Need Documentation for a Claim?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Shut the water off, then call. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

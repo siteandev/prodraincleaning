@@ -16,6 +16,16 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'water-damage-insurance-claim-plumbing-checklist',
+    title: 'Water Damage Insurance Claim — What Your Adjuster Wants to See',
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Filing a water damage insurance claim in Winnipeg? Here's the documentation a plumber can provide to support your claim — and what to gather before the adjuster visits.",
+    isPillar: true,
+  },
+  {
     slug: 'burst-pipe-emergency-what-to-do',
     title: 'Burst Pipe Emergency — What to Do in the First 10 Minutes',
     category: 'Emergency',
