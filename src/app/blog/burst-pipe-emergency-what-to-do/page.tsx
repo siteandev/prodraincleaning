@@ -15,37 +15,36 @@ const PHONE_WA = 'https://wa.me/12043994413';
 const EMAIL = 'prodraincleaningcentre@gmail.com';
 
 const tocItems = [
-{ id: 'signs', label: 'Signs a Pipe Is Frozen' },
-{ id: 'why-winnipeg', label: 'Why Winnipeg Homes Are Especially Prone to This' },
-{ id: 'how-to-thaw', label: 'How to Thaw a Frozen Pipe Safely' },
-{ id: 'when-to-call', label: 'When to Stop and Call a Plumber Instead' },
-{ id: 'already-burst', label: "If It's Already Burst" },
-{ id: 'prevention', label: 'How to Prevent Pipes From Freezing Again' },
-{ id: 'service-areas', label: 'Every Area We Serve for Frozen Pipe Calls' },
+{ id: 'first-10-minutes', label: 'The First 10 Minutes — In Order' },
+{ id: 'why-shutoff-first', label: 'Why the Shutoff Comes Before Everything Else' },
+{ id: 'common-causes', label: 'Common Causes of a Burst Pipe in Winnipeg' },
+{ id: 'what-happens', label: 'What Happens When We Arrive' },
+{ id: 'insurance', label: "Don't Forget the Insurance Side" },
+{ id: 'service-areas', label: 'Every Area We Provide Emergency Burst Pipe Response In' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
 
 const faqs = [
 {
-  q: 'Is it safe to thaw a frozen pipe myself?',
-  a: 'Often yes, with gentle heat and an open tap — but stop and call if you can\'t find the frozen section or see any sign of damage.'
+  q: 'Where is my main water shutoff valve?',
+  a: "Usually in the basement, utility room, or near where the water line enters the house — if you're not sure right now, that's worth confirming today before you need it in an emergency."
 },
 {
-  q: 'How long does it take for a frozen pipe to thaw?',
-  a: 'With steady gentle heat, often 30–45 minutes — if it\'s taking longer, the frozen section may be harder to reach than expected, which is when to call for help.'
+  q: 'Should I try to fix the burst pipe myself before you arrive?',
+  a: 'No — focus on the shutoff and containment; the repair itself needs proper assessment first.'
 },
 {
-  q: 'Can a frozen pipe burst even if I haven\'t turned the water on?',
-  a: 'Yes — the pressure builds from the ice expanding inside the pipe, not from water flow, so it can split even with the tap closed.'
+  q: 'How fast can you get there?',
+  a: "We answer 24/7 and treat burst pipe calls as a priority emergency — call and we'll give you a real-time estimate."
 },
 {
-  q: 'What if I don\'t know where the frozen section is?',
-  a: 'Don\'t guess by applying heat randomly along an inaccessible run — call a plumber rather than risk missing a compromised section.'
+  q: 'Will my insurance cover this?',
+  a: 'Often yes for sudden burst-pipe damage — document everything and see our insurance claim checklist for what to gather.'
 },
 {
-  q: 'Do you handle frozen pipe emergencies overnight?',
-  a: 'Yes — answered 24 hours a day, every day of the year.'
+  q: "What if I can't find the shutoff valve at all?",
+  a: 'Call us immediately — we can talk you through locating it over the phone while help is on the way.'
 }];
 
 
@@ -54,10 +53,10 @@ const pageSchema = {
   '@graph': [
   {
     '@type': 'BlogPosting',
-    headline: 'Frozen Pipes in Winnipeg — How to Thaw Them Safely Before They Burst',
+    headline: 'Burst Pipe Emergency — What to Do in the First 10 Minutes (Winnipeg)',
     description:
-    'Frozen pipes in your Winnipeg home? Here\'s how to thaw them safely without causing a burst — and when to call a plumber instead of risking it yourself.',
-    url: 'https://prodraincleaning.ca/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
+    "Pipe just burst? Shut off water, protect what you can, then get help fast. Step-by-step emergency guide for Winnipeg homeowners. Call +1 (204) 399-4413.",
+    url: 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do',
     datePublished: '2026-09-17',
     dateModified: '2026-09-17',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
@@ -68,12 +67,12 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/hero-emergency-drain-placeholder.png',
-      description: 'Frozen pipe under a sink in a Winnipeg home'
+      url: 'https://prodraincleaning.ca/assets/images/emergency-plumber-main-shutoff-valve.png',
+      description: 'Shutting off the main water valve during a burst pipe emergency in Winnipeg'
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://prodraincleaning.ca/blog/frozen-pipes-winnipeg-how-to-thaw-safely'
+      '@id': 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do'
     }
   },
   {
@@ -92,8 +91,8 @@ const pageSchema = {
     {
       '@type': 'ListItem',
       position: 3,
-      name: 'Frozen Pipes in Winnipeg',
-      item: 'https://prodraincleaning.ca/blog/frozen-pipes-winnipeg-how-to-thaw-safely'
+      name: 'Burst Pipe Emergency',
+      item: 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do'
     }]
 
   }]
@@ -168,7 +167,7 @@ const serviceAreaTowns: {name: string;href?: string;}[] = [
 { name: 'Carman' }];
 
 
-export default function FrozenPipesWinnipegPost() {
+export default function BurstPipeEmergencyPost() {
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
@@ -216,7 +215,7 @@ export default function FrozenPipesWinnipegPost() {
               </li>
               <li aria-hidden="true">›</li>
               <li aria-current="page" className="truncate max-w-xs" style={{ color: 'var(--ink)' }}>
-                Frozen Pipes in Winnipeg
+                Burst Pipe Emergency
               </li>
             </ol>
           </div>
@@ -238,11 +237,11 @@ export default function FrozenPipesWinnipegPost() {
 
                 Emergency
               </span>
-              <span className="text-sm" style={{ color: 'var(--muted)' }}>8 min read</span>
+              <span className="text-sm" style={{ color: 'var(--muted)' }}>6 min read</span>
             </div>
 
             <h1 className="mb-4">
-              Frozen Pipes in Winnipeg — How to Thaw Them Safely Before They Burst
+              Burst Pipe Emergency — What to Do in the First 10 Minutes
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
@@ -253,12 +252,12 @@ export default function FrozenPipesWinnipegPost() {
             <div className="rounded-xl overflow-hidden mb-8">
               {/*
                 UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/frozen-pipe-under-sink-winnipeg.jpg"
+                Example: src="/assets/images/burst-pipe-shutoff-valve-winnipeg.jpg"
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/hero-emergency-drain-placeholder.png"
-                alt="Frozen pipe under a sink in a Winnipeg home"
+                src="/assets/images/emergency-plumber-main-shutoff-valve.png"
+                alt="Shutting off the main water valve during a burst pipe emergency in Winnipeg"
                 lazy={false}
                 width={1600}
                 height={900}
@@ -266,27 +265,26 @@ export default function FrozenPipesWinnipegPost() {
               />
             </div>
 
-            {/* Answer-first callout box */}
+            {/* Answer-first callout box — urgency framing */}
             <div
               className="rounded-xl p-6 mb-6"
               style={{
-                backgroundColor: 'var(--brand-100)',
-                border: '1px solid var(--brand-700)',
-                borderLeftWidth: '4px',
-                borderLeft: '4px solid var(--brand-700)'
+                backgroundColor: '#fff8f5',
+                border: '2px solid var(--accent-600)'
               }}>
 
               <p
                 className="text-xs font-700 uppercase tracking-wider mb-3"
-                style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
+                style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
 
-                The Short Answer
+                Act Now — Every Minute Adds to the Damage
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                If a pipe in your home has frozen, the safest first step is to open the nearest tap slightly and apply gentle heat to the frozen section — never an open flame. If you can't find the frozen section, the water hasn't started moving again after 30–45 minutes, or you notice any bulging, cracking, or wet insulation, stop and call a plumber. A pipe that's frozen and under pressure can split without warning, and once it does, thawing it yourself no longer helps. Pro Drain Cleaning Limited answers 24 hours a day across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                If a pipe has burst in your home: shut off the main water valve first, then the electricity to any affected area if water is near outlets or fixtures, then call for emergency plumbing help. Every minute the water keeps running adds to the damage — the shutoff comes before anything else, including trying to clean up. Pro Drain Cleaning Limited answers emergency calls 24 hours a day across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
-                </PhoneLink>.
+                </PhoneLink>{' '}
+                right now.
               </p>
             </div>
 
@@ -309,43 +307,66 @@ export default function FrozenPipesWinnipegPost() {
               </Link>
             </div>
 
-            {/* Signs a Pipe Is Frozen quick-reference box */}
+            {/* First 10 Minutes checklist box — most prominent element after H1 */}
             <div
-              id="signs"
-              className="rounded-xl p-6 scroll-mt-24"
+              id="first-10-minutes"
+              className="rounded-xl p-6 sm:p-8 scroll-mt-24"
               style={{
-                backgroundColor: '#fff8f5',
-                border: '2px solid var(--accent-600)'
+                backgroundColor: 'var(--brand-100)',
+                border: '2px solid var(--brand-700)'
               }}>
 
               <p
-                className="text-sm font-700 uppercase tracking-wider mb-4"
-                style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
+                className="text-sm font-700 uppercase tracking-wider mb-5"
+                style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
 
-                Signs a Pipe Is Frozen
+                The First 10 Minutes — In Order
               </p>
-              <ul className="flex flex-col gap-3">
+              <ol className="flex flex-col gap-5">
                 {[
-                'No water, or barely a trickle, from one specific tap while others work fine',
-                'Frost visible on an exposed section of pipe',
-                'A tap that worked yesterday and doesn\'t today, with no other explanation',
-                'Unusual smells from a drain or tap (can mean a frozen trap forcing sewer gas back up)',
-                'Cold spots on a wall or floor near where pipes run'].
-                map((item, i) =>
-                <li key={i} className="flex items-start gap-3 text-sm" style={{ color: 'var(--ink)' }}>
+                {
+                  title: 'Shut off the main water valve.',
+                  text: "Usually near where the water line enters the house — basement, utility room, or near the water meter. If you don't know where it is, this is worth finding out today, before an emergency, not during one."
+                },
+                {
+                  title: 'Turn off electricity to the affected area',
+                  text: 'if water is anywhere near outlets, switches, or fixtures — from the breaker panel, not by touching anything wet.'
+                },
+                {
+                  title: 'Call for emergency plumbing help.',
+                  text: "Don't wait to see how bad it gets — call while you're still doing the next steps."
+                },
+                {
+                  title: "Move anything valuable out of the water's path",
+                  text: '— furniture, electronics, documents, anything you can lift or drag clear.'
+                },
+                {
+                  title: 'Start containing the water',
+                  text: 'with towels, a wet vac if you have one, or by directing it toward a floor drain.'
+                },
+                {
+                  title: 'Photograph the damage before you clean anything up',
+                  text: '— this matters for your insurance claim later.'
+                },
+                {
+                  title: "Don't run any other taps or appliances",
+                  text: 'until the shutoff is confirmed fully off and a plumber has assessed the situation.'
+                }].
+                map((step, i) =>
+                <li key={i} className="flex items-start gap-4">
                     <span
-                    className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5"
-                    style={{ backgroundColor: 'var(--accent-600)' }}
-                    aria-hidden="true">
+                    className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center text-lg font-700"
+                    style={{ backgroundColor: 'var(--brand-700)', color: 'white', fontWeight: 700 }}>
 
-                      <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                        <path d="M5 2v4M5 7.5v.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-                      </svg>
+                      {i + 1}
                     </span>
-                    <span>{item}</span>
+                    <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
+                      <span style={{ fontWeight: 700, color: 'var(--navy-900)' }}>{step.title}</span>{' '}
+                      {step.text}
+                    </p>
                   </li>
                 )}
-              </ul>
+              </ol>
             </div>
           </div>
         </section>
@@ -357,70 +378,40 @@ export default function FrozenPipesWinnipegPost() {
               {/* Article body */}
               <article className="lg:col-span-3">
 
-                {/* Section: Why Winnipeg */}
-                <div id="why-winnipeg" className="scroll-mt-24">
-                  <h2 className="mt-0 mb-4">Why Winnipeg Homes Are Especially Prone to This</h2>
+                {/* Section: Why Shutoff First */}
+                <div id="why-shutoff-first" className="scroll-mt-24">
+                  <h2 className="mt-0 mb-4">Why the Shutoff Comes Before Everything Else</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pipes running through uninsulated crawl spaces, exterior walls, unheated garages, or basement rim joists are the most common freeze points in Winnipeg homes, especially during extended cold snaps. Older homes with less wall insulation and homes where a vent or a gap has let cold air reach a pipe run are both common causes. It's rarely random — it's almost always a specific, identifiable cold spot in the plumbing run.
+                    A burst pipe under mains pressure can release a large volume of water in a short time. Every minute spent doing anything else first — even something that feels urgent, like moving furniture — is water that keeps flowing and damage that keeps spreading. The shutoff is always step one.
                   </p>
                 </div>
 
-                {/* Section: How to Thaw */}
-                <div id="how-to-thaw" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">How to Thaw a Frozen Pipe Safely</h2>
-                  <ol className="flex flex-col gap-4 mb-6">
-                    {[
-                    {
-                      title: 'Open the affected tap slightly.',
-                      text: 'Even a trickle of moving water helps prevent full freezing and gives you a way to tell when the ice has cleared.'
-                    },
-                    {
-                      title: 'Locate the frozen section.',
-                      text: 'Work along the pipe from the tap toward the main line, looking for frost, a bulge, or a noticeably colder section.'
-                    },
-                    {
-                      title: 'Apply gentle, even heat.',
-                      text: 'A hair dryer on low, an electric heating pad wrapped around the pipe, or towels soaked in hot water are safe options. Start near the tap and work toward the blockage.'
-                    },
-                    {
-                      title: 'Never use an open flame.',
-                      text: 'A blowtorch or other open flame on a pipe is a genuine fire risk and can also damage the pipe itself.'
-                    },
-                    {
-                      title: 'Watch for water starting to flow.',
-                      text: 'Once it does, keep the tap running at a trickle until you\'re confident the whole line has cleared.'
-                    },
-                    {
-                      title: 'Stop if you can\'t find it, or if anything looks damaged.',
-                      text: 'A bulge, a crack, or wet insulation means the pipe may already be compromised — thawing it further at that point can cause it to fail right as it clears.'
-                    }].
-                    map((step, i) =>
-                    <li key={i} className="flex items-start gap-4">
-                        <span
-                        className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-700"
-                        style={{ backgroundColor: 'var(--brand-700)', color: 'white', fontWeight: 700 }}>
+                {/* Section: Common Causes */}
+                <div id="common-causes" className="scroll-mt-24 mt-12">
+                  <h2 className="mb-4">Common Causes of a Burst Pipe in Winnipeg</h2>
+                  <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
+                    A pipe that froze and then split as the ice expanded is the most common winter cause — see our{' '}
+                    <Link
+                      href="/blog/frozen-pipes-winnipeg-how-to-thaw-safely"
+                      className="hover:underline font-600"
+                      style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
 
-                          {i + 1}
-                        </span>
-                        <p className="text-sm leading-relaxed" style={{ color: 'var(--ink)' }}>
-                          <span style={{ fontWeight: 700, color: 'var(--navy-900)' }}>{step.title}</span>{' '}
-                          {step.text}
-                        </p>
-                      </li>
-                    )}
-                  </ol>
+                      frozen pipes guide
+                    </Link>{' '}
+                    if the pipe hadn't burst yet and you want to prevent that outcome. Aging pipe material, a sudden pressure spike, or a joint that finally failed after years of slow wear are other common causes, especially in older Winnipeg homes.
+                  </p>
                 </div>
 
-                {/* Mid-article CTA box (orange accent) */}
+                {/* Mid-article CTA box (orange accent) — after First 10 Minutes checklist */}
                 <div
                   className="rounded-xl p-6 mb-12"
                   style={{ backgroundColor: '#fff8f5', border: '2px solid var(--accent-600)' }}>
 
                   <p className="font-700 mb-2 text-lg" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
-                    Not comfortable thawing it yourself?
+                    Water still running or damage spreading?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited thaws frozen pipes safely, 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Stop reading and call. Pro Drain Cleaning Limited answers burst pipe emergencies 24 hours a day, across Winnipeg and every community within 100km.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -448,60 +439,25 @@ export default function FrozenPipesWinnipegPost() {
                   </div>
                 </div>
 
-                {/* Section: When to Call */}
-                <div id="when-to-call" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">When to Stop and Call a Plumber Instead</h2>
-                  <ul className="flex flex-col gap-3 mb-6">
-                    {[
-                    'You can\'t locate the frozen section',
-                    'The pipe is in a wall or ceiling and not accessible',
-                    'You see any sign of bulging, cracking, or water already leaking',
-                    'More than one pipe is frozen at once',
-                    'The tap still isn\'t flowing after 30–45 minutes of gentle heat'].
-                    map((item, i) =>
-                    <li key={i} className="flex items-start gap-3 text-sm" style={{ color: 'var(--ink)' }}>
-                        <span
-                        className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5"
-                        style={{ backgroundColor: 'var(--brand-700)' }}
-                        aria-hidden="true">
-
-                          <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                            <path d="M5 2v4M5 7.5v.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-                          </svg>
-                        </span>
-                        <span>{item}</span>
-                      </li>
-                    )}
-                  </ul>
-                </div>
-
-                {/* Section: If It's Already Burst */}
-                <div id="already-burst" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">If It's Already Burst</h2>
+                {/* Section: What Happens When We Arrive */}
+                <div id="what-happens" className="scroll-mt-24 mt-12">
+                  <h2 className="mb-4">What Happens When We Arrive</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    If a frozen pipe has already split, shut off the main water valve immediately and call for emergency service rather than attempting a repair — see our{' '}
-                    <Link
-                      href="/blog/burst-pipe-emergency-what-to-do"
-                      className="hover:underline font-600"
-                      style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
-
-                      burst pipe guide
-                    </Link>{' '}
-                    for the full first-10-minutes checklist.
+                    The immediate priority is stopping any remaining active leak and assessing what's actually damaged — which pipe, how much of the system is affected, and what repair is actually needed rather than guessing. Any cost is confirmed with you before work starts, not after.
                   </p>
                 </div>
 
-                {/* Section: Prevention */}
-                <div id="prevention" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">How to Prevent Pipes From Freezing Again</h2>
+                {/* Section: Insurance */}
+                <div id="insurance" className="scroll-mt-24 mt-12">
+                  <h2 className="mb-4">Don't Forget the Insurance Side</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Keeping cabinet doors open under sinks on exterior walls during cold snaps, letting a faucet drip on the coldest nights, sealing gaps where cold air reaches a pipe run, and insulating pipes in unheated spaces (crawl spaces, garages, rim joists) are the most effective, low-cost prevention steps for Winnipeg winters.
+                    A burst pipe is one of the more commonly covered types of water damage, but documentation matters. Our insurance claim guide covers exactly what your adjuster actually wants to see — photos from tonight and a service record from a licensed plumber both help.
                   </p>
                 </div>
 
                 {/* Section: Service Areas */}
                 <div id="service-areas" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Every Area We Serve for Frozen Pipe Calls</h2>
+                  <h2 className="mb-4">Every Area We Provide Emergency Burst Pipe Response In</h2>
                   <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
                     {serviceAreaTowns.map((town) =>
                     <li key={town.name} className="flex items-center gap-2 text-sm" style={{ color: 'var(--ink)' }}>
@@ -559,7 +515,7 @@ export default function FrozenPipesWinnipegPost() {
                       Request a Callback
                     </p>
                     <ContactForm
-                      prefilledService="Frozen Pipe Thawing"
+                      prefilledService="Emergency Drain Cleaning"
                       prefilledUrgency="Emergency – happening now" />
 
                   </div>
@@ -571,16 +527,16 @@ export default function FrozenPipesWinnipegPost() {
                   <ul className="flex flex-col gap-3">
                     {[
                     {
-                      href: '/blog/burst-pipe-emergency-what-to-do',
-                      label: 'Burst Pipe Emergency: What to Do in the First 10 Minutes'
+                      href: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
+                      label: 'Frozen Pipes in Winnipeg: How to Thaw Them Safely'
                     },
                     {
                       href: '/blog/emergency-plumber-winnipeg-24-7-guide',
                       label: 'Emergency Plumber in Winnipeg: 24/7 Guide'
                     },
                     {
-                      href: '/blog/prevent-frozen-pipes-winnipeg',
-                      label: 'Preventing Frozen Pipes in Winnipeg'
+                      href: '/blog/sewer-backup-what-to-do',
+                      label: 'Sewer Backup in Your Basement? Do These 7 Things First'
                     }].
                     map((link) =>
                     <li key={link.href} className="flex items-start gap-2 text-sm">
@@ -631,7 +587,7 @@ export default function FrozenPipesWinnipegPost() {
                       style={{ borderTop: '1px solid var(--brand-700)' }}>
 
                       <p className="text-xs font-700 mb-3" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
-                        Pipe frozen right now?
+                        Pipe burst right now?
                       </p>
                       <PhoneLink
                         className="block w-full text-center text-sm font-700 py-3 px-4 rounded-lg transition-opacity hover:opacity-90"
@@ -673,10 +629,10 @@ export default function FrozenPipesWinnipegPost() {
 
           <div className="container-wide max-w-3xl text-center">
             <h2 className="mb-4" style={{ color: 'white' }}>
-              Dealing With a Frozen Pipe Right Now?
+              Pipe Burst Right Now?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Don't risk a burst by guessing. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Shut the water off, then call. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

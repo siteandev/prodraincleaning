@@ -16,6 +16,16 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'burst-pipe-emergency-what-to-do',
+    title: 'Burst Pipe Emergency — What to Do in the First 10 Minutes',
+    category: 'Emergency',
+    readTime: 6,
+    date: '2026-09-17',
+    excerpt:
+      'Pipe just burst? Shut off water, protect what you can, then get help fast. Step-by-step emergency guide for Winnipeg homeowners. Call +1 (204) 399-4413.',
+    isPillar: true,
+  },
+  {
     slug: 'frozen-pipes-winnipeg-how-to-thaw-safely',
     title: 'Frozen Pipes in Winnipeg — How to Thaw Them Safely Before They Burst',
     category: 'Plumbing',
