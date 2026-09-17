@@ -16,6 +16,96 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'winnipeg-clay-soil-sewer-line-effects',
+    title: "How Winnipeg's Clay Soil Affects Your Sewer Line",
+    category: 'Sewer Lines',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Winnipeg sits on heavy clay soil that shifts with moisture — a real factor in sewer line problems most homeowners never hear about. Here's how it works.",
+    isPillar: true,
+  },
+  {
+    slug: 'apartment-shared-line-clogs-winnipeg',
+    title: "Apartment Building Drain Clogs — Why One Unit's Problem Is Everyone's Problem",
+    category: 'Drain Cleaning',
+    readTime: 6,
+    date: '2026-09-17',
+    excerpt:
+      "Drain backing up in your Winnipeg apartment? If it's affecting more than one unit, it's likely a shared-line issue — here's what that means and who to call.",
+    isPillar: true,
+  },
+  {
+    slug: 'does-home-insurance-cover-frozen-pipes-manitoba',
+    title: 'Does Home Insurance Cover Frozen Pipe Damage in Manitoba?',
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Frozen pipe damage and wondering if it's covered? Here's how most Manitoba home insurance policies typically treat frozen pipe claims, and what can affect coverage.",
+    isPillar: true,
+  },
+  {
+    slug: 'first-time-homebuyer-plumbing-terms-winnipeg',
+    title: "First-Time Homebuyer's Plumbing Terms — What You'll Actually Hear in Winnipeg",
+    category: 'Plumbing',
+    readTime: 6,
+    date: '2026-09-17',
+    excerpt:
+      "Buying your first home in Winnipeg? Here are the plumbing terms you're most likely to hear from your inspector or agent, explained in plain language.",
+    isPillar: true,
+  },
+  {
+    slug: 'renovating-old-winnipeg-bathroom-plumbing',
+    title: "Renovating an Old Winnipeg Bathroom? What's Behind the Wall You Should Know First",
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Before you renovate an older Winnipeg bathroom, here's what's typically behind the wall — pipe material, hidden damage, and why a plumbing check should come first.",
+    isPillar: true,
+  },
+  {
+    slug: 'new-construction-rough-in-plumbing-inspection-winnipeg',
+    title: 'New Construction Rough-In Plumbing Inspection — What Gets Missed',
+    category: 'Plumbing',
+    readTime: 6,
+    date: '2026-09-17',
+    excerpt:
+      'Building a new home in Winnipeg? An independent rough-in plumbing inspection before drywall goes up can catch issues that are expensive to fix later.',
+    isPillar: true,
+  },
+  {
+    slug: 'cast-iron-clay-pipes-older-winnipeg-homes',
+    title: 'Cast Iron and Clay Pipes in Older Winnipeg Homes — What Owners Should Know',
+    category: 'Sewer Lines',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Own an older Winnipeg home? Cast iron and clay drain pipes age differently than modern materials. Here's what to watch for and when a camera inspection is worth it.",
+    isPillar: true,
+  },
+  {
+    slug: 'rental-property-plumbing-manitoba-landlord-responsibilities',
+    title: 'Rental Property Plumbing in Manitoba — What Landlords Are Actually Required to Fix',
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Landlord or property manager in Winnipeg? Here's what plumbing repairs are typically your responsibility, how fast you're expected to respond, and who to call.",
+    isPillar: true,
+  },
+  {
+    slug: 'spring-thaw-flooding-sump-pump-winnipeg',
+    title: 'Spring Thaw Flooding in Winnipeg — Is Your Sump Pump Ready?',
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Manitoba's spring thaw puts real strain on sump pumps. Here's how to check yours is ready before the melt — and what to do if it's already failing.",
+    isPillar: true,
+  },
+  {
     slug: 'home-inspection-plumbing-issue-now-what',
     title: 'Home Inspection Flagged a Plumbing Issue — Now What?',
     category: 'Plumbing',

@@ -95,6 +95,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/condo-plumbing-winnipeg-your-responsibility-or-condo-corporation`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/buying-old-house-winnipeg-plumbing-checklist`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/home-inspection-plumbing-issue-now-what`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/spring-thaw-flooding-sump-pump-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/rental-property-plumbing-manitoba-landlord-responsibilities`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/cast-iron-clay-pipes-older-winnipeg-homes`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/new-construction-rough-in-plumbing-inspection-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/renovating-old-winnipeg-bathroom-plumbing`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/first-time-homebuyer-plumbing-terms-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/does-home-insurance-cover-frozen-pipes-manitoba`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/apartment-shared-line-clogs-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/winnipeg-clay-soil-sewer-line-effects`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
 
   // De-duplication safety net: remove any repeated <loc> values
