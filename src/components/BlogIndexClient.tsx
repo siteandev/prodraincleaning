@@ -16,6 +16,16 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'condo-plumbing-winnipeg-your-responsibility-or-condo-corporation',
+    title: "Condo Plumbing in Winnipeg — Is It You or the Condo Corporation's Responsibility?",
+    category: 'Plumbing',
+    readTime: 7,
+    date: '2026-09-17',
+    excerpt:
+      "Plumbing issue in your Winnipeg condo? Here's how responsibility typically splits between unit owners and the condo corporation — and who to call first.",
+    isPillar: true,
+  },
+  {
     slug: 'water-damage-insurance-claim-plumbing-checklist',
     title: 'Water Damage Insurance Claim — What Your Adjuster Wants to See',
     category: 'Plumbing',
