@@ -56,8 +56,8 @@ const pageSchema = {
     description:
     "Plumbing issue in your Winnipeg condo? Here's how responsibility typically splits between unit owners and the condo corporation — and who to call first.",
     url: 'https://prodraincleaning.ca/blog/condo-plumbing-winnipeg-your-responsibility-or-condo-corporation',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-12',
+    dateModified: '2026-09-12',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

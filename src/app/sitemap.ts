@@ -10,7 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/book-online`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/areas-we-serve`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${base}/privacy-policy`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${base}/terms`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
@@ -39,10 +38,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Compare pages (5)
     { url: `${base}/compare`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/compare/pro-drain-cleaning-vs-diy`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/compare/hydro-jetting-vs-rented-drain-machine`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/compare/camera-inspection-vs-guessing`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/compare/specialist-vs-general-plumber`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/compare/local-drain-cleaner-vs-national-chain`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
     // Blog posts (31)
@@ -52,7 +47,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/hydro-jetting-vs-snaking`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/kitchen-sink-keeps-clogging`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/sewer-backup-what-to-do`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/blog/prevent-frozen-pipes-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/backwater-valve-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/sewer-camera-inspection-before-buying-house`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/basement-floor-drain-backing-up`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },

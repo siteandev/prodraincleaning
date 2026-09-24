@@ -56,8 +56,8 @@ const pageSchema = {
     description:
     'Building a new home in Winnipeg? An independent rough-in plumbing inspection before drywall goes up can catch issues that are expensive to fix later.',
     url: 'https://prodraincleaning.ca/blog/new-construction-rough-in-plumbing-inspection-winnipeg',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-06',
+    dateModified: '2026-09-06',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

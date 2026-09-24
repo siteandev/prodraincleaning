@@ -10,8 +10,8 @@ const bookingFAQItems: FAQItem[] = [
     answer: (
       <p>
         We aim to call back within minutes during normal hours, and within a few minutes overnight for emergencies. If water is actively rising, don&apos;t fill in a form —{' '}
-        <Link href="tel:+12042943629" className="underline font-600" style={{ color: 'var(--orange-600)', fontWeight: 600 }}>
-          call +1 (204) 294-3629
+        <Link href="tel:+12043994413" className="underline font-600" style={{ color: 'var(--orange-600)', fontWeight: 600 }}>
+          call +1 (204) 399-4413
         </Link>{' '}
         immediately.
       </p>

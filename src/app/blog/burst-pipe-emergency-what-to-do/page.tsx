@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Pipe just burst? Shut off water, protect what you can, then get help fast. Step-by-step emergency guide for Winnipeg homeowners. Call +1 (204) 399-4413.",
     url: 'https://prodraincleaning.ca/blog/burst-pipe-emergency-what-to-do',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-15',
+    dateModified: '2026-09-15',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

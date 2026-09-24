@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Landlord or property manager in Winnipeg? Here's what plumbing repairs are typically your responsibility, how fast you're expected to respond, and who to call.",
     url: 'https://prodraincleaning.ca/blog/rental-property-plumbing-manitoba-landlord-responsibilities',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-04',
+    dateModified: '2026-09-04',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

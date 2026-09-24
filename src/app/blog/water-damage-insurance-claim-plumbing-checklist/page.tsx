@@ -56,8 +56,8 @@ const pageSchema = {
     description:
     "Filing a water damage insurance claim in Winnipeg? Here's the documentation a plumber can provide to support your claim — and what to gather before the adjuster visits.",
     url: 'https://prodraincleaning.ca/blog/water-damage-insurance-claim-plumbing-checklist',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-02',
+    dateModified: '2026-09-02',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

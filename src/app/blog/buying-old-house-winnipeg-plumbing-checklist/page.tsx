@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Buying an older home in Winnipeg? Here's what to check in the plumbing before closing — pipe material, age-related red flags, and when to get a second look.",
     url: 'https://prodraincleaning.ca/blog/buying-old-house-winnipeg-plumbing-checklist',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-14',
+    dateModified: '2026-09-14',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

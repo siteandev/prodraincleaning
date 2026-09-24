@@ -58,7 +58,7 @@ export const homepageFAQItems: FAQItem[] = [
   {
     question: 'Do you really answer 24/7?',
     answer: (
-      <p>Yes. Nights, weekends, statutory holidays and −35°C January mornings. Call or WhatsApp <Link href="tel:+12042943629" className="underline font-600" style={{ color: 'var(--orange-600)', fontWeight: 600 }}>+1 (204) 294-3629</Link> and a technician answers — it isn&apos;t an answering service that takes a message and calls you back in the morning.</p>
+      <p>Yes. Nights, weekends, statutory holidays and −35°C January mornings. Call or WhatsApp <Link href="tel:+12043994413" className="underline font-600" style={{ color: 'var(--orange-600)', fontWeight: 600 }}>+1 (204) 399-4413</Link> and a technician answers — it isn&apos;t an answering service that takes a message and calls you back in the morning.</p>
     ),
   },
   {

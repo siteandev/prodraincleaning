@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Home inspection report flagged a plumbing issue in Winnipeg? Here's how to get a second opinion, understand the real cost, and decide your next move before closing.",
     url: 'https://prodraincleaning.ca/blog/home-inspection-plumbing-issue-now-what',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-07',
+    dateModified: '2026-09-07',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

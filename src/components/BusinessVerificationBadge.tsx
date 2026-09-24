@@ -83,7 +83,7 @@ export default function BusinessVerificationBadge({
           </div>
           <div className="flex items-center gap-2">
             <span>📞</span>
-            <span>Verified Phone: +1 (204) 294-3629</span>
+            <span>Verified Phone: +1 (204) 399-4413</span>
           </div>
           <div className="flex items-center gap-2">
             <span>🕐</span>

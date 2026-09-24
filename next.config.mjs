@@ -33,6 +33,32 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
+  // Redirects for SEO — fix 404s on pages referenced in sitemap
+  async redirects() {
+    return [
+      {
+        source: '/areas-we-serve',
+        destination: '/areas/drain-cleaning-winnipeg',
+        permanent: true,
+      },
+      {
+        source: '/blog/prevent-frozen-pipes-winnipeg-winter',
+        destination: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
+        permanent: true,
+      },
+      {
+        source: '/blog/prevent-frozen-pipes-winnipeg',
+        destination: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
+        permanent: true,
+      },
+      {
+        source: '/blog/what-not-to-flush/:path*',
+        destination: '/blog/clogged-drain-winnipeg-what-to-do',
+        permanent: true,
+      },
+    ];
+  },
+
   // FIX 4: Long-lived immutable cache headers on all hashed static assets
   async headers() {
     return [

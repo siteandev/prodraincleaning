@@ -58,8 +58,8 @@ const pageSchema = {
     description:
     'Frozen pipes in your Winnipeg home? Here\'s how to thaw them safely without causing a burst — and when to call a plumber instead of risking it yourself.',
     url: 'https://prodraincleaning.ca/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-08',
+    dateModified: '2026-09-08',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Own an older Winnipeg home? Cast iron and clay drain pipes age differently than modern materials. Here's what to watch for and when a camera inspection is worth it.",
     url: 'https://prodraincleaning.ca/blog/cast-iron-clay-pipes-older-winnipeg-homes',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-13',
+    dateModified: '2026-09-13',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

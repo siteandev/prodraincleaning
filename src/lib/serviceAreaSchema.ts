@@ -4,7 +4,7 @@
  * Includes: LocalBusiness with specific area, service types, and reviews
  */
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincl2489.builtwithrocket.new';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca';
 
 /**
  * Service area definitions with coordinates and coverage zones

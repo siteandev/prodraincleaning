@@ -136,7 +136,7 @@ function MiniForm({ serviceName, formId }: MiniFormProps) {
   if (error) {
     return (
       <div className="rounded-brand p-5 text-center" style={{ backgroundColor: '#fff1f0', border: '1.5px solid #e53e3e' }} role="alert">
-        <p className="text-sm mb-3" style={{ color: '#c53030' }}>Something went wrong. Please call or WhatsApp us at <Link href="tel:+12043994413" className="underline font-700" style={{ color: 'var(--orange-600)' }} onClick={() => { if (typeof (window as any).gtag_report_conversion === 'function') { (window as any).gtag_report_conversion('tel:+12043994413'); } }}>+1 (204) 294-3629</Link> — we&apos;re available 24/7.</p>
+        <p className="text-sm mb-3" style={{ color: '#c53030' }}>Something went wrong. Please call or WhatsApp us at <Link href="tel:+12043994413" className="underline font-700" style={{ color: 'var(--orange-600)' }} onClick={() => { if (typeof (window as any).gtag_report_conversion === 'function') { (window as any).gtag_report_conversion('tel:+12043994413'); } }}>+1 (204) 399-4413</Link> — we&apos;re available 24/7.</p>
       </div>
     );
   }
@@ -315,7 +315,7 @@ export default function CommercialDrainAccordion() {
                               <Link href="tel:+12043994413" className="btn-primary w-full text-center" style={{ fontSize: '1rem' }} onClick={() => { if (typeof (window as any).gtag_report_conversion === 'function') { (window as any).gtag_report_conversion('tel:+12043994413'); } }}>
                                 Call Now — +1 (204) 399-4413
                               </Link>
-                              <Link href="https://wa.me/12042943629?text=Hi%2C%20I%20need%20commercial%20drain%20service" target="_blank" rel="noopener noreferrer" className="btn-whatsapp w-full text-center" style={{ fontSize: '1rem' }}>
+                              <Link href="https://wa.me/12043994413?text=Hi%2C%20I%20need%20commercial%20drain%20service" target="_blank" rel="noopener noreferrer" className="btn-whatsapp w-full text-center" style={{ fontSize: '1rem' }}>
                                 WhatsApp
                               </Link>
                               <p className="text-xs text-center" style={{ color: 'var(--muted)' }}>

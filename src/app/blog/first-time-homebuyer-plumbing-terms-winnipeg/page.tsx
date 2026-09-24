@@ -97,8 +97,8 @@ const pageSchema = {
     description:
     "Buying your first home in Winnipeg? Here are the plumbing terms you're most likely to hear from your inspector or agent, explained in plain language.",
     url: 'https://prodraincleaning.ca/blog/first-time-homebuyer-plumbing-terms-winnipeg',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-09',
+    dateModified: '2026-09-09',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

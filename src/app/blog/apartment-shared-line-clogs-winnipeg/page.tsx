@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Drain backing up in your Winnipeg apartment? If it's affecting more than one unit, it's likely a shared-line issue — here's what that means and who to call.",
     url: 'https://prodraincleaning.ca/blog/apartment-shared-line-clogs-winnipeg',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-16',
+    dateModified: '2026-09-16',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',

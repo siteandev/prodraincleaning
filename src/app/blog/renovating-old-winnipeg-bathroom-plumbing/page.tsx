@@ -57,8 +57,8 @@ const pageSchema = {
     description:
     "Before you renovate an older Winnipeg bathroom, here's what's typically behind the wall — pipe material, hidden damage, and why a plumbing check should come first.",
     url: 'https://prodraincleaning.ca/blog/renovating-old-winnipeg-bathroom-plumbing',
-    datePublished: '2026-09-17',
-    dateModified: '2026-09-17',
+    datePublished: '2026-09-05',
+    dateModified: '2026-09-05',
     author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
     publisher: {
       '@type': 'Organization',
