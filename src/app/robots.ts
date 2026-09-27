@@ -5,19 +5,28 @@ export default function robots(): MetadataRoute.Robots {
   
   return {
     rules: [
+      // Default: allow everything except private/utility pages
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/thank-you', '/api/'],
+        disallow: ['/thank-you', '/api/', '/seo-dashboard'],
       },
-      // Allow Google Local Services Ads bot
+      // Google Local Services Ads bot
       {
         userAgent: 'Googlebot-Local',
         allow: '/',
       },
-      // Allow AI crawlers for GEO/AEO visibility
+      // AI answer-engine crawlers — explicit allow for GEO visibility
       {
         userAgent: 'GPTBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'ChatGPT-User',
+        allow: '/',
+      },
+      {
+        userAgent: 'ClaudeBot',
         allow: '/',
       },
       {
@@ -30,6 +39,14 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: 'Google-Extended',
+        allow: '/',
+      },
+      {
+        userAgent: 'Applebot-Extended',
+        allow: '/',
+      },
+      {
+        userAgent: 'cohere-ai',
         allow: '/',
       },
     ],

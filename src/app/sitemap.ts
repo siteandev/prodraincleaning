@@ -61,7 +61,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/laundry-drain-overflowing`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/how-often-clean-drains`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/spring-thaw-basement-flooding-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/blog/what-not-to-flush`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/drain-cleaning-selkirk`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/drain-cleaning-st-norbert`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/drain-cleaning-steinbach-niverville`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },

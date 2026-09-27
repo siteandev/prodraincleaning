@@ -63,6 +63,17 @@ const nextConfig = {
   async headers() {
     return [
       {
+        // Security headers — all pages
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'X-XSS-Protection', value: '0' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(self)' },
+        ],
+      },
+      {
         // Next.js content-hashed JS/CSS chunks — safe to cache forever
         source: '/_next/static/:path*',
         headers: [
