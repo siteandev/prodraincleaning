@@ -96,6 +96,8 @@ export function generateLocalBusinessSchema() {
     'Tree Root Removal'],
 
     availableLanguage: ['English'],
+    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited',
+    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited'],
     // Contact point for customer service
     contactPoint: {
       '@type': 'ContactPoint',
@@ -194,6 +196,7 @@ export function generateOrganizationSchema() {
       addressRegion: 'MB',
       addressCountry: 'CA'
     },
+    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited',
     sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited'],
     contactPoint: {
       '@type': 'ContactPoint',
