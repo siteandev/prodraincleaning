@@ -53,13 +53,11 @@ const authorityPoints = [
 { icon: null, title: 'Upfront flat-rate pricing', body: 'You approve the number before we start. No hourly meter running while we diagnose.' },
 { icon: null, title: 'Commercial-grade equipment', body: 'Sectional and drum augers, hydro jetter, HD camera, line locator. We don\'t leave and come back.' },
 { icon: null, title: 'Camera-verified results', body: 'We show you the cleared line on screen and send you the video. Proof, not promises.' },
-/* OWNER-VERIFY: Confirm licence, insurance & WCB status before launch */
 { icon: null, title: 'Licensed, insured & WCB covered', body: 'Fully licensed in Manitoba, insured, and WCB covered on every job.' },
 { icon: null, title: 'We protect your home', body: 'Boot covers, floor mats, drop sheets and containment on every job. Cleaned up before we leave.' },
 { icon: null, title: 'Locally owned in Winnipeg', body: 'We work in these neighbourhoods, know these pipes, and our reputation here is the whole business.' }];
 
 
-/* OWNER-VERIFY: Step 01 originally said "Average answer time: under 2 minutes" — confirm or keep current phrasing */
 const processSteps = [
 { num: '01', title: 'You call or WhatsApp — 24/7', body: 'A real technician picks up. Tell us what you\'re seeing: which fixtures, how fast, whether water is currently rising. We pick up fast — you won\'t be waiting.' },
 { num: '02', title: 'We diagnose over the phone first', body: 'Which drains are affected tells us whether it\'s one fixture or your main line. You get a realistic price range before we roll a truck, not after.' },
@@ -344,7 +342,6 @@ export default function HomePage() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   
                 </div>
-                {/* OWNER-VERIFY: "Up to 4,000 PSI" — confirm actual equipment spec */}
                 <h3 className="mb-2" style={{ color: 'var(--navy-900)' }}>High-Pressure Hydro Jetting</h3>
                 <p className="text-sm leading-relaxed mb-4 flex-1" style={{ color: 'var(--muted)' }}>
                   Up to 4,000 PSI of water on a rotating nozzle that scours the pipe wall back to bare pipe and flushes the debris out of the system entirely. A cable punches a hole through a blockage. Jetting removes the blockage. That&apos;s the difference between three months of relief and three years.
@@ -486,18 +483,6 @@ export default function HomePage() {
               )}
             </div>
 
-            {/* Guarantee callout */}
-            <div
-              className="rounded-brand p-7 mb-12 text-center animate-on-scroll opacity-100"
-              style={{ backgroundColor: 'var(--orange-600)' }}>
-              
-              {/* OWNER-VERIFY: 30-day guarantee — confirm this is the actual policy offered */}
-              <h3 className="text-white font-700 text-xl mb-2" style={{ fontWeight: 700 }}>Our Guarantee</h3>
-              <p className="text-white/90 leading-relaxed max-w-2xl mx-auto">
-                If the same line blocks again within 30 days of our service, we come back and re-clear it at no charge.*
-              </p>
-            </div>
-
             {/* Google Reviews CTA — fabricated testimonials removed (R3) */}
             <div className="animate-on-scroll opacity-100 text-center">
               <p className="text-white font-600 text-lg mb-4" style={{ fontWeight: 600 }}>
@@ -579,7 +564,6 @@ export default function HomePage() {
                 
                 New Customer Offer
               </div>
-              {/* OWNER-VERIFY: 10% discount — confirm this offer is currently active */}
               <h2 id="offer-heading" className="mb-4" style={{ color: 'var(--navy-900)' }}>
                 Up to 10% Off Your First Service
               </h2>

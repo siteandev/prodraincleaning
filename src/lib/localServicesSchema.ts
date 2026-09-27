@@ -77,12 +77,6 @@ export function generateLocalBusinessSchema() {
       closes: '23:59'
     }],
 
-    /* OWNER-VERIFY: Replace 'MB-PLB-12345' with actual Manitoba plumbing licence number */
-    license: {
-      '@type': 'Permit',
-      name: 'Manitoba Plumbing License',
-      identifier: 'MB-PLB-12345'
-    },
     // Service types offered
     knowsAbout: [
     'Drain Cleaning',

@@ -21,7 +21,6 @@ export const faqs: FAQItem[] = [
     question: 'How does Pro Drain Cleaning work?',
     answer: 'You call or WhatsApp +1 (204) 399-4413 anytime — a real person picks up fast. We diagnose over the phone first to determine if it\'s a single fixture or main line issue. We arrive same-day for most Winnipeg calls with full equipment. On site, we inspect, give you a flat price in writing before we start, clear the line with the right machine, verify it with a full-flow water test and camera pass, then clean up and send you the footage. Every job is upfront-priced — you approve the number first, always.'
   },
-  /* OWNER-VERIFY: '10% off first service' — confirm this offer is current */
   {
     question: 'How much does drain cleaning cost?',
     answer: 'Cost depends on the line, access and blockage type — a bathroom sink and a rooted main sewer line are not the same job. We give you a realistic range on the phone and a firm flat price in writing on site, before we start. You approve the number first. New customers get up to 10% off their first service. We offer net terms for commercial accounts and maintenance plans for restaurants.'
