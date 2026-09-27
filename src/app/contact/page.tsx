@@ -226,7 +226,7 @@ export default function ContactPage() {
               {[
               { label: 'Drain Cleaning Winnipeg', href: '/drain-cleaning-winnipeg' },
               { label: 'Main Sewer Line Unclogging', href: '/main-sewer-line-unclogging-winnipeg' },
-              { label: 'Emergency Drain & Plumbing', href: '/emergency-drain-plumbing' },
+              { label: 'Emergency Drain & Plumbing', href: '/emergency-drain-plumbing-winnipeg' },
               { label: 'Book Online', href: '/book-online' }].
               map((link) =>
               <Link
