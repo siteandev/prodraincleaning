@@ -69,13 +69,15 @@ const authorityPoints = [
 { icon: null, title: 'Upfront flat-rate pricing', body: 'You approve the number before we start. No hourly meter running while we diagnose.' },
 { icon: null, title: 'Commercial-grade equipment', body: 'Sectional and drum augers, hydro jetter, HD camera, line locator. We don\'t leave and come back.' },
 { icon: null, title: 'Camera-verified results', body: 'We show you the cleared line on screen and send you the video. Proof, not promises.' },
+/* OWNER-VERIFY: Confirm licence, insurance & WCB status before launch */
 { icon: null, title: 'Licensed, insured & WCB covered', body: 'Fully licensed in Manitoba, insured, and WCB covered on every job.' },
 { icon: null, title: 'We protect your home', body: 'Boot covers, floor mats, drop sheets and containment on every job. Cleaned up before we leave.' },
 { icon: null, title: 'Locally owned in Winnipeg', body: 'We work in these neighbourhoods, know these pipes, and our reputation here is the whole business.' }];
 
 
+/* OWNER-VERIFY: Step 01 originally said "Average answer time: under 2 minutes" — confirm or keep current phrasing */
 const processSteps = [
-{ num: '01', title: 'You call or WhatsApp — 24/7', body: 'A real technician picks up. Tell us what you\'re seeing: which fixtures, how fast, whether water is currently rising. Average answer time: under 2 minutes.' },
+{ num: '01', title: 'You call or WhatsApp — 24/7', body: 'A real technician picks up. Tell us what you\'re seeing: which fixtures, how fast, whether water is currently rising. We pick up fast — you won\'t be waiting.' },
 { num: '02', title: 'We diagnose over the phone first', body: 'Which drains are affected tells us whether it\'s one fixture or your main line. You get a realistic price range before we roll a truck, not after.' },
 { num: '03', title: 'We arrive fully equipped', body: 'Same-day for most calls, priority dispatch for active flooding. Mats and boot covers go down before anything else does.' },
 { num: '04', title: 'On-site inspection & upfront quote', body: 'We locate the cleanout, assess the line, and give you a flat price in writing. You approve it before any work starts. No surprises on the invoice.' },
@@ -358,6 +360,7 @@ export default function HomePage() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   
                 </div>
+                {/* OWNER-VERIFY: "Up to 4,000 PSI" — confirm actual equipment spec */}
                 <h3 className="mb-2" style={{ color: 'var(--navy-900)' }}>High-Pressure Hydro Jetting</h3>
                 <p className="text-sm leading-relaxed mb-4 flex-1" style={{ color: 'var(--muted)' }}>
                   Up to 4,000 PSI of water on a rotating nozzle that scours the pipe wall back to bare pipe and flushes the debris out of the system entirely. A cable punches a hole through a blockage. Jetting removes the blockage. That&apos;s the difference between three months of relief and three years.
@@ -504,55 +507,30 @@ export default function HomePage() {
               className="rounded-brand p-7 mb-12 text-center animate-on-scroll opacity-100"
               style={{ backgroundColor: 'var(--orange-600)' }}>
               
+              {/* OWNER-VERIFY: 30-day guarantee — confirm this is the actual policy offered */}
               <h3 className="text-white font-700 text-xl mb-2" style={{ fontWeight: 700 }}>Our Guarantee</h3>
               <p className="text-white/90 leading-relaxed max-w-2xl mx-auto">
                 If the same line blocks again within 30 days of our service, we come back and re-clear it at no charge.*
               </p>
             </div>
 
-            {/* Review strip */}
-            <div className="animate-on-scroll opacity-100">
-              <div className="flex items-center justify-center gap-2 mb-6">
-                <span className="flex gap-0.5" aria-label="5 stars">
-                  {[...Array(5)].map((_, i) =>
-                  <svg key={i} width="20" height="20" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                  )}
-                </span>
-                <span className="text-white font-600 text-lg" style={{ fontWeight: 600 }}>
-                  4.9 stars · 60+ Google reviews
-                </span>
-              </div>
-              <div className="grid sm:grid-cols-3 gap-5">
-                {[
-                { initials: 'MK', name: 'Michael K.', area: 'River Heights', quote: '"Called at 11 p.m. on a Sunday — technician picked up immediately, was at my door within the hour. Main line was completely clear before midnight. Unbelievable service."' },
-                { initials: 'SR', name: 'Sandra R.', area: 'St. Vital', quote: '"They showed me the camera footage before and after. I could see exactly what was in the pipe and exactly what they cleared. First time I\'ve actually understood what I was paying for."' },
-                { initials: 'DJ', name: 'David J.', area: 'Elmwood', quote: '"Used them twice now. Same tech both times. Flat price, no surprises, zero mess. They put down mats and cleaned up better than I would have. Will never call anyone else."' }].
-                map((t, i) =>
-                <div
-                  key={i}
-                  className="p-6 rounded-brand"
-                  style={{ backgroundColor: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)' }}>
-                  
-                    <p className="text-sm leading-relaxed mb-5 italic" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                      {t.quote}
-                    </p>
-                    <div className="flex items-center gap-3">
-                      <div
-                      className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-700"
-                      style={{ backgroundColor: 'var(--orange-600)', color: 'white', fontWeight: 700 }}>
-                      
-                        {t.initials}
-                      </div>
-                      <div>
-                        <p className="text-white font-600 text-sm" style={{ fontWeight: 600 }}>{t.name}</p>
-                        <p className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>{t.area}, Winnipeg</p>
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
+            {/* Google Reviews CTA — fabricated testimonials removed (R3) */}
+            <div className="animate-on-scroll opacity-100 text-center">
+              <p className="text-white font-600 text-lg mb-4" style={{ fontWeight: 600 }}>
+                See what our customers say
+              </p>
+              <Link
+                href="https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-brand text-sm font-600 transition-colors hover:opacity-90"
+                style={{ backgroundColor: 'rgba(255,255,255,0.12)', color: 'white', fontWeight: 600, border: '1px solid rgba(255,255,255,0.2)' }}
+              >
+                Read Our Google Reviews
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                </svg>
+              </Link>
             </div>
           </div>
         </section>
@@ -617,6 +595,7 @@ export default function HomePage() {
                 
                 New Customer Offer
               </div>
+              {/* OWNER-VERIFY: 10% discount — confirm this offer is currently active */}
               <h2 id="offer-heading" className="mb-4" style={{ color: 'var(--navy-900)' }}>
                 Up to 10% Off Your First Service
               </h2>
@@ -662,9 +641,9 @@ export default function HomePage() {
 
             <div className="grid md:grid-cols-3 gap-6 animate-on-scroll opacity-100">
               <div className="card-base p-7" style={{ backgroundColor: 'rgba(255,255,255,0.08)', borderColor: 'rgba(255,255,255,0.1)' }}>
-                <div className="text-3xl font-700 mb-3" style={{ color: 'var(--orange-500)', fontWeight: 700 }}>127+</div>
+                <div className="text-3xl font-700 mb-3" style={{ color: 'var(--orange-500)', fontWeight: 700 }}>Flat Rate</div>
                 <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                  5-star reviews from homeowners, landlords, restaurants and realtors across Winnipeg and surrounding areas
+                  Price confirmed upfront on the call, before work starts. No surprises on the invoice, no hidden charges after hours
                 </p>
               </div>
 

@@ -38,12 +38,12 @@ export const lsaVerificationChecklist = {
       location: 'src/lib/localServicesSchema.ts - license',
     },
     aggregateRating: {
-      required: true,
-      description: 'Customer review aggregation with rating count',
-      status: '✅ Implemented',
-      rating: '4.9/5',
-      reviewCount: '127',
-      location: 'src/lib/localServicesSchema.ts - aggregateRating',
+      required: false,
+      description: 'REMOVED per R5 — no AggregateRating schema on this site',
+      status: 'Deliberately removed',
+      rating: 'N/A',
+      reviewCount: 'N/A',
+      location: 'N/A',
     },
   },
   onPage: {
