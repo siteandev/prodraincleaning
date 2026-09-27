@@ -5,7 +5,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const entries: MetadataRoute.Sitemap = [
-    // Core pages (8)
     { url: `${base}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -13,15 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${base}/privacy-policy`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${base}/terms`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
-
-    // Service hub pages (5)
     { url: `${base}/drain-cleaning-winnipeg`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/main-sewer-line-unclogging-winnipeg`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/restaurant-commercial-drain-cleaning-winnipeg`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/plumbing-services-winnipeg`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/emergency-drain-plumbing-winnipeg`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-
-    // Location pages (10)
     { url: `${base}/areas/drain-cleaning-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/areas/drain-cleaning-st-norbert`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/areas/drain-cleaning-selkirk`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -32,15 +27,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/areas/drain-cleaning-steinbach`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/areas/drain-cleaning-stonewall`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/areas/drain-cleaning-east-west-st-paul`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-
-    // Glossary (1)
+    { url: `${base}/areas`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/glossary`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-
-    // Compare pages (5)
     { url: `${base}/compare`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/compare/local-drain-cleaner-vs-national-chain`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-
-    // Blog posts (31)
     { url: `${base}/blog/drain-cleaning-winnipeg-cost-guide`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/signs-main-sewer-line-clogged`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/blog/tree-roots-sewer-line-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
@@ -97,6 +87,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/does-home-insurance-cover-frozen-pipes-manitoba`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/apartment-shared-line-clogs-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/winnipeg-clay-soil-sewer-line-effects`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/clogged-toilet-winnipeg-what-to-do`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/emergency-plumber-winnipeg-24-7-guide`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/leak-detection-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/water-heater-replacement-winnipeg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/drain-cleaning-service-winnipeg-and-areas`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
   ];
 
   // De-duplication safety net: remove any repeated <loc> values

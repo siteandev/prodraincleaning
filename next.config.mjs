@@ -56,6 +56,11 @@ const nextConfig = {
         destination: '/blog/clogged-drain-winnipeg-what-to-do',
         permanent: true,
       },
+      {
+        source: '/emergency-drain-plumbing',
+        destination: '/emergency-drain-plumbing-winnipeg',
+        permanent: true,
+      },
     ];
   },
 
