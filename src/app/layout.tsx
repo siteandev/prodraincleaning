@@ -65,6 +65,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {/* Google Search Console verification */}
         <meta name="google-site-verification" content="bIcVhy2p4hHv4WlmU8DwxidZmyA1G8E4GIGfzfvD_eY" />
 
+        {/* Preconnect to external image hosts — reduces LCP latency */}
+        <link rel="preconnect" href="https://img.rocket.new" />
+        <link rel="dns-prefetch" href="https://img.rocket.new" />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+
         {/* Critical CSS inline — eliminates render-blocking for above-the-fold paint */}
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
 
