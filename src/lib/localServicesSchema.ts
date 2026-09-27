@@ -13,11 +13,16 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
  * Defines the geographic boundary of service coverage
  */
 const serviceAreaPolygon = [
-{ latitude: 49.95, longitude: -97.05 }, // North
-{ latitude: 49.95, longitude: -97.25 }, // NW
-{ latitude: 49.75, longitude: -97.25 }, // SW
-{ latitude: 49.75, longitude: -97.05 }, // SE
-{ latitude: 49.95, longitude: -97.05 } // Close polygon
+  // ~100 km service radius around Winnipeg (clockwise from north)
+  { latitude: 50.80, longitude: -97.15 },  // Gimli area (N)
+  { latitude: 50.60, longitude: -96.40 },  // Beausejour area (NE)
+  { latitude: 49.85, longitude: -96.20 },  // Steinbach area (E)
+  { latitude: 49.30, longitude: -96.60 },  // Morris area (SE)
+  { latitude: 49.10, longitude: -97.15 },  // south limit
+  { latitude: 49.30, longitude: -97.90 },  // Carman area (SW)
+  { latitude: 49.85, longitude: -98.20 },  // Portage area (W)
+  { latitude: 50.30, longitude: -97.70 },  // Stonewall/Teulon (NW)
+  { latitude: 50.80, longitude: -97.15 },  // close polygon
 ];
 
 /**
@@ -27,7 +32,7 @@ const serviceAreaPolygon = [
 export function generateLocalBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': 'Plumber',
     '@id': `${baseUrl}/#business`,
     name: 'Pro Drain Cleaning Limited',
     url: baseUrl,
@@ -72,7 +77,7 @@ export function generateLocalBusinessSchema() {
       closes: '23:59'
     }],
 
-    // License and certification details for LSA
+    /* OWNER-VERIFY: Replace 'MB-PLB-12345' with actual Manitoba plumbing licence number */
     license: {
       '@type': 'Permit',
       name: 'Manitoba Plumbing License',
@@ -90,8 +95,6 @@ export function generateLocalBusinessSchema() {
     'Sump Pump Service',
     'Tree Root Removal'],
 
-    // Business type
-    additionalType: 'Plumber',
     availableLanguage: ['English'],
     // Contact point for customer service
     contactPoint: {
@@ -156,7 +159,7 @@ export function generateServiceSchema() {
     name: service.name,
     description: service.description,
     provider: {
-      '@type': 'LocalBusiness',
+      '@type': 'Plumber',
       name: 'Pro Drain Cleaning Limited',
       url: baseUrl
     },
@@ -191,7 +194,7 @@ export function generateOrganizationSchema() {
       addressRegion: 'MB',
       addressCountry: 'CA'
     },
-    sameAs: [],
+    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited'],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
@@ -213,14 +216,6 @@ export function generateWebsiteSchema() {
     name: 'Pro Drain Cleaning Limited',
     url: baseUrl,
     description: '24/7 drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${baseUrl}/search?q={search_term_string}`
-      },
-      'query-input': 'required name=search_term_string'
-    }
   };
 }
 

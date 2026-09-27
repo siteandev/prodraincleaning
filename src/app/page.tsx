@@ -45,23 +45,7 @@ export const metadata: Metadata = {
 // LCP hero image — preload hint so browser fetches it immediately
 const LCP_IMAGE_URL = 'https://img.rocket.new/generatedImages/rocket_gen_img_17b757e33-1771885503955.png';
 
-const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Plumber',
-  '@id': 'https://prodraincleaning.ca/#business',
-  name: 'Pro Drain Cleaning Limited',
-  url: 'https://prodraincleaning.ca',
-  telephone: '+12043994413',
-  email: 'prodraincleaningcentre@gmail.com',
-  priceRange: '$$',
-  image: "https://img.rocket.new/generatedImages/rocket_gen_img_117a0c03b-1783186949327.png",
-  logo: "https://img.rocket.new/generatedImages/rocket_gen_img_117a0c03b-1783186949327.png",
-  description: '24/7 drain cleaning, main sewer line unclogging, restaurant and commercial drain service and emergency plumbing in Winnipeg, Selkirk, St. Norbert and within 100 km of Winnipeg.',
-  address: { '@type': 'PostalAddress', addressLocality: 'Winnipeg', addressRegion: 'MB', addressCountry: 'CA' },
-  geo: { '@type': 'GeoCoordinates', latitude: 49.8951, longitude: -97.1384 },
-  openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '00:00', closes: '23:59' }],
-  availableLanguage: ['English']
-};
+/* Structured data is rendered globally via LocalServicesSchemaMarkup in layout.tsx */
 
 const authorityPoints = [
 { icon: null, title: 'Drains & sewers only', body: 'Not a sideline between furnace calls. Specialists solve in one visit what generalists solve in three.' },
