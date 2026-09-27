@@ -38,10 +38,10 @@ export default function TrustStrip() {
         <ul className="flex flex-nowrap overflow-x-auto gap-x-6 gap-y-2 items-center scrollbar-hide">
           {/* Google Reviews badge */}
           <li className="flex items-center gap-2 flex-shrink-0 text-sm font-600" style={{ fontWeight: 600, color: 'var(--navy-900)', fontSize: '0.8125rem' }}>
-            <span className="flex items-center gap-1" aria-label="4.9 stars on Google Reviews">
+            <span className="flex items-center gap-1" role="img" aria-label="Google Reviews rating">
               <StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon />
             </span>
-            <span>4.9 stars on Google</span>
+            <span>4+ stars on Google</span>
           </li>
           {trustItems?.map((item, i) => (
             <li

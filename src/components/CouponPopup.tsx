@@ -247,7 +247,7 @@ export default function CouponPopup() {
         <div className="p-6">
           {couponCode ? (
             <div className="text-center flex flex-col items-center">
-              <div className="text-4xl mb-3">🎉</div>
+              <div className="text-4xl mb-3"></div>
               <h3 className="text-xl font-700 mb-2" id="coupon-title" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>You&apos;re in!</h3>
               <p className="text-sm mb-4" style={{ color: 'var(--muted)' }}>Show this code when you book:</p>
               <div
@@ -260,7 +260,7 @@ export default function CouponPopup() {
                   className="btn-primary text-sm px-4 py-2"
                   aria-label="Copy coupon code"
                 >
-                  {copied ? '✓ Copied!' : 'Copy'}
+                  {copied ? 'Copied!' : 'Copy'}
                 </button>
               </div>
               <p className="text-sm mb-5" style={{ color: 'var(--muted)' }}>Also sent to <strong>{email}</strong></p>

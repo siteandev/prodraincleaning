@@ -45,9 +45,10 @@ interface ContactFormProps {
   prefilledService?: string;
   prefilledUrgency?: string;
   compact?: boolean;
+  idPrefix?: string;
 }
 
-export default function ContactForm({ prefilledService = '', prefilledUrgency = '', compact = false }: ContactFormProps) {
+export default function ContactForm({ prefilledService = '', prefilledUrgency = '', compact = false, idPrefix = 'contact' }: ContactFormProps) {
   const [formData, setFormData] = useState<FormData>({
     name: '', phone: '', email: '', city: 'Winnipeg',
     service: prefilledService, urgency: prefilledUrgency || '',
@@ -151,9 +152,9 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
       <div className="flex flex-col gap-4">
         {/* Name */}
         <div>
-          <label htmlFor="contact-name" className="form-label">Full Name *</label>
+          <label htmlFor={`${idPrefix}-name`} className="form-label">Full Name *</label>
           <input
-            id="contact-name"
+            id={`${idPrefix}-name`}
             type="text"
             name="name"
             className={`form-input ${errors.name ? 'error' : ''}`}
@@ -162,16 +163,16 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
             required
             aria-required="true"
-            aria-describedby={errors.name ? 'name-error' : undefined}
+            aria-describedby={errors.name ? `${idPrefix}-name-error` : undefined}
           />
-          {errors.name && <span id="name-error" className="form-error" role="alert">{errors.name}</span>}
+          {errors.name && <span id={`${idPrefix}-name-error`} className="form-error" role="alert">{errors.name}</span>}
         </div>
 
         {/* Phone */}
         <div>
-          <label htmlFor="contact-phone" className="form-label">Phone Number *</label>
+          <label htmlFor={`${idPrefix}-phone`} className="form-label">Phone Number *</label>
           <input
-            id="contact-phone"
+            id={`${idPrefix}-phone`}
             type="tel"
             name="phone"
             className={`form-input ${errors.phone ? 'error' : ''}`}
@@ -180,17 +181,17 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
             required
             aria-required="true"
-            aria-describedby={errors.phone ? 'phone-error' : undefined}
+            aria-describedby={errors.phone ? `${idPrefix}-phone-error` : undefined}
           />
-          {errors.phone && <span id="phone-error" className="form-error" role="alert">{errors.phone}</span>}
+          {errors.phone && <span id={`${idPrefix}-phone-error`} className="form-error" role="alert">{errors.phone}</span>}
         </div>
 
         {/* Email */}
         {!compact && (
           <div>
-            <label htmlFor="contact-email" className="form-label">Email Address *</label>
+            <label htmlFor={`${idPrefix}-email`} className="form-label">Email Address *</label>
             <input
-              id="contact-email"
+              id={`${idPrefix}-email`}
               type="email"
               name="email"
               className={`form-input ${errors.email ? 'error' : ''}`}
@@ -199,18 +200,18 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               required
               aria-required="true"
-              aria-describedby={errors.email ? 'email-error' : undefined}
+              aria-describedby={errors.email ? `${idPrefix}-email-error` : undefined}
             />
-            {errors.email && <span id="email-error" className="form-error" role="alert">{errors.email}</span>}
+            {errors.email && <span id={`${idPrefix}-email-error`} className="form-error" role="alert">{errors.email}</span>}
           </div>
         )}
 
         {/* City */}
         {!compact && (
           <div>
-            <label htmlFor="contact-city" className="form-label">City / Area</label>
+            <label htmlFor={`${idPrefix}-city`} className="form-label">City / Area</label>
             <select
-              id="contact-city"
+              id={`${idPrefix}-city`}
               name="city"
               className="form-input"
               value={formData.city}
@@ -225,16 +226,16 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
 
         {/* Service */}
         <div>
-          <label htmlFor="contact-service" className="form-label">Service Needed *</label>
+          <label htmlFor={`${idPrefix}-service`} className="form-label">Service Needed *</label>
           <select
-            id="contact-service"
+            id={`${idPrefix}-service`}
             name="service"
             className={`form-input ${errors.service ? 'error' : ''}`}
             value={formData.service}
             onChange={(e) => setFormData({ ...formData, service: e.target.value })}
             required
             aria-required="true"
-            aria-describedby={errors.service ? 'service-error' : undefined}
+            aria-describedby={errors.service ? `${idPrefix}-service-error` : undefined}
           >
             <option value="">Select a service...</option>
             {serviceOptions.map((group) => (
@@ -245,7 +246,7 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
               </optgroup>
             ))}
           </select>
-          {errors.service && <span id="service-error" className="form-error" role="alert">{errors.service}</span>}
+          {errors.service && <span id={`${idPrefix}-service-error`} className="form-error" role="alert">{errors.service}</span>}
         </div>
 
         {/* Urgency */}
@@ -253,7 +254,7 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
           <legend className="form-label">How urgent is this? *</legend>
           <div className="flex flex-col gap-2 mt-1">
             {[
-              { value: 'emergency', label: '🚨 Emergency – happening now' },
+              { value: 'emergency', label: 'Emergency -- happening now' },
               { value: 'today', label: 'Today' },
               { value: 'few-days', label: 'Within a few days' },
               { value: 'quote', label: 'Just getting a quote' },
@@ -278,9 +279,9 @@ export default function ContactForm({ prefilledService = '', prefilledUrgency = 
         {/* Message */}
         {!compact && (
           <div>
-            <label htmlFor="contact-message" className="form-label">What&apos;s going on? (optional)</label>
+            <label htmlFor={`${idPrefix}-message`} className="form-label">What&apos;s going on? (optional)</label>
             <textarea
-              id="contact-message"
+              id={`${idPrefix}-message`}
               name="message"
               className="form-input"
               rows={3}

@@ -17,7 +17,7 @@ interface AccordionItem {
 const items: AccordionItem[] = [
   {
     id: 'kitchen-sink-drain-cleaning',
-    icon: '🍳',
+    icon: '',
     title: 'Kitchen Sink Drain Cleaning',
     teaser: 'Grease, food waste and soap scale — cleared properly, not just poked through.',
     description: 'The kitchen line is the hardest-working and most abused drain in any house. Every wash cycle sends warm grease down it; the grease cools, hardens onto the pipe wall, and traps coffee grounds, rice, starch and food scraps until the opening is the width of a pencil. That\'s why kitchen sinks fail slowly and then all at once — and why the dishwasher starts backing up into the sink. We clear the branch line with a properly sized cable, and where the pipe wall is coated, hydro jet it back to bare pipe so it drains like it did when it was new. We also check the P-trap, the tailpiece and the vent, because a "clog" that returns in three weeks usually isn\'t a clog at all.',
@@ -26,7 +26,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'bathroom-sink-drain-cleaning',
-    icon: '🚿',
+    icon: '',
     title: 'Bathroom Sink Drain Cleaning',
     teaser: 'Hair, toothpaste and soap scum removed from the trap and the branch line.',
     description: 'Bathroom sinks clog for one boring reason: hair binds with soap scum and toothpaste into a dense plug that sits in the P-trap and the first few feet of the branch line. Pouring caustic chemicals on it rarely works and can damage older Winnipeg pipe and the pop-up assembly. We pull and clean the trap, remove the pop-up stopper (that\'s where the worst of it hides), cable the branch line back to the stack, and flush it. You get a sink that empties in seconds instead of minutes — and no chemical sitting in your trap waiting for someone.',
@@ -35,7 +35,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'bathtub-drain-cleaning',
-    icon: '🛁',
+    icon: '',
     title: 'Bathtub Drain Cleaning',
     teaser: 'Standing water in the tub cleared without pulling your tile apart.',
     description: 'Standing in ankle-deep water while you shower is the classic tub symptom, and it\'s almost always hair and soap bound around the drum trap or overflow assembly. Tub lines are awkward — they\'re often under a slab or behind finished walls — so this is a job where the wrong technique costs you tile. We access through the overflow plate or the drain body, use a small-diameter cable with the right head, and clear the line without cutting anything open. If the tub is slow and the toilet is gurgling, we stop and check the main line first, because that changes the whole diagnosis.',
@@ -44,7 +44,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'shower-drain-cleaning',
-    icon: '🚿',
+    icon: '',
     title: 'Shower Drain Cleaning',
     teaser: 'Water pooling around your feet? Cleared, sanitised and flowing again.',
     description: 'A shower that pools is a hygiene problem as much as a plumbing one — standing water on tile means biofilm, odour and slippery footing. The cause is the same mix of hair, soap, shampoo and hard-water scale, usually within the first two metres of the drain. We remove the strainer, clear the trap and branch line, then flush the line so the biofilm goes with it rather than being pushed further down to re-form. For tiled walk-in showers and linear drains we use low-profile equipment that won\'t damage the finish or the waterproofing membrane.',
@@ -53,7 +53,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'toilet-drain-unclogging',
-    icon: '🚽',
+    icon: '',
     title: 'Toilet Drain Unclogging',
     teaser: 'Won\'t flush, rising, or overflowing — cleared without pulling the toilet where possible.',
     description: 'A toilet that fills to the rim and drains slowly usually has an obstruction in the trapway or the closet bend — wipes (including "flushable" ones), sanitary products, excess paper, a toy, a toothbrush. We start with a closet auger designed for porcelain so we clear the blockage without scratching or cracking the bowl. If the auger tells us the blockage is further down, we move to the branch or main line instead of forcing it. Where an item is genuinely stuck in the trapway, we pull and reset the toilet on a fresh wax ring and test it properly. If your toilet is overflowing right now, shut the supply valve behind it and call us.',
@@ -62,7 +62,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'floor-drain-cleaning',
-    icon: '⬛',
+    icon: '',
     title: 'Floor Drain Cleaning',
     teaser: 'The last line of defence in your basement — kept open and odour-free.',
     description: 'Your basement floor drain is the one that matters most, because it\'s where water goes when something else fails. It\'s also the one nobody thinks about until it\'s bubbling. Winnipeg basement floor drains fill with silt, laundry lint, construction debris, rust scale and — in older homes — root intrusion from the main line they connect to. We remove and clean the grate and the trap, cable or jet the line, flush the sediment out completely, and refill the trap so sewer gas stays out of your house. If your floor drain is backing up, that is very often a main sewer line symptom, and we\'ll tell you honestly if that\'s what we\'re seeing. <a href="/glossary#floor-drain" style="color:var(--brand-700);font-size:0.85em">See also: Floor drain (Glossary)</a>',
@@ -71,7 +71,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'laundry-drain-cleaning',
-    icon: '👕',
+    icon: '',
     title: 'Laundry Drain Cleaning',
     teaser: 'Standpipe overflowing every wash cycle? Cleared and flow-tested at full discharge.',
     description: 'A washing machine dumps a huge volume of water in a very short time, so a laundry line that is even partly restricted overflows the standpipe and floods the floor. The restriction is lint, detergent scale and fabric-softener residue narrowing the pipe, and it builds up steadily for years. We cable and flush the standpipe and branch line, then run an actual full discharge cycle to test it — because a line that passes a garden-hose test can still overflow under a washer\'s pump-out rate. We\'ll also check that your standpipe height and trap arm meet code, since an undersized or badly configured standpipe overflows even when it\'s perfectly clean.',
@@ -80,7 +80,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'main-sewer-line-cleaning',
-    icon: '🏠',
+    icon: '',
     title: 'Main Sewer Line Cleaning',
     teaser: 'The line everything else drains into — cleared, root-cut and camera-verified.',
     description: 'Your main sewer line carries every drop of waste from the house to the City main, and in Winnipeg that line is frequently 40 to 80 years old and made of clay or cast iron. Roots find the joints, grease coats the wall, and scale narrows the diameter until one ordinary Sunday it stops. When multiple fixtures back up at once — toilet, tub and floor drain together — this is the line at fault. We access through the main cleanout, cut roots and clear the blockage with a full-size machine, hydro jet where the wall is coated, and then run a camera so you can see what condition your line is actually in and whether it needs cleaning again next year or not for five. <a href="/glossary#main-sewer-line" style="color:var(--brand-700);font-size:0.85em">See also: Main sewer line (Glossary)</a>',
@@ -89,7 +89,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'sewer-backup-removal',
-    icon: '🚨',
+    icon: '',
     title: 'Sewer Backup Removal',
     teaser: 'Sewage in your basement — stopped, cleared and made safe. 24/7.',
     description: 'A sewer backup is a health hazard, not an inconvenience. Category 3 water carries bacteria and pathogens, and everything porous it touches has to be treated as contaminated. Call us before you touch anything: stop using all water in the building, keep people and pets off the affected floor, and don\'t run the washer or flush. We arrive, find and clear the blockage that\'s causing the backup, get the line flowing so nothing more comes in, remove standing sewage and residue, and sanitise the area. We then camera the line and give you documented footage — which is exactly what your insurer will ask for, and what you\'ll need if this becomes a claim.',
@@ -98,7 +98,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'clogged-drain-clearing',
-    icon: '🔧',
+    icon: '',
     title: 'Clogged Drain Clearing',
     teaser: 'Any drain, any blockage, any hour — diagnosed properly and cleared the first time.',
     description: 'Sometimes you just need the clog gone and you don\'t care what it\'s called. This is our general clogged-drain service: you tell us which fixtures are affected and how bad it is, and we bring everything needed to clear any drain in the building in one visit. The diagnosis matters more than most people realise — one slow fixture is a branch line problem, but several slow fixtures on the lowest floor is a main line problem, and treating the second like the first wastes your money. We identify which one you have before we start, quote you a flat price, and clear it.',
@@ -107,7 +107,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'drain-snaking-auger-service',
-    icon: '🔩',
+    icon: '',
     title: 'Drain Snaking (Auger Service)',
     teaser: 'The fast, proven fix for sudden blockages — with the machine sized to your pipe.',
     description: 'Snaking — running a rotating steel cable with a cutting head down the line — is the right first answer for most sudden blockages, and it\'s fast. The skill is in machine and head selection: a hand-held drum machine for a bathroom sink, a mid-size unit for a kitchen or laundry branch, and a full sectional machine with a root-cutting head for a 4-inch main. Forcing one machine down every line is how pipes get scored, traps get broken and older clay gets cracked. We size the equipment to the pipe, feel the blockage through the cable, and pull the debris back out rather than just punching a hole through it. <a href="/glossary#auger" style="color:var(--brand-700);font-size:0.85em">See also: Auger (Glossary)</a>',
@@ -116,7 +116,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'hydro-jet-drain-cleaning',
-    icon: '💦',
+    icon: '',
     title: 'Hydro Jet Drain Cleaning',
     teaser: 'Up to 4,000 PSI — restores the pipe\'s full diameter, not just a hole through the middle.',
     description: 'Hydro jetting sends water at up to 4,000 PSI through a rotating nozzle that scours the pipe wall in every direction and flushes the debris right out of the system. This is the difference between temporary relief and an actual fix: a cable makes an opening through a blockage, while jetting removes grease, scale, sludge and root hair from the wall and restores the pipe to full diameter. It is the correct choice for restaurant grease lines, any drain that clogs repeatedly, root regrowth after cutting, and lines with heavy sediment. We camera-inspect first where there\'s any doubt about pipe condition, because jetting a badly damaged line is not something a responsible company does blind. <a href="/glossary#hydro-jetting" style="color:var(--brand-700);font-size:0.85em">See also: Hydro jetting (Glossary)</a>',
@@ -125,7 +125,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'camera-drain-inspections',
-    icon: '📷',
+    icon: '',
     title: 'Camera Drain Inspections',
     teaser: 'See inside your own pipe in HD — roots, cracks, bellies and offsets, on video.',
     description: 'Guessing is expensive. A camera inspection puts a self-levelling HD camera down your line and shows you exactly what\'s there: root intrusion, a belly holding standing water, an offset joint, a crack, a collapse, or a line that\'s genuinely fine. You watch the screen with us and you keep the footage. We use it to diagnose repeat backups, verify a line is truly clear after cleaning, document damage for an insurance claim, and inspect sewer lines for buyers before they waive conditions on an older Winnipeg home. Where we find a problem, we surface-locate the exact spot and depth so nobody digs a trench guessing. <a href="/glossary#camera-inspection" style="color:var(--brand-700);font-size:0.85em">See also: Camera inspection (Glossary)</a>',
@@ -134,7 +134,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'drain-odour-diagnosis',
-    icon: '👃',
+    icon: '',
     title: 'Drain Odour Diagnosis',
     teaser: 'That sewer smell has a cause. We find it instead of masking it.',
     description: 'A persistent sewage smell is your building telling you that sewer gas is entering living space, and air freshener does not fix it. The usual causes are a dry P-trap in a fixture nobody uses, a blocked or improperly terminated vent stack, a failed wax ring under a toilet, biofilm coating the inside of a drain, a cracked or disconnected line under the floor, or a missing floor-drain trap primer. We work through them systematically — inspect the traps, test the vents, camera the suspect lines, and where necessary run a smoke test — then tell you the actual source and what it takes to fix it. Odour that gets worse when it rains almost always means something structural in the line.',
@@ -143,7 +143,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'preventive-drain-maintenance',
-    icon: '📅',
+    icon: '',
     title: 'Preventive Drain Maintenance',
     teaser: 'Scheduled cleaning so you never meet us at 2 a.m. again.',
     description: 'The cheapest drain service is the one that happens before the backup. If your Winnipeg property has older clay or cast-iron pipe, big trees near the sewer line, a history of roots, a rental suite, or a commercial kitchen, a scheduled clean is dramatically cheaper than an emergency call plus restoration. We set a frequency that matches your building — annually for a typical older home with root history, quarterly or monthly for food service — jet or cable the lines, camera-verify, and send you a dated report each time. You get a predictable cost instead of an unpredictable disaster, and documentation that helps at claim time.',
@@ -206,7 +206,7 @@ function MiniForm({ serviceName, formId }: MiniFormProps) {
   if (submitted) {
     return (
       <div className="rounded-brand p-5 text-center" style={{ backgroundColor: '#f0fdf4', border: '1.5px solid var(--success)' }} role="alert" aria-live="polite">
-        <div className="text-2xl mb-2">✅</div>
+        <div className="text-2xl mb-2"></div>
         <p className="font-700 mb-1" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>Got it, {name.split(' ')[0]}.</p>
         <p className="text-sm mb-3" style={{ color: 'var(--muted)' }}>We&apos;ll call you at {phone} shortly.</p>
         <Link href="tel:+12043994413" className="btn-primary text-sm" onClick={() => { if (typeof (window as any).gtag_report_conversion === 'function') { (window as any).gtag_report_conversion('tel:+12043994413'); } }}>Call +1 (204) 399-4413 Now</Link>

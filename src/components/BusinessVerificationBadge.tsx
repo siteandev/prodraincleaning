@@ -20,19 +20,19 @@ export default function BusinessVerificationBadge({
 }: BusinessVerificationBadgeProps) {
   const statusConfig = {
     verified: {
-      icon: '✓',
+      icon: 'ok',
       label: 'Verified',
       color: '#10b981',
       bgColor: 'rgba(16, 185, 129, 0.1)',
     },
     pending: {
-      icon: '⏳',
+      icon: '',
       label: 'Verification Pending',
       color: '#f59e0b',
       bgColor: 'rgba(245, 158, 11, 0.1)',
     },
     unverified: {
-      icon: '⚠',
+      icon: 'warn',
       label: 'Unverified',
       color: '#ef4444',
       bgColor: 'rgba(239, 68, 68, 0.1)',
@@ -74,19 +74,19 @@ export default function BusinessVerificationBadge({
       {showDetails && (
         <div className="space-y-2 text-xs" style={{ color: 'var(--muted)' }}>
           <div className="flex items-center gap-2">
-            <span>📋</span>
+            <span></span>
             <span>License: {licenseNumber}</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>🛡️</span>
+            <span></span>
             <span>Licensed & Insured</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>📞</span>
+            <span></span>
             <span>Verified Phone: +1 (204) 399-4413</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>🕐</span>
+            <span></span>
             <span>24/7 Availability Verified</span>
           </div>
         </div>

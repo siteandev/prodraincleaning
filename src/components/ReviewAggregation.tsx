@@ -33,7 +33,7 @@ export default function ReviewAggregation({
           .fill(0)
           .map((_, i) => (
             <span key={`full-${i}`} className="text-yellow-400" aria-hidden="true">
-              ★
+              *
             </span>
           ))}
         {hasHalfStar && (
@@ -45,7 +45,7 @@ export default function ReviewAggregation({
           .fill(0)
           .map((_, i) => (
             <span key={`empty-${i}`} className="text-gray-300" aria-hidden="true">
-              ☆
+              *
             </span>
           ))}
       </div>
@@ -80,7 +80,7 @@ export default function ReviewAggregation({
           <div className="mt-4 space-y-2">
             {[5, 4, 3, 2, 1].map((stars) => (
               <div key={stars} className="flex items-center gap-2">
-                <span className="text-sm font-medium w-8">{stars}★</span>
+                <span className="text-sm font-medium w-8">{stars}*</span>
                 <div className="flex-1 h-2 bg-gray-200 rounded">
                   <div
                     className="h-full bg-yellow-400 rounded"

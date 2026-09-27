@@ -17,7 +17,7 @@ interface AccordionItem {
 const items: AccordionItem[] = [
   {
     id: 'emergency-drain-cleaning',
-    icon: '🚨',
+    icon: '',
     title: '24/7 Emergency Drain Cleaning',
     teaser: 'Any drain, any hour, any day of the year — cleared on the first visit.',
     description: 'A drain that stops at 11 p.m. doesn\'t wait politely until Monday, and neither do we. We clear kitchen sinks, bathroom sinks, tubs, showers, toilets, laundry lines, floor drains and main sewer lines at any hour, every day of the year including statutory holidays. Call or WhatsApp and a technician answers directly — you\'ll be talking to someone who can actually diagnose the problem, not a dispatcher reading a script. We\'ll tell you what to stop doing immediately to limit damage, quote you a realistic range on the phone, and arrive with every machine needed so there\'s no "we\'ll come back tomorrow with the right equipment."',
@@ -32,7 +32,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'emergency-sewer-backup-service',
-    icon: '💧',
+    icon: '',
     title: 'Emergency Sewer Backup Service',
     teaser: 'Sewage coming up your floor drain — stopped, cleared, cleaned and documented.',
     description: 'Sewage backing up into a basement is the most urgent call we take, because every minute the contamination spreads further and more porous material is written off. Stop using every fixture in the building the moment you notice it — every flush and every wash cycle adds volume to a line that has nowhere to send it. We prioritise these calls, clear the blockage at the source so nothing more comes in, extract the standing sewage, sanitise the affected hard surfaces, and camera the line to prove what caused it. You get dated footage and a written report for your insurer, and honest advice on preventing a repeat — which for many Winnipeg homes means a backwater valve.',
@@ -48,7 +48,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'emergency-clogged-toilet-service',
-    icon: '🚽',
+    icon: '',
     title: 'Emergency Clogged Toilet Service',
     teaser: 'Overflowing or unusable toilet, cleared fast — including single-bathroom homes and businesses.',
     description: 'If it\'s your only toilet, or you run a restaurant with customers in the dining room, a blocked toilet is an emergency by any reasonable definition. First: shut the supply valve behind the toilet — turn it clockwise — to stop the bowl overflowing. Then call us. We clear obstructions with a porcelain-safe closet auger, retrieve foreign objects, and where something is genuinely lodged in the trapway we pull the toilet, clear it, and reset it on a new wax ring. If the auger shows the blockage is further downstream, we move straight to the branch or main line, because a "toilet problem" affecting other fixtures too is a main sewer line problem.',
@@ -63,7 +63,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'emergency-flood-response',
-    icon: '🌊',
+    icon: '',
     title: 'Emergency Flood Response',
     teaser: 'Burst pipe, failed sump pump or overwhelmed drain — source stopped, water out, drying started.',
     description: 'Whether it\'s a split pipe in an exterior wall, a sump pump that failed during the melt, an overwhelmed floor drain during a downpour, or a supply line that let go behind a washing machine, the sequence is the same and the clock is real: stop the source, get the water out, start drying immediately. If you can do it safely, shut off your main water valve before we arrive. We locate and stop the source, clear any drain that\'s contributing to the problem, extract standing water, and get airflow moving so the structure starts drying rather than sitting wet. Then we document the cause with photos and camera footage for your insurance claim, and coordinate with your restoration contractor where one is needed.',

@@ -27,7 +27,7 @@ export const lsaVerificationChecklist = {
       required: true,
       description: 'Verified phone number in schema and on page',
       status: '✅ Implemented',
-      phone: '+12042943629',
+      phone: '+12043994413',
       location: 'src/lib/localServicesSchema.ts - telephone',
     },
     license: {

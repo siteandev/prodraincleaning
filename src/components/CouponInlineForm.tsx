@@ -50,7 +50,7 @@ export default function CouponInlineForm() {
   if (couponCode) {
     return (
       <div className="text-center flex flex-col items-center">
-        <div className="text-3xl mb-2">🎉</div>
+        <div className="text-3xl mb-2"></div>
         <h3 className="font-700 text-lg mb-3" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>Your code is ready!</h3>
         <div
           className="w-full rounded-lg p-4 mb-3 flex items-center justify-between gap-3"
@@ -59,7 +59,7 @@ export default function CouponInlineForm() {
           <button
             onClick={() => { navigator.clipboard.writeText(couponCode); setCopied(true); setTimeout(() => setCopied(false), 2000); }}
             className="btn-primary text-sm px-4 py-2">
-            {copied ? '✓ Copied!' : 'Copy'}
+            {copied ? 'Copied!' : 'Copy'}
           </button>
         </div>
         <p className="text-sm" style={{ color: 'var(--muted)' }}>

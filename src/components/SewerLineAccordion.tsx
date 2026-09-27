@@ -17,7 +17,7 @@ interface AccordionItem {
 const items: AccordionItem[] = [
   {
     id: 'tree-root-removal',
-    icon: '🌳',
+    icon: '',
     title: 'Tree Root Removal',
     teaser: 'Winnipeg\'s #1 cause of sewer blockages — cut back to full pipe diameter.',
     description: 'Roots don\'t drill through healthy pipe — they find a joint or a hairline crack that\'s already there, follow the moisture and nutrients inside, and then grow into a dense mat that catches everything flushed past it. In Winnipeg, with clay-tile sewers under streets lined with mature elms, this is by far the most common cause of a blocked main. We run a full-size sectional machine with a root-cutting head sized to your pipe, cut the mass back to the full inside diameter, and hydro jet the remaining root hair and debris out of the system. Then we camera the line and show you exactly where the roots are entering and how bad the pipe is — because roots always grow back, and knowing whether that\'s 12 months or 5 years is the difference between a maintenance plan and a repair. <a href="/glossary#root-intrusion" style="color:var(--brand-700);font-size:0.85em">See also: Root intrusion (Glossary)</a>',
@@ -26,7 +26,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'hydro-jetting-sewer-lines',
-    icon: '💦',
+    icon: '',
     title: 'Hydro Jetting for Sewer Lines',
     teaser: 'Restores the full diameter of the line, not just a channel through the blockage.',
     description: 'Cutting a hole through a root mass gets water moving tonight. Hydro jetting is what stops you calling again in the spring. Up to 4,000 PSI through a rotating nozzle scours grease, scale, sludge and remaining root hair off the entire pipe wall and flushes it downstream out of your system, restoring the line to its actual designed capacity. On older Winnipeg sewers we camera-inspect first, because a line with a collapse or a serious structural break needs a different plan than a line that\'s simply dirty. Where the pipe is sound, jetting is the single most effective thing you can do for a main sewer line — and it\'s why properties on a jetting schedule stop having emergencies. <a href="/glossary#hydro-jetting" style="color:var(--brand-700);font-size:0.85em">See also: Hydro jetting (Glossary)</a>',
@@ -35,7 +35,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'sewer-camera-inspections',
-    icon: '📷',
+    icon: '',
     title: 'Sewer Camera Inspections',
     teaser: 'HD video of your entire sewer line — and the footage is yours to keep.',
     description: 'There is no reason to guess about a sewer line in 2026. Our self-levelling HD camera travels the full run from your cleanout to the City connection and records everything: root intrusion and where it enters, bellies holding standing water, offset or separated joints, cracks, corrosion, foreign objects, and collapse. You watch it live with the technician and we send you the footage. This is the inspection to book if you\'ve had two backups in a year, if you\'re buying an older Winnipeg home and want to know what\'s under the lawn before you waive conditions, if your insurer wants documentation, or if a contractor has quoted you an excavation and you\'d like a second opinion first. <a href="/glossary#camera-inspection" style="color:var(--brand-700);font-size:0.85em">See also: Camera inspection (Glossary)</a>',
@@ -44,7 +44,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'sewer-line-locating',
-    icon: '📍',
+    icon: '',
     title: 'Sewer Line Locating',
     teaser: 'Exact position and depth marked on the surface — so nobody digs blind.',
     description: 'If a sewer line ever needs to be repaired or replaced, the single most expensive mistake is digging in the wrong place. We pair the camera with an electronic sonde and a surface locator to pinpoint the precise position and depth of any defect and mark it directly on your driveway, lawn or floor slab. We also map the route of the line itself — essential before landscaping, adding a garage or addition, installing a pool, replacing a driveway, or planting trees anywhere near the run. You get marked points, measured depths and a simple sketch, so any excavation is a targeted dig instead of an exploratory trench across your yard. <a href="/glossary#sonde" style="color:var(--brand-700);font-size:0.85em">See also: Sonde (Glossary)</a>',
@@ -53,7 +53,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'sewer-backup-cleanup',
-    icon: '🚨',
+    icon: '',
     title: 'Sewer Backup Cleanup',
     teaser: 'Blockage cleared, sewage removed, area sanitised — and documented for your insurer.',
     description: 'When a main line blocks, waste comes back through the lowest opening in the building — usually a basement floor drain or a laundry tub — and what comes up is Category 3 contaminated water. Our priority order is: stop the source, then remove the contamination, then prove the cause. We clear the blockage so nothing more can come in, extract standing sewage and residue, sanitise affected hard surfaces, and identify anything porous that needs to be removed. Then we camera the line and give you dated footage and a written report — the documentation insurers ask for, and the evidence you need if a claim follows. Until we arrive: stop using all water in the building and keep everyone off the affected floor.',
@@ -62,7 +62,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'emergency-sewer-services',
-    icon: '⚡',
+    icon: '',
     title: 'Emergency Sewer Services',
     teaser: '2 a.m., Sunday, −35 °C, holiday weekend — we answer and we come.',
     description: 'Main sewer lines do not fail politely. They fail on Christmas Eve with a full house, and during the first heavy rain of spring, and at 3 a.m. on a long weekend. We run genuine 24/7 emergency sewer service across Winnipeg and 100 km around, with a real technician answering the phone rather than an answering service taking a message. Tell us what\'s happening and we\'ll walk you through what to do right now — usually stop all water use immediately — while we\'re on the way. Every truck carries full-size sectional machines, a hydro jetter, an HD camera and a locator, so we clear it on the first visit instead of coming back tomorrow with different equipment.',

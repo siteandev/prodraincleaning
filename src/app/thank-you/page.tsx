@@ -55,7 +55,7 @@ export default function ThankYouPage() {
             href="tel:+12043994413"
             className="btn-primary inline-block mb-4"
           >
-            📞 Call +1 (204) 399-4413
+            Call +1 (204) 399-4413
           </Link>
 
           {/* Back to site */}

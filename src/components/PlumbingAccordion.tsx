@@ -17,7 +17,7 @@ interface AccordionItem {
 const items: AccordionItem[] = [
   {
     id: 'faucet-repair',
-    icon: '🚰',
+    icon: '',
     title: 'Faucet Repair',
     teaser: 'Drips, low pressure and stiff handles — fixed properly, or replaced honestly.',
     description: 'A dripping faucet is not a cosmetic problem: a steady drip wastes thousands of litres a year, stains the fixture, and in a rarely used sink can mask a leak underneath. Most faucets fail at a worn cartridge, O-ring, seat or washer, and a repair is far cheaper than replacement — so that\'s what we look at first. We also check the aerator and supply valves, because "low pressure" is very often a blocked aerator rather than a plumbing fault. If a faucet is genuinely past repair, we\'ll say so, quote both options, and let you decide. Kitchen, bath, laundry and outdoor hose bibs, including frost-free sillcocks that split over a Winnipeg winter.',
@@ -32,10 +32,10 @@ const items: AccordionItem[] = [
   },
   {
     id: 'toilet-repair-installation',
-    icon: '🚽',
+    icon: '',
     title: 'Toilet Repair & Installation',
     teaser: 'Running, rocking, leaking or weak-flushing — repaired, reset or replaced.',
-    description: 'A running toilet can waste hundreds of litres a day and quietly add real money to your water bill. A rocking toilet means the flange or wax ring is failing, which means water and sewer gas are getting into your subfloor. A weak flush usually points to mineral build-up in the rim jets or a partly blocked trapway. We repair fill and flush valves, flappers and supply lines; we pull, re-shim and reset toilets on new wax rings; we repair or replace damaged flanges; and we supply and install new toilets — including comfort-height and high-efficiency models — hauling the old one away. <a href="/glossary#wax-ring" style="color:var(--brand-700);font-size:0.85em">See also: Wax ring (Glossary)</a> · <a href="/glossary#p-trap" style="color:var(--brand-700);font-size:0.85em">P-trap (Glossary)</a>',
+    description: 'A running toilet can waste hundreds of litres a day and quietly add real money to your water bill. A rocking toilet means the flange or wax ring is failing, which means water and sewer gas are getting into your subfloor. A weak flush usually points to mineral build-up in the rim jets or a partly blocked trapway. We repair fill and flush valves, flappers and supply lines; we pull, re-shim and reset toilets on new wax rings; we repair or replace damaged flanges; and we supply and install new toilets — including comfort-height and high-efficiency models — hauling the old one away. <a href="/glossary#wax-ring" style="color:var(--brand-700);font-size:0.85em">See also: Wax ring (Glossary)</a>  <a href="/glossary#p-trap" style="color:var(--brand-700);font-size:0.85em">P-trap (Glossary)</a>',
     included: [
       'Fill valve, flush valve, flapper and supply line repair',
       'Pull, reset and new wax ring',
@@ -47,7 +47,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'garbage-disposal-repair',
-    icon: '🗑️',
+    icon: '',
     title: 'Garbage Disposal Repair',
     teaser: 'Jammed, humming, leaking or dead — repaired or replaced same visit.',
     description: 'A disposal that hums but doesn\'t turn is jammed; one that does nothing at all has usually tripped its reset or lost power; one that leaks is failing at a seal, a mount or the housing itself. We diagnose all three, clear jams safely, replace mounting assemblies and seals, and reset or rewire the unit. If the housing has corroded through, we\'ll tell you plainly that repair isn\'t worth it and quote a replacement. While we\'re there we clear the drain line beneath it, because a disposal that backs up is very often a grease-coated kitchen branch line rather than a broken disposal.',
@@ -62,7 +62,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'leak-detection',
-    icon: '🔍',
+    icon: '',
     title: 'Leak Detection',
     teaser: 'We find the leak before you tear out drywall, floors or concrete.',
     description: 'Most leaks are found the expensive way — by the damage they\'ve already done. We find them the cheap way. Acoustic listening equipment, thermal imaging, moisture meters and pressure testing let us locate leaks inside walls, under floors, beneath slabs and in supply lines without opening anything up first. We narrow it to a specific point, mark it, tell you what\'s causing it, and quote the repair. Call us if your water bill jumped without explanation, if you hear water running when everything is off, if there\'s a warm or damp patch on a floor, or if drywall is staining and nobody can say why.',
@@ -77,7 +77,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'pipe-repair',
-    icon: '🔧',
+    icon: '',
     title: 'Pipe Repair',
     teaser: 'Burst, split, corroded or leaking pipe — repaired fast and properly.',
     description: 'Winnipeg\'s freeze-thaw cycle is unusually hard on pipe. Copper splits when water freezes inside it, galvanised steel in older homes corrodes and closes up from the inside, and old joints work loose as the ground moves. We repair and replace damaged sections of copper, PEX, ABS and PVC in walls, ceilings, crawlspaces and basements — cutting out only what needs to come out. In an active burst, shut off your main valve and call us immediately; we run 24/7 for exactly this. We\'ll also tell you honestly when repeated pipe repairs mean it\'s time to talk about repiping a section instead of patching it again.',
@@ -92,7 +92,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'water-line-repair',
-    icon: '💧',
+    icon: '',
     title: 'Water Line Repair',
     teaser: 'The line feeding your whole property — repaired, replaced or thawed.',
     description: 'Your main water service line runs from the City connection to your building, and when it fails you lose water to the entire property. Symptoms include a sudden drop in pressure everywhere at once, discoloured water, a soggy or unusually green patch in the yard, or — every Winnipeg winter — a completely frozen service. We locate the line, pinpoint the fault, and repair or replace the affected section, coordinating with the City connection where that\'s required. We also thaw frozen water services and advise on the insulation and run-depth changes that stop it happening every year.',
@@ -107,7 +107,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'sump-pump-installation-repair',
-    icon: '⚙️',
+    icon: '',
     title: 'Sump Pump Installation & Repair',
     teaser: 'The one device standing between spring melt and your basement.',
     description: 'In Winnipeg, a sump pump is not optional equipment — it\'s the thing keeping groundwater out of your basement during spring melt and heavy summer rain, and it always fails on the worst possible night. We install, replace, service and repair sump pumps and pits: sizing the pump to your water volume, checking float switches and check valves, clearing silted pits, correcting discharge lines that dump too close to the foundation, and installing battery backup systems so a pump failure during a power outage doesn\'t become a flooded basement. If your pump runs constantly, cycles oddly, makes new noises, or hasn\'t been tested since you moved in, have it looked at before the melt — not during it. <a href="/glossary#sump-pump" style="color:var(--brand-700);font-size:0.85em">See also: Sump pump (Glossary)</a>',
@@ -123,7 +123,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'backwater-valve-installation',
-    icon: '🛡️',
+    icon: '',
     title: 'Backwater Valve Installation',
     teaser: 'A one-way gate on your sewer line so the City\'s system can never back into your basement.',
     description: 'When Winnipeg\'s sewer system is overwhelmed by heavy rain or rapid melt, wastewater can push backwards up your sewer line and into your basement — through the floor drain, the laundry tub, the lowest toilet. A backwater valve is a one-way gate installed in your sewer line that lets waste out and physically blocks anything from coming back in. It is one of the highest-value protections available to a Winnipeg homeowner, it can affect your insurance position, and there may be a City subsidy available — call us for current details. We assess your line, camera it, install the valve to code with proper access for future maintenance, and service existing valves that have never been inspected. <a href="/glossary#backwater-valve" style="color:var(--brand-700);font-size:0.85em">See also: Backwater valve (Glossary)</a>',
@@ -138,7 +138,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'drain-installation',
-    icon: '🏗️',
+    icon: '',
     title: 'Drain Installation',
     teaser: 'New drains, relocations and rough-ins — sized, sloped and vented to code.',
     description: 'Adding a basement bathroom, a wet bar, a laundry room, a floor drain in a garage or a new commercial fixture means new drainage — and new drainage that isn\'t correctly sized, sloped and vented will fail no matter how good the fixtures are. We design and install new drain lines, relocate existing ones during renovations, cut and core where required, install floor drains and cleanouts in the right places, and tie into your existing stack properly. Every installation is built to code with adequate slope and proper venting, and we leave accessible cleanouts so the line can actually be serviced later.',
@@ -154,7 +154,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'water-heater-installation-replacement',
-    icon: '🔥',
+    icon: '',
     title: 'Water Heater Installation & Replacement',
     teaser: 'Tank or tankless — honest repair-vs-replace assessment before we recommend anything.',
     description: 'Most tank water heaters are rated for 8 to 12 years. Past that, the risk of a tank failure rises sharply, and a leaking tank cannot be repaired — replacement is the only real option. We assess, supply and install both tank and tankless water heaters across Winnipeg and every community within 100km. Before we recommend anything, we give you an honest repair-versus-replace answer: if a single component has failed on a unit under 6 years old, we\'ll tell you that repair makes more sense. If the tank itself is leaking or the unit is past its service life, we\'ll tell you that too — with a firm price in writing before any work starts. Manitoba\'s cold incoming water temperature means sizing a replacement correctly matters more here than in most of the country. <a href="/blog/water-heater-replacement-winnipeg" style="color:var(--brand-700);font-size:0.85em">See also: Water Heater Replacement in Winnipeg — Signs, Cost Factors & What to Expect</a>',
@@ -170,7 +170,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'water-heater-repair',
-    icon: '🔧',
+    icon: '',
     title: 'Water Heater Repair',
     teaser: 'Element, thermostat, thermocouple, valve — repaired if repair makes sense.',
     description: 'Not every water heater problem means a new unit. A pilot light that won\'t stay lit is usually a thermocouple issue. Running out of hot water faster than it used to could be sediment reducing capacity. Popping or rumbling sounds often point to sediment buildup that a flush can address. We diagnose the specific fault first, tell you honestly whether repair or replacement makes more sense for your unit\'s age and condition, and quote both options where applicable. We repair elements, thermostats, thermocouples, pressure relief valves, anode rods and supply connections on both gas and electric units. If the tank itself is leaking or corroding internally, we\'ll tell you plainly that repair isn\'t the answer.',
@@ -186,7 +186,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'frozen-pipe-thawing',
-    icon: '🧊',
+    icon: '',
     title: 'Frozen Pipe Thawing',
     teaser: 'Thawed safely before it splits — and advice so it doesn\'t freeze again next January.',
     description: 'No water at a fixture on a −30 °C Winnipeg morning usually means a frozen line, and you have a narrow window: water expands as it freezes, and a frozen pipe becomes a burst pipe with very little warning. Do not use a torch or an open flame — it\'s the leading cause of fires during cold snaps, and it can split the pipe outright. We locate the frozen section, thaw it with controlled equipment, then inspect it for splits and stress before you\'re back in service. Afterwards we tell you why that particular run froze — usually insufficient insulation, an exterior wall run, an unheated crawlspace, or an under-depth service — and what will stop it recurring every winter.',

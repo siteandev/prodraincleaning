@@ -17,16 +17,16 @@ interface AccordionItem {
 const items: AccordionItem[] = [
   {
     id: 'grease-trap-line-cleaning',
-    icon: '🍽️',
+    icon: '',
     title: 'Grease Trap Line Cleaning',
     teaser: 'The line between your trap and the sewer — jetted back to bare pipe.',
-    description: 'Your grease trap is only half the system. The line running from the trap out to the sewer is where fats, oils and grease actually accumulate, cooling and hardening onto the wall until the effective diameter is a fraction of what it should be — which is exactly why a trap that\'s serviced on schedule can still overflow. We hydro jet the inlet line, the trap outlet and the run to the sewer connection, removing hardened FOG from the full circumference of the pipe rather than boring a channel through it. We camera-verify afterwards and give you a written record. Kitchens on a regular jetting schedule reduce pump-out frequency and stop having Friday-night emergencies. <a href="/glossary#grease-trap" style="color:var(--brand-700);font-size:0.85em">See also: Grease trap (Glossary)</a> · <a href="/glossary#fog" style="color:var(--brand-700);font-size:0.85em">FOG (Glossary)</a>',
+    description: 'Your grease trap is only half the system. The line running from the trap out to the sewer is where fats, oils and grease actually accumulate, cooling and hardening onto the wall until the effective diameter is a fraction of what it should be — which is exactly why a trap that\'s serviced on schedule can still overflow. We hydro jet the inlet line, the trap outlet and the run to the sewer connection, removing hardened FOG from the full circumference of the pipe rather than boring a channel through it. We camera-verify afterwards and give you a written record. Kitchens on a regular jetting schedule reduce pump-out frequency and stop having Friday-night emergencies. <a href="/glossary#grease-trap" style="color:var(--brand-700);font-size:0.85em">See also: Grease trap (Glossary)</a>  <a href="/glossary#fog" style="color:var(--brand-700);font-size:0.85em">FOG (Glossary)</a>',
     included: ['Hydro jetting of inlet, outlet and sewer run', 'Hardened FOG removal from the full pipe circumference', 'Camera verification after jetting', 'Written service report for your food-safety file · Overnight or pre-open scheduling'],
     serviceName: 'Grease Trap Line Cleaning',
   },
   {
     id: 'floor-drain-maintenance',
-    icon: '⬛',
+    icon: '',
     title: 'Floor Drain Maintenance',
     teaser: 'No standing water, no odour, no drain flies, no inspection findings.',
     description: 'Commercial kitchen floor drains take everything — grease, food solids, cleaning chemicals, mop water, ice — and they\'re the drains an inspector looks at first. Left alone, they build a layer of grease and organic sludge that slows drainage, breeds drain flies, and produces the smell customers notice before your staff do. We pull and clean the grates and baskets, clear and flush the trap and branch lines, jet where there\'s build-up, and treat the biofilm that odour and flies actually live in. On a scheduled program, we handle every floor drain in the building on a set frequency and leave a dated report each visit.',
@@ -35,7 +35,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'commercial-kitchen-drain-cleaning',
-    icon: '🏭',
+    icon: '',
     title: 'Commercial Kitchen Drain Cleaning',
     teaser: 'Dish pit, prep sinks, 3-compartment sinks and wok lines — cleared under real load.',
     description: 'Commercial kitchen drain lines fail under volume, not under a garden hose. A dish pit line that seems fine at 10 a.m. will back up at 7 p.m. when three sinks and a dishwasher discharge together. We clean the whole kitchen drainage system as one system — prep sinks, dish pit, 3-compartment sinks, wok stations, ice machine drains, dishwasher discharge and the branch lines that connect them — hydro jetting where the wall is coated and cabling where a solid obstruction is present. Then we load-test it: run everything at once, the way your kitchen actually runs. We work overnight or before open so you don\'t lose a single cover.',
@@ -44,7 +44,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'washroom-drain-cleaning',
-    icon: '🚻',
+    icon: '',
     title: 'Washroom Drain Cleaning',
     teaser: 'Public washrooms that never embarrass you — toilets, urinals, sinks and floor drains.',
     description: 'A blocked public washroom is the fastest way for a customer to decide something about your business. High-traffic commercial washrooms deal with paper towels, wipes, sanitary products and hard-water scale — and urinal lines in particular build uric scale that narrows the pipe and produces an ammonia smell no amount of cleaning will fix. We clear and descale toilet, urinal, sink and floor drain lines, treat the traps, and check that vents are drawing properly. On a maintenance schedule, we cover every washroom in your building before problems reach your customers.',
@@ -53,7 +53,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'storm-drain-cleaning',
-    icon: '🌧️',
+    icon: '',
     title: 'Storm Drain Cleaning',
     teaser: 'Parking lots, loading docks and roof drains — clear before the next Winnipeg downpour.',
     description: 'Storm drains only matter twice a year, and both times they matter enormously. Catch basins in parking lots and loading docks silt up with sand, gravel, leaves, litter and winter grit until the first heavy summer rain has nowhere to go — and then you have a flooded loading bay, a lake in your customer parking, or water tracking into the building. Roof drains and downspout leaders block the same way and can send water into ceilings and walls. We vacuum and jet catch basins, clear the connecting lines, camera any run we can\'t verify visually, and get you tested before the season rather than during it.',
@@ -62,7 +62,7 @@ const items: AccordionItem[] = [
   },
   {
     id: 'preventive-maintenance-programs',
-    icon: '📅',
+    icon: '',
     title: 'Preventive Maintenance Programs',
     teaser: 'A set schedule, a set price, written reports, and priority when you do need us.',
     description: 'An emergency drain call during service costs a multiple of what scheduled maintenance costs — before you count the lost revenue, the ruined shift and the inspection risk. We build a program around your actual volume and history: monthly for a high-volume kitchen, quarterly for a moderate one, semi-annual for retail and office, plus spring and fall storm drain service. Each visit we jet or cable the scheduled lines, camera-verify where relevant, and leave a dated written report you can hand straight to an inspector. Program customers get priority dispatch and a locked-in rate.',
@@ -125,7 +125,7 @@ function MiniForm({ serviceName, formId }: MiniFormProps) {
   if (submitted) {
     return (
       <div className="rounded-brand p-5 text-center" style={{ backgroundColor: '#f0fdf4', border: '1.5px solid var(--success)' }} role="alert" aria-live="polite">
-        <div className="text-2xl mb-2">✅</div>
+        <div className="text-2xl mb-2"></div>
         <p className="font-700 mb-1" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>Got it, {name.split(' ')[0]}.</p>
         <p className="text-sm mb-3" style={{ color: 'var(--muted)' }}>We&apos;ll call you at {phone} shortly.</p>
         <Link href="tel:+12043994413" className="btn-primary text-sm" onClick={() => { if (typeof (window as any).gtag_report_conversion === 'function') { (window as any).gtag_report_conversion('tel:+12043994413'); } }}>Call +1 (204) 399-4413 Now</Link>

@@ -202,7 +202,7 @@ export default function HomePage() {
                 <p className="text-sm mb-5" style={{ color: 'var(--muted)' }}>
                   We&apos;ll call you right back — 24/7.
                 </p>
-                <ContactForm compact={true} />
+                <ContactForm compact={true} idPrefix="hero" />
               </div>
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function HomePage() {
               Get Help Now
             </h2>
             <p className="text-sm mb-5" style={{ color: 'var(--muted)' }}>We&apos;ll call you right back — 24/7.</p>
-            <ContactForm compact={true} />
+            <ContactForm compact={true} idPrefix="mobile" />
           </div>
         </div>
 
@@ -428,7 +428,7 @@ export default function HomePage() {
             {/* BENTO AUDIT: 6 cards, grid-cols-3 on md+, 2 rows */}
             {/* Row 1: [col-1: Homeowners] [col-2: Landlords] [col-3: Restaurants] */}
             {/* Row 2: [col-1: Realtors] [col-2: Builders] [col-3: Condo Boards] */}
-            {/* Placed 6/6 ✓ */}
+            {/* Placed 6/6 */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {audienceCards.map((card, i) =>
               <div
@@ -480,7 +480,7 @@ export default function HomePage() {
             {/* BENTO AUDIT: 8 cards, grid-cols-4 on lg, 2 rows */}
             {/* Row 1: [col-1: Specialists] [col-2: 24/7] [col-3: Flat Rate] [col-4: Equipment] */}
             {/* Row 2: [col-1: Camera] [col-2: Licensed] [col-3: Home Protection] [col-4: Local] */}
-            {/* Placed 8/8 ✓ */}
+            {/* Placed 8/8 */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
               {authorityPoints.map((point, i) =>
               <div
@@ -633,9 +633,9 @@ export default function HomePage() {
 
             <div className="flex flex-col sm:flex-row gap-5 justify-center text-center animate-on-scroll opacity-100">
               {[
-              '✓ Free estimate over the phone',
-              '✓ No extra charge to come out for a quote',
-              '✓ Ask about restaurant maintenance plans'].
+              'Free estimate over the phone',
+              'No extra charge to come out for a quote',
+              'Ask about restaurant maintenance plans'].
               map((item, i) =>
               <span key={i} className="text-sm font-600" style={{ color: 'var(--navy-700)', fontWeight: 600 }}>
                   {item}

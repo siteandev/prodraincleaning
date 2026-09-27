@@ -182,94 +182,15 @@ export default function Footer() {
               lineHeight: '1.6',
             }}
           >
-            {/* Row 1 — copyright */}
-            <p
-              style={{
-                textAlign: 'center',
-                marginBottom: '10px',
-              }}
-              className="sm:hidden"
-            >
-              © 2026 Pro Drain Cleaning Limited. All rights reserved.
-            </p>
-
-            {/* Row 2 — location */}
-            <p
-              style={{
-                textAlign: 'center',
-                marginBottom: '10px',
-              }}
-              className="sm:hidden"
-            >
-              Winnipeg, Manitoba
-            </p>
-
-            {/* Row 3 — phone + email (mobile) */}
+            {/* Single responsive bottom row — no DOM duplication */}
             <div
-              style={{
-                textAlign: 'center',
-                marginBottom: '10px',
-                flexWrap: 'wrap',
-                justifyContent: 'center',
-                gap: '4px',
-              }}
-              className="sm:hidden flex"
-            >
-              <Link
-                href="tel:+12043994413"
-                className="hover:text-white transition-colors"
-                style={{ color: 'rgba(255,255,255,0.45)' }}
-                onClick={handlePhoneClick}
-              >
-                +1 (204) 399-4413
-              </Link>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
-              <Link
-                href="mailto:prodraincleaningcentre@gmail.com"
-                className="hover:text-white transition-colors"
-                style={{ color: 'rgba(255,255,255,0.45)' }}
-              >
-                prodraincleaningcentre@gmail.com
-              </Link>
-            </div>
-
-            {/* Row 4 — sitemap + llms.txt (mobile) */}
-            <div
-              style={{
-                textAlign: 'center',
-                marginBottom: '10px',
-                justifyContent: 'center',
-                gap: '4px',
-              }}
-              className="sm:hidden flex"
-            >
-              <Link
-                href="/sitemap.xml"
-                className="hover:text-white transition-colors"
-                style={{ color: 'rgba(255,255,255,0.45)' }}
-              >
-                Sitemap
-              </Link>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
-              <Link
-                href="/llms.txt"
-                className="hover:text-white transition-colors"
-                style={{ color: 'rgba(255,255,255,0.45)' }}
-                aria-label="llms.txt — structured site summary for AI assistants"
-              >
-                llms.txt
-              </Link>
-            </div>
-
-            {/* Desktop (640px+): single horizontal row */}
-            <div
-              className="hidden sm:flex flex-wrap items-center gap-4"
+              className="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-1"
               style={{ marginBottom: '10px' }}
             >
               <span>© 2026 Pro Drain Cleaning Limited. All rights reserved.</span>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
+              <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
               <span>Winnipeg, Manitoba</span>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
+              <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
               <Link
                 href="tel:+12043994413"
                 className="hover:text-white transition-colors"
@@ -278,7 +199,7 @@ export default function Footer() {
               >
                 +1 (204) 399-4413
               </Link>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
+              <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
               <Link
                 href="mailto:prodraincleaningcentre@gmail.com"
                 className="hover:text-white transition-colors"
@@ -286,7 +207,7 @@ export default function Footer() {
               >
                 prodraincleaningcentre@gmail.com
               </Link>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
+              <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
               <Link
                 href="/sitemap.xml"
                 className="hover:text-white transition-colors"
@@ -294,7 +215,7 @@ export default function Footer() {
               >
                 Sitemap
               </Link>
-              <span style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
+              <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
               <Link
                 href="/llms.txt"
                 className="hover:text-white transition-colors"

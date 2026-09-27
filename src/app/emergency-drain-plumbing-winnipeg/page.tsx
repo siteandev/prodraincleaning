@@ -236,7 +236,7 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
           </ol>
         </nav>
 
-        {/* 🚨 RED EMERGENCY BANNER */}
+        {/* RED EMERGENCY BANNER */}
         <div
           role="alert"
           aria-live="assertive"
