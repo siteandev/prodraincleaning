@@ -39,7 +39,7 @@ const tocItems = [
 const faqs = [
 {
   q: 'Is it actually a real person who answers, day or night?',
-  a: 'Yes. No answering service, no callback queue — call or WhatsApp +1 (204) 399-4413 and a technician picks up, every hour of every day.'
+  a: 'Yes. No answering service, no callback queue — as a true 24 hour plumber, call or WhatsApp +1 (204) 399-4413 and a technician picks up, every hour of every day.'
 },
 {
   q: 'How fast can you get to me?',
@@ -81,7 +81,7 @@ const faqSchema = {
   {
     '@type': 'BlogPosting',
     headline: 'Emergency Drain Cleaning in Winnipeg, 24/7 — The Complete Guide for Every Town Within 100km',
-    description: '24/7 emergency drain cleaning across Winnipeg, Selkirk, St. Norbert and every town within 100km. What to do right now, and a real technician who answers day or night. Call +1 (204) 399-4413.',
+    description: '24 hour plumber for emergency drain cleaning and emergency plumbing across Winnipeg, Selkirk, St. Norbert and every town within 100km. What to do right now, and a real technician who answers day or night. Call +1 (204) 399-4413.',
     url: 'https://prodraincleaning.ca/blog/emergency-drain-cleaning-winnipeg-24-7-complete-guide',
     datePublished: '2026-08-28',
     dateModified: '2026-08-28',
@@ -282,7 +282,7 @@ export default function EmergencyDrainPillarPost() {
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>
-                . Pro Drain Cleaning Limited answers live, 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km of Winnipeg — including Steinbach, Niverville, Stonewall, Headingley, Gimli and Portage la Prairie. A real technician talks you through what to do while help is on the way, and every job is quoted with a flat price you approve before any work starts.
+                . Pro Drain Cleaning Limited is your 24 hour plumber for emergency plumbing and emergency sewer situations — we answer live, 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km of Winnipeg — including Steinbach, Niverville, Stonewall, Headingley, Gimli and Portage la Prairie. A real technician talks you through what to do while help is on the way, and every job is quoted with a flat price you approve before any work starts.
               </p>
             </div>
 
@@ -610,10 +610,10 @@ export default function EmergencyDrainPillarPost() {
                   style={{ backgroundColor: 'var(--orange-100)', border: '2px solid var(--accent-600)' }}>
                   
                   <p className="font-700 mb-2" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
-                    Drain emergency happening right now?
+                    Drain or sewer emergency happening right now?
                   </p>
                   <p className="text-sm mb-4" style={{ color: 'var(--muted)' }}>
-                    A real technician answers 24/7 — not an answering service. Upfront flat pricing before we start.
+                    Your 24 hour plumber answers live — not an answering service. Upfront flat pricing for every emergency plumbing call.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <PhoneLink className="btn-primary inline-flex">
@@ -753,7 +753,7 @@ export default function EmergencyDrainPillarPost() {
                   </figure>
                   <ul className="flex flex-col gap-3">
                     {[
-                    'Drains and sewers are all we do. Not a sideline between furnace calls — a specialist crew that clears in one visit what a generalist often needs three visits to solve.',
+                    'Emergency drain cleaning and emergency sewer response are all we do. Not a sideline between furnace calls — a specialist crew that clears in one visit what a generalist often needs three visits to solve.',
                     'Genuinely answered 24/7. Christmas morning, a Sunday at 3 a.m., the coldest week of January — a real person picks up every time.',
                     'Commercial-grade equipment on every truck, standard — sectional and drum augers, a hydro jetter, an HD camera, a line locator.',
                     'Upfront flat pricing, approved by you before work starts, even on an emergency call.',
@@ -782,7 +782,7 @@ export default function EmergencyDrainPillarPost() {
                 <div id="service-areas" className="scroll-mt-24 mt-12">
                   <h2 className="mb-4">Every Community We Answer Emergency Calls In, 24/7</h2>
                   <p className="mb-6 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Wherever you're calling from within roughly 100km of Winnipeg, this is the same team, the same live-answered phone line, and the same upfront pricing — not a different subcontractor with a different standard.
+                    Wherever you're calling from within roughly 100km of Winnipeg for emergency plumbing or emergency sewer service, this is the same team, the same live-answered phone line, and the same upfront pricing — not a different subcontractor with a different standard.
                   </p>
                   <figure className="rounded-xl overflow-hidden mb-6 flex justify-center" style={{ backgroundColor: 'var(--brand-100)' }}>
                     <img

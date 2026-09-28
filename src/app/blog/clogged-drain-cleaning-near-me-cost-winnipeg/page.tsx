@@ -30,7 +30,7 @@ const tocItems = [
 
 const faqs = [
   {
-    q: 'Can you just give me a price over the phone?',
+    q: 'How much does drain cleaning cost — can you give me a price over the phone?',
     a: 'A realistic range, yes — an exact confirmed price comes after the technician actually sees the clog, and it is approved by you before any work starts.',
   },
   {
@@ -42,7 +42,7 @@ const faqs = [
     a: "It is part of properly diagnosing a recurring or unclear blockage — confirmed as part of your upfront price before it is done.",
   },
   {
-    q: 'What makes a clog more expensive to clear?',
+    q: 'What makes a drain more expensive to unclog?',
     a: 'Location in the system, access difficulty, the clearing method needed, and the underlying cause — all confirmed honestly before work starts.',
   },
   {
@@ -53,6 +53,10 @@ const faqs = [
     q: 'What if the clog comes back after you clear it?',
     a: 'Call us — a clog that returns quickly is worth a proper look rather than repeated clearing of the same symptom.',
   },
+  {
+    q: 'What does it cost to snake a drain vs. a sewer line replacement?',
+    a: 'The cost to snake a drain is significantly less than a sewer line replacement or sewer pipe repair. A basic snake clears most clogs in one visit. Sewer line replacement cost depends on the length, depth and access — we always start with the least invasive option and only recommend replacement when camera inspection shows it is genuinely necessary.',
+  },
 ];
 
 const costFactors = [
@@ -62,7 +66,7 @@ const costFactors = [
   },
   {
     label: 'How it is cleared',
-    detail: 'a simple snake job costs less than hydro jetting or a camera inspection',
+    detail: 'the cost to snake a drain is less than hydro jetting or a camera inspection',
   },
   {
     label: 'Access',
@@ -85,7 +89,7 @@ const pageSchema = {
       '@type': 'BlogPosting',
       headline: 'Clogged Drain Cleaning Near Me: What It Actually Costs in Winnipeg',
       description:
-        'What actually drives the cost of clogged drain cleaning up or down in Winnipeg, and how to get an honest upfront price. Call +1 (204) 399-4413, 24/7.',
+        'How much does drain cleaning cost in Winnipeg? What drives the cost to unclog a drain or snake a sewer line up or down, and how to get an honest upfront price. Call +1 (204) 399-4413, 24/7.',
       url: 'https://prodraincleaning.ca/blog/clogged-drain-cleaning-near-me-cost-winnipeg',
       datePublished: '2026-09-10',
       dateModified: '2026-09-10',
@@ -275,7 +279,7 @@ export default function CloggedDrainCostPage() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                There is no honest flat number anyone can give you without seeing the actual clog — cost depends on
+                How much does drain cleaning cost? There is no honest flat number anyone can give you without seeing the actual clog — the cost to unclog a drain depends on
                 where the blockage is, how it is reached, and what is causing it. What you can count on: a clear,
                 upfront price confirmed on the phone or at the door before any work starts, never a surprise after the
                 fact. Pro Drain Cleaning Limited serves Winnipeg, Selkirk, St. Norbert and every community within
@@ -379,8 +383,8 @@ export default function CloggedDrainCostPage() {
                 <div id="simple-vs-bigger" className="scroll-mt-24 mb-12">
                   <h2 className="mb-4">Simple Clog vs. Something Bigger</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Most single-fixture clogs (one sink, one tub, one toilet) are the simpler, lower end of the job.
-                    Costs move up when the blockage is in a main line, when a camera inspection is needed to see what
+                    Most single-fixture clogs (one sink, one tub, one toilet) are the simpler, lower drain cleaning cost end of the job.
+                    The cost to unclog a drain moves up when the blockage is in a main line, when a camera inspection is needed to see what
                     is actually happening, or when the fix requires hydro jetting instead of a standard snake. None of
                     that is guesswork on our end — a look with a camera before quoting anything beyond the basic call
                     tells us (and you) exactly what is involved.
@@ -396,7 +400,7 @@ export default function CloggedDrainCostPage() {
                     className="text-sm font-700 uppercase tracking-wider mb-3"
                     style={{ color: 'var(--accent-600)', fontWeight: 700 }}
                   >
-                    Ready to get a real number for your situation?
+                    Ready to find out your drain cleaning cost?
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
                     Call or WhatsApp now — a realistic range on the phone, a confirmed upfront price at the door,

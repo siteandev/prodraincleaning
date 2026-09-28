@@ -40,7 +40,7 @@ const faqs = [
 },
 {
   q: 'How fast can you get here for an emergency?',
-  a: 'Priority dispatch for active flooding or no-water situations, 24/7, across Winnipeg and the surrounding towns.'
+  a: 'As a 24 hour plumber, we provide priority dispatch for active flooding, emergency sewer backup or no-water situations, 24/7, across Winnipeg and the surrounding towns.'
 },
 {
   q: 'Do you handle both plumbing and drain emergencies?',
@@ -59,7 +59,7 @@ const pageSchema = {
     '@type': 'BlogPosting',
     headline: 'Emergency Plumber in Winnipeg — What Counts as an Emergency, and What to Do Right Now',
     description:
-    'Burst pipe, no water, or a suspected gas leak? See what to do in the first five minutes and how to reach a real emergency plumber in Winnipeg, 24/7. Call +1 (204) 399-4413.',
+    'Need a 24 hour plumber in Winnipeg? Burst pipe, no water, emergency sewer backup or a suspected gas leak — see what to do in the first five minutes and how to reach a real emergency plumber, 24/7. Call +1 (204) 399-4413.',
     url: 'https://prodraincleaning.ca/blog/emergency-plumber-winnipeg-24-7-guide',
     datePublished: '2026-08-30',
     dateModified: '2026-08-30',
@@ -286,7 +286,7 @@ export default function EmergencyPlumberPillarPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                A real plumbing emergency is anything that is actively damaging your home, leaving you without water, or putting anyone's safety at risk right now — a burst pipe, a water heater dumping water onto your floor, no water anywhere in the house, a frozen pipe about to split, or the smell of gas. Pro Drain Cleaning Limited answers plumbing emergencies live, 24 hours a day, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
+                A real plumbing emergency is anything that is actively damaging your home, leaving you without water, or putting anyone's safety at risk right now — a burst pipe, a water heater dumping water onto your floor, no water anywhere in the house, a frozen pipe about to split, or the smell of gas. As your 24 hour plumber, Pro Drain Cleaning Limited answers plumbing emergencies live — including emergency sewer backups — 24 hours a day, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>{' '}
@@ -600,7 +600,7 @@ export default function EmergencyPlumberPillarPost() {
                 <div id="service-areas" className="scroll-mt-24 mt-12">
                   <h2 className="mb-4">Every Town We Answer Emergency Plumbing Calls In</h2>
                   <p className="mb-6 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Same live-answered line, same equipment, same upfront pricing, 24/7, across the whole service area:
+                    Same live-answered line for emergency plumbing and emergency sewer calls, same equipment, same upfront pricing, 24/7, across the whole service area:
                   </p>
                   <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
                     {serviceAreaTowns.map((town) =>
@@ -811,7 +811,7 @@ export default function EmergencyPlumberPillarPost() {
               Plumbing Emergency Right Now?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Your 24 hour plumber — Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

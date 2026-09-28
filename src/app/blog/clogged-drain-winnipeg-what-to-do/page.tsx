@@ -48,12 +48,12 @@ const fixtureRows = [
   safe: 'Remove and clean the strainer'
 },
 {
-  fixture: 'Toilet',
+  fixture: 'Toilet (clogged toilet)',
   cause: 'Paper, wipes, occasionally a foreign object',
   safe: 'Flange plunger only — never a chemical cleaner'
 },
 {
-  fixture: 'Floor drain',
+  fixture: 'Floor drain / basement drain',
   cause: 'Silt, lint, rust scale, sometimes roots',
   safe: 'Pour water to check the trap seal; call if it\'s backing up'
 },
@@ -104,7 +104,7 @@ const faqs = [
   link: null
 },
 {
-  q: "What if something got flushed and now the toilet won't stop backing up?",
+  q: "Clogged toilet — what if something got flushed and it won't stop backing up?",
   a: 'Stop flushing immediately, shut the supply valve, and call — repeated flushing pushes the object further into the trapway.',
   link: null
 },
@@ -117,6 +117,11 @@ const faqs = [
   q: 'Can you come the same day?',
   a: 'In most cases within Winnipeg, yes — and we prioritize active backups.',
   link: null
+},
+{
+  q: 'How do I unclog a basement drain that keeps backing up?',
+  a: 'A basement drain that backs up repeatedly usually has a main line issue — roots, a belly, or heavy scale. Pouring water down it only confirms the trap seal; clearing the actual blockage requires professional equipment and often a camera inspection to find the cause.',
+  link: null
 }];
 
 
@@ -127,7 +132,7 @@ const pageSchema = {
     '@type': 'BlogPosting',
     headline: 'Clogged Drain? Here\'s Exactly What\'s Causing It and What to Do Next',
     description:
-    'Every common cause of a clogged drain, what\'s safe to try yourself, and when to call a specialist. Serving Winnipeg and everywhere within 100km, 24/7. Call +1 (204) 399-4413.',
+    'How to unclog a drain: every common cause of a clogged drain or clogged toilet, what\'s safe to try yourself, and when to call a specialist. Serving Winnipeg and everywhere within 100km, 24/7. Call +1 (204) 399-4413.',
     url: 'https://prodraincleaning.ca/blog/clogged-drain-winnipeg-what-to-do',
     datePublished: '2026-08-28',
     dateModified: '2026-08-28',
@@ -343,8 +348,8 @@ export default function CloggedDrainWhatToDoPost() {
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
                 A clogged drain almost always comes down to one of a handful of causes — grease, hair and soap, paper
-                and wipes, or roots and scale further down the line — and which one it is determines whether a plunger
-                fixes it in two minutes or you need a specialist. If more than one fixture is affected at once, stop
+                and wipes, or roots and scale further down the line — and which one it is determines whether you can unclog it with a plunger
+                in two minutes or you need a specialist. If more than one fixture is affected at once, stop
                 using water in the building and call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
@@ -432,7 +437,7 @@ export default function CloggedDrainWhatToDoPost() {
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
                     Kitchen lines clog from cooling grease that hardens onto the pipe wall and traps food waste behind
                     it — this is the most common household clog by far. Bathroom lines clog from hair binding with soap
-                    scum into a dense plug, usually right in the trap. Toilets clog from excess paper, wipes (including
+                    scum into a dense plug, usually right in the trap. A clogged toilet usually results from excess paper, wipes (including
                     ones labelled "flushable" — they aren't), or an object that shouldn't have gone in. Floor drains and
                     main lines clog from silt, laundry lint, and — especially in older Winnipeg homes with clay pipe —
                     tree root intrusion at the joints.

@@ -61,16 +61,20 @@ const faqs = [
     a: "For a recurring or unclear problem, yes — it tells us exactly what's happening before recommending a fix.",
   },
   {
-    q: 'Is a floor drain clog always a sewer line issue?',
+    q: 'Is a clogged basement floor drain always a sewer line issue?',
     a: "No — it\'s often just local debris. The pattern of other fixtures also acting up is what points to something bigger.",
   },
   {
-    q: "How fast can you get to me if it's backing up?",
-    a: 'Priority dispatch for active backups, 24/7, across the full service area.',
+    q: "How fast can you get to me for a sewer backup or basement drain backup?",
+    a: 'Priority dispatch for active sewer backups, 24/7, across the full service area.',
   },
   {
     q: 'Do you serve areas outside Winnipeg for this?',
     a: 'Yes — the full 100km radius.',
+  },
+  {
+    q: 'How do I unclog a basement floor drain myself?',
+    a: 'You can remove the grate and clear visible debris, then pour water to test flow. If the clogged basement drain persists or water backs up from other fixtures, stop using water and call a professional — that typically means the blockage is in the main line, not at the drain itself.',
   },
 ];
 
@@ -104,7 +108,7 @@ const pageSchema = {
       '@type': 'BlogPosting',
       headline: "Basement Floor Drain Clogged? Here\'s What\'s Actually Wrong",
       description:
-        "Basement floor drain backed up or slow? Here's what's actually causing it — and when it means a bigger sewer line issue. Call +1 (204) 399-4413, 24/7.",
+        "Clogged basement floor drain or sewer backup through the floor? Here's what's actually causing it — and when it means a bigger sewer line issue. Call +1 (204) 399-4413, 24/7.",
       url: 'https://prodraincleaning.ca/blog/basement-floor-drain-clogged-whats-wrong',
       datePublished: '2026-09-10',
       dateModified: '2026-09-10',
@@ -287,7 +291,7 @@ export default function BasementFloorDrainPage() {
               style={{ backgroundColor: 'var(--white)', borderLeftColor: 'var(--brand-700)' }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                A slow or backed-up basement floor drain is usually caused by a buildup of debris right at the drain, a dry trap letting sewer gas or slow drainage through, or — because it&apos;s often the lowest point in the house — a sign of a bigger main sewer line problem. Pro Drain Cleaning Limited clears basement floor drains across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
+                A clogged basement floor drain is usually caused by a buildup of debris right at the drain, a dry trap letting sewer gas or slow drainage through, or — because it&apos;s often the lowest point in the house — a sign of a bigger main sewer line problem. Pro Drain Cleaning Limited clears basement floor drains across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -368,7 +372,7 @@ export default function BasementFloorDrainPage() {
               <section id="first-warning-sign" className="mb-10">
                 <h2>Why the Basement Floor Drain Is Often the First Warning Sign</h2>
                 <p className="leading-relaxed mb-4" style={{ color: 'var(--ink)' }}>
-                  Because it&apos;s typically the lowest drain in the house, a basement floor drain is usually the first place a main sewer line problem shows up — before any other fixture. If it&apos;s backing up, especially alongside other slow drains elsewhere in the house, that&apos;s a stronger signal of a sewer line issue than a simple local clog. Full detail:{' '}
+                  Because it&apos;s typically the lowest drain in the house, a basement floor drain is usually the first place a sewer backup shows up — before any other fixture. If it&apos;s backing up, especially alongside other slow drains elsewhere in the house, that basement drain backup is a stronger signal of a sewer line issue than a simple local clog. Full detail:{' '}
                   <Link
                     href="/blog/sewer-line-cleaning-winnipeg-signs-you-need-it"
                     className="underline"
@@ -428,7 +432,7 @@ export default function BasementFloorDrainPage() {
                 style={{ backgroundColor: 'var(--accent-600)' }}
               >
                 <p className="text-white font-700 text-lg mb-4" style={{ fontWeight: 700 }}>
-                  Floor drain backing up? Get it checked before it becomes a bigger problem.
+                  Floor drain backing up or sewer backup in the basement? Get it checked before it becomes a bigger problem.
                 </p>
                 <p className="text-white text-sm mb-5 opacity-90">
                   Pro Drain Cleaning Limited answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.

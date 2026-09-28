@@ -1514,19 +1514,20 @@ Jet rather than cable on a line with real scale build-up. Cabling bores through;
 Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'sewer-line-repair-vs-replacement': {
-    title: 'Sewer Line Repair vs Replacement: How to Decide (and What It Costs)',
+    title: 'Sewer Line Repair vs Replacement: How to Decide on Sewer Pipe Repair (and What It Costs)',
     category: 'Sewer Lines',
     readTime: 8,
     date: '2026-08-17',
     updatedDate: '2026-08-17',
-    excerpt: 'When a spot repair is enough, when lining works, and when full replacement is the only honest answer. Winnipeg sewer specialists.',
+    excerpt: 'When sewer pipe repair is enough, when trenchless lining works, and when full sewer line replacement is the only honest answer. Winnipeg sewer specialists.',
     serviceLink: '/main-sewer-line-unclogging-winnipeg',
     serviceLinkText: 'main sewer line services in Winnipeg',
     relatedSlugs: ['clay-pipe-sewer-lines-winnipeg', 'sewer-camera-inspection-before-buying-house', 'tree-roots-sewer-line-winnipeg'],
     faqs: [
       { q: 'Should I get a second opinion on a sewer replacement quote?', a: 'Yes, always, on a job this size — and bring the camera footage with you.' },
       { q: 'Does insurance cover sewer line replacement?', a: 'Usually not, as it\'s typically classed as maintenance or wear. Resulting damage may be covered with the right endorsement.' },
-      { q: 'How long does a new sewer line last?', a: 'Modern PVC is rated for decades — realistically the rest of your time in the house.' },
+      { q: 'How long does a new sewer line last?', a: 'Modern PVC sewer pipe is rated for decades — realistically the rest of your time in the house.' },
+      { q: 'How much does it cost to replace a sewer line in Winnipeg?', a: 'The cost to replace a sewer line depends on depth, length, access and surface restoration. Sewer pipe repair cost for a spot fix is significantly less than a full replacement. We quote after camera inspection so you get a firm number based on what is actually in the ground.' },
     ],
     content: `**Start with the camera — always**
 
@@ -1534,9 +1535,9 @@ Nobody should quote you a sewer repair without showing you camera footage of the
 
 **The three options**
 
-Spot repair (excavate and replace one section). Dig down at the located defect, cut out the bad section, replace it, backfill and restore. Right when: there's one clearly defined defect — a crushed section, a single bad offset, a localised collapse — and the camera shows the rest of the line is sound. Trade-off: lowest cost, but it's excavation, so there's surface restoration to deal with.
+Spot sewer pipe repair (excavate and replace one section). Dig down at the located defect, cut out the bad section of sewer pipe, replace it, backfill and restore. Right when: there's one clearly defined defect — a crushed section, a single bad offset, a localised collapse — and the camera shows the rest of the line is sound. Trade-off: lowest cost, but it's excavation, so there's surface restoration to deal with.
 
-Pipe lining (cured-in-place, CIPP). A resin-saturated liner is pulled or inverted into the existing pipe and cured, forming a new jointless pipe inside the old one. Right when: the host pipe is structurally intact but has multiple root entry points, degraded joints, or general deterioration along the run. Trade-off: no trench, minimal surface disruption, and it eliminates root entry entirely — but it costs more per metre than a spot repair, requires a host pipe sound enough to line, and slightly reduces internal diameter. We partner with a specialist lining contractor for CIPP work.
+Trenchless pipe lining (cured-in-place, CIPP). A resin-saturated liner is pulled or inverted into the existing pipe and cured, forming a new jointless pipe inside the old one. Right when: the host pipe is structurally intact but has multiple root entry points, degraded joints, or general deterioration along the run. Trade-off: trenchless sewer repair means no trench, minimal surface disruption, and it eliminates root entry entirely — but it costs more per metre than a spot repair, requires a host pipe sound enough to line, and slightly reduces internal diameter. We partner with a specialist lining contractor for CIPP work.
 
 Full replacement. Excavate the run and install new pipe. Right when: the line has collapsed, has multiple serious defects along its length, has a significant belly that needs re-grading (lining does not fix a belly — it lines the belly), or is deteriorated to the point where repairs aren't credible. Trade-off: highest cost and most disruption, but you get a new line with a full service life.
 
@@ -1552,13 +1553,13 @@ Camera shows multiple cracks and offsets along the run → Replacement.
 
 Camera shows collapse → Replacement.
 
-Camera shows roots but no structural damage → Neither — clean it and set a maintenance interval.
+Camera shows roots but no structural damage → Neither — sewer clearing (clean it) and set a maintenance interval.
 
 That last scenario matters. A great many homeowners are quoted a replacement for a line that needs cutting, jetting and an annual clean. Roots alone are not an automatic replacement.
 
 **Costs**
 
-Sewer work ranges enormously with depth, length, access, surface restoration, whether the City connection is involved, and whether the run is under a driveway, a mature tree or a garage. We quote after a camera inspection so you get a firm number based on what's actually in the ground. What you should insist on regardless: camera footage of the defect, the located position and depth marked, a written scope, and a clear statement of what surface restoration is and isn't included.
+Sewer line replacement cost ranges enormously with depth, length, access, surface restoration, whether the City connection is involved, and whether the run is under a driveway, a mature tree or a garage. We quote after a camera inspection so you get a firm number based on what's actually in the ground. What you should insist on regardless: camera footage of the defect, the located position and depth marked, a written scope, and a clear statement of what surface restoration is and isn't included.
 
 **Blocked drain right now?**
 

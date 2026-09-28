@@ -18,7 +18,7 @@ const HERO_IMAGE_ALT =
   'Technician inspecting a sewer line for signs of blockage in Winnipeg';
 
 const tocItems = [
-  { id: 'seven-signs', label: '7 Signs Your Sewer Line Needs Cleaning' },
+  { id: 'seven-signs', label: '7 Signs Your Main Drain and Sewer Line Needs Cleaning' },
   { id: 'why-main-line', label: 'Why These Signs Point to the Main Line' },
   { id: 'what-causes', label: 'What Causes a Sewer Line to Need Cleaning' },
   { id: 'what-happens', label: 'What Happens During a Cleaning Visit' },
@@ -294,7 +294,7 @@ export default function SewerLineSignsPage() {
               style={{ backgroundColor: 'var(--white)', borderLeftColor: 'var(--brand-700)' }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Multiple slow drains at once, gurgling sounds, or a sewage smell that wasn&apos;t there before are the clearest signs your main sewer line needs attention — not just a single fixture. Catching it now, before a full backup, is faster and less disruptive to deal with. Pro Drain Cleaning Limited serves Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
+                Multiple slow drains at once, gurgling sounds, or a sewage smell that wasn&apos;t there before are the clearest signs your main sewer drain line needs attention — not just a single fixture. Catching it now, before a full backup, is faster and less disruptive to deal with. Pro Drain Cleaning Limited serves Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
                 <PhoneLink className="font-700" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.

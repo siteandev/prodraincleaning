@@ -18,11 +18,11 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-winnipeg`;
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'Drain Cleaning Winnipeg | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-  description: 'Drain cleaning and sewer line unclogging in Winnipeg, MB. Clogged drains, sewer backups, hydro jetting & camera inspections, 24/7. Call +1 (204) 399-4413.',
+  description: 'Professional drain cleaning services in Winnipeg, MB. 24 hour plumber for clogged drains, sewer and drain cleaning, hydro jetting & camera inspections. Call +1 (204) 399-4413.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: 'Drain Cleaning Winnipeg | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-    description: 'Drain cleaning and sewer line unclogging in Winnipeg, MB. Clogged drains, sewer backups, hydro jetting & camera inspections, 24/7. Call +1 (204) 399-4413.',
+    description: 'Professional drain cleaning services in Winnipeg, MB. 24 hour plumber for clogged drains, sewer and drain cleaning, hydro jetting & camera inspections. Call +1 (204) 399-4413.',
     url: PAGE_URL,
     type: 'website',
   },
@@ -56,6 +56,7 @@ const faqs = [
   { q: 'Why are Winnipeg drains so prone to root intrusion?', a: 'Winnipeg\'s older neighbourhoods — River Heights, Wolseley, Elmwood, St. Boniface — still run on clay tile sewer pipe laid 40–80 years ago. Mature elms and maples find every hairline joint and grow into a solid mat inside the pipe. Our freeze-thaw cycle opens joints further every year.' },
   { q: 'Do you respond to Winnipeg emergencies at night?', a: 'Yes. We answer 24/7/365 — nights, weekends, statutory holidays and −35°C January mornings. A real technician picks up, not an answering service.' },
   { q: 'What\'s the difference between older and newer Winnipeg neighbourhoods for drains?', a: 'Older areas like River Heights and Wolseley have clay or cast-iron pipe with root and joint issues. Newer areas like Sage Creek, Bridgwater and Waverley West have modern PVC but deal with heavy clay soil settling, construction debris in new lines, and combined sewer capacity during storms.' },
+  { q: 'How do I find reliable drain cleaners near me in Winnipeg?', a: 'When searching for drain cleaning near me or drain cleaning services in Winnipeg, look for a company that offers camera-verified results, upfront pricing and 24/7 availability. Pro Drain Cleaning Limited provides sewer and drain cleaning across every Winnipeg neighbourhood with no hidden fees — call us any time at +1 (204) 399-4413.' },
 ];
 
 const schema = {
@@ -110,7 +111,7 @@ export default function WinnipegLocationPage() {
               Drain Cleaning &amp; Sewer Services in Winnipeg, Manitoba — 24/7
             </h1>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'rgba(255,255,255,0.85)', maxWidth: '620px' }}>
-              Winnipeg&apos;s most complete drain and sewer service — from a slow kitchen sink in River Heights to a main sewer backup in Sage Creek. We know these pipes, these neighbourhoods, and these problems. Upfront pricing, camera-verified results, 24/7.
+              Winnipeg&apos;s most complete drain cleaning service — from a slow kitchen sink in River Heights to a main sewer backup in Sage Creek. Whether you need a 24 hour plumber for a sewer backup or searched for drain cleaning near me, our drain plumbers know these pipes, these neighbourhoods, and these problems. Upfront pricing, camera-verified results, 24/7.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <PhoneLink className="btn-primary shimmer-btn">
@@ -133,13 +134,13 @@ export default function WinnipegLocationPage() {
             <h2 className="mb-5">Drain Problems We See in Winnipeg</h2>
             <div className="prose-body">
               <p className="mb-4">
-                Winnipeg is genuinely hard on drains, and the reason is the city&apos;s own history. The older half of the city — River Heights, Wolseley, West End, North End, Elmwood, St. Boniface, Norwood, St. James, East Kildonan, Fort Rouge, and Osborne Village — still runs on clay tile or cast-iron sewer pipe that was laid 40 to 80 years ago. Every mature elm and maple on those streets is looking for moisture, and clay-tile joints are exactly where they find it. Roots enter at hairline cracks, grow into a dense mat, and catch everything flushed past them until one ordinary evening the line stops completely.
+                Winnipeg is genuinely hard on drains, and the reason is the city&apos;s own history. The older half of the city — River Heights, Wolseley, West End, North End, Elmwood, St. Boniface, Norwood, St. James, East Kildonan, Fort Rouge, and Osborne Village — still runs on clay tile or cast-iron sewer pipe that was laid 40 to 80 years ago. Every mature elm and maple on those streets is looking for moisture, and clay-tile joints are exactly where they find it. Roots enter at hairline cracks, grow into a dense mat, and catch everything flushed past them until one ordinary evening the line stops completely. Professional sewer and drain cleaning is the only reliable way to restore flow in these aging lines.
               </p>
               <p className="mb-4">
                 Winnipeg&apos;s freeze-thaw cycle makes it worse. Ground movement opens joints further every winter, and spring melt pushes enormous volumes of water into a combined sewer system that was designed for a smaller city. That&apos;s why so many &quot;sudden&quot; Winnipeg backups aren&apos;t sudden at all — they&apos;ve been building for months, and the storm just finished the job.
               </p>
               <p>
-                Newer areas — Sage Creek, Bridgwater, Waverley West, Amber Trails — have modern PVC drainage, but they bring their own problems: heavy clay soil that settles around new pipe, construction debris left in lines during the build, and basement sump systems that work hard during spring melt. We work across all of Winnipeg with the right equipment for each neighbourhood&apos;s specific pipe age and soil conditions.
+                Newer areas — Sage Creek, Bridgwater, Waverley West, Amber Trails — have modern PVC drainage, but they bring their own problems: heavy clay soil that settles around new pipe, construction debris left in lines during the build, and basement sump systems that work hard during spring melt. As Winnipeg&apos;s dedicated sewer and drain service, we bring the right equipment for each neighbourhood&apos;s specific pipe age and soil conditions — experienced drain cleaners who know the difference between a River Heights root ball and a Sage Creek settling issue.
               </p>
             </div>
           </div>
@@ -148,7 +149,7 @@ export default function WinnipegLocationPage() {
         {/* Services Grid */}
         <section className="section-padding" style={{ backgroundColor: 'var(--navy-100)' }}>
           <div className="container-wide">
-            <h2 className="mb-8 text-center">Services in Winnipeg</h2>
+            <h2 className="mb-8 text-center">Drain Cleaning Services in Winnipeg</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {services.map((s) => (
                 <Link
@@ -173,7 +174,7 @@ export default function WinnipegLocationPage() {
             <div className="card p-8" style={{ borderColor: 'var(--orange-600)', borderWidth: '2px' }}>
               <h2 className="mb-3">Typical Response to Winnipeg</h2>
               <p className="text-lg" style={{ color: 'var(--muted)' }}>
-                Same-day for most Winnipeg calls. Priority dispatch for active flooding or sewer backup. We answer 24/7 — call <PhoneLink className="font-700" style={{ color: 'var(--orange-600)', fontWeight: 700 }}>+1 (204) 399-4413</PhoneLink> and a technician picks up directly.
+                Same-day drain service for most Winnipeg calls. As your 24 hour plumber, we provide priority dispatch for active flooding or sewer backup. We answer 24/7 — call <PhoneLink className="font-700" style={{ color: 'var(--orange-600)', fontWeight: 700 }}>+1 (204) 399-4413</PhoneLink> and a technician picks up directly.
               </p>
             </div>
           </div>
@@ -198,7 +199,7 @@ export default function WinnipegLocationPage() {
         {/* FAQ */}
         <section className="section-padding" style={{ backgroundColor: 'var(--white)' }}>
           <div className="container-wide max-w-3xl">
-            <h2 className="mb-8">Winnipeg Drain &amp; Sewer Questions</h2>
+            <h2 className="mb-8">Winnipeg Drain Cleaning &amp; Sewer Service Questions</h2>
             <div className="flex flex-col gap-4">
               {faqs.map((faq, i) => (
                 <div key={i} className="card p-6">
@@ -213,8 +214,8 @@ export default function WinnipegLocationPage() {
         {/* Contact Form */}
         <section id="contact" className="section-padding" style={{ backgroundColor: 'var(--navy-100)' }}>
           <div className="container-wide max-w-2xl">
-            <h2 className="mb-3 text-center">Get Help in Winnipeg</h2>
-            <p className="text-center mb-8" style={{ color: 'var(--muted)' }}>Fill this in and we&apos;ll call you right back. If water is rising now, call <PhoneLink style={{ color: 'var(--orange-600)' }}>+1 (204) 399-4413</PhoneLink>.</p>
+            <h2 className="mb-3 text-center">Get Drain Cleaning Help in Winnipeg</h2>
+            <p className="text-center mb-8" style={{ color: 'var(--muted)' }}>Describe your drain or sewer issue and we&apos;ll call you right back. If water is rising now, call <PhoneLink style={{ color: 'var(--orange-600)' }}>+1 (204) 399-4413</PhoneLink>.</p>
             <ContactForm prefilledService="Not Sure — Need Diagnosis" />
           </div>
         </section>

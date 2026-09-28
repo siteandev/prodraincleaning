@@ -16,10 +16,10 @@ const PHONE_WA = 'https://wa.me/12043994413';
 const EMAIL = 'prodraincleaningcentre@gmail.com';
 
 const tocItems = [
-{ id: 'repair-or-replace', label: 'Repair or Replace? Quick Reference' },
+{ id: 'repair-or-replace', label: 'Water Heater Repair or Replace? Quick Reference' },
 { id: 'signs', label: 'Signs Your Water Heater Needs Replacing' },
 { id: 'tank-vs-tankless', label: 'Tank vs. Tankless — A Quick Comparison' },
-{ id: 'cost-factors', label: 'What Actually Determines the Cost of Replacement' },
+{ id: 'cost-factors', label: 'What Actually Determines the Cost of Hot Water Tank Replacement' },
 { id: 'winnipeg-specific', label: 'Why This Matters More in Winnipeg Specifically' },
 { id: 'service-areas', label: 'Every Town We Handle Water Heater Work In' },
 { id: 'why-trust', label: 'Why Winnipeg Chooses Pro Drain Cleaning Limited' },
@@ -33,8 +33,8 @@ const faqs = [
   a: 'Most tank units last 8 to 12 years with normal maintenance; tankless units can last longer.'
 },
 {
-  q: 'Is it cheaper to repair or replace my water heater?',
-  a: "It depends on the age and the specific fault — we'll tell you honestly which makes more sense for your unit rather than defaulting to a replacement."
+  q: 'Is water heater repair cheaper than replacing my hot water tank?',
+  a: "It depends on the age and the specific fault. A simple tank repair like a thermostat or element is often worthwhile, but an older hot water tank with a leaking shell needs replacing. We'll tell you honestly which makes more sense for your unit rather than defaulting to a replacement."
 },
 {
   q: 'Should I switch to tankless?',
@@ -51,6 +51,10 @@ const faqs = [
 {
   q: 'Do you handle both gas and electric water heaters?',
   a: 'Yes — assessment, repair and replacement for both.'
+},
+{
+  q: 'Can you repair my hot water tank instead of replacing it?',
+  a: 'In many cases, yes. Common hot water tank repairs include thermostat replacement, heating element swaps, pressure relief valve fixes and anode rod replacement. We assess the unit first and only recommend tank replacement when repair is not cost-effective — such as when the tank itself is leaking or the unit is past its expected lifespan.'
 }];
 
 
@@ -86,7 +90,7 @@ const pageSchema = {
     headline:
     'Water Heater Replacement in Winnipeg — Signs You Need One, and What Actually Changes the Cost',
     description:
-    'Not sure if your water heater needs repair or replacement? See the warning signs, what affects the cost, and how to book a straight answer in Winnipeg. Call +1 (204) 399-4413.',
+    'Not sure if your hot water tank needs repair or replacement? See when water heater repair makes sense vs. a full tank replacement, what affects the cost, and how to book a straight answer in Winnipeg. Call +1 (204) 399-4413.',
     url: 'https://prodraincleaning.ca/blog/water-heater-replacement-winnipeg',
     datePublished: '2026-08-30',
     dateModified: '2026-08-30',
@@ -260,7 +264,7 @@ export default function WaterHeaterReplacementPost() {
               style={{ backgroundColor: 'var(--brand-100)', border: '2px solid var(--brand-500)' }}>
               
               <p className="text-base leading-relaxed" style={{ color: 'var(--navy-900)' }}>
-                Most water heaters last 8 to 12 years, and the clearest signs it&apos;s time to replace rather than repair one are its age, rusty or discoloured hot water, a tank that&apos;s actively leaking, or a unit that can no longer keep up with the household&apos;s hot water demand. Pro Drain Cleaning Limited assesses, repairs and replaces water heaters across Winnipeg, Selkirk, St. Norbert and every community within 100km, with an honest answer on repair versus replacement before any work starts.{' '}
+                Most hot water tanks last 8 to 12 years, and the clearest signs it&apos;s time to replace rather than repair one are its age, rusty or discoloured hot water, a tank that&apos;s actively leaking, or a unit that can no longer keep up with the household&apos;s hot water demand. Pro Drain Cleaning Limited handles water heater repair and hot water tank replacement across Winnipeg, Selkirk, St. Norbert and every community within 100km, with an honest answer on repair versus replacement before any work starts.{' '}
                 <PhoneLink style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
                   Call or WhatsApp {PHONE_DISPLAY}.
                 </PhoneLink>
@@ -283,7 +287,7 @@ export default function WaterHeaterReplacementPost() {
                   style={{ backgroundColor: '#fff7ed', border: '2px solid var(--accent-600)' }}>
                   
                   <h2 className="text-xl mb-4" style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
-                    Repair or Replace? Quick Reference
+                    Water Heater Repair or Replace? Quick Reference
                   </h2>
                   <ul className="flex flex-col gap-3 text-sm" style={{ color: 'var(--navy-900)' }}>
                     <li className="flex gap-2">
@@ -358,7 +362,7 @@ export default function WaterHeaterReplacementPost() {
                     Tank vs. Tankless — A Quick Comparison
                   </h2>
                   <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--ink)' }}>
-                    A tank water heater is the standard, lower upfront cost option most Winnipeg homes already have — it stores and continuously reheats a set volume of hot water. A tankless water heater heats water on demand, takes up less space, and can last longer, but costs more upfront and sometimes requires venting or gas line changes to install.
+                    A tank water heater (often called a hot water tank) is the standard, lower upfront cost option most Winnipeg homes already have — it stores and continuously reheats a set volume of hot water. A tankless water heater heats water on demand, takes up less space, and can last longer, but costs more upfront and sometimes requires venting or gas line changes to install.
                   </p>
                   <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--ink)' }}>
                     Which one makes sense depends on your household&apos;s hot water usage, available space, and existing gas/electrical setup — we&apos;ll walk through it honestly on the phone.
@@ -386,7 +390,7 @@ export default function WaterHeaterReplacementPost() {
                 {/* Cost factors */}
                 <div id="cost-factors" className="mb-10">
                   <h2 className="text-2xl mb-5" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>
-                    What Actually Determines the Cost of Replacement
+                    What Actually Determines the Cost of Hot Water Tank Replacement
                   </h2>
                   <ul className="flex flex-col gap-3" style={{ color: 'var(--ink)' }}>
                     {[
@@ -413,7 +417,7 @@ export default function WaterHeaterReplacementPost() {
                     Why This Matters More in Winnipeg Specifically
                   </h2>
                   <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Manitoba&apos;s cold incoming water temperature means a water heater works harder here than in most of the country to deliver the same hot water output — which is part of why sizing it correctly, rather than just replacing like-for-like, is worth a real conversation rather than a guess.
+                    Manitoba&apos;s cold incoming water temperature means a hot water tank works harder here than in most of the country to deliver the same output — which is part of why sizing it correctly, rather than just replacing like-for-like, is worth a real conversation rather than a guess.
                   </p>
                 </div>
 
@@ -455,7 +459,7 @@ export default function WaterHeaterReplacementPost() {
                 {/* Why trust */}
                 <div id="why-trust" className="mb-10">
                   <h2 className="text-2xl mb-5" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>
-                    Why Winnipeg Chooses Pro Drain Cleaning Limited for Water Heater Work
+                    Why Winnipeg Chooses Pro Drain Cleaning Limited for Water Heater Repair and Replacement
                   </h2>
                   <ul className="flex flex-col gap-3">
                     {[
