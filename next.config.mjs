@@ -3,7 +3,7 @@ import { imageHosts } from './image-hosts.config.mjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  trailingSlash: true,
+  trailingSlash: false,
 
   productionBrowserSourceMaps: false,
   distDir: process.env.DIST_DIR || '.next',
@@ -24,7 +24,7 @@ const nextConfig = {
 
   // Target modern evergreen browsers — drops legacy polyfills (FIX 3)
   compiler: {
-    // SWC already targets modern browsers; this ensures no legacy transforms
+    // SWC already targets modern browsers; this ensures no legacy transfalse,
   },
 
   images: {
