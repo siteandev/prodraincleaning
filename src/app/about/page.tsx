@@ -4,7 +4,6 @@ import React, { useState, useRef } from 'react';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Link from 'next/link';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
