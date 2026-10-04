@@ -1,15 +1,17 @@
 'use client';
 
 import React from 'react';
-import * as HeroIcons from '@heroicons/react/24/outline';
-import * as HeroIconsSolid from '@heroicons/react/24/solid';
-import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, HomeIcon, QuestionMarkCircleIcon, SparklesIcon } from '@heroicons/react/24/outline';
 
-type IconVariant = 'outline' | 'solid';
+const ICONS: Record<string, React.ComponentType<any>> = {
+    SparklesIcon,
+    QuestionMarkCircleIcon,
+    ArrowLeftIcon,
+    HomeIcon,
+};
 
 interface IconProps {
     name: string; // Changed to string to accept dynamic values
-    variant?: IconVariant;
     size?: number;
     className?: string;
     onClick?: () => void;
@@ -19,15 +21,13 @@ interface IconProps {
 
 function Icon({
     name,
-    variant = 'outline',
     size = 24,
     className = '',
     onClick,
     disabled = false,
     ...props
 }: IconProps) {
-    const iconSet = variant === 'solid' ? HeroIconsSolid : HeroIcons;
-    const IconComponent = iconSet[name as keyof typeof iconSet] as React.ComponentType<any>;
+    const IconComponent = ICONS[name];
 
     if (!IconComponent) {
         return (
