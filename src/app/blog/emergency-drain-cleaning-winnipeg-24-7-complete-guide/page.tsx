@@ -85,7 +85,7 @@ const faqSchema = {
     url: 'https://prodraincleaning.ca/blog/emergency-drain-cleaning-winnipeg-24-7-complete-guide',
     datePublished: '2026-08-28',
     dateModified: '2026-08-28',
-    author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
+    author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
       name: 'Pro Drain Cleaning Limited',
@@ -245,7 +245,7 @@ export default function EmergencyDrainPillarPost() {
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
-              By <strong>Pro Drain Cleaning Limited</strong> · Published August 28, 2026 · Updated August 28, 2026
+              By <strong>Manpreet Chahal</strong> · Published August 28, 2026 · Updated August 28, 2026
             </p>
 
             {/* Hero image — UPLOAD SLOT 1: swap src in images.config.ts */}

@@ -38,6 +38,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  twitter: { card: 'summary_large_image' },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca'),
   title: 'Pro Drain Cleaning — 24/7 Winnipeg Drain & Sewer',
   description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg, Selkirk & 100km around. Upfront pricing, camera-verified results. Call +1 (204) 399-4413.',

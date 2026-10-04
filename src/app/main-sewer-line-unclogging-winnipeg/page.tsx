@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Blocked main sewer line in Winnipeg? We cut tree roots, hydro jet, camera inspect and locate sewer lines 24/7 across Winnipeg, Selkirk & 100 km. Call +1 (204) 399-4413.',
     url: `${baseUrl}/main-sewer-line-unclogging-winnipeg`,
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: 'https://prodraincleaning.ca/images/og-default.jpg', width: 1200, height: 630 }],
+    images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-main-sewer-line.jpg', width: 1200, height: 630 }],
     locale: 'en_CA',
     type: 'website',
   },
@@ -148,7 +148,7 @@ export default function SewerLineUncloggingPage() {
             />
             <img
               src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=50"
-              alt=""
+              alt="Sewer line being cleared for a blocked main drain in Winnipeg"
               width={1280}
               height={720}
               loading="eager"

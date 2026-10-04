@@ -94,7 +94,7 @@ const pageSchema = {
     url: 'https://prodraincleaning.ca/blog/clogged-toilet-winnipeg-what-to-do',
     datePublished: '2026-08-30',
     dateModified: '2026-08-30',
-    author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
+    author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
       name: 'Pro Drain Cleaning Limited',
@@ -255,7 +255,7 @@ export default function CloggedToiletPost() {
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
-              By <strong>Pro Drain Cleaning Limited</strong> · Published August 30, 2026 · Updated August 30, 2026
+              By <strong>Manpreet Chahal</strong> · Published August 30, 2026 · Updated August 30, 2026
             </p>
 
             {/* Hero image */}

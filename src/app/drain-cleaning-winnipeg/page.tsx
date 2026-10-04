@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7. Snaking, hydro jetting & camera. Call +1 (204) 399-4413.',
     url: `${baseUrl}/drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1c62568f9-1765420266038.jpg", width: 1200, height: 630, alt: 'Drain cleaning service in Winnipeg' }],
+    images: [{ url: "https://prodraincleaning.ca/assets/images/og/og-drain-cleaning-winnipeg.jpg", width: 1200, height: 630, alt: 'Drain cleaning service in Winnipeg' }],
     locale: 'en_CA',
     type: 'website'
   },

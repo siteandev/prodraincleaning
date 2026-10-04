@@ -1693,10 +1693,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         description: post.excerpt,
         datePublished: post.date,
         dateModified: post.updatedDate,
-        author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited', url: baseUrl },
+        author: { '@type': 'Person', name: 'Manpreet Chahal' },
         publisher: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited', url: baseUrl },
         mainEntityOfPage: `${baseUrl}/blog/${slug}`,
-        image: 'https://prodraincleaning.ca/images/og-default.jpg',
+        image: 'https://prodraincleaning.ca/assets/images/og/og-default.jpg',
       },
       {
         '@type': 'BreadcrumbList',
@@ -1745,7 +1745,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
             <h1 className="mb-4">{post.title}</h1>
             <p className="text-sm" style={{ color: 'var(--muted)' }}>
-              By <strong>Pro Drain Cleaning Limited</strong> · Published {new Date(post.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated {new Date(post.updatedDate).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })}
+              By <strong>Manpreet Chahal</strong> · Published {new Date(post.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated {new Date(post.updatedDate).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
           </div>
         </section>

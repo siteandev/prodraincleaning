@@ -7,7 +7,6 @@ import {
   generateWebsiteSchema,
   generateServiceSchema,
   generateWebPageSchema,
-  generateFAQPageSchema,
 } from '@/lib/localServicesSchema';
 
 interface LocalServicesSchemaMarkupProps {
@@ -29,7 +28,6 @@ export default function LocalServicesSchemaMarkup({
   const websiteSchema = generateWebsiteSchema();
   const serviceSchemas = generateServiceSchema();
   const webPageSchema = generateWebPageSchema(pageTitle, pageDescription);
-  const faqPageSchema = generateFAQPageSchema();
 
   return (
     <>
@@ -69,14 +67,6 @@ export default function LocalServicesSchemaMarkup({
         }}
       />
 
-      {/* FAQPage Schema - Answer Engine Optimization */}
-      <script
-        id="schema-faqpage"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqPageSchema),
-        }}
-      />
 
       {/* Service Schemas - Explicit service definitions */}
       {serviceSchemas.map((schema, index) => (

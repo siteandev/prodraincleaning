@@ -87,7 +87,7 @@ const pageSchema = {
     url: 'https://prodraincleaning.ca/blog/water-heater-repair-winnipeg',
     datePublished: '2026-09-10',
     dateModified: '2026-09-10',
-    author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
+    author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
       name: 'Pro Drain Cleaning Limited',
@@ -242,7 +242,7 @@ export default function WaterHeaterRepairPost() {
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
-              By <strong>Pro Drain Cleaning Limited</strong> · Published September 10, 2026 · Updated September 10, 2026
+              By <strong>Manpreet Chahal</strong> · Published September 10, 2026 · Updated September 10, 2026
             </p>
 
             {/* Hero image */}

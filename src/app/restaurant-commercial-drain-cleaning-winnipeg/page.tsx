@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Commercial drain cleaning for Winnipeg restaurants: grease trap lines, floor drains, kitchen & washroom drains, storm drains. Overnight service, maintenance plans. Call +1 (204) 399-4413.',
     url: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: 'https://prodraincleaning.ca/images/og-default.jpg', width: 1200, height: 630 }],
+    images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-restaurant-commercial.jpg', width: 1200, height: 630 }],
     locale: 'en_CA',
     type: 'website',
   },

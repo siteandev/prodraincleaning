@@ -169,6 +169,26 @@ export default function WinnipegLocationPage() {
         </section>
 
         {/* Response Time */}
+        {/* Why Us Local Section */}
+        <section className="section-padding" style={{ backgroundColor: 'var(--white)' }}>
+          <div className="container-wide max-w-3xl">
+            <h2 className="mb-6">Why Winnipeg Homeowners &amp; Businesses Call Pro Drain Cleaning</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              {[
+                { title: '24/7, Answered by a Technician', body: 'Nights, weekends and holidays included. You reach a real technician on the phone or WhatsApp, not an answering service.' },
+                { title: 'Upfront Pricing', body: 'We give you a realistic range on the phone and a flat price in writing on site. You approve the number before any work starts.' },
+                { title: 'Camera Inspections Included', body: 'HD sewer camera inspections show you the actual condition of the line, and you get the footage.' },
+                { title: 'Older Pipes & Commercial Lines', body: 'We service clay and cast-iron sewer lines common in older Winnipeg neighbourhoods, plus restaurant grease lines, floor drains and commercial drainage.' },
+              ].map((item) => (
+                <div key={item.title} className="card p-5">
+                  <h3 className="text-base font-700 mb-2" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>{item.title}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="section-padding" style={{ backgroundColor: 'var(--white)' }}>
           <div className="container-wide max-w-2xl text-center">
             <div className="card p-8" style={{ borderColor: 'var(--orange-600)', borderWidth: '2px' }}>

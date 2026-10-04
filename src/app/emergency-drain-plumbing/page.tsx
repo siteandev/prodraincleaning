@@ -10,6 +10,7 @@ import Footer from '@/components/Footer';
 import MobileActionBar from '@/components/MobileActionBar';
 import ContactForm from '@/components/ContactForm';
 import FAQAccordion from '@/components/FAQAccordion';
+import { emergencyFaqSchema } from '@/lib/pageSchemas';
 import ScrollAnimator from '@/components/ScrollAnimator';
 import type { FAQItem } from '@/components/FAQAccordion';
 import PhoneLink from '@/components/PhoneLink';
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     description: 'Emergency drain cleaning and plumbing in Winnipeg, 24/7. We dispatch immediately.',
     url: `${baseUrl}/emergency-drain-plumbing`,
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: 'https://prodraincleaning.ca/images/og-default.jpg', width: 1200, height: 630 }],
+    images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-emergency-drain-plumbing.jpg', width: 1200, height: 630 }],
     locale: 'en_CA',
     type: 'website'
   },
@@ -78,6 +79,7 @@ export default function EmergencyPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(emergencyFaqSchema) }} />
       <ScrollAnimator />
       <AnnouncementBar />
       <Header />
