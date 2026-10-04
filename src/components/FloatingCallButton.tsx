@@ -179,7 +179,7 @@ export default function FloatingCallButton() {
       >
         <a
           href="tel:+12043994413"
-          aria-label="Call Pro Drain Cleaning Limited now — +1 (204) 399-4413"
+          aria-label="Call Pro Drain Cleaning now — +1 (204) 399-4413"
           className="floating-call-btn"
           onClick={() => { if (typeof (window as any).gtag_report_conversion === 'function') { (window as any).gtag_report_conversion('tel:+12043994413'); } }}
           style={{

@@ -105,7 +105,7 @@ export default function Footer() {
                 Open 24 hours, 7 days a week
               </p>
               <Link
-                href="https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited"
+                href="https://www.google.com/maps/place/Pro+Drain+Cleaning"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm hover:text-white transition-colors"
@@ -201,7 +201,7 @@ export default function Footer() {
               className="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-1"
               style={{ marginBottom: '10px' }}
             >
-              <span>© 2026 Pro Drain Cleaning Limited. All rights reserved.</span>
+              <span>© 2026 Pro Drain Cleaning. All rights reserved.</span>
               <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>
               <span>Winnipeg, Manitoba</span>
               <span className="hidden sm:inline" style={{ color: 'rgba(255,255,255,0.25)' }}>·</span>

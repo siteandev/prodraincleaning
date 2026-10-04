@@ -109,7 +109,7 @@ export default function StNorbertLocationPage() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${PAGE_URL}#webpage`,
-    name: 'Drain Cleaning St. Norbert MB | Pro Drain Cleaning Limited',
+    name: 'Drain Cleaning St. Norbert MB | Pro Drain Cleaning',
     description:
       'Professional drain cleaning, sewer line unclogging, hydro jetting and emergency plumbing in St. Norbert, Winnipeg MB. 24/7 service for residential and septic properties.',
     url: PAGE_URL,
@@ -127,7 +127,7 @@ export default function StNorbertLocationPage() {
       'Professional drain cleaning, hydro jetting, sewer camera inspection, and emergency plumbing for residential and septic properties in St. Norbert, Winnipeg MB.',
     provider: {
       '@type': 'LocalBusiness',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       telephone: '+12043994413',
       url: 'https://prodraincleaning.ca',
     },

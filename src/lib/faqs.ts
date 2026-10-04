@@ -11,7 +11,7 @@ export interface FAQItem {
 export const faqs: FAQItem[] = [
   {
     question: 'What is Pro Drain Cleaning and who is it best for?',
-    answer: 'Pro Drain Cleaning Limited is a 24/7 drain cleaning and emergency plumbing service in Winnipeg, Selkirk, St. Norbert and within 100 km of Winnipeg. We serve homeowners, landlords, restaurants, realtors, builders and property managers who need fast, upfront-priced drain cleaning, sewer line unclogging, hydro jetting and camera inspections. We specialize in drains and sewers only — not a sideline between furnace calls.'
+    answer: 'Pro Drain Cleaning is a 24/7 drain cleaning and emergency plumbing service in Winnipeg, Selkirk, St. Norbert and within 100 km of Winnipeg. We serve homeowners, landlords, restaurants, realtors, builders and property managers who need fast, upfront-priced drain cleaning, sewer line unclogging, hydro jetting and camera inspections. We specialize in drains and sewers only — not a sideline between furnace calls.'
   },
   {
     question: 'What drain and sewer services does Pro Drain Cleaning support?',

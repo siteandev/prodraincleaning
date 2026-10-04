@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: 'Emergency Drain & Plumbing Winnipeg — 24/7 Response',
     description: 'Emergency drain cleaning and plumbing in Winnipeg, 24/7. We dispatch immediately.',
     url: `${baseUrl}/emergency-drain-plumbing`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-emergency-drain-plumbing.jpg', width: 1200, height: 630 }],
     locale: 'en_CA',
     type: 'website'

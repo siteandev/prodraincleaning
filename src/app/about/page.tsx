@@ -91,7 +91,7 @@ export default function AboutPage() {
                 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5"
                 style={{ color: 'var(--brand-900)' }}>
                 
-                Pro Drain Cleaning Limited
+                Pro Drain Cleaning
               </h1>
               <p className="text-lg leading-relaxed" style={{ color: 'var(--muted)' }}>
                 A locally owned drain and sewer specialist serving Winnipeg, Selkirk, St. Norbert, and every community within 100 km — 24 hours a day, 7 days a week. No answering service. No national call centre. A real technician picks up the phone.
@@ -251,7 +251,7 @@ export default function AboutPage() {
 
                     <div className="space-y-4 text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
                       <p>
-                        Manpreet has been clearing drains and sewer lines across Winnipeg for years, from century-old clay pipe in the city&apos;s older neighbourhoods to brand-new construction in Niverville and Steinbach. He started Pro Drain Cleaning Limited on a simple rule: give people an honest price before touching anything, and don&apos;t leave until the job is actually done — not just quieter for a few weeks.
+                        Manpreet has been clearing drains and sewer lines across Winnipeg for years, from century-old clay pipe in the city&apos;s older neighbourhoods to brand-new construction in Niverville and Steinbach. He started Pro Drain Cleaning on a simple rule: give people an honest price before touching anything, and don&apos;t leave until the job is actually done — not just quieter for a few weeks.
                       </p>
                       <p>
                         Manpreet and the team still answer the emergency line personally on most nights, which is why when you call at 2 a.m., you&apos;re usually talking to the person who&apos;ll be standing in your basement an hour later.

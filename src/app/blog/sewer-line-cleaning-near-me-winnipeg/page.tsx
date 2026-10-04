@@ -21,7 +21,7 @@ const tocItems = [
 { id: 'what-determines-cost', label: 'What Determines Cost for Sewer Line Cleaning' },
 { id: 'cleaning-not-repair', label: 'Cleaning Now Does Not Always Mean Repair Later' },
 { id: 'service-areas', label: 'Every Town We Clean Sewer Lines In' },
-{ id: 'why-choose', label: 'Why Winnipeg Trusts Pro Drain Cleaning Limited' },
+{ id: 'why-choose', label: 'Why Winnipeg Trusts Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -91,7 +91,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -298,7 +298,7 @@ export default function SewerLineCleaningNearMePillarPost() {
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
                 Sewer line cleaning near you should mean a specialist who cuts and clears roots, hydro jets the pipe
                 wall back to bare pipe, and camera-verifies the result — not just a cable pushed through until water
-                starts moving again. Pro Drain Cleaning Limited handles main sewer line cleaning across Winnipeg,
+                starts moving again. Pro Drain Cleaning handles main sewer line cleaning across Winnipeg,
                 Selkirk, St. Norbert and every community within 100km, using full-size equipment on every truck. Call
                 or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
@@ -503,7 +503,7 @@ export default function SewerLineCleaningNearMePillarPost() {
 
                 {/* Section: Why choose */}
                 <div id="why-choose" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Why Winnipeg Trusts Pro Drain Cleaning Limited for Sewer Line Work</h2>
+                  <h2 className="mb-4">Why Winnipeg Trusts Pro Drain Cleaning for Sewer Line Work</h2>
                   <ul className="flex flex-col gap-3 mb-6">
                     {[
                     'Full-size root-cutting machines, a hydro jetter and an HD camera on every truck, standard',
@@ -607,7 +607,7 @@ export default function SewerLineCleaningNearMePillarPost() {
                     Blocked drain right now?
                   </h2>
                   <p className="mb-6 leading-relaxed" style={{ color: 'rgba(255,255,255,0.9)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100 km. Call or WhatsApp{' '}
                     <PhoneLink className="font-700 hover:underline" style={{ color: 'white', fontWeight: 700 }}>
                       {PHONE_DISPLAY}

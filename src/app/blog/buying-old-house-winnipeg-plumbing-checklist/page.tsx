@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function BuyingOldHousePlumbingChecklistPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Before closing on an older Winnipeg home, it's worth confirming the pipe material (some older materials are more prone to problems and costlier to insure), checking for any signs of past water damage, and understanding the age and condition of the main sewer line — a standard home inspection doesn't always go deep enough on plumbing specifically. A plumbing-focused second look before you close can catch something a general inspection misses. Pro Drain Cleaning Limited provides plumbing assessments across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                Before closing on an older Winnipeg home, it's worth confirming the pipe material (some older materials are more prone to problems and costlier to insure), checking for any signs of past water damage, and understanding the age and condition of the main sewer line — a standard home inspection doesn't always go deep enough on plumbing specifically. A plumbing-focused second look before you close can catch something a general inspection misses. Pro Drain Cleaning provides plumbing assessments across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -374,7 +374,7 @@ export default function BuyingOldHousePlumbingChecklistPost() {
                     Want the plumbing checked before you close?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited provides pre-purchase plumbing assessments across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning provides pre-purchase plumbing assessments across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -610,7 +610,7 @@ export default function BuyingOldHousePlumbingChecklistPost() {
               Buying an Older Home in Winnipeg?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Want the plumbing checked before you close? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Want the plumbing checked before you close? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

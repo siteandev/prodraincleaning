@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function DoesInsuranceCoverFrozenPipesPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Most Manitoba home insurance policies typically cover sudden, accidental water damage from a frozen pipe that has burst — but coverage can be affected by factors like whether the home was adequately heated, how long it sat vacant, and whether reasonable preventive steps were taken. This is a general pattern, not a guarantee for your specific policy — your insurer or broker is the authoritative source for your actual coverage terms. Pro Drain Cleaning Limited provides the plumbing documentation that supports a frozen pipe claim, across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                Most Manitoba home insurance policies typically cover sudden, accidental water damage from a frozen pipe that has burst — but coverage can be affected by factors like whether the home was adequately heated, how long it sat vacant, and whether reasonable preventive steps were taken. This is a general pattern, not a guarantee for your specific policy — your insurer or broker is the authoritative source for your actual coverage terms. Pro Drain Cleaning provides the plumbing documentation that supports a frozen pipe claim, across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -417,7 +417,7 @@ export default function DoesInsuranceCoverFrozenPipesPost() {
                     Need documentation for your frozen pipe claim?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited thaws frozen pipes and documents the cause 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning thaws frozen pipes and documents the cause 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -662,7 +662,7 @@ export default function DoesInsuranceCoverFrozenPipesPost() {
               Dealing With Frozen Pipe Damage?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Need documentation for your claim? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Need documentation for your claim? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

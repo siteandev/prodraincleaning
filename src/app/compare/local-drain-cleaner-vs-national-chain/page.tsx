@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: 'Are you part of a franchise or national brand?',
-    a: 'No — Pro Drain Cleaning Limited is an independent, Winnipeg-based company.',
+    a: 'No — Pro Drain Cleaning is an independent, Winnipeg-based company.',
   },
   {
     q: 'Will I talk to the actual company doing the work when I call?',
@@ -89,10 +89,10 @@ const pageSchema = {
       url: 'https://prodraincleaning.ca/compare/local-drain-cleaner-vs-national-chain',
       datePublished: '2026-09-10',
       dateModified: '2026-09-10',
-      author: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited' },
+      author: { '@type': 'Organization', name: 'Pro Drain Cleaning' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -255,7 +255,7 @@ export default function LocalDrainCleanerVsNationalChainPage() {
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
-              By <strong>Pro Drain Cleaning Limited</strong> · Published September 10, 2026
+              By <strong>Pro Drain Cleaning</strong> · Published September 10, 2026
             </p>
 
             {/* Hero image */}
@@ -290,7 +290,7 @@ export default function LocalDrainCleanerVsNationalChainPage() {
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
                 Both can do the job — the real differences are how fast dispatch actually works for your specific
                 address, how pricing is structured, and whether you are dealing with someone who lives in and answers
-                for your community directly. Pro Drain Cleaning Limited is Winnipeg-based, serving Selkirk,
+                for your community directly. Pro Drain Cleaning is Winnipeg-based, serving Selkirk,
                 St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
                 <PhoneLink
                   className="font-700 hover:underline"
@@ -429,7 +429,7 @@ export default function LocalDrainCleanerVsNationalChainPage() {
                     Talk directly to the company doing the work
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited answers calls directly — no national call centre, no booking queue.
+                    Pro Drain Cleaning answers calls directly — no national call centre, no booking queue.
                     One call reaches the company actually dispatching to your address, 24 hours a day.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
@@ -480,7 +480,7 @@ export default function LocalDrainCleanerVsNationalChainPage() {
                 <div id="what-local-means" className="scroll-mt-24 mb-12">
                   <h2 className="mb-4">What "Local" Actually Means Here</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited is based in Winnipeg, not a franchise location of a larger national
+                    Pro Drain Cleaning is based in Winnipeg, not a franchise location of a larger national
                     brand. The same business, the same standards, and the same accountability apply whether you are
                     in Winnipeg proper or anywhere in the surrounding 100km — because it is one company, not a
                     network of independently owned locations operating under a shared name.
@@ -733,7 +733,7 @@ export default function LocalDrainCleanerVsNationalChainPage() {
                     Talk directly to the company that will actually do the work.
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">

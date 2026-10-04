@@ -1160,7 +1160,7 @@ Watch the weather when warm days follow heavy snow. Keep an eye on the sump pit 
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'what-not-to-flush': {
     title: '14 Things You Should Never Flush (Including "Flushable" Wipes)',
@@ -1245,7 +1245,7 @@ Stop flushing. Shut the supply valve behind the toilet. If you can see it and re
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'drain-cleaning-selkirk': {
     title: 'Drain Cleaning in Selkirk, MB: Local Problems and Local Fixes',
@@ -1288,7 +1288,7 @@ We cover Selkirk fully, at any hour, as part of our 100 km service area — drai
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'drain-cleaning-st-norbert': {
     title: 'Drain and Sewer Issues in St. Norbert: What the River Does to Your Pipes',
@@ -1331,7 +1331,7 @@ St. Norbert is one of our core service areas — drain cleaning, main sewer line
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'drain-cleaning-steinbach-niverville': {
     title: 'Drain Cleaning in Steinbach and Niverville: New Builds, New Problems',
@@ -1372,7 +1372,7 @@ Both are well inside our 100 km service area, covered at any hour — residentia
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'septic-vs-city-sewer-manitoba': {
     title: 'Septic vs City Sewer in Rural Manitoba: What Changes for Your Drains',
@@ -1415,7 +1415,7 @@ Interior drain lines, the line from the house to the tank, camera inspections, r
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'landlord-drain-maintenance-guide': {
     title: 'A Winnipeg Landlord\'s Guide to Drain Maintenance (and Fewer 2 a.m. Calls)',
@@ -1460,7 +1460,7 @@ Priority scheduling, after-hours coverage so tenant calls don't become your emer
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'hard-water-scale-drains-manitoba': {
     title: 'Hard Water in Manitoba: How Scale Slowly Kills Your Drains',
@@ -1511,7 +1511,7 @@ Jet rather than cable on a line with real scale build-up. Cabling bores through;
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'sewer-line-repair-vs-replacement': {
     title: 'Sewer Line Repair vs Replacement: How to Decide on Sewer Pipe Repair (and What It Costs)',
@@ -1563,7 +1563,7 @@ Sewer line replacement cost ranges enormously with depth, length, access, surfac
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
   'drain-cleaning-mistakes-homeowners-make': {
     title: '11 Drain Cleaning Mistakes Winnipeg Homeowners Make Every Year',
@@ -1628,7 +1628,7 @@ Pay attention to small changes. A drain that's slower than last month. A gurgle 
 
 **Blocked drain right now?**
 
-Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
+Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
 };
 
@@ -1648,7 +1648,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   if (!post) return { title: 'Post Not Found' };
   return {
     metadataBase: new URL(baseUrl),
-    title: `${post.title} | Pro Drain Cleaning Limited`,
+    title: `${post.title} | Pro Drain Cleaning`,
     description: post.excerpt,
     alternates: { canonical: `${baseUrl}/blog/${slug}` },
     openGraph: {
@@ -1694,7 +1694,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         datePublished: post.date,
         dateModified: post.updatedDate,
         author: { '@type': 'Person', name: 'Manpreet Chahal' },
-        publisher: { '@type': 'Organization', name: 'Pro Drain Cleaning Limited', url: baseUrl },
+        publisher: { '@type': 'Organization', name: 'Pro Drain Cleaning', url: baseUrl },
         mainEntityOfPage: `${baseUrl}/blog/${slug}`,
         image: 'https://prodraincleaning.ca/assets/images/og/og-default.jpg',
       },
@@ -1826,7 +1826,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <div className="mt-12 p-8 rounded-xl text-center" style={{ backgroundColor: 'var(--navy-900)' }}>
                   <h2 className="text-white mb-3">Need a Drain or Sewer Specialist?</h2>
                   <p className="mb-6" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                    Pro Drain Cleaning Limited serves Winnipeg, Selkirk, Steinbach, and everywhere within 100 km — 24/7, with upfront pricing before we start.
+                    Pro Drain Cleaning serves Winnipeg, Selkirk, Steinbach, and everywhere within 100 km — 24/7, with upfront pricing before we start.
                   </p>
                   <Link href="tel:+12043994413" className="btn-primary shimmer-btn inline-flex">
                     Call +1 (204) 399-4413 — 24/7

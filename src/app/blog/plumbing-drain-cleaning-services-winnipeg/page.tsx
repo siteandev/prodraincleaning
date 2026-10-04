@@ -15,7 +15,7 @@ const EMAIL = 'prodraincleaningcentre@gmail.com';
 
 const HERO_IMAGE_SRC = '/assets/images/pro-drain-service-van-plumbing-drain-equipment-winnipeg.png';
 const HERO_IMAGE_ALT =
-  'Pro Drain Cleaning Limited service van equipped for plumbing and drain work in Winnipeg';
+  'Pro Drain Cleaning service van equipped for plumbing and drain work in Winnipeg';
 
 const tocItems = [
   { id: 'whats-covered', label: "What\'s Covered Under One Call" },
@@ -102,14 +102,14 @@ const pageSchema = {
       headline:
         'Plumbing & Drain Cleaning Services in Winnipeg — One Call, Both Covered',
       description:
-        'Not sure if you need a plumber or a drain specialist? Pro Drain Cleaning Limited covers both across Winnipeg and every community within 100km. Call +1 (204) 399-4413.',
+        'Not sure if you need a plumber or a drain specialist? Pro Drain Cleaning covers both across Winnipeg and every community within 100km. Call +1 (204) 399-4413.',
       url: 'https://prodraincleaning.ca/blog/plumbing-drain-cleaning-services-winnipeg',
       datePublished: '2026-09-10',
       dateModified: '2026-09-10',
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -287,7 +287,7 @@ export default function PlumbingDrainCleaningServicesPage() {
               style={{ backgroundColor: 'var(--white)', borderLeftColor: 'var(--brand-700)' }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                You don&apos;t need to figure out whether your problem is &ldquo;plumbing&rdquo; or &ldquo;drains&rdquo; before calling &mdash; Pro Drain Cleaning Limited handles both, so one call gets the right person and the right equipment either way. Serving Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
+                You don&apos;t need to figure out whether your problem is &ldquo;plumbing&rdquo; or &ldquo;drains&rdquo; before calling &mdash; Pro Drain Cleaning handles both, so one call gets the right person and the right equipment either way. Serving Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
                 <PhoneLink className="font-700" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -389,7 +389,7 @@ export default function PlumbingDrainCleaningServicesPage() {
                   Not sure if it&apos;s plumbing or drains? One call covers both.
                 </p>
                 <p className="text-white text-sm mb-5 opacity-90">
-                  Pro Drain Cleaning Limited answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
+                  Pro Drain Cleaning answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <PhoneLink
@@ -532,7 +532,7 @@ export default function PlumbingDrainCleaningServicesPage() {
                 style={{ borderColor: 'var(--brand-700)', backgroundColor: 'var(--brand-100)' }}
               >
                 <p className="leading-relaxed mb-5" style={{ color: 'var(--ink)' }}>
-                  Not sure if it&apos;s a plumbing issue or a drain issue? Doesn&apos;t matter &mdash; one call covers both. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
+                  Not sure if it&apos;s a plumbing issue or a drain issue? Doesn&apos;t matter &mdash; one call covers both. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
                   <PhoneLink className="font-700 underline" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                     {PHONE_DISPLAY}
                   </PhoneLink>

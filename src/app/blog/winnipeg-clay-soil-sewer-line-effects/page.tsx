@@ -63,7 +63,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -283,7 +283,7 @@ export default function ClaySoilSewerLinePost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Winnipeg sits on heavy clay soil, largely a result of the Red River Valley's geological history, and clay soil expands when wet and contracts when it dries — a cycle that repeats every year with the seasons. That movement puts real, ongoing stress on a rigid pipe buried in it, which over years can cause joints to shift, sections to crack, or a line to develop a low spot where waste collects instead of flowing through. It's a genuinely regional factor that many homeowners never hear about until a sewer line problem shows up. Pro Drain Cleaning Limited provides sewer camera inspections across Winnipeg and every community within 100km to check the actual condition of your line. Call or WhatsApp{' '}
+                Winnipeg sits on heavy clay soil, largely a result of the Red River Valley's geological history, and clay soil expands when wet and contracts when it dries — a cycle that repeats every year with the seasons. That movement puts real, ongoing stress on a rigid pipe buried in it, which over years can cause joints to shift, sections to crack, or a line to develop a low spot where waste collects instead of flowing through. It's a genuinely regional factor that many homeowners never hear about until a sewer line problem shows up. Pro Drain Cleaning provides sewer camera inspections across Winnipeg and every community within 100km to check the actual condition of your line. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -373,7 +373,7 @@ export default function ClaySoilSewerLinePost() {
                     Want the actual condition of your sewer line confirmed?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited provides camera inspections 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning provides camera inspections 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -626,7 +626,7 @@ export default function ClaySoilSewerLinePost() {
               Noticed Recurring Sewer Line Issues at Your Winnipeg Property?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Get the actual cause confirmed with a camera inspection. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Get the actual cause confirmed with a camera inspection. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function RenovatingOldBathroomPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Before demo day on an older bathroom renovation, it's worth having the plumbing behind the wall assessed — pipe material, any past water damage, and whether the existing layout can support what you're planning. Finding a plumbing surprise mid-renovation is far more disruptive and costly than knowing about it beforehand, when it's still just information rather than a stalled project. Pro Drain Cleaning Limited provides pre-renovation plumbing assessments across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                Before demo day on an older bathroom renovation, it's worth having the plumbing behind the wall assessed — pipe material, any past water damage, and whether the existing layout can support what you're planning. Finding a plumbing surprise mid-renovation is far more disruptive and costly than knowing about it beforehand, when it's still just information rather than a stalled project. Pro Drain Cleaning provides pre-renovation plumbing assessments across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -381,7 +381,7 @@ export default function RenovatingOldBathroomPost() {
                     Planning a bathroom renovation and want it checked first?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited provides pre-renovation plumbing assessments 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning provides pre-renovation plumbing assessments 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -602,7 +602,7 @@ export default function RenovatingOldBathroomPost() {
               Planning an Older Bathroom Renovation in Winnipeg?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Get the plumbing behind the wall checked before demo day. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Get the plumbing behind the wall checked before demo day. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

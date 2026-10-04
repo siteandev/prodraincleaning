@@ -74,7 +74,7 @@ pageUrl: string)
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': `${pageUrl}#business`,
-    name: `Pro Drain Cleaning Limited - ${areaName}`,
+    name: `Pro Drain Cleaning - ${areaName}`,
     url: pageUrl,
     telephone: '+12043994413',
     email: 'prodraincleaningcentre@gmail.com',

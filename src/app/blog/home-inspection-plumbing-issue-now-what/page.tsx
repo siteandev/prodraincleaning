@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function HomeInspectionPlumbingIssuePost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                If your home inspection report flagged a plumbing concern, the next step is getting a plumber's second opinion on the specific issue — what it actually means, whether it's a real concern or a minor note, and what it would genuinely cost to address. Inspection reports are written broadly and cautiously, so a flagged item can range from "worth knowing about" to "needs immediate attention," and it's not always clear which from the report alone. Pro Drain Cleaning Limited provides plumbing assessments across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                If your home inspection report flagged a plumbing concern, the next step is getting a plumber's second opinion on the specific issue — what it actually means, whether it's a real concern or a minor note, and what it would genuinely cost to address. Inspection reports are written broadly and cautiously, so a flagged item can range from "worth knowing about" to "needs immediate attention," and it's not always clear which from the report alone. Pro Drain Cleaning provides plumbing assessments across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -404,7 +404,7 @@ export default function HomeInspectionPlumbingIssuePost() {
                     Need a second opinion before you close?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited provides post-inspection plumbing assessments across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning provides post-inspection plumbing assessments across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -617,7 +617,7 @@ export default function HomeInspectionPlumbingIssuePost() {
               Inspection Report Flagged a Plumbing Concern?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              You need a clear answer before closing. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              You need a clear answer before closing. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

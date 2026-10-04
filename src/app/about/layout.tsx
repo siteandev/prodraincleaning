@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'About Pro Drain Cleaning — Winnipeg Drain Specialists',
     description: 'Licensed, insured, WCB-covered drain specialists. 24/7 emergency service across Winnipeg, Selkirk & St. Norbert.',
     url: `${baseUrl}/about`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_12e011ced-1766887878812.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning team' }],
     locale: 'en_CA',
     type: 'website'

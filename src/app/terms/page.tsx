@@ -11,8 +11,8 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Terms of Service | Pro Drain Cleaning Limited',
-  description: 'Terms of service for Pro Drain Cleaning Limited — service terms, quote validity, guarantee terms, payment, and coupon conditions.',
+  title: 'Terms of Service | Pro Drain Cleaning',
+  description: 'Terms of service for Pro Drain Cleaning — service terms, quote validity, guarantee terms, payment, and coupon conditions.',
   alternates: { canonical: `${baseUrl}/terms` },
   robots: { index: true, follow: true },
 };
@@ -38,7 +38,7 @@ export default function TermsPage() {
           <div className="container-wide max-w-3xl">
             <h1 className="mb-3">Terms of Service</h1>
             <p className="text-sm mb-10" style={{ color: 'var(--muted)' }}>
-              Last updated: August 17, 2026 · Pro Drain Cleaning Limited
+              Last updated: August 17, 2026 · Pro Drain Cleaning
             </p>
 
             <div className="prose-body flex flex-col gap-8">
@@ -46,7 +46,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="mb-3">1. About These Terms</h2>
                 <p>
-                  These terms govern the relationship between Pro Drain Cleaning Limited (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) and customers who request or receive drain cleaning, sewer line, plumbing, or related services (&quot;you&quot;, &quot;the customer&quot;). By requesting a service, submitting a form on this website, or allowing us to perform work on your property, you agree to these terms.
+                  These terms govern the relationship between Pro Drain Cleaning (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) and customers who request or receive drain cleaning, sewer line, plumbing, or related services (&quot;you&quot;, &quot;the customer&quot;). By requesting a service, submitting a form on this website, or allowing us to perform work on your property, you agree to these terms.
                 </p>
                 <p className="mt-3">
                   Questions? Contact us at <Link href="mailto:prodraincleaningcentre@gmail.com" style={{ color: 'var(--orange-600)' }}>prodraincleaningcentre@gmail.com</Link> or <Link href="tel:+12043994413" style={{ color: 'var(--orange-600)' }}>+1 (204) 399-4413</Link>.
@@ -106,7 +106,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="mb-3">6. Coupon and Discount Terms</h2>
                 <ul className="list-disc pl-6 flex flex-col gap-2" style={{ color: 'var(--ink)' }}>
-                  <li>The &quot;Up to 10% Off First Service&quot; offer is available to new customers only — defined as customers who have not previously received a paid service from Pro Drain Cleaning Limited.</li>
+                  <li>The &quot;Up to 10% Off First Service&quot; offer is available to new customers only — defined as customers who have not previously received a paid service from Pro Drain Cleaning.</li>
                   <li>One discount per household or business address.</li>
                   <li>The discount is applied to the invoice at the time of service. It cannot be applied retroactively.</li>
                   <li>Cannot be combined with any other offer, promotion, or discount.</li>
@@ -122,7 +122,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="mb-3">7. Limitation of Liability</h2>
                 <p>
-                  To the maximum extent permitted by applicable law, Pro Drain Cleaning Limited&apos;s liability for any claim arising from our services is limited to the amount paid for the specific service that gave rise to the claim. We are not liable for indirect, consequential, or incidental damages.
+                  To the maximum extent permitted by applicable law, Pro Drain Cleaning&apos;s liability for any claim arising from our services is limited to the amount paid for the specific service that gave rise to the claim. We are not liable for indirect, consequential, or incidental damages.
                 </p>
                 <p className="mt-3">
                   We are not responsible for pre-existing pipe damage, structural defects, or conditions that were not caused by our work. We will inform you of any pre-existing conditions we observe during service.

@@ -115,7 +115,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -291,7 +291,7 @@ export default function BasementFloorDrainPage() {
               style={{ backgroundColor: 'var(--white)', borderLeftColor: 'var(--brand-700)' }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                A clogged basement floor drain is usually caused by a buildup of debris right at the drain, a dry trap letting sewer gas or slow drainage through, or — because it&apos;s often the lowest point in the house — a sign of a bigger main sewer line problem. Pro Drain Cleaning Limited clears basement floor drains across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
+                A clogged basement floor drain is usually caused by a buildup of debris right at the drain, a dry trap letting sewer gas or slow drainage through, or — because it&apos;s often the lowest point in the house — a sign of a bigger main sewer line problem. Pro Drain Cleaning clears basement floor drains across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -435,7 +435,7 @@ export default function BasementFloorDrainPage() {
                   Floor drain backing up or sewer backup in the basement? Get it checked before it becomes a bigger problem.
                 </p>
                 <p className="text-white text-sm mb-5 opacity-90">
-                  Pro Drain Cleaning Limited answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
+                  Pro Drain Cleaning answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <PhoneLink
@@ -570,7 +570,7 @@ export default function BasementFloorDrainPage() {
                 style={{ borderColor: 'var(--brand-700)', backgroundColor: 'var(--brand-100)' }}
               >
                 <p className="leading-relaxed mb-5" style={{ color: 'var(--ink)' }}>
-                  Basement floor drain acting up? Get it checked before it becomes a bigger problem. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
+                  Basement floor drain acting up? Get it checked before it becomes a bigger problem. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
                   <PhoneLink className="font-700 underline" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                     {PHONE_DISPLAY}
                   </PhoneLink>

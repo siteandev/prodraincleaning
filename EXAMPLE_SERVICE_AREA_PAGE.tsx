@@ -15,11 +15,11 @@ const areaName = 'Winnipeg';
 const pageUrl = 'https://prodraincleaning.ca/areas/drain-cleaning-winnipeg';
 
 export const metadata: Metadata = {
-  title: `Drain Cleaning in ${areaName} | Pro Drain Cleaning Limited`,
+  title: `Drain Cleaning in ${areaName} | Pro Drain Cleaning`,
   description: `Professional drain cleaning and emergency plumbing services in ${areaName}. 24/7 availability, upfront pricing, camera-verified results. Call +1 (204) 294-3629.`,
   alternates: { canonical: pageUrl },
   openGraph: {
-    title: `Drain Cleaning in ${areaName} | Pro Drain Cleaning Limited`,
+    title: `Drain Cleaning in ${areaName} | Pro Drain Cleaning`,
     description: `Professional drain cleaning and emergency plumbing services in ${areaName}. 24/7 availability.`,
     url: pageUrl,
     type: 'website',
@@ -54,7 +54,7 @@ export default function ServiceAreaPage() {
         <section>
           <h1>Drain Cleaning in {areaName}</h1>
           <p>
-            Pro Drain Cleaning Limited provides professional drain cleaning and emergency plumbing
+            Pro Drain Cleaning provides professional drain cleaning and emergency plumbing
             services throughout {areaName} and surrounding areas. Available 24/7 for your urgent
             needs.
           </p>

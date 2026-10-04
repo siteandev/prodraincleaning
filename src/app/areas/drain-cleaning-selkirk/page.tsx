@@ -108,7 +108,7 @@ export default function SelkirkLocationPage() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${PAGE_URL}#webpage`,
-    name: 'Drain Cleaning Selkirk MB | Pro Drain Cleaning Limited',
+    name: 'Drain Cleaning Selkirk MB | Pro Drain Cleaning',
     description:
       'Professional drain cleaning, sewer line unclogging, tree root removal, hydro jetting and emergency plumbing in Selkirk, Manitoba. 24/7 service for residential and commercial properties.',
     url: PAGE_URL,
@@ -126,7 +126,7 @@ export default function SelkirkLocationPage() {
       'Professional drain cleaning, tree root removal, hydro jetting, sewer camera inspection, and emergency plumbing for residential and commercial properties in Selkirk, Manitoba.',
     provider: {
       '@type': 'LocalBusiness',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       telephone: '+12043994413',
       url: 'https://prodraincleaning.ca',
     },

@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function ApartmentSharedLineClogsPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                In a multi-unit apartment building, a drain clog that seems to be just yours can actually be a shared main line serving several units — which is why a backup that shows up in your kitchen sink might actually originate from something two floors up, or why clearing your own fixture doesn't fix a problem that keeps coming back. If more than one unit is affected around the same time, it's almost always a shared-line issue, not a coincidence. Pro Drain Cleaning Limited services apartment and multi-unit buildings across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                In a multi-unit apartment building, a drain clog that seems to be just yours can actually be a shared main line serving several units — which is why a backup that shows up in your kitchen sink might actually originate from something two floors up, or why clearing your own fixture doesn't fix a problem that keeps coming back. If more than one unit is affected around the same time, it's almost always a shared-line issue, not a coincidence. Pro Drain Cleaning services apartment and multi-unit buildings across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -413,7 +413,7 @@ export default function ApartmentSharedLineClogsPost() {
                     Drain problem affecting more than one unit?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited services apartment and multi-unit buildings 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning services apartment and multi-unit buildings 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -650,7 +650,7 @@ export default function ApartmentSharedLineClogsPost() {
               Drain Problem Affecting More Than One Unit?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

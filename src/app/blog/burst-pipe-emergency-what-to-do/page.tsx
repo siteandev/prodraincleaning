@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -280,7 +280,7 @@ export default function BurstPipeEmergencyPost() {
                 Act Now — Every Minute Adds to the Damage
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                If a pipe has burst in your home: shut off the main water valve first, then the electricity to any affected area if water is near outlets or fixtures, then call for emergency plumbing help. Every minute the water keeps running adds to the damage — the shutoff comes before anything else, including trying to clean up. Pro Drain Cleaning Limited answers emergency calls 24 hours a day across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                If a pipe has burst in your home: shut off the main water valve first, then the electricity to any affected area if water is near outlets or fixtures, then call for emergency plumbing help. Every minute the water keeps running adds to the damage — the shutoff comes before anything else, including trying to clean up. Pro Drain Cleaning answers emergency calls 24 hours a day across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>{' '}
@@ -411,7 +411,7 @@ export default function BurstPipeEmergencyPost() {
                     Water still running or damage spreading?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Stop reading and call. Pro Drain Cleaning Limited answers burst pipe emergencies 24 hours a day, across Winnipeg and every community within 100km.
+                    Stop reading and call. Pro Drain Cleaning answers burst pipe emergencies 24 hours a day, across Winnipeg and every community within 100km.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -640,7 +640,7 @@ export default function BurstPipeEmergencyPost() {
               Pipe Burst Right Now?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Shut the water off, then call. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Shut the water off, then call. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

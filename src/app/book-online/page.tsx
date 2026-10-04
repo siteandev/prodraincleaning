@@ -321,7 +321,7 @@ export default function BookOnlinePage() {
                           aria-describedby={errors.consent ? 'book-consent-error' : undefined}
                         />
                         <span className="text-sm" style={{ color: 'var(--muted)' }}>
-                          I agree to be contacted by Pro Drain Cleaning Limited by phone or email regarding my service request. See our{' '}
+                          I agree to be contacted by Pro Drain Cleaning by phone or email regarding my service request. See our{' '}
                           <Link href="/privacy-policy" className="underline" style={{ color: 'var(--navy-900)' }}>
                             Privacy Policy
                           </Link>.

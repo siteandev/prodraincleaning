@@ -56,7 +56,7 @@ const faqs = [
   { q: 'Why are Winnipeg drains so prone to root intrusion?', a: 'Winnipeg\'s older neighbourhoods — River Heights, Wolseley, Elmwood, St. Boniface — still run on clay tile sewer pipe laid 40–80 years ago. Mature elms and maples find every hairline joint and grow into a solid mat inside the pipe. Our freeze-thaw cycle opens joints further every year.' },
   { q: 'Do you respond to Winnipeg emergencies at night?', a: 'Yes. We answer 24/7/365 — nights, weekends, statutory holidays and −35°C January mornings. A real technician picks up, not an answering service.' },
   { q: 'What\'s the difference between older and newer Winnipeg neighbourhoods for drains?', a: 'Older areas like River Heights and Wolseley have clay or cast-iron pipe with root and joint issues. Newer areas like Sage Creek, Bridgwater and Waverley West have modern PVC but deal with heavy clay soil settling, construction debris in new lines, and combined sewer capacity during storms.' },
-  { q: 'How do I find reliable drain cleaners near me in Winnipeg?', a: 'When searching for drain cleaning near me or drain cleaning services in Winnipeg, look for a company that offers camera-verified results, upfront pricing and 24/7 availability. Pro Drain Cleaning Limited provides sewer and drain cleaning across every Winnipeg neighbourhood with no hidden fees — call us any time at +1 (204) 399-4413.' },
+  { q: 'How do I find reliable drain cleaners near me in Winnipeg?', a: 'When searching for drain cleaning near me or drain cleaning services in Winnipeg, look for a company that offers camera-verified results, upfront pricing and 24/7 availability. Pro Drain Cleaning provides sewer and drain cleaning across every Winnipeg neighbourhood with no hidden fees — call us any time at +1 (204) 399-4413.' },
 ];
 
 const schema = {
@@ -65,7 +65,7 @@ const schema = {
     {
       '@type': 'LocalBusiness',
       '@id': 'https://prodraincleaning.ca/#business',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       telephone: '+12043994413',
       areaServed: { '@type': 'City', name: 'Winnipeg' },
     },

@@ -102,7 +102,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -325,7 +325,7 @@ export default function FirstTimeHomebuyerTermsPost() {
                 If you're buying your first home, your inspection report or your agent may use plumbing terms that aren't self-explanatory — here are the 10 you're most likely to actually run into, explained in plain language, and why each one matters to a buyer specifically. For the full reference (61 terms), see our{' '}
                 <Link href="/glossary" className="hover:underline font-700" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   complete plumbing glossary
-                </Link>. Pro Drain Cleaning Limited serves first-time buyers across Winnipeg and every community within 100km with plumbing assessments before closing. Call or WhatsApp{' '}
+                </Link>. Pro Drain Cleaning serves first-time buyers across Winnipeg and every community within 100km with plumbing assessments before closing. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -390,7 +390,7 @@ export default function FirstTimeHomebuyerTermsPost() {
                     Want a plumber to walk you through your inspection report?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited supports first-time buyers 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning supports first-time buyers 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -603,7 +603,7 @@ export default function FirstTimeHomebuyerTermsPost() {
               Buying Your First Home in Winnipeg?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Want a plumbing expert to walk you through what you're looking at? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Want a plumbing expert to walk you through what you're looking at? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

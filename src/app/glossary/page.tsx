@@ -112,11 +112,11 @@ const definedTermSetSchema = {
   '@type': 'DefinedTermSet',
   '@id': `${SITE}/glossary#termset`,
   name: 'Drain & Sewer Terms Explained',
-  description: 'Plain-language definitions of drain, sewer and plumbing terms — from auger to weeping tile. A homeowner\'s glossary from Pro Drain Cleaning Limited, Winnipeg.',
+  description: 'Plain-language definitions of drain, sewer and plumbing terms — from auger to weeping tile. A homeowner\'s glossary from Pro Drain Cleaning, Winnipeg.',
   url: `${SITE}/glossary`,
   publisher: {
     '@type': 'Organization',
-    name: 'Pro Drain Cleaning Limited',
+    name: 'Pro Drain Cleaning',
     url: SITE,
   },
   hasPart: glossaryTerms.map((t) => ({

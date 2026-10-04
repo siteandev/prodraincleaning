@@ -21,7 +21,7 @@ const tocItems = [
 { id: 'something-bigger', label: 'When a "Clogged Drain" Is Actually Something Bigger' },
 { id: 'call-specialist', label: 'When to Stop Trying and Call a Specialist' },
 { id: 'service-areas', label: 'Every Town We Clear Clogged Drains In' },
-{ id: 'why-choose', label: 'Why Winnipeg Calls Pro Drain Cleaning Limited' },
+{ id: 'why-choose', label: 'Why Winnipeg Calls Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -139,7 +139,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -354,7 +354,7 @@ export default function CloggedDrainWhatToDoPost() {
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>
-                ; that's a main line problem, not a single clogged drain. Pro Drain Cleaning Limited clears any clogged
+                ; that's a main line problem, not a single clogged drain. Pro Drain Cleaning clears any clogged
                 drain across Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7.
               </p>
             </div>
@@ -574,7 +574,7 @@ export default function CloggedDrainWhatToDoPost() {
 
                 {/* Section: Why choose */}
                 <div id="why-choose" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Why Winnipeg Calls Pro Drain Cleaning Limited for a Clogged Drain</h2>
+                  <h2 className="mb-4">Why Winnipeg Calls Pro Drain Cleaning for a Clogged Drain</h2>
                   <ul className="flex flex-col gap-3 mb-6">
                     {[
                     'Correctly diagnosed before we quote — we tell you if it\'s a simple clog or something bigger',
@@ -678,7 +678,7 @@ export default function CloggedDrainWhatToDoPost() {
                     Blocked drain right now?
                   </h2>
                   <p className="mb-6 leading-relaxed" style={{ color: 'rgba(255,255,255,0.9)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100 km. Call or WhatsApp{' '}
                     <strong>{PHONE_DISPLAY}</strong>, or email{' '}
                     <strong>{EMAIL}</strong>. Upfront pricing before we start — always.

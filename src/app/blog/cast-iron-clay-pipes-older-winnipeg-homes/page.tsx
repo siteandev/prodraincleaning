@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function CastIronClayPipesPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Many older Winnipeg homes — especially in the city's established, pre-1960s neighbourhoods — were built with cast iron drain lines inside the house and clay pipe for the sewer line running out to the municipal connection. Both materials age very differently than the modern materials used today, and both can develop problems that aren't visible from inside the house. A camera inspection is the only reliable way to see the actual condition of either without digging or opening a wall. Pro Drain Cleaning Limited provides camera inspections across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                Many older Winnipeg homes — especially in the city's established, pre-1960s neighbourhoods — were built with cast iron drain lines inside the house and clay pipe for the sewer line running out to the municipal connection. Both materials age very differently than the modern materials used today, and both can develop problems that aren't visible from inside the house. A camera inspection is the only reliable way to see the actual condition of either without digging or opening a wall. Pro Drain Cleaning provides camera inspections across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -430,7 +430,7 @@ export default function CastIronClayPipesPost() {
                     Want the actual condition of your older pipes confirmed?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited provides camera inspections 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning provides camera inspections 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -659,7 +659,7 @@ export default function CastIronClayPipesPost() {
               Own an Older Winnipeg Home?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Want to know the real condition of your pipes? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Want to know the real condition of your pipes? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

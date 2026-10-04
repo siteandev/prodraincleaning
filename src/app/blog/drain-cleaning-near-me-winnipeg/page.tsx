@@ -20,7 +20,7 @@ const tocItems = [
 { id: 'snaking-or-jetting', label: 'Snaking or Jetting — Which One Actually Clears It' },
 { id: 'response-time', label: 'What Changes How Fast "Near Me" Actually Is' },
 { id: 'service-areas', label: 'Every Town We Answer Drain Cleaning Calls In' },
-{ id: 'why-choose', label: 'Why Winnipeg Chooses Pro Drain Cleaning Limited' },
+{ id: 'why-choose', label: 'Why Winnipeg Chooses Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -106,7 +106,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -309,7 +309,7 @@ export default function DrainCleaningNearMePillarPost() {
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
                 "Drain cleaning near me" should get you a local specialist who answers immediately, tells you honestly
                 which service your specific drain needs, and shows up with the right equipment the first time. Pro Drain
-                Cleaning Limited clears kitchen sinks, bathroom sinks, tubs, showers, toilets, floor drains, laundry
+                Cleaning clears kitchen sinks, bathroom sinks, tubs, showers, toilets, floor drains, laundry
                 lines and main sewer lines — using snaking, hydro jetting or camera inspection depending on what's
                 actually wrong — across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or
                 WhatsApp{' '}
@@ -479,7 +479,7 @@ export default function DrainCleaningNearMePillarPost() {
 
                 {/* Section: Why choose */}
                 <div id="why-choose" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Why Winnipeg Chooses Pro Drain Cleaning Limited for Drain Cleaning</h2>
+                  <h2 className="mb-4">Why Winnipeg Chooses Pro Drain Cleaning for Drain Cleaning</h2>
                   <ul className="flex flex-col gap-3 mb-6">
                     {[
                     'Drains and sewers are all we do — not a sideline between other jobs',
@@ -584,7 +584,7 @@ export default function DrainCleaningNearMePillarPost() {
                     Blocked drain right now?
                   </h2>
                   <p className="mb-6 leading-relaxed" style={{ color: 'rgba(255,255,255,0.9)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100 km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">

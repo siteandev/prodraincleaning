@@ -11,8 +11,8 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Privacy Policy | Pro Drain Cleaning Limited',
-  description: 'Privacy policy for Pro Drain Cleaning Limited. Learn how we collect, use, and protect your personal information in compliance with PIPEDA.',
+  title: 'Privacy Policy | Pro Drain Cleaning',
+  description: 'Privacy policy for Pro Drain Cleaning. Learn how we collect, use, and protect your personal information in compliance with PIPEDA.',
   alternates: { canonical: `${baseUrl}/privacy-policy` },
   robots: { index: true, follow: true },
 };
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
           <div className="container-wide max-w-3xl">
             <h1 className="mb-3">Privacy Policy</h1>
             <p className="text-sm mb-10" style={{ color: 'var(--muted)' }}>
-              Last updated: August 17, 2026 · Pro Drain Cleaning Limited
+              Last updated: August 17, 2026 · Pro Drain Cleaning
             </p>
 
             <div className="prose-body flex flex-col gap-8">
@@ -46,7 +46,7 @@ export default function PrivacyPolicyPage() {
               <section>
                 <h2 className="mb-3">1. Who We Are</h2>
                 <p>
-                  Pro Drain Cleaning Limited (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) operates the website at <Link href="https://prodraincleaning.ca" style={{ color: 'var(--orange-600)' }}>prodraincleaning.ca</Link> and provides drain cleaning, sewer line, and plumbing services in Winnipeg, Manitoba and within 100 km of Winnipeg.
+                  Pro Drain Cleaning (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) operates the website at <Link href="https://prodraincleaning.ca" style={{ color: 'var(--orange-600)' }}>prodraincleaning.ca</Link> and provides drain cleaning, sewer line, and plumbing services in Winnipeg, Manitoba and within 100 km of Winnipeg.
                 </p>
                 <p className="mt-3">
                   For privacy questions or requests, contact us at: <Link href="mailto:prodraincleaningcentre@gmail.com" style={{ color: 'var(--orange-600)' }}>prodraincleaningcentre@gmail.com</Link> or call <Link href="tel:+12043994413" style={{ color: 'var(--orange-600)' }}>+1 (204) 399-4413</Link>.
@@ -151,7 +151,7 @@ export default function PrivacyPolicyPage() {
                 <div className="mt-3 flex flex-col gap-2">
                   <p>Email: <Link href="mailto:prodraincleaningcentre@gmail.com" style={{ color: 'var(--orange-600)' }}>prodraincleaningcentre@gmail.com</Link></p>
                   <p>Phone: <Link href="tel:+12043994413" style={{ color: 'var(--orange-600)' }}>+1 (204) 399-4413</Link></p>
-                  <p>Business: Pro Drain Cleaning Limited, Winnipeg, Manitoba, Canada</p>
+                  <p>Business: Pro Drain Cleaning, Winnipeg, Manitoba, Canada</p>
                 </div>
               </section>
 

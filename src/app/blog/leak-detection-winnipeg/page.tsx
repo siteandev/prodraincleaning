@@ -22,7 +22,7 @@ const tocItems = [
 { id: 'why-early', label: 'Why Finding It Early Actually Matters' },
 { id: 'cost', label: 'What Determines the Cost of Leak Detection' },
 { id: 'service-areas', label: 'Every Town We Provide Leak Detection In' },
-{ id: 'why-trust', label: 'Why Winnipeg Chooses Pro Drain Cleaning Limited' },
+{ id: 'why-trust', label: 'Why Winnipeg Chooses Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -93,7 +93,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -260,7 +260,7 @@ export default function LeakDetectionPost() {
               style={{ backgroundColor: 'var(--brand-100)', border: '2px solid var(--brand-500)' }}>
               
               <p className="text-base leading-relaxed" style={{ color: 'var(--navy-900)' }}>
-                A hidden leak usually announces itself through a rising water bill, a damp or discoloured patch with no obvious cause, or a musty smell — not through visible dripping water, which is why professional leak detection exists. Pro Drain Cleaning Limited locates hidden leaks across Winnipeg, Selkirk, St. Norbert and every community within 100km using acoustic and moisture-detection equipment, without tearing open walls or floors to go looking.{' '}
+                A hidden leak usually announces itself through a rising water bill, a damp or discoloured patch with no obvious cause, or a musty smell — not through visible dripping water, which is why professional leak detection exists. Pro Drain Cleaning locates hidden leaks across Winnipeg, Selkirk, St. Norbert and every community within 100km using acoustic and moisture-detection equipment, without tearing open walls or floors to go looking.{' '}
                 <PhoneLink style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
                   Call or WhatsApp {PHONE_DISPLAY}.
                 </PhoneLink>
@@ -485,7 +485,7 @@ export default function LeakDetectionPost() {
                 {/* Why trust */}
                 <div id="why-trust" className="mb-10">
                   <h2 className="text-2xl mb-5" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>
-                    Why Winnipeg Chooses Pro Drain Cleaning Limited for Leak Detection
+                    Why Winnipeg Chooses Pro Drain Cleaning for Leak Detection
                   </h2>
                   <ul className="flex flex-col gap-3">
                     {[
@@ -581,7 +581,7 @@ export default function LeakDetectionPost() {
                   style={{ backgroundColor: 'var(--brand-900)', color: 'white' }}>
                   
                   <p className="text-lg leading-relaxed mb-4">
-                    Suspect a hidden leak? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km.
+                    Suspect a hidden leak? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <PhoneLink

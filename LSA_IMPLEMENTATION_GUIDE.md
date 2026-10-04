@@ -82,7 +82,7 @@ This implementation adds comprehensive structured data markup for Local Services
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Pro Drain Cleaning Limited",
+  "name": "Pro Drain Cleaning",
   "telephone": "+12042943629",
   "areaServed": {
     "@type": "GeoShape",

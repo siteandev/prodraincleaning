@@ -11,12 +11,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Compare Drain & Plumbing Options | Pro Drain Cleaning Limited — Winnipeg',
+  title: 'Compare Drain & Plumbing Options | Pro Drain Cleaning — Winnipeg',
   description:
-    'Side-by-side comparisons to help you make an informed decision about drain cleaning, plumbing, and sewer services in Winnipeg. Pro Drain Cleaning Limited.',
+    'Side-by-side comparisons to help you make an informed decision about drain cleaning, plumbing, and sewer services in Winnipeg. Pro Drain Cleaning.',
   alternates: { canonical: `${baseUrl}/compare` },
   openGraph: {
-    title: 'Compare Drain & Plumbing Options | Pro Drain Cleaning Limited — Winnipeg',
+    title: 'Compare Drain & Plumbing Options | Pro Drain Cleaning — Winnipeg',
     description:
       'Side-by-side comparisons to help you make an informed decision about drain cleaning, plumbing, and sewer services in Winnipeg.',
     url: `${baseUrl}/compare`,

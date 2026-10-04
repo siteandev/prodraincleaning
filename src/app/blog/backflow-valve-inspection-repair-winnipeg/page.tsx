@@ -99,7 +99,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -275,7 +275,7 @@ export default function BackflowValveInspectionPage() {
               style={{ backgroundColor: 'var(--white)', borderLeftColor: 'var(--brand-700)' }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                A backflow (backwater) valve is a one-way gate on your sewer line that stops municipal sewage from pushing back into your basement during heavy rain or rapid spring melt — and like any mechanical part, it needs to actually work when called on. Pro Drain Cleaning Limited inspects, tests, and repairs backwater valves across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
+                A backflow (backwater) valve is a one-way gate on your sewer line that stops municipal sewage from pushing back into your basement during heavy rain or rapid spring melt — and like any mechanical part, it needs to actually work when called on. Pro Drain Cleaning inspects, tests, and repairs backwater valves across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -382,7 +382,7 @@ export default function BackflowValveInspectionPage() {
                   Not sure your backwater valve would actually work when you need it?
                 </p>
                 <p className="text-white text-sm mb-5 opacity-90">
-                  Pro Drain Cleaning Limited answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
+                  Pro Drain Cleaning answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <PhoneLink
@@ -524,7 +524,7 @@ export default function BackflowValveInspectionPage() {
                 style={{ borderColor: 'var(--brand-700)', backgroundColor: 'var(--brand-100)' }}
               >
                 <p className="leading-relaxed mb-5" style={{ color: 'var(--ink)' }}>
-                  Not sure your backwater valve would actually work when you need it? Get it checked. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
+                  Not sure your backwater valve would actually work when you need it? Get it checked. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
                   <PhoneLink className="font-700 underline" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                     {PHONE_DISPLAY}
                   </PhoneLink>

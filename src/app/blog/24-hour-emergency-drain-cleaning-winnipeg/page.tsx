@@ -67,7 +67,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -257,7 +257,7 @@ export default function TwentyFourHourEmergencyDrainPage() {
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>{' '}
-                right now. Pro Drain Cleaning Limited dispatches across Winnipeg, Selkirk, St. Norbert and every
+                right now. Pro Drain Cleaning dispatches across Winnipeg, Selkirk, St. Norbert and every
                 community within 100km, day or night.
               </p>
             </div>
@@ -399,7 +399,7 @@ export default function TwentyFourHourEmergencyDrainPage() {
                     Drain backed up right now?
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Do not wait it out. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week. A real person
+                    Do not wait it out. Pro Drain Cleaning answers 24 hours a day, 7 days a week. A real person
                     picks up — not a machine, not an answering service.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
@@ -647,7 +647,7 @@ export default function TwentyFourHourEmergencyDrainPage() {
                     Drain backed up right now? Don't wait it out.
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">

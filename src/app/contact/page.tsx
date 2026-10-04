@@ -16,13 +16,13 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'Contact Pro Drain Cleaning — Winnipeg, 24/7',
-  description: 'Contact Pro Drain Cleaning Limited in Winnipeg. Call, WhatsApp or email 24/7. Drain cleaning, sewer line unclogging, emergency plumbing. +1 (204) 399-4413.',
+  description: 'Contact Pro Drain Cleaning in Winnipeg. Call, WhatsApp or email 24/7. Drain cleaning, sewer line unclogging, emergency plumbing. +1 (204) 399-4413.',
   alternates: { canonical: `${baseUrl}/contact` },
   openGraph: {
     title: 'Contact Pro Drain Cleaning — Winnipeg, 24/7',
     description: 'Call, WhatsApp or email 24/7. Drain cleaning, sewer line unclogging, emergency plumbing in Winnipeg.',
     url: `${baseUrl}/contact`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1c62568f9-1765420266038.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning contact' }],
     locale: 'en_CA',
     type: 'website'

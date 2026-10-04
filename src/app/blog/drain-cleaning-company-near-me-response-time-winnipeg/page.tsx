@@ -15,7 +15,7 @@ const EMAIL = 'prodraincleaningcentre@gmail.com';
 
 const HERO_IMAGE_SRC = '/assets/images/pro-drain-service-van-driving-winnipeg-street-motion.png';
 const HERO_IMAGE_ALT =
-  'Pro Drain Cleaning Limited service van en route in Winnipeg';
+  'Pro Drain Cleaning service van en route in Winnipeg';
 
 const tocItems = [
   { id: 'what-determines-response-time', label: 'What Actually Determines Response Time' },
@@ -88,7 +88,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -289,7 +289,7 @@ export default function DrainCleaningNearMeResponseTimePage() {
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
                 "Near me" matters for a drain problem because a company actually local to your area gets to you faster
                 than a call centre dispatching from across the city or routing through a national booking system. Pro
-                Drain Cleaning Limited is based in Winnipeg and covers Selkirk, St. Norbert and every community
+                Drain Cleaning is based in Winnipeg and covers Selkirk, St. Norbert and every community
                 within 100km directly — no dispatch layer in between. Call or WhatsApp{' '}
                 <PhoneLink
                   className="font-700 hover:underline"
@@ -408,7 +408,7 @@ export default function DrainCleaningNearMeResponseTimePage() {
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
                     Call or WhatsApp now — a live person answers, gives you a realistic time estimate for your
-                    location, and dispatches directly. No call centre, no callback queue. Pro Drain Cleaning Limited
+                    location, and dispatches directly. No call centre, no callback queue. Pro Drain Cleaning
                     answers 24/7.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
@@ -690,7 +690,7 @@ export default function DrainCleaningNearMeResponseTimePage() {
                     Want a real answer on how fast we can get to you? Ask us directly.
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">

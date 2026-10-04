@@ -20,7 +20,7 @@ const tocItems = [
 { id: 'common-emergencies', label: 'Common Plumbing Emergencies We Handle' },
 { id: 'drain-vs-plumbing', label: 'When It Is Actually a Drain Emergency, Not a Plumbing One' },
 { id: 'service-areas', label: 'Every Town We Answer Emergency Plumbing Calls In' },
-{ id: 'why-trust', label: 'Why Winnipeg Calls Pro Drain Cleaning Limited' },
+{ id: 'why-trust', label: 'Why Winnipeg Calls Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -66,7 +66,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -286,7 +286,7 @@ export default function EmergencyPlumberPillarPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                A real plumbing emergency is anything that is actively damaging your home, leaving you without water, or putting anyone's safety at risk right now — a burst pipe, a water heater dumping water onto your floor, no water anywhere in the house, a frozen pipe about to split, or the smell of gas. As your 24 hour plumber, Pro Drain Cleaning Limited answers plumbing emergencies live — including emergency sewer backups — 24 hours a day, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
+                A real plumbing emergency is anything that is actively damaging your home, leaving you without water, or putting anyone's safety at risk right now — a burst pipe, a water heater dumping water onto your floor, no water anywhere in the house, a frozen pipe about to split, or the smell of gas. As your 24 hour plumber, Pro Drain Cleaning answers plumbing emergencies live — including emergency sewer backups — 24 hours a day, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>{' '}
@@ -623,7 +623,7 @@ export default function EmergencyPlumberPillarPost() {
 
                 {/* Section: Why Trust */}
                 <div id="why-trust" className="scroll-mt-24 mt-12">
-                  <h2 className="mb-4">Why Winnipeg Calls Pro Drain Cleaning Limited for Plumbing Emergencies</h2>
+                  <h2 className="mb-4">Why Winnipeg Calls Pro Drain Cleaning for Plumbing Emergencies</h2>
                   <ul className="flex flex-col gap-3 mb-6">
                     {[
                     'A real person answers, 24/7 — no answering service, no callback queue',
@@ -811,7 +811,7 @@ export default function EmergencyPlumberPillarPost() {
               Plumbing Emergency Right Now?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Your 24 hour plumber — Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Your 24 hour plumber — Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

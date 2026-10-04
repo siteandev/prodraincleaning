@@ -90,7 +90,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -267,7 +267,7 @@ export default function WaterHeaterRepairPost() {
               style={{ backgroundColor: 'var(--brand-100)', border: '2px solid var(--brand-500)' }}>
               
               <p className="text-base leading-relaxed" style={{ color: 'var(--navy-900)' }}>
-                Most water heater problems — no hot water, lukewarm water, strange noises, minor leaks at a fitting — are repairable, and repair is worth ruling out before jumping to replacement. Pro Drain Cleaning Limited diagnoses and repairs water heaters across Winnipeg, Selkirk, St. Norbert and every community within 100km, and we&apos;ll tell you honestly if repair isn&apos;t the right call.{' '}
+                Most water heater problems — no hot water, lukewarm water, strange noises, minor leaks at a fitting — are repairable, and repair is worth ruling out before jumping to replacement. Pro Drain Cleaning diagnoses and repairs water heaters across Winnipeg, Selkirk, St. Norbert and every community within 100km, and we&apos;ll tell you honestly if repair isn&apos;t the right call.{' '}
                 <PhoneLink style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
                   Call or WhatsApp {PHONE_DISPLAY}.
                 </PhoneLink>
@@ -381,7 +381,7 @@ export default function WaterHeaterRepairPost() {
                     Not sure if yours needs repair or replacement?
                   </h3>
                   <p className="text-sm leading-relaxed mb-4" style={{ color: 'rgba(255,255,255,0.9)' }}>
-                    Pro Drain Cleaning Limited gives you an honest diagnosis before recommending anything. Call or WhatsApp {PHONE_DISPLAY} — answered 24/7.
+                    Pro Drain Cleaning gives you an honest diagnosis before recommending anything. Call or WhatsApp {PHONE_DISPLAY} — answered 24/7.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -571,7 +571,7 @@ export default function WaterHeaterRepairPost() {
                   style={{ backgroundColor: 'var(--brand-900)', color: 'white' }}>
                   
                   <p className="text-lg leading-relaxed mb-4">
-                    No hot water, or something not right with your water heater? Find out if it&apos;s a simple fix before assuming the worst. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Upfront pricing before we start — always.
+                    No hot water, or something not right with your water heater? Find out if it&apos;s a simple fix before assuming the worst. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center mb-4">
                     <PhoneLink

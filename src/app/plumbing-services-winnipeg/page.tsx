@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7. Call +1 (204) 399-4413.',
     url: `${baseUrl}/plumbing-services-winnipeg`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [
       {
         url: 'https://prodraincleaning.ca/assets/images/og/og-plumbing-services.jpg',
@@ -330,7 +330,7 @@ export default function PlumbingServicesWinnipegPage() {
               Clearing drains is what we&apos;re known for, but a blocked line is often a symptom
               of something else — a failed sump pump, a leaking supply line, a toilet that&apos;s
               been running since March, or a section of pipe that froze last February and never
-              fully recovered. Pro Drain Cleaning Limited handles the plumbing repairs and
+              fully recovered. Pro Drain Cleaning handles the plumbing repairs and
               installations that go with the drains: faucets, toilets, garbage disposals, leak
               detection, pipe and water line repair, sump pumps, backwater valves, new drain
               installation and frozen pipe thawing.

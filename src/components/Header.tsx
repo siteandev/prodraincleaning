@@ -161,7 +161,7 @@ export default function Header() {
         <Link
           href="/"
           className="flex items-center gap-2 flex-shrink-0"
-          aria-label="Pro Drain Cleaning Limited — Home"
+          aria-label="Pro Drain Cleaning — Home"
           style={isHome ? {} : { marginLeft: 0 }}
         >
           <AppLogo size={36} />

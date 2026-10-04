@@ -78,7 +78,7 @@ const schema = {
     {
       '@type': 'LocalBusiness',
       '@id': 'https://prodraincleaning.ca/#business',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       telephone: '+12043994413',
       areaServed: { '@type': 'City', name: 'Steinbach' },
     },

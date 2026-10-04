@@ -14,7 +14,7 @@ const PHONE_WA = 'https://wa.me/12043994413';
 const EMAIL = 'prodraincleaningcentre@gmail.com';
 
 const HERO_IMAGE_SRC = '/assets/images/pro-drain-service-vehicle.png';
-const HERO_IMAGE_ALT = 'Pro Drain Cleaning Limited technician providing drain cleaning service in Winnipeg';
+const HERO_IMAGE_ALT = 'Pro Drain Cleaning technician providing drain cleaning service in Winnipeg';
 
 const tocItems = [
   { id: 'what-a-drain-cleaning-service-includes', label: "What a Drain Cleaning Service Actually Includes" },
@@ -102,7 +102,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -290,7 +290,7 @@ export default function DrainCleaningServiceWinnipegPage() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                A drain cleaning service from Pro Drain Cleaning Limited covers the full job — diagnosis, the right
+                A drain cleaning service from Pro Drain Cleaning covers the full job — diagnosis, the right
                 clearing method for what is actually found, upfront pricing before any work starts, and confirmation
                 the line is clear before we leave. Serving Winnipeg, Selkirk, St. Norbert and every community within
                 100km, 24/7. Call or WhatsApp{' '}
@@ -616,7 +616,7 @@ export default function DrainCleaningServiceWinnipegPage() {
               Need a drain cleaning service in Winnipeg or surrounding areas?
             </h2>
             <p className="mb-8 opacity-90 leading-relaxed">
-              Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert
+              Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert
               and every community within 100km. Call or WhatsApp{' '}
               <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-500)', fontWeight: 700 }}>
                 {PHONE_DISPLAY}

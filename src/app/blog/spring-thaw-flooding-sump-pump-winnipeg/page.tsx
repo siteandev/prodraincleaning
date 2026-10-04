@@ -62,7 +62,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function SpringThawSumpPumpPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Manitoba's spring thaw sends a sudden, sustained volume of meltwater into the ground around your foundation — exactly the kind of load a sump pump is built for, but only if it's actually working before the melt starts. A quick test before the season begins (not after the first heavy melt) is the difference between a non-event and a flooded basement. Pro Drain Cleaning Limited checks and services sump pumps across Winnipeg and every community within 100km before the thaw arrives. Call or WhatsApp{' '}
+                Manitoba's spring thaw sends a sudden, sustained volume of meltwater into the ground around your foundation — exactly the kind of load a sump pump is built for, but only if it's actually working before the melt starts. A quick test before the season begins (not after the first heavy melt) is the difference between a non-event and a flooded basement. Pro Drain Cleaning checks and services sump pumps across Winnipeg and every community within 100km before the thaw arrives. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -415,7 +415,7 @@ export default function SpringThawSumpPumpPost() {
                     Want your sump pump checked before spring thaw hits?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited checks and services sump pumps 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning checks and services sump pumps 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -644,7 +644,7 @@ export default function SpringThawSumpPumpPost() {
               Want Your Sump Pump Checked Before Spring Thaw Hits?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

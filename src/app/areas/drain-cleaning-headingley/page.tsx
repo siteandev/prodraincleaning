@@ -102,7 +102,7 @@ export default function HeadingleyLocationPage() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${PAGE_URL}#webpage`,
-    name: 'Drain Cleaning Headingley MB | Pro Drain Cleaning Limited',
+    name: 'Drain Cleaning Headingley MB | Pro Drain Cleaning',
     description:
       'Professional drain cleaning, septic line service, iron scale removal, hydro jetting and emergency plumbing for acreage and rural residential properties in Headingley, Manitoba. 24/7 service.',
     url: PAGE_URL,
@@ -124,7 +124,7 @@ export default function HeadingleyLocationPage() {
       'Professional drain cleaning, septic system drain line service, iron scale removal, hydro jetting, sewer camera inspection, and emergency plumbing for acreage and rural residential properties in Headingley, Manitoba.',
     provider: {
       '@type': 'LocalBusiness',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       telephone: '+12043994413',
       url: 'https://prodraincleaning.ca',
     },

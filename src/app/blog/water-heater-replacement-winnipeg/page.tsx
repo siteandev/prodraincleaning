@@ -22,7 +22,7 @@ const tocItems = [
 { id: 'cost-factors', label: 'What Actually Determines the Cost of Hot Water Tank Replacement' },
 { id: 'winnipeg-specific', label: 'Why This Matters More in Winnipeg Specifically' },
 { id: 'service-areas', label: 'Every Town We Handle Water Heater Work In' },
-{ id: 'why-trust', label: 'Why Winnipeg Chooses Pro Drain Cleaning Limited' },
+{ id: 'why-trust', label: 'Why Winnipeg Chooses Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -97,7 +97,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -264,7 +264,7 @@ export default function WaterHeaterReplacementPost() {
               style={{ backgroundColor: 'var(--brand-100)', border: '2px solid var(--brand-500)' }}>
               
               <p className="text-base leading-relaxed" style={{ color: 'var(--navy-900)' }}>
-                Most hot water tanks last 8 to 12 years, and the clearest signs it&apos;s time to replace rather than repair one are its age, rusty or discoloured hot water, a tank that&apos;s actively leaking, or a unit that can no longer keep up with the household&apos;s hot water demand. Pro Drain Cleaning Limited handles water heater repair and hot water tank replacement across Winnipeg, Selkirk, St. Norbert and every community within 100km, with an honest answer on repair versus replacement before any work starts.{' '}
+                Most hot water tanks last 8 to 12 years, and the clearest signs it&apos;s time to replace rather than repair one are its age, rusty or discoloured hot water, a tank that&apos;s actively leaking, or a unit that can no longer keep up with the household&apos;s hot water demand. Pro Drain Cleaning handles water heater repair and hot water tank replacement across Winnipeg, Selkirk, St. Norbert and every community within 100km, with an honest answer on repair versus replacement before any work starts.{' '}
                 <PhoneLink style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
                   Call or WhatsApp {PHONE_DISPLAY}.
                 </PhoneLink>
@@ -459,7 +459,7 @@ export default function WaterHeaterReplacementPost() {
                 {/* Why trust */}
                 <div id="why-trust" className="mb-10">
                   <h2 className="text-2xl mb-5" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>
-                    Why Winnipeg Chooses Pro Drain Cleaning Limited for Water Heater Repair and Replacement
+                    Why Winnipeg Chooses Pro Drain Cleaning for Water Heater Repair and Replacement
                   </h2>
                   <ul className="flex flex-col gap-3">
                     {[
@@ -559,7 +559,7 @@ export default function WaterHeaterReplacementPost() {
                   style={{ backgroundColor: 'var(--brand-900)', color: 'white' }}>
                   
                   <p className="text-lg leading-relaxed mb-4">
-                    Water heater acting up? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km.
+                    Water heater acting up? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <PhoneLink

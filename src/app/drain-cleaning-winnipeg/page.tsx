@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Drain Cleaning Winnipeg | 24/7 Clogged Drain Service | Pro Drain Cleaning',
     description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7. Snaking, hydro jetting & camera. Call +1 (204) 399-4413.',
     url: `${baseUrl}/drain-cleaning-winnipeg`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/og/og-drain-cleaning-winnipeg.jpg", width: 1200, height: 630, alt: 'Drain cleaning service in Winnipeg' }],
     locale: 'en_CA',
     type: 'website'
@@ -197,7 +197,7 @@ export default function DrainCleaningWinnipegPage() {
           <div className="container-wide max-w-4xl mx-auto">
             <h2 className="mb-5" style={{ color: 'var(--navy-900)' }}>Every Drain. Every Blockage. One Call.</h2>
             <p className="text-lg leading-relaxed mb-4" style={{ color: 'var(--muted)' }}>
-              Pro Drain Cleaning Limited clears every drain in a Winnipeg property: kitchen sinks, bathroom sinks, bathtubs, showers, toilets, laundry lines, floor drains and main sewer lines. We use the right tool for the pipe — a properly sized <Link href="/glossary#auger" style={{ color: 'var(--brand-700)' }}>auger</Link> for a sudden blockage, high-pressure <Link href="/glossary#hydro-jetting" style={{ color: 'var(--brand-700)' }}>hydro jetting</Link> when the pipe wall is coated, and an HD camera when the line keeps failing and nobody has explained why.
+              Pro Drain Cleaning clears every drain in a Winnipeg property: kitchen sinks, bathroom sinks, bathtubs, showers, toilets, laundry lines, floor drains and main sewer lines. We use the right tool for the pipe — a properly sized <Link href="/glossary#auger" style={{ color: 'var(--brand-700)' }}>auger</Link> for a sudden blockage, high-pressure <Link href="/glossary#hydro-jetting" style={{ color: 'var(--brand-700)' }}>hydro jetting</Link> when the pipe wall is coated, and an HD camera when the line keeps failing and nobody has explained why.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--muted)' }}>
               Same-day service across Winnipeg, Selkirk, St. Norbert and everywhere within 100 km, at any hour, with a flat price you approve before we start.

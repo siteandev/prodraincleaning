@@ -66,7 +66,7 @@ export default function BusinessVerificationBadge({
             {config.label}
           </h3>
           <p className="text-xs" style={{ color: 'var(--muted)' }}>
-            Pro Drain Cleaning Limited
+            Pro Drain Cleaning
           </p>
         </div>
       </div>

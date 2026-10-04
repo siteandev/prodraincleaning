@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       '24/7 emergency drain cleaning, sewer backup and flood response in Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing. Call +1 (204) 399-4413 now.',
     url: `${baseUrl}/emergency-drain-plumbing-winnipeg`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [
       {
         url: 'https://prodraincleaning.ca/assets/images/og/og-emergency-drain-plumbing.jpg',
@@ -310,7 +310,7 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
                 style={{ color: 'rgba(255,255,255,0.88)' }}
               >
                 Emergencies don&apos;t schedule themselves for Tuesday at 10 a.m. Pro Drain
-                Cleaning Limited runs genuine 24/7/365 emergency service across Winnipeg, Selkirk,
+                Cleaning runs genuine 24/7/365 emergency service across Winnipeg, Selkirk,
                 St. Norbert and every community within 100 km — a real technician answers the
                 phone, not an answering service, and we&apos;ll tell you what to do right now while
                 we&apos;re on the way.
@@ -351,7 +351,7 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
             <p className="text-lg leading-relaxed mb-4" style={{ color: 'var(--muted)' }}>
               Emergencies don&apos;t schedule themselves for Tuesday at 10 a.m. They happen at 2
               a.m. on a long weekend, on Christmas morning, and during the first heavy rain of
-              spring when half the city needs a plumber at once. Pro Drain Cleaning Limited runs
+              spring when half the city needs a plumber at once. Pro Drain Cleaning runs
               genuine 24/7/365 emergency service across Winnipeg, Selkirk, St. Norbert and every
               community within 100 km — a real technician answers the phone, not an answering
               service, and we&apos;ll tell you what to do right now while we&apos;re on the way.

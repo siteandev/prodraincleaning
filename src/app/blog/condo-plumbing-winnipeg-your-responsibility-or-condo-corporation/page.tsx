@@ -61,7 +61,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -281,7 +281,7 @@ export default function CondoPlumbingResponsibilityPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                In most condo declarations, plumbing that serves only your unit — fixtures, in-unit pipes, your own drain lines — is the owner's responsibility, while shared risers, main stacks, and plumbing serving multiple units typically falls to the condo corporation. This varies by building, so your own declaration and bylaws are the actual source of truth. Either way, calling a plumber quickly to identify the cause is the right first step — that diagnosis often determines who's responsible in the first place. Pro Drain Cleaning Limited serves condos and multi-unit buildings across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                In most condo declarations, plumbing that serves only your unit — fixtures, in-unit pipes, your own drain lines — is the owner's responsibility, while shared risers, main stacks, and plumbing serving multiple units typically falls to the condo corporation. This varies by building, so your own declaration and bylaws are the actual source of truth. Either way, calling a plumber quickly to identify the cause is the right first step — that diagnosis often determines who's responsible in the first place. Pro Drain Cleaning serves condos and multi-unit buildings across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -447,7 +447,7 @@ export default function CondoPlumbingResponsibilityPost() {
                     Need a diagnosis before you sort out who's responsible?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited serves condos and multi-unit buildings 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning serves condos and multi-unit buildings 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -660,7 +660,7 @@ export default function CondoPlumbingResponsibilityPost() {
               Plumbing Issue in Your Winnipeg Condo?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Get a clear diagnosis before you sort out who's responsible. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Get a clear diagnosis before you sort out who's responsible. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

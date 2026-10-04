@@ -61,7 +61,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -281,7 +281,7 @@ export default function WaterDamageInsuranceClaimPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Most insurance adjusters want clear evidence of what happened, when, and what was done about it: photos of the damage before cleanup, a written service record from a licensed plumber identifying the cause, and documentation of any repair work completed. Getting a plumber out promptly does two things at once — it stops the damage from getting worse, and it creates the professional record your claim will likely need. Pro Drain Cleaning Limited provides both emergency response and written service documentation across Winnipeg and every community within 100km. Call or WhatsApp{' '}
+                Most insurance adjusters want clear evidence of what happened, when, and what was done about it: photos of the damage before cleanup, a written service record from a licensed plumber identifying the cause, and documentation of any repair work completed. Getting a plumber out promptly does two things at once — it stops the damage from getting worse, and it creates the professional record your claim will likely need. Pro Drain Cleaning provides both emergency response and written service documentation across Winnipeg and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -409,7 +409,7 @@ export default function WaterDamageInsuranceClaimPost() {
                     Need a written service record for your claim?
                   </p>
                   <p className="text-sm mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    Pro Drain Cleaning Limited documents the cause and the work performed on every call, 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
+                    Pro Drain Cleaning documents the cause and the work performed on every call, 24 hours a day, across Winnipeg and every community within 100km. Call, WhatsApp, or send us your details below.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -630,7 +630,7 @@ export default function WaterDamageInsuranceClaimPost() {
               Dealing With Water Damage and Need Documentation for a Claim?
             </h2>
             <p className="text-lg mb-8 leading-relaxed" style={{ color: 'var(--brand-100)' }}>
-              Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+              Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <PhoneLink

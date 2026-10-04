@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: 'Pro Drain Cleaning — 24/7 Winnipeg Drain & Sewer',
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca',
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_171eeaeb9-1772665883159.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning technician clearing a blocked drain in Winnipeg' }],
     locale: 'en_CA',
     type: 'website'
@@ -145,7 +145,7 @@ export default function HomePage() {
                 </h1>
 
                 <p className="text-lg leading-relaxed mb-8" style={{ color: 'rgba(255,255,255,0.85)', maxWidth: '640px' }}>
-                  Clogged kitchen sink? Toilet won&apos;t flush? Sewage coming up the basement floor drain? Pro Drain Cleaning Limited clears blocked sinks, tubs, showers, toilets, laundry and floor drains, main sewer lines and grease lines — using drain snaking, high-pressure hydro jetting and HD camera inspections. Same-day service across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Upfront pricing before we start. Every time.
+                  Clogged kitchen sink? Toilet won&apos;t flush? Sewage coming up the basement floor drain? Pro Drain Cleaning clears blocked sinks, tubs, showers, toilets, laundry and floor drains, main sewer lines and grease lines — using drain snaking, high-pressure hydro jetting and HD camera inspections. Same-day service across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Upfront pricing before we start. Every time.
                 </p>
 
                 <div className="flex flex-col sm:flex-row flex-wrap gap-3 mb-5">
@@ -493,7 +493,7 @@ export default function HomePage() {
                 See what our customers say
               </p>
               <Link
-                href="https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited"
+                href="https://www.google.com/maps/place/Pro+Drain+Cleaning"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-brand text-sm font-600 transition-colors hover:opacity-90"
@@ -572,7 +572,7 @@ export default function HomePage() {
                 Up to 10% Off Your First Service
               </h2>
               <p className="text-lg leading-relaxed" style={{ color: 'var(--muted)' }}>
-                First time calling Pro Drain Cleaning Limited? Take up to 10% off your first job — drain cleaning, sewer line unclogging, camera inspection or plumbing repair. Residential or commercial, daytime or 3 a.m.
+                First time calling Pro Drain Cleaning? Take up to 10% off your first job — drain cleaning, sewer line unclogging, camera inspection or plumbing repair. Residential or commercial, daytime or 3 a.m.
               </p>
             </div>
 

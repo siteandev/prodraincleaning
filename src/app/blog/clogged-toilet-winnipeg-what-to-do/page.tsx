@@ -23,7 +23,7 @@ const tocItems = [
 { id: 'main-line', label: 'When a "Clogged Toilet" Is Actually a Main Line Problem' },
 { id: 'weak-flush', label: 'If the Toilet Flushes Weakly Instead of Clogging Completely' },
 { id: 'service-areas', label: 'Every Town We Clear Clogged Toilets In' },
-{ id: 'why-trust', label: 'Why Winnipeg Calls Pro Drain Cleaning Limited' },
+{ id: 'why-trust', label: 'Why Winnipeg Calls Pro Drain Cleaning' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
 
@@ -97,7 +97,7 @@ const pageSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -278,7 +278,7 @@ export default function CloggedToiletPost() {
               style={{ backgroundColor: 'var(--brand-100)', border: '2px solid var(--brand-500)' }}>
               
               <p className="text-base leading-relaxed" style={{ color: 'var(--navy-900)' }}>
-                A clogged toilet is almost always caused by too much paper, a &ldquo;flushable&rdquo; wipe (they aren&apos;t), or an object that shouldn&apos;t have gone in — and the right first step is a flange plunger, not a chemical drain cleaner. If more than one fixture in the house is affected, stop flushing and call immediately; that&apos;s a main line problem, not a single clogged toilet. Pro Drain Cleaning Limited clears clogged toilets across Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7.{' '}
+                A clogged toilet is almost always caused by too much paper, a &ldquo;flushable&rdquo; wipe (they aren&apos;t), or an object that shouldn&apos;t have gone in — and the right first step is a flange plunger, not a chemical drain cleaner. If more than one fixture in the house is affected, stop flushing and call immediately; that&apos;s a main line problem, not a single clogged toilet. Pro Drain Cleaning clears clogged toilets across Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7.{' '}
                 <PhoneLink style={{ color: 'var(--accent-600)', fontWeight: 700 }}>
                   Call or WhatsApp {PHONE_DISPLAY}.
                 </PhoneLink>
@@ -481,7 +481,7 @@ export default function CloggedToiletPost() {
                 {/* Why trust */}
                 <div id="why-trust" className="mb-10">
                   <h2 className="text-2xl mb-5" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>
-                    Why Winnipeg Calls Pro Drain Cleaning Limited for a Clogged Toilet
+                    Why Winnipeg Calls Pro Drain Cleaning for a Clogged Toilet
                   </h2>
                   <ul className="flex flex-col gap-3">
                     {[
@@ -582,7 +582,7 @@ export default function CloggedToiletPost() {
                   style={{ backgroundColor: 'var(--brand-900)', color: 'white' }}>
                   
                   <p className="text-lg leading-relaxed mb-4">
-                    Toilet still clogged? Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km.
+                    Toilet still clogged? Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <PhoneLink

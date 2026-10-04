@@ -192,7 +192,7 @@ const blogPosts: BlogPost[] = [
     readTime: 7,
     date: '2026-09-10',
     excerpt:
-      'Not sure if you need a plumber or a drain specialist? Pro Drain Cleaning Limited covers both across Winnipeg and every community within 100km. Call +1 (204) 399-4413.',
+      'Not sure if you need a plumber or a drain specialist? Pro Drain Cleaning covers both across Winnipeg and every community within 100km. Call +1 (204) 399-4413.',
     isPillar: true,
   },
   {

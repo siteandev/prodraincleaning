@@ -123,7 +123,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -294,7 +294,7 @@ export default function SewerLineSignsPage() {
               style={{ backgroundColor: 'var(--white)', borderLeftColor: 'var(--brand-700)' }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Multiple slow drains at once, gurgling sounds, or a sewage smell that wasn&apos;t there before are the clearest signs your main sewer drain line needs attention — not just a single fixture. Catching it now, before a full backup, is faster and less disruptive to deal with. Pro Drain Cleaning Limited serves Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
+                Multiple slow drains at once, gurgling sounds, or a sewage smell that wasn&apos;t there before are the clearest signs your main sewer drain line needs attention — not just a single fixture. Catching it now, before a full backup, is faster and less disruptive to deal with. Pro Drain Cleaning serves Winnipeg, Selkirk, St. Norbert and every community within 100km, 24/7. Call or WhatsApp{' '}
                 <PhoneLink className="font-700" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -378,7 +378,7 @@ export default function SewerLineSignsPage() {
                   Recognising any of these signs? Get it checked before it becomes a full backup.
                 </p>
                 <p className="text-white text-sm mb-5 opacity-90">
-                  Pro Drain Cleaning Limited answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
+                  Pro Drain Cleaning answers 24 hours a day, every day of the year. Call, WhatsApp, or fill the form below.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <PhoneLink
@@ -541,7 +541,7 @@ export default function SewerLineSignsPage() {
                 style={{ borderColor: 'var(--brand-700)', backgroundColor: 'var(--brand-100)' }}
               >
                 <p className="leading-relaxed mb-5" style={{ color: 'var(--ink)' }}>
-                  Noticing any of these signs? Get it checked before it becomes a full backup. Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
+                  Noticing any of these signs? Get it checked before it becomes a full backup. Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp{' '}
                   <PhoneLink className="font-700 underline" style={{ fontWeight: 700, color: 'var(--brand-700)' }}>
                     {PHONE_DISPLAY}
                   </PhoneLink>

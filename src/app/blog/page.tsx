@@ -12,14 +12,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain & Sewer Blog | Pro Drain Cleaning Limited — Winnipeg',
+  title: 'Drain & Sewer Blog | Pro Drain Cleaning — Winnipeg',
   description: 'Expert drain cleaning and sewer advice for Winnipeg homeowners, landlords, and businesses. Covering costs, DIY tips, local problems, and when to call a pro.',
   alternates: { canonical: `${baseUrl}/blog` },
   openGraph: {
-    title: 'Drain & Sewer Blog | Pro Drain Cleaning Limited — Winnipeg',
+    title: 'Drain & Sewer Blog | Pro Drain Cleaning — Winnipeg',
     description: 'Expert drain cleaning and sewer advice for Winnipeg homeowners, landlords, and businesses.',
     url: `${baseUrl}/blog`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1c62568f9-1765420266038.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning blog' }],
     locale: 'en_CA',
     type: 'website'
@@ -59,7 +59,7 @@ export default function BlogIndexPage() {
           <div className="container-wide">
             <h1 className="mb-4">Drain &amp; Sewer Advice for Winnipeg Homeowners</h1>
             <p className="text-lg max-w-2xl" style={{ color: 'var(--muted)' }}>
-              Plain-spoken, specific advice on drain cleaning, sewer lines, plumbing, and local issues across Winnipeg, Selkirk, Steinbach, and the surrounding area. Written by the team at Pro Drain Cleaning Limited.
+              Plain-spoken, specific advice on drain cleaning, sewer lines, plumbing, and local issues across Winnipeg, Selkirk, Steinbach, and the surrounding area. Written by the team at Pro Drain Cleaning.
             </p>
           </div>
         </section>

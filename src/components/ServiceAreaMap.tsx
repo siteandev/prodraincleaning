@@ -42,7 +42,7 @@ export default function ServiceAreaMap({
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
-          src={`https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Pro+Drain+Cleaning+Limited+Winnipeg`}
+          src={`https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Pro+Drain+Cleaning+Winnipeg`}
           title={`Service area map for ${areaName}`}
         />
       </div>
@@ -53,7 +53,7 @@ export default function ServiceAreaMap({
           We Serve {areaName}
         </h3>
         <p className="text-sm" style={{ color: 'var(--muted)' }}>
-          Pro Drain Cleaning Limited provides drain cleaning and emergency plumbing services throughout {areaName} and surrounding areas within {radius} km. Available 24/7 for your urgent needs.
+          Pro Drain Cleaning provides drain cleaning and emergency plumbing services throughout {areaName} and surrounding areas within {radius} km. Available 24/7 for your urgent needs.
         </p>
       </div>
     </div>

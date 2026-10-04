@@ -30,7 +30,7 @@ const tocItems = [
 { id: 'six-emergencies', label: 'The 6 Drain Emergencies We Get Called About Most' },
 { id: 'what-never-helps', label: 'What Never Helps in a Drain Emergency' },
 { id: 'what-happens', label: 'What Happens When You Call Us' },
-{ id: 'why-trust', label: 'Why Winnipeg and Manitoba Trust Pro Drain Cleaning Limited' },
+{ id: 'why-trust', label: 'Why Winnipeg and Manitoba Trust Pro Drain Cleaning' },
 { id: 'service-areas', label: 'Every Community We Answer Emergency Calls In, 24/7' },
 { id: 'faq', label: 'Frequently Asked Questions' },
 { id: 'contact', label: 'Talk to Us Right Now' }];
@@ -88,7 +88,7 @@ const faqSchema = {
     author: { '@type': 'Person', name: 'Manpreet Chahal' },
     publisher: {
       '@type': 'Organization',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: 'https://prodraincleaning.ca'
     },
     image: {
@@ -282,7 +282,7 @@ export default function EmergencyDrainPillarPost() {
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>
-                . Pro Drain Cleaning Limited is your 24 hour plumber for emergency plumbing and emergency sewer situations — we answer live, 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km of Winnipeg — including Steinbach, Niverville, Stonewall, Headingley, Gimli and Portage la Prairie. A real technician talks you through what to do while help is on the way, and every job is quoted with a flat price you approve before any work starts.
+                . Pro Drain Cleaning is your 24 hour plumber for emergency plumbing and emergency sewer situations — we answer live, 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km of Winnipeg — including Steinbach, Niverville, Stonewall, Headingley, Gimli and Portage la Prairie. A real technician talks you through what to do while help is on the way, and every job is quoted with a flat price you approve before any work starts.
               </p>
             </div>
 
@@ -738,12 +738,12 @@ export default function EmergencyDrainPillarPost() {
                 {/* Section 5 */}
                 <div id="why-trust" className="scroll-mt-24 mt-12">
                   <h2 className="mb-4">
-                    Why Winnipeg and Manitoba Trust Pro Drain Cleaning Limited for Emergency Calls
+                    Why Winnipeg and Manitoba Trust Pro Drain Cleaning for Emergency Calls
                   </h2>
                   <figure className="rounded-xl overflow-hidden mb-6">
                     <img
                       src={SERVICE_VEHICLE_IMAGE_SRC}
-                      alt="Pro Drain Cleaning Limited service vehicle responding to a Winnipeg call"
+                      alt="Pro Drain Cleaning service vehicle responding to a Winnipeg call"
                       width={1200}
                       height={800}
                       loading="lazy"
@@ -787,7 +787,7 @@ export default function EmergencyDrainPillarPost() {
                   <figure className="rounded-xl overflow-hidden mb-6 flex justify-center" style={{ backgroundColor: 'var(--brand-100)' }}>
                     <img
                       src={SERVICE_AREA_MAP_SRC}
-                      alt="Illustration showing Pro Drain Cleaning Limited's Winnipeg-centred 100km service area"
+                      alt="Illustration showing Pro Drain Cleaning's Winnipeg-centred 100km service area"
                       width={1200}
                       height={900}
                       loading="lazy"
@@ -952,7 +952,7 @@ export default function EmergencyDrainPillarPost() {
                   
                   <h2 className="text-white mb-3">Blocked drain right now?</h2>
                   <p className="mb-6" style={{ color: 'rgba(255,255,255,0.8)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-wrap gap-3 justify-center">
                     <PhoneLink className="btn-primary shimmer-btn inline-flex">

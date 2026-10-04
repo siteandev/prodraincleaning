@@ -34,7 +34,7 @@ export function generateLocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'Plumber',
     '@id': `${baseUrl}/#business`,
-    name: 'Pro Drain Cleaning Limited',
+    name: 'Pro Drain Cleaning',
     url: baseUrl,
     telephone: '+12043994413',
     email: 'prodraincleaningcentre@gmail.com',
@@ -90,8 +90,8 @@ export function generateLocalBusinessSchema() {
     'Tree Root Removal'],
 
     availableLanguage: ['English'],
-    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited',
-    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited'],
+    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning',
+    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning'],
     // Contact point for customer service
     contactPoint: {
       '@type': 'ContactPoint',
@@ -156,7 +156,7 @@ export function generateServiceSchema() {
     description: service.description,
     provider: {
       '@type': 'Plumber',
-      name: 'Pro Drain Cleaning Limited',
+      name: 'Pro Drain Cleaning',
       url: baseUrl
     },
     areaServed: {
@@ -178,7 +178,7 @@ export function generateOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     '@id': `${baseUrl}/#organization`,
-    name: 'Pro Drain Cleaning Limited',
+    name: 'Pro Drain Cleaning',
     url: baseUrl,
     logo: 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_117a0c03b-1783186949327.jpg',
     description: '24/7 drain cleaning and emergency plumbing in Winnipeg',
@@ -190,8 +190,8 @@ export function generateOrganizationSchema() {
       addressRegion: 'MB',
       addressCountry: 'CA'
     },
-    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited',
-    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning+Limited'],
+    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning',
+    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning'],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
@@ -210,7 +210,7 @@ export function generateWebsiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': `${baseUrl}/#website`,
-    name: 'Pro Drain Cleaning Limited',
+    name: 'Pro Drain Cleaning',
     url: baseUrl,
     description: '24/7 drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg',
   };

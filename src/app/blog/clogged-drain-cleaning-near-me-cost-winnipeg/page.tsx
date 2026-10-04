@@ -96,7 +96,7 @@ const pageSchema = {
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
-        name: 'Pro Drain Cleaning Limited',
+        name: 'Pro Drain Cleaning',
         url: 'https://prodraincleaning.ca',
       },
       image: {
@@ -282,7 +282,7 @@ export default function CloggedDrainCostPage() {
                 How much does drain cleaning cost? There is no honest flat number anyone can give you without seeing the actual clog — the cost to unclog a drain depends on
                 where the blockage is, how it is reached, and what is causing it. What you can count on: a clear,
                 upfront price confirmed on the phone or at the door before any work starts, never a surprise after the
-                fact. Pro Drain Cleaning Limited serves Winnipeg, Selkirk, St. Norbert and every community within
+                fact. Pro Drain Cleaning serves Winnipeg, Selkirk, St. Norbert and every community within
                 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
@@ -404,7 +404,7 @@ export default function CloggedDrainCostPage() {
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'var(--ink)' }}>
                     Call or WhatsApp now — a realistic range on the phone, a confirmed upfront price at the door,
-                    approved by you before any work starts. Pro Drain Cleaning Limited answers 24/7.
+                    approved by you before any work starts. Pro Drain Cleaning answers 24/7.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <PhoneLink
@@ -667,7 +667,7 @@ export default function CloggedDrainCostPage() {
                     Want a real, honest number for your clogged drain — not a guess?
                   </p>
                   <p className="mb-5 leading-relaxed" style={{ color: 'rgba(255,255,255,0.85)' }}>
-                    Pro Drain Cleaning Limited answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
+                    Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk,
                     St. Norbert and every community within 100km. Upfront pricing before we start — always.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">

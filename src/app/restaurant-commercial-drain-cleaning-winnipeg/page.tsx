@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Restaurant & Commercial Drain Cleaning Winnipeg | Grease Line Jetting 24/7',
     description: 'Commercial drain cleaning for Winnipeg restaurants: grease trap lines, floor drains, kitchen & washroom drains, storm drains. Overnight service, maintenance plans. Call +1 (204) 399-4413.',
     url: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg`,
-    siteName: 'Pro Drain Cleaning Limited',
+    siteName: 'Pro Drain Cleaning',
     images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-restaurant-commercial.jpg', width: 1200, height: 630 }],
     locale: 'en_CA',
     type: 'website',
@@ -188,7 +188,7 @@ export default function CommercialDrainCleaningPage() {
           <div className="container-wide max-w-4xl mx-auto">
             <h2 className="mb-5" style={{ color: 'var(--navy-900)' }}>Commercial Drain Service Scheduled Around Your Business</h2>
             <p className="text-lg leading-relaxed mb-4" style={{ color: 'var(--muted)' }}>
-              Pro Drain Cleaning Limited works with Winnipeg restaurants, commercial kitchens, food processors, bars, hotels, care homes, retail and industrial sites to keep grease lines, floor drains, washroom drains and storm drains flowing. We schedule around your service — overnight, early morning, or on your closed day — and we hydro jet rather than just cabling, because in a grease line, cabling is a two-week solution.
+              Pro Drain Cleaning works with Winnipeg restaurants, commercial kitchens, food processors, bars, hotels, care homes, retail and industrial sites to keep grease lines, floor drains, washroom drains and storm drains flowing. We schedule around your service — overnight, early morning, or on your closed day — and we hydro jet rather than just cabling, because in a grease line, cabling is a two-week solution.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--muted)' }}>
               Emergency response is available 24/7 across Winnipeg, Selkirk, St. Norbert and 100 km around, and every job comes with a written report for your food-safety records.
