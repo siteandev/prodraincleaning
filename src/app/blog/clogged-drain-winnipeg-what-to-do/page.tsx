@@ -144,7 +144,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_1c8359159-1767581328090.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1c8359159-1767581328090.jpg",
       description: 'Homeowner dealing with a clogged drain in a Winnipeg kitchen sink'
     },
     mainEntityOfPage: {

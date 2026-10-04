@@ -71,7 +71,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_163d87cf7-1772189374092.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_163d87cf7-1772189374092.jpg",
       description: 'Emergency plumber responding to a call in Winnipeg at night'
     },
     mainEntityOfPage: {

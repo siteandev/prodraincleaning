@@ -93,7 +93,7 @@ const faqSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_1a9283429-1787883125190.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1a9283429-1787883125190.jpg",
       description: 'Emergency drain cleaning technician responding to a call in Winnipeg at night'
     },
     mainEntityOfPage: {

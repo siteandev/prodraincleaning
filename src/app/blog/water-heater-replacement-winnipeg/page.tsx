@@ -102,7 +102,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_170502122-1772270757832.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_170502122-1772270757832.jpg",
       description: 'Plumber installing a new water heater in a Winnipeg basement'
     },
     mainEntityOfPage: {

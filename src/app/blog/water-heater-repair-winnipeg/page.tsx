@@ -95,7 +95,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_1da47b8d6-1770510369520.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1da47b8d6-1770510369520.jpg",
       description: 'Technician repairing a water heater in a Winnipeg home'
     },
     mainEntityOfPage: {

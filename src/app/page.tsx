@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca',
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: "https://img.rocket.new/generatedImages/rocket_gen_img_171eeaeb9-1772665883159.png", width: 1200, height: 630, alt: 'Pro Drain Cleaning technician clearing a blocked drain in Winnipeg' }],
+    images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_171eeaeb9-1772665883159.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning technician clearing a blocked drain in Winnipeg' }],
     locale: 'en_CA',
     type: 'website'
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 };
 
 // LCP hero image — preload hint so browser fetches it immediately
-const LCP_IMAGE_URL = 'https://img.rocket.new/generatedImages/rocket_gen_img_17b757e33-1771885503955.png';
+const LCP_IMAGE_URL = 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg';
 
 /* Structured data is rendered globally via LocalServicesSchemaMarkup in layout.tsx */
 
@@ -107,7 +107,7 @@ export default function HomePage() {
           {/* Background image */}
           <div className="absolute inset-0 z-0">
             <AppImage
-              src="https://img.rocket.new/generatedImages/rocket_gen_img_17b757e33-1771885503955.png"
+              src="/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg"
               alt="Pro Drain Cleaning technician clearing a blocked drain in a Winnipeg basement"
               fill
               priority
@@ -307,7 +307,7 @@ export default function HomePage() {
                 <div className="scan-line" aria-hidden="true" />
                 <div className="mb-5 rounded-xl overflow-hidden" style={{ height: '180px' }}>
                   <AppImage
-                    src="https://img.rocket.new/generatedImages/rocket_gen_img_1783d1e7f-1787879812627.png"
+                    src="/assets/images/remote/rocket_gen_img_1783d1e7f-1787879812627.jpg"
                     alt="Drain snaking a blocked line with a sectional auger machine"
                     width={600}
                     height={180}
@@ -333,7 +333,7 @@ export default function HomePage() {
                 <div className="scan-line" aria-hidden="true" />
                 <div className="mb-5 rounded-xl overflow-hidden" style={{ height: '180px' }}>
                   <AppImage
-                    src="https://img.rocket.new/generatedImages/rocket_gen_img_1286f3008-1787879813048.png"
+                    src="/assets/images/remote/rocket_gen_img_1286f3008-1787879813048.jpg"
                     alt="High-pressure hydro jetting a grease-coated drain line"
                     width={600}
                     height={180}
@@ -359,7 +359,7 @@ export default function HomePage() {
                 <div className="scan-line" aria-hidden="true" />
                 <div className="mb-5 rounded-xl overflow-hidden" style={{ height: '180px' }}>
                   <AppImage
-                    src="https://img.rocket.new/generatedImages/rocket_gen_img_17c9714d7-1772203492561.png"
+                    src="/assets/images/remote/rocket_gen_img_17c9714d7-1772203492561.jpg"
                     alt="HD sewer camera inspection showing tree roots inside a Winnipeg sewer line"
                     width={600}
                     height={180}

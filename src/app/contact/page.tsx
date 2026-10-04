@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Call, WhatsApp or email 24/7. Drain cleaning, sewer line unclogging, emergency plumbing in Winnipeg.',
     url: `${baseUrl}/contact`,
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: "https://img.rocket.new/generatedImages/rocket_gen_img_1c62568f9-1765420266038.png", width: 1200, height: 630, alt: 'Pro Drain Cleaning contact' }],
+    images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1c62568f9-1765420266038.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning contact' }],
     locale: 'en_CA',
     type: 'website'
   },

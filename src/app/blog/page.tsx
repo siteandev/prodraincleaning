@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'Expert drain cleaning and sewer advice for Winnipeg homeowners, landlords, and businesses.',
     url: `${baseUrl}/blog`,
     siteName: 'Pro Drain Cleaning Limited',
-    images: [{ url: "https://img.rocket.new/generatedImages/rocket_gen_img_1c62568f9-1765420266038.png", width: 1200, height: 630, alt: 'Pro Drain Cleaning blog' }],
+    images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1c62568f9-1765420266038.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning blog' }],
     locale: 'en_CA',
     type: 'website'
   },

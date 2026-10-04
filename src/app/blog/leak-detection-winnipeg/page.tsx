@@ -98,7 +98,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_113ee7df0-1767959579185.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_113ee7df0-1767959579185.jpg",
       description: 'Plumber using leak detection equipment in a Winnipeg home'
     },
     mainEntityOfPage: {

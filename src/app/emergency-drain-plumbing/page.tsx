@@ -100,7 +100,7 @@ export default function EmergencyPage() {
           
           <div className="absolute inset-0 z-0">
             <AppImage
-              src="https://img.rocket.new/generatedImages/rocket_gen_img_1d3bbfc55-1766173835971.png"
+              src="/assets/images/remote/rocket_gen_img_1d3bbfc55-1766173835971.jpg"
               alt="Emergency sewer backup response in a Winnipeg basement"
               fill
               priority

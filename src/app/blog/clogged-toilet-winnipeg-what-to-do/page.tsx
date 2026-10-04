@@ -102,7 +102,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_1d396489d-1772665881935.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_1d396489d-1772665881935.jpg",
       description: 'Clearing a clogged toilet in a Winnipeg bathroom'
     },
     mainEntityOfPage: {

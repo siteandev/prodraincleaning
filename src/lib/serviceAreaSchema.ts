@@ -79,8 +79,8 @@ pageUrl: string)
     telephone: '+12043994413',
     email: 'prodraincleaningcentre@gmail.com',
     priceRange: '$$',
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_11c8c04d2-1772209925689.png",
-    logo: "https://img.rocket.new/generatedImages/rocket_gen_img_11c8c04d2-1772209925689.png",
+    image: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_11c8c04d2-1772209925689.jpg",
+    logo: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_11c8c04d2-1772209925689.jpg",
     description: `Professional drain cleaning and emergency plumbing services in ${areaName} and surrounding areas. 24/7 availability, upfront pricing, camera-verified results.`,
     address: {
       '@type': 'PostalAddress',

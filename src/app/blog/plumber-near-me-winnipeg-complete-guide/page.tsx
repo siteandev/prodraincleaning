@@ -75,7 +75,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: "https://img.rocket.new/generatedImages/rocket_gen_img_12ac3c371-1763295220735.png",
+      url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_12ac3c371-1763295220735.jpg",
       description: 'Licensed plumber arriving at a Winnipeg home for a service call'
     },
     mainEntityOfPage: {
