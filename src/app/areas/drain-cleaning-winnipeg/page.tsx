@@ -17,12 +17,12 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-winnipeg`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning Winnipeg | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-  description: 'Professional drain cleaning services in Winnipeg, MB. 24 hour plumber for clogged drains, sewer and drain cleaning, hydro jetting & camera inspections. Call +1 (204) 399-4413.',
+  title: 'Drain Cleaning Winnipeg | Pro Drain Cleaning',
+  description: 'Professional drain cleaning services in Winnipeg, MB. 24 hour plumber for clogged drains, sewer and drain cleaning, hydro jetting & camera inspections.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Drain Cleaning Winnipeg | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-    description: 'Professional drain cleaning services in Winnipeg, MB. 24 hour plumber for clogged drains, sewer and drain cleaning, hydro jetting & camera inspections. Call +1 (204) 399-4413.',
+    title: 'Drain Cleaning Winnipeg | Pro Drain Cleaning',
+    description: 'Professional drain cleaning services in Winnipeg, MB. 24 hour plumber for clogged drains, sewer and drain cleaning, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
   },

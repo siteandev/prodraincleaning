@@ -9,7 +9,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.c
 
 export const metadata: Metadata = {
   title: 'Service Areas — Pro Drain Cleaning | Winnipeg & Surrounding Areas',
-  description: 'Pro Drain Cleaning serves Winnipeg, Headingley, Selkirk, St. Norbert, Steinbach, Stonewall, and more. Fast drain cleaning and emergency plumbing across Manitoba.',
+  description: 'Pro Drain Cleaning serves Winnipeg, Headingley, Selkirk, St. Norbert, Steinbach, Stonewall, and more.',
   alternates: { canonical: `${BASE_URL}/areas` },
   openGraph: {
     title: 'Service Areas — Pro Drain Cleaning',

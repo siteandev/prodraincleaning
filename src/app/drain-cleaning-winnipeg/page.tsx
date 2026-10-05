@@ -16,11 +16,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'Drain Cleaning Winnipeg | 24/7 Clogged Drain Service | Pro Drain Cleaning',
-  description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7. Snaking, hydro jetting & camera. Call +1 (204) 399-4413.',
+  description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7.',
   alternates: { canonical: `${baseUrl}/drain-cleaning-winnipeg` },
   openGraph: {
     title: 'Drain Cleaning Winnipeg | 24/7 Clogged Drain Service | Pro Drain Cleaning',
-    description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7. Snaking, hydro jetting & camera. Call +1 (204) 399-4413.',
+    description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7.',
     url: `${baseUrl}/drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/og/og-drain-cleaning-winnipeg.jpg", width: 1200, height: 630, alt: 'Drain cleaning service in Winnipeg' }],

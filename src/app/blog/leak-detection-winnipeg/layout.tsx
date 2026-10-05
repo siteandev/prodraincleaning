@@ -4,14 +4,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Leak Detection in Winnipeg — Find Hidden Leaks Before They Destroy Your Home',
+  title: 'Leak Detection in Winnipeg: Find Hidden Leaks',
   description:
     'Suspect a hidden leak in your Winnipeg home? Here\'s how we find it, what it costs, and how to prevent water damage. Call +1 (204) 399-4413.',
   alternates: {
     canonical: `${baseUrl}/blog/leak-detection-winnipeg`,
   },
   openGraph: {
-    title: 'Leak Detection in Winnipeg — Find Hidden Leaks Before They Destroy Your Home',
+    title: 'Leak Detection in Winnipeg: Find Hidden Leaks',
     description:
       'Suspect a hidden leak in your Winnipeg home? Here\'s how we find it, what it costs, and how to prevent water damage.',
     url: `${baseUrl}/blog/leak-detection-winnipeg`,

@@ -17,9 +17,8 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-st-norbert`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning St. Norbert MB | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-  description:
-    'Expert drain cleaning & sewer service in St. Norbert, MB (R3V). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+  title: 'Drain Cleaning St. Norbert MB | Pro Drain Cleaning',
+  description: 'Expert drain cleaning & sewer service in St. Norbert, MB (R3V). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
   keywords: [
     'drain cleaning St. Norbert',
     'sewer cleaning St. Norbert Manitoba',
@@ -33,9 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Drain Cleaning St. Norbert MB | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-    description:
-      'Expert drain cleaning & sewer service in St. Norbert, MB (R3V). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+    title: 'Drain Cleaning St. Norbert MB | Pro Drain Cleaning',
+    description: 'Expert drain cleaning & sewer service in St. Norbert, MB (R3V). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
   },

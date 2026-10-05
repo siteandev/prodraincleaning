@@ -16,14 +16,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: '24/7 Emergency Plumber & Drain Cleaning Winnipeg | Sewer Backup & Flood Response',
-  description:
-    '24/7 emergency drain cleaning, sewer backup and flood response in Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing. Call +1 (204) 399-4413 now.',
+  description: '24/7 emergency drain cleaning, sewer backup and flood response in Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing.',
   alternates: { canonical: `${baseUrl}/emergency-drain-plumbing-winnipeg` },
   openGraph: {
     title:
       '24/7 Emergency Plumber & Drain Cleaning Winnipeg | Sewer Backup & Flood Response',
-    description:
-      '24/7 emergency drain cleaning, sewer backup and flood response in Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing. Call +1 (204) 399-4413 now.',
+    description: '24/7 emergency drain cleaning, sewer backup and flood response in Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing.',
     url: `${baseUrl}/emergency-drain-plumbing-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [

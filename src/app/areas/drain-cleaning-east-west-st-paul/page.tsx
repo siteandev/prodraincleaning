@@ -17,9 +17,8 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-east-west-st-paul`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning East & West St. Paul | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-  description:
-    'Expert drain cleaning & sewer service in East & West St. Paul, MB (R5A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+  title: 'Drain Cleaning East & West St. Paul | Pro Drain Cleaning',
+  description: 'Expert drain cleaning & sewer service in East & West St. Paul, MB (R5A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
   keywords: [
     'drain cleaning East St. Paul',
     'drain cleaning West St. Paul',
@@ -33,9 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Drain Cleaning East & West St. Paul | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-    description:
-      'Expert drain cleaning & sewer service in East & West St. Paul, MB (R5A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+    title: 'Drain Cleaning East & West St. Paul | Pro Drain Cleaning',
+    description: 'Expert drain cleaning & sewer service in East & West St. Paul, MB (R5A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
   },

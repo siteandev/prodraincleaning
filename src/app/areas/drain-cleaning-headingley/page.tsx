@@ -17,9 +17,8 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-headingley`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning Headingley MB | 24/7 Septic & Sewer Service | Pro Drain Cleaning',
-  description:
-    'Expert drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic service, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+  title: 'Drain Cleaning Headingley MB | Pro Drain Cleaning',
+  description: 'Expert drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic service, tree root removal, hydro jetting & camera inspections.',
   keywords: [
     'drain cleaning Headingley',
     'sewer cleaning Headingley Manitoba',
@@ -33,9 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Drain Cleaning Headingley MB | 24/7 Septic & Sewer Service | Pro Drain Cleaning',
-    description:
-      'Expert drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic service, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+    title: 'Drain Cleaning Headingley MB | Pro Drain Cleaning',
+    description: 'Expert drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic service, tree root removal, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
   },

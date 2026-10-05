@@ -17,9 +17,8 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-oak-bluff`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning Oak Bluff | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-  description:
-    'Expert drain cleaning & sewer service in Oak Bluff, MB (R0G). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+  title: 'Drain Cleaning Oak Bluff | Pro Drain Cleaning',
+  description: 'Expert drain cleaning & sewer service in Oak Bluff, MB (R0G). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7.',
   keywords: [
     'drain cleaning Oak Bluff',
     'sewer cleaning Oak Bluff Manitoba',
@@ -33,9 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Drain Cleaning Oak Bluff | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-    description:
-      'Expert drain cleaning & sewer service in Oak Bluff, MB (R0G). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+    title: 'Drain Cleaning Oak Bluff | Pro Drain Cleaning',
+    description: 'Expert drain cleaning & sewer service in Oak Bluff, MB (R0G). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7.',
     url: PAGE_URL,
     type: 'website',
   },

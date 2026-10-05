@@ -17,9 +17,8 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-niverville`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning Niverville | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-  description:
-    'Expert drain cleaning & sewer service in Niverville, MB (R0A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+  title: 'Drain Cleaning Niverville | Pro Drain Cleaning',
+  description: 'Expert drain cleaning & sewer service in Niverville, MB (R0A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
   keywords: [
     'drain cleaning Niverville',
     'sewer cleaning Niverville Manitoba',
@@ -33,9 +32,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Drain Cleaning Niverville | 24/7 Sewer & Emergency Plumber | Pro Drain Cleaning',
-    description:
-      'Expert drain cleaning & sewer service in Niverville, MB (R0A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7. Call +1 (204) 399-4413.',
+    title: 'Drain Cleaning Niverville | Pro Drain Cleaning',
+    description: 'Expert drain cleaning & sewer service in Niverville, MB (R0A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
   },

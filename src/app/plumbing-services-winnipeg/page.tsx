@@ -16,13 +16,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'Plumbing Services Winnipeg | Leak Detection, Sump Pumps, Pipe Repair 24/7',
-  description:
-    'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7. Call +1 (204) 399-4413.',
+  description: 'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7.',
   alternates: { canonical: `${baseUrl}/plumbing-services-winnipeg` },
   openGraph: {
     title: 'Plumbing Services Winnipeg | Leak Detection, Sump Pumps, Pipe Repair 24/7',
-    description:
-      'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7. Call +1 (204) 399-4413.',
+    description: 'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7.',
     url: `${baseUrl}/plumbing-services-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [
