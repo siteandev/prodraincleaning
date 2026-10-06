@@ -66,8 +66,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {/* Google Search Console verification */}
         <meta name="google-site-verification" content="bIcVhy2p4hHv4WlmU8DwxidZmyA1G8E4GIGfzfvD_eY" />
 
-        {/* Preload the homepage hero (LCP element) so it starts downloading with the HTML */}
-        <link rel="preload" as="image" href="/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg" fetchPriority="high" type="image/jpeg" />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
 

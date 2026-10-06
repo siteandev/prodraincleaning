@@ -18,7 +18,7 @@ const FinalCTABand = dynamic(() => import('@/components/FinalCTABand'));
 const Footer = dynamic(() => import('@/components/Footer'));
 
 import { homepageFAQItems } from '@/components/FAQAccordion';
-import { homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema } from '@/lib/pageSchemas';
+import { homepageFaqSchema, homepageHowToSchema } from '@/lib/pageSchemas';
 
 
 export const metadata: Metadata = {
@@ -80,14 +80,13 @@ const audienceCards = [
 export default function HomePage() {
   return (
     <>
-      {/* LCP image preload — tells browser to fetch hero image at highest priority */}
+      {/* LCP image preload — direct path, no /_next/image API (static export mode) */}
       <link
         rel="preload"
         as="image"
-        href={`/_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=828&q=40`}
-        imageSrcSet={`/_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=640&q=40 640w, /_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=750&q=40 750w, /_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=828&q=40 828w, /_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=1080&q=50 1080w, /_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=1200&q=55 1200w, /_next/image?url=${encodeURIComponent(LCP_IMAGE_URL)}&w=1920&q=60 1920w`}
-        imageSizes="100vw"
+        href="/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg"
         fetchPriority="high"
+        type="image/jpeg"
       />
       
       <ScrollAnimator />
@@ -96,7 +95,7 @@ export default function HomePage() {
       <AnnouncementBar />
       <Header />
 
-      {[homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema].map((schema, i) => (
+      {[homepageFaqSchema, homepageHowToSchema].map((schema, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       ))}
       <main id="main-content" className="mobile-pb">
