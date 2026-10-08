@@ -2,3 +2,12 @@
 /blog/prevent-frozen-pipes-winnipeg-winter /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
 /blog/prevent-frozen-pipes-winnipeg /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
 /emergency-drain-plumbing /emergency-drain-plumbing-winnipeg 301
+
+# Renamed blog slugs — old URLs found in GSC as crawled-but-not-indexed
+/blog/restaurant-drain-maintenance /blog/restaurant-grease-trap-line-cleaning 301
+/blog/tree-roots-winnipeg-sewer /blog/tree-roots-sewer-line-winnipeg 301
+/blog/sewer-camera-inspection-winnipeg /blog/sewer-camera-inspection-before-buying-house 301
+
+# Trailing-slash variants — prevents redirect errors logged in GSC
+/blog/what-not-to-flush/ /blog/what-not-to-flush 301
+/areas/ /areas 301

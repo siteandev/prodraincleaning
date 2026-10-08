@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import AnnouncementBar from '@/components/AnnouncementBar';
 import Header from '@/components/Header';
@@ -1667,21 +1668,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const post = allPosts[slug];
 
   if (!post) {
-    return (
-      <>
-        <AnnouncementBar />
-        <Header />
-        <main id="main-content" className="section-padding">
-          <div className="container-wide max-w-2xl text-center">
-            <h1>Post Not Found</h1>
-            <p className="mb-6" style={{ color: 'var(--muted)' }}>This blog post does not exist or has been moved.</p>
-            <Link href="/blog" className="btn-primary">Back to Blog</Link>
-          </div>
-        </main>
-        <Footer />
-        <MobileActionBar />
-      </>
-    );
+    notFound();
   }
 
   const schema = {
