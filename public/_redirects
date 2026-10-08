@@ -1,3 +1,9 @@
+# Force this exact literal path to serve with 200 instead of Cloudflare's automatic
+# .html-stripping 308 redirect. Google Search Console's HTML-file verification method
+# fetches this exact URL and requires 200, not a redirect — without this rule
+# verification silently fails after every Cloudflare deploy.
+/googlea238e09fd2761b06.html /googlea238e09fd2761b06.html 200
+
 /areas-we-serve /areas/drain-cleaning-winnipeg 301
 /blog/prevent-frozen-pipes-winnipeg-winter /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
 /blog/prevent-frozen-pipes-winnipeg /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
