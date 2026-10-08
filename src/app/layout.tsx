@@ -47,9 +47,9 @@ export const metadata: Metadata = {
       { url: '/assets/images/app_logo.png', type: 'image/png', sizes: '512x512' },
       { url: '/favicon.ico', type: 'image/x-icon', sizes: 'any' },
     ],
-    apple: [
-      { url: '/assets/images/app_logo.png', sizes: '180x180', type: 'image/png' },
-    ],
+    // apple-touch-icon intentionally omitted from metadata.icons — Next.js
+    // auto-generates fetchPriority="high" preloads for apple entries, which
+    // competes with the LCP hero image. Added as a plain <link> below instead.
     shortcut: '/assets/images/app_logo.png',
   },
 };
@@ -65,6 +65,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         {/* Google Search Console verification */}
         <meta name="google-site-verification" content="bIcVhy2p4hHv4WlmU8DwxidZmyA1G8E4GIGfzfvD_eY" />
+
+        {/* apple-touch-icon as a plain link — avoids Next.js auto-inserting
+            fetchPriority="high" preload that competes with the LCP hero image */}
+        <link rel="apple-touch-icon" href="/assets/images/app_logo.png" sizes="180x180" type="image/png" />
 
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />

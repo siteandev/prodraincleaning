@@ -80,15 +80,10 @@ const audienceCards = [
 export default function HomePage() {
   return (
     <>
-      {/* LCP image preload — direct path, no /_next/image API (static export mode) */}
-      <link
-        rel="preload"
-        as="image"
-        href="/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg"
-        fetchPriority="high"
-        type="image/jpeg"
-      />
-      
+      {/* React 18 auto-inserts a <link rel="preload"> in <head> for the img below
+          because it has fetchPriority="high" — that auto-generated preload appears
+          earlier in <head> than this JSX position, so we rely on it and omit a
+          duplicate explicit preload here. */}
       <ScrollAnimator />
       <CouponPopup />
 
