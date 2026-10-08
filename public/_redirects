@@ -2,7 +2,10 @@
 # .html-stripping 308 redirect. Google Search Console's HTML-file verification method
 # fetches this exact URL and requires 200, not a redirect — without this rule
 # verification silently fails after every Cloudflare deploy.
-/googlea238e09fd2761b06.html /googlea238e09fd2761b06.html 200
+# NOTE: a same-path rewrite (source == destination) is silently dropped by
+# Cloudflare Pages as a no-op — confirmed live, it still 308'd. The destination
+# must be a genuinely different file; it just needs identical content.
+/googlea238e09fd2761b06.html /assets/google-site-verification-content.txt 200
 
 /areas-we-serve /areas/drain-cleaning-winnipeg 301
 /blog/prevent-frozen-pipes-winnipeg-winter /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
