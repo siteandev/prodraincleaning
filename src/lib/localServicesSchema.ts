@@ -103,10 +103,12 @@ export function generateLocalBusinessSchema() {
       itemListElement: [
         {
           '@type': 'Offer',
+          url: `${baseUrl}/drain-cleaning-winnipeg`,
           itemOffered: {
             '@type': 'Service',
             name: 'Residential Drain Cleaning',
-            description: 'Kitchen sink, bathroom, toilet, laundry and floor drain cleaning for homeowners. Same-day service in Winnipeg.'
+            description: 'Kitchen sink, bathroom, toilet, laundry and floor drain cleaning for homeowners. Same-day service in Winnipeg.',
+            audience: { '@type': 'Audience', audienceType: 'Homeowners and residential tenants in Winnipeg and surrounding area' }
           },
           priceSpecification: {
             '@type': 'PriceSpecification',
@@ -117,83 +119,106 @@ export function generateLocalBusinessSchema() {
         },
         {
           '@type': 'Offer',
+          url: `${baseUrl}/main-sewer-line-unclogging-winnipeg`,
           itemOffered: {
             '@type': 'Service',
             name: 'Main Sewer Line Unclogging',
-            description: 'Full main sewer line clearing with sectional machine or hydro jetting. Camera verification included.'
+            description: 'Full main sewer line clearing with sectional machine or hydro jetting. Camera verification included at no extra cost.',
+            audience: { '@type': 'Audience', audienceType: 'Homeowners and property managers with sewer backups or slow main lines' }
           },
           priceSpecification: {
             '@type': 'PriceSpecification',
             priceCurrency: 'CAD',
-            description: 'Flat-rate quote provided on site before work begins. Camera inspection included on main line jobs.'
+            description: 'Flat-rate quote provided on site before work begins. HD camera inspection included on all main line jobs.'
           },
           eligibleRegion: { '@type': 'Place', name: 'Winnipeg and surrounding 100 km radius' }
         },
         {
           '@type': 'Offer',
+          url: `${baseUrl}/emergency-drain-plumbing-winnipeg`,
           itemOffered: {
             '@type': 'Service',
-            name: 'Emergency Plumbing',
-            description: '24/7 emergency drain and sewer response. Real technician answers every call.'
+            name: 'Emergency Drain & Plumbing',
+            description: '24/7 emergency drain and sewer response any hour, every day of the year. Real technician answers every call — no answering service.',
+            audience: { '@type': 'Audience', audienceType: 'Homeowners and businesses with urgent drain failures, sewer backups or flooding' }
           },
           priceSpecification: {
             '@type': 'PriceSpecification',
             priceCurrency: 'CAD',
-            description: 'Emergency rates disclosed on the phone. Flat-rate quote in writing before any work starts.'
+            description: 'Emergency rates disclosed on the phone at booking. Flat-rate written quote given before any work starts.'
           },
           eligibleRegion: { '@type': 'Place', name: 'Winnipeg, MB, Canada' }
         },
         {
           '@type': 'Offer',
+          url: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg`,
           itemOffered: {
             '@type': 'Service',
-            name: 'Commercial Restaurant Drain Service',
-            description: 'Grease trap cleaning, kitchen floor drain and commercial sewer line service for restaurants and food service businesses.'
+            name: 'Commercial & Restaurant Drain Service',
+            description: 'Grease trap cleaning, kitchen floor drain and commercial sewer line service for restaurants, food service businesses and commercial property managers.',
+            audience: { '@type': 'Audience', audienceType: 'Restaurant owners, commercial property managers, food service operators' }
           },
           priceSpecification: {
             '@type': 'PriceSpecification',
             priceCurrency: 'CAD',
-            description: 'Commercial accounts eligible for net terms and maintenance plans. Quote provided before work begins.'
+            description: 'Commercial accounts eligible for net terms and maintenance plan pricing. Quote provided before work begins.'
           },
           eligibleRegion: { '@type': 'Place', name: 'Winnipeg, MB, Canada' }
         },
         {
           '@type': 'Offer',
+          url: `${baseUrl}/main-sewer-line-unclogging-winnipeg#camera-inspection`,
           itemOffered: {
             '@type': 'Service',
             name: 'HD Sewer Camera Inspection',
-            description: 'High-definition camera inspection of drain and sewer lines with recorded video report sent to customer.'
+            description: 'High-definition camera inspection of drain and sewer lines with recorded video footage sent to the customer after every main line job.',
+            audience: { '@type': 'Audience', audienceType: 'Homeowners and property buyers wanting verified diagnosis before repair or excavation' }
           },
           priceSpecification: {
             '@type': 'PriceSpecification',
             priceCurrency: 'CAD',
-            description: 'Flat-rate camera inspection fee. Included at no extra cost on main line clearing jobs.'
+            description: 'Flat-rate camera inspection fee. Included at no extra cost on all main line clearing jobs.'
           },
           eligibleRegion: { '@type': 'Place', name: 'Winnipeg and surrounding 100 km radius' }
         }
       ]
     },
-    // Contact point for customer service
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'Customer Service',
-      telephone: '+12043994413',
-      areaServed: 'CA',
-      availableLanguage: ['English'],
-      hoursAvailable: {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: [
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-        'Sunday'],
-        opens: '00:00',
-        closes: '23:59'
+    // Contact points: customer service, emergency line, and online booking
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        contactType: 'Customer Service',
+        telephone: '+12043994413',
+        areaServed: 'CA',
+        availableLanguage: ['English'],
+        hoursAvailable: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+          opens: '00:00',
+          closes: '23:59'
+        }
+      },
+      {
+        '@type': 'ContactPoint',
+        contactType: 'Emergency',
+        telephone: '+12043994413',
+        description: '24/7 emergency drain and sewer response. Real technician answers — no answering service.',
+        availableLanguage: ['English'],
+        hoursAvailable: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+          opens: '00:00',
+          closes: '23:59'
+        }
+      },
+      {
+        '@type': 'ContactPoint',
+        contactType: 'Booking',
+        url: `${baseUrl}/book-online`,
+        description: 'Online booking — same-day service available for most Winnipeg calls.',
+        availableLanguage: ['English']
       }
-    }
+    ]
   };
 }
 
