@@ -91,7 +91,88 @@ export function generateLocalBusinessSchema() {
 
     availableLanguage: ['English'],
     hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning',
-    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning'],
+    sameAs: [
+      'https://www.google.com/maps/place/Pro+Drain+Cleaning',
+      'https://www.facebook.com/prodraincleaning',
+      'https://www.instagram.com/prodraincleaning',
+    ],
+    // OfferCatalog: machine-readable pricing policy for AI agent decision-making
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Drain Cleaning Services — Winnipeg',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Residential Drain Cleaning',
+            description: 'Kitchen sink, bathroom, toilet, laundry and floor drain cleaning for homeowners. Same-day service in Winnipeg.'
+          },
+          priceSpecification: {
+            '@type': 'PriceSpecification',
+            priceCurrency: 'CAD',
+            description: 'Flat-rate price quoted in writing on site before work begins. Phone estimate provided on booking.'
+          },
+          eligibleRegion: { '@type': 'Place', name: 'Winnipeg, MB, Canada' }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Main Sewer Line Unclogging',
+            description: 'Full main sewer line clearing with sectional machine or hydro jetting. Camera verification included.'
+          },
+          priceSpecification: {
+            '@type': 'PriceSpecification',
+            priceCurrency: 'CAD',
+            description: 'Flat-rate quote provided on site before work begins. Camera inspection included on main line jobs.'
+          },
+          eligibleRegion: { '@type': 'Place', name: 'Winnipeg and surrounding 100 km radius' }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Emergency Plumbing',
+            description: '24/7 emergency drain and sewer response. Real technician answers every call.'
+          },
+          priceSpecification: {
+            '@type': 'PriceSpecification',
+            priceCurrency: 'CAD',
+            description: 'Emergency rates disclosed on the phone. Flat-rate quote in writing before any work starts.'
+          },
+          eligibleRegion: { '@type': 'Place', name: 'Winnipeg, MB, Canada' }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Commercial Restaurant Drain Service',
+            description: 'Grease trap cleaning, kitchen floor drain and commercial sewer line service for restaurants and food service businesses.'
+          },
+          priceSpecification: {
+            '@type': 'PriceSpecification',
+            priceCurrency: 'CAD',
+            description: 'Commercial accounts eligible for net terms and maintenance plans. Quote provided before work begins.'
+          },
+          eligibleRegion: { '@type': 'Place', name: 'Winnipeg, MB, Canada' }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'HD Sewer Camera Inspection',
+            description: 'High-definition camera inspection of drain and sewer lines with recorded video report sent to customer.'
+          },
+          priceSpecification: {
+            '@type': 'PriceSpecification',
+            priceCurrency: 'CAD',
+            description: 'Flat-rate camera inspection fee. Included at no extra cost on main line clearing jobs.'
+          },
+          eligibleRegion: { '@type': 'Place', name: 'Winnipeg and surrounding 100 km radius' }
+        }
+      ]
+    },
     // Contact point for customer service
     contactPoint: {
       '@type': 'ContactPoint',
@@ -179,11 +260,30 @@ export function generateOrganizationSchema() {
     '@type': 'Organization',
     '@id': `${baseUrl}/#organization`,
     name: 'Pro Drain Cleaning',
+    legalName: 'Pro Drain Cleaning Limited',
     url: baseUrl,
     logo: 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_117a0c03b-1783186949327.jpg',
-    description: '24/7 drain cleaning and emergency plumbing in Winnipeg',
+    description: '24/7 drain cleaning and emergency plumbing in Winnipeg. Locally owned and operated by Manpreet Chahal. Licensed, insured and WCB covered.',
     telephone: '+12043994413',
     email: 'prodraincleaningcentre@gmail.com',
+    founder: {
+      '@type': 'Person',
+      name: 'Manpreet Chahal',
+      jobTitle: 'Owner & Lead Technician',
+      worksFor: { '@id': `${baseUrl}/#organization` }
+    },
+    knowsAbout: [
+      'Drain Cleaning',
+      'Sewer Line Unclogging',
+      'Hydro Jetting',
+      'HD Sewer Camera Inspection',
+      'Emergency Plumbing',
+      'Commercial Restaurant Drain Service',
+      'Backwater Valve Installation',
+      'Sump Pump Service',
+      'Tree Root Removal from Sewer Lines',
+      'Winnipeg Drain Services'
+    ],
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Winnipeg',
@@ -191,12 +291,22 @@ export function generateOrganizationSchema() {
       addressCountry: 'CA'
     },
     hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning',
-    sameAs: ['https://www.google.com/maps/place/Pro+Drain+Cleaning'],
+    sameAs: [
+      'https://www.google.com/maps/place/Pro+Drain+Cleaning',
+      'https://www.facebook.com/prodraincleaning',
+      'https://www.instagram.com/prodraincleaning',
+    ],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
       telephone: '+12043994413',
-      availableLanguage: ['English']
+      availableLanguage: ['English'],
+      hoursAvailable: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+        opens: '00:00',
+        closes: '23:59'
+      }
     }
   };
 }

@@ -7,6 +7,7 @@ import {
   generateWebsiteSchema,
   generateServiceSchema,
   generateWebPageSchema,
+  generateFAQPageSchema,
 } from '@/lib/localServicesSchema';
 
 interface LocalServicesSchemaMarkupProps {
@@ -28,6 +29,7 @@ export default function LocalServicesSchemaMarkup({
   const websiteSchema = generateWebsiteSchema();
   const serviceSchemas = generateServiceSchema();
   const webPageSchema = generateWebPageSchema(pageTitle, pageDescription);
+  const faqPageSchema = generateFAQPageSchema();
 
   return (
     <>
@@ -79,6 +81,15 @@ export default function LocalServicesSchemaMarkup({
           }}
         />
       ))}
+
+      {/* FAQPage Schema - Powers AI answer extraction and featured snippets */}
+      <script
+        id="schema-faqpage"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqPageSchema),
+        }}
+      />
     </>
   );
 }
