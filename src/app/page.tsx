@@ -18,7 +18,7 @@ const FinalCTABand = dynamic(() => import('@/components/FinalCTABand'));
 const Footer = dynamic(() => import('@/components/Footer'));
 
 import { homepageFAQItems } from '@/components/FAQAccordion';
-import { homepageFaqSchema, homepageHowToSchema } from '@/lib/pageSchemas';
+import { homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema } from '@/lib/pageSchemas';
 
 
 export const metadata: Metadata = {
@@ -90,7 +90,7 @@ export default function HomePage() {
       <AnnouncementBar />
       <Header />
 
-      {[homepageFaqSchema, homepageHowToSchema].map((schema, i) => (
+      {[homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema].map((schema, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       ))}
       <main id="main-content" className="mobile-pb">
