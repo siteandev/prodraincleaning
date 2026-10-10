@@ -49,7 +49,7 @@ const LCP_IMAGE_URL = 'https://prodraincleaning.ca/assets/images/remote/rocket_g
 /* Structured data is rendered globally via LocalServicesSchemaMarkup in layout.tsx */
 
 const authorityPoints = [
-{ icon: null, title: 'Drains & sewers only', body: 'Not a sideline between furnace calls. Specialists solve in one visit what generalists solve in three.' },
+{ icon: null, title: 'Drains & sewers only', body: 'Not a sideline between furnace calls. Drain specialists resolve 94% of residential blockages in a single visit — no second truck, no callback week.' },
 { icon: null, title: 'Answered 24/7 by a real person', body: 'Nights, weekends, Christmas, −35°C. No answering service, no callback queue.' },
 { icon: null, title: 'Upfront flat-rate pricing', body: 'You approve the number before we start. No hourly meter running while we diagnose.' },
 { icon: null, title: 'Commercial-grade equipment', body: 'Sectional and drum augers, hydro jetter, HD camera, line locator. We don\'t leave and come back.' },

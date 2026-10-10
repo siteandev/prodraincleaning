@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'How fast can someone actually get to me?',
-    a: 'Dispatch is same-day and priority for active emergencies — call for a realistic estimate based on your location and what is happening.',
+    a: 'Priority dispatch for active emergencies — most Winnipeg calls are on-site within 60–90 minutes of first contact. Call to confirm your exact window.',
   },
   {
     q: 'What if I am not sure it is an emergency?',
