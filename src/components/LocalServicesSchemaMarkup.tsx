@@ -8,7 +8,6 @@ import {
   generateServiceSchema,
   generateWebPageSchema,
   generateFAQPageSchema,
-  generateReviewsSchema,
 } from '@/lib/localServicesSchema';
 
 interface LocalServicesSchemaMarkupProps {
@@ -31,7 +30,6 @@ export default function LocalServicesSchemaMarkup({
   const serviceSchemas = generateServiceSchema();
   const webPageSchema = generateWebPageSchema(pageTitle, pageDescription);
   const faqPageSchema = generateFAQPageSchema();
-  const reviewSchemas = generateReviewsSchema();
 
   return (
     <>
@@ -93,17 +91,6 @@ export default function LocalServicesSchemaMarkup({
         }}
       />
 
-      {/* Review Schemas - E-E-A-T trust signals; keep in sync with visible testimonials */}
-      {reviewSchemas.map((schema, index) => (
-        <script
-          key={`review-${index}`}
-          id={`schema-review-${index + 1}`}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schema),
-          }}
-        />
-      ))}
     </>
   );
 }
