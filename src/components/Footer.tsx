@@ -261,6 +261,17 @@ export default function Footer() {
               >
                 WeBuildPro Global
               </a>
+              {' '}·{' '}
+              Engineering projects &amp; internships:{' '}
+              <a
+                href="https://webuildpro.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline transition-colors"
+                style={{ color: 'rgba(255,255,255,0.65)', fontSize: '12px' }}
+              >
+                WeBuildPro India
+              </a>
             </p>
           </div>
         </div>
