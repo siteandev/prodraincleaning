@@ -105,6 +105,21 @@ const faqSchema = {
     '@type': 'Question',
     name: 'Do you clear drains at night and on weekends?',
     acceptedAnswer: { '@type': 'Answer', text: 'Yes — 24 hours a day, 7 days a week, 365 days a year. Call +1 (204) 399-4413 and a real technician answers, not an answering service.' }
+  },
+  {
+    '@type': 'Question',
+    name: 'My basement floor drain is backing up — is that a main sewer line problem?',
+    acceptedAnswer: { '@type': 'Answer', text: 'Usually yes. When a basement floor drain backs up, it\'s typically the lowest fixture in the house showing a main sewer line blockage — everything above it is still pushing water down, and the floor drain is the path of least resistance. This is especially common in older Winnipeg homes in River Heights, Wolseley, Elmwood, North End, and St. Boniface where clay tile sewer laterals have accumulated root intrusion, offset joints, or a belly. We clear main sewer line blockages 24/7. Call +1 (204) 399-4413.' }
+  },
+  {
+    '@type': 'Question',
+    name: 'Do you offer hydro jetting in Winnipeg for repeat drain clogs?',
+    acceptedAnswer: { '@type': 'Answer', text: 'Yes. Hydro jetting is our recommended solution when a drain keeps clogging — bathroom drains in Osborne Village, kitchen drains in Fort Rouge, floor drains in commercial kitchens in St. James, or main sewer lines in East Kildonan or Transcona. Snaking cuts a channel through the blockage; hydro jetting scours the full pipe wall at up to 4,000 PSI, removing grease film, soap scale, and root tissue a cable machine leaves behind. We serve all Winnipeg neighbourhoods.' }
+  },
+  {
+    '@type': 'Question',
+    name: 'Which Winnipeg neighbourhoods have the most frequent drain problems?',
+    acceptedAnswer: { '@type': 'Answer', text: 'The highest-frequency drain problems are in pre-1960 housing stock: River Heights, Wolseley, Fort Rouge, West End, North End, St. Boniface, Elmwood, Norwood Flats, and older sections of East Kildonan. The combination of mature elms, Manitoba maples, green ash, and hybrid poplars means root intrusion is nearly universal in older clay tile laterals. If you\'re in one of these areas with slow drains or a history of backups, a sewer camera inspection is the best first step.' }
   }]
 
 };
@@ -315,6 +330,18 @@ export default function DrainCleaningWinnipegPage() {
               {
                 q: 'Do you clear drains at night and on weekends?',
                 a: 'Yes — 24 hours a day, 7 days a week, 365 days a year. Call +1 (204) 399-4413 and a real technician answers, not an answering service.'
+              },
+              {
+                q: 'My basement floor drain is backing up — is that a main sewer line problem?',
+                a: 'Usually yes. When a basement floor drain backs up, it\'s typically the lowest fixture showing a main sewer line blockage — everything above is still pushing water down, and the floor drain is the path of least resistance. This is especially common in older Winnipeg homes in River Heights, Wolseley, Elmwood, North End, and St. Boniface where clay tile laterals have accumulated root intrusion, offset joints, or a belly. We clear main sewer line blockages 24/7.'
+              },
+              {
+                q: 'Do you offer hydro jetting in Winnipeg for repeat drain clogs?',
+                a: 'Yes. Hydro jetting is our recommended solution when a drain keeps clogging — bathroom drains in Osborne Village, kitchen drains in Fort Rouge, floor drains in commercial kitchens in St. James, or main sewer lines in East Kildonan or Transcona. Snaking cuts a channel; hydro jetting scours the full pipe wall at up to 4,000 PSI, removing grease film, soap scale, and root tissue a cable machine leaves behind. We serve all Winnipeg neighbourhoods.'
+              },
+              {
+                q: 'Which Winnipeg neighbourhoods have the most frequent drain problems?',
+                a: 'The highest-frequency drain problems are in pre-1960 housing stock: River Heights, Wolseley, Fort Rouge, West End, North End, St. Boniface, Elmwood, Norwood Flats, and older sections of East Kildonan. Mature elms, Manitoba maples, green ash, and hybrid poplars mean root intrusion is nearly universal in older clay tile laterals. If you\'re in one of these areas with slow drains or a history of backups, a sewer camera inspection is the best first step.'
               }].
               map((item, i) =>
               <details key={i} className="accordion-item" style={{ listStyle: 'none' }}>
