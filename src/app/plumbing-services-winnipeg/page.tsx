@@ -15,12 +15,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Plumbing Services Winnipeg | Leak Detection, Sump Pumps, Pipe Repair 24/7',
-  description: 'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7.',
+  title: 'Plumbing Companies Winnipeg | Sump Pump Repair, Leak Detection & Pipe Repair 24/7',
+  description: 'Winnipeg plumbing services: sump pump repair & installation, leak detection, pipe & water line repair, faucets, toilets, backwater valves, frozen pipe thawing. Flat-rate pricing. 24/7.',
   alternates: { canonical: `${baseUrl}/plumbing-services-winnipeg` },
   openGraph: {
-    title: 'Plumbing Services Winnipeg | Leak Detection, Sump Pumps, Pipe Repair 24/7',
-    description: 'Winnipeg plumbing services: faucet & toilet repair, leak detection, pipe & water line repair, sump pumps, backwater valves, frozen pipe thawing. 24/7.',
+    title: 'Plumbing Companies Winnipeg | Sump Pump Repair, Leak Detection & Pipe Repair 24/7',
+    description: 'Winnipeg plumbing services: sump pump repair & installation, leak detection, pipe & water line repair, faucets, toilets, backwater valves, frozen pipe thawing. Flat-rate pricing. 24/7.',
     url: `${baseUrl}/plumbing-services-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [
@@ -139,6 +139,22 @@ const faqSchema = {
         text: 'We give you a flat price before starting work in all cases. Emergency and after-hours calls are priced upfront — you approve the number before we start.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'How much does sump pump repair in Winnipeg typically cost?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Sump pump repair cost in Winnipeg depends on whether it's a float switch, check valve, impeller or the whole motor. We diagnose the issue first, give you an upfront flat price, and you approve before we start. Sump pump installation is quoted the same way — call +1 (204) 399-4413 for same-day service.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you do sump pump installation in Winnipeg as well as repair?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. We install pedestal and submersible sump pumps, battery backup systems and combination units across Winnipeg, Selkirk, St. Norbert and 100 km around. If your current pump is over 10 years old, failing on repeat, or undersized for your pit, we can assess and install the right replacement in one visit.',
+      },
+    },
   ],
 };
 
@@ -189,6 +205,14 @@ const faqItems = [
   {
     q: 'Do you charge extra for after-hours plumbing calls?',
     a: 'We give you a flat price before starting work in all cases. Emergency and after-hours calls are priced upfront — you approve the number before we start.',
+  },
+  {
+    q: 'How much does sump pump repair in Winnipeg typically cost?',
+    a: "Sump pump repair cost in Winnipeg depends on whether it's a float switch, check valve, impeller or the whole motor. We diagnose the issue first, give you an upfront flat price, and you approve before we start. Sump pump installation is quoted the same way — call +1 (204) 399-4413 for same-day service.",
+  },
+  {
+    q: 'Do you do sump pump installation in Winnipeg as well as repair?',
+    a: 'Yes. We install pedestal and submersible sump pumps, battery backup systems and combination units across Winnipeg, Selkirk, St. Norbert and 100 km around. If your current pump is over 10 years old, failing on repeat, or undersized for your pit, we can assess and install the right replacement in one visit.',
   },
 ];
 
@@ -282,16 +306,16 @@ export default function PlumbingServicesWinnipegPage() {
                 className="text-white mb-5"
                 style={{ fontWeight: 800 }}
               >
-                Plumbing Services in Winnipeg — Repairs, Installations &amp; Leak Detection, 24/7
+                Plumbing Companies in Winnipeg — Sump Pump Repair, Leak Detection &amp; Pipe Repair, 24/7
               </h1>
               <p
                 className="text-xl leading-relaxed mb-8"
                 style={{ color: 'rgba(255,255,255,0.88)' }}
               >
-                Faucets, toilets, garbage disposals, leak detection, pipe and water line repair,
-                sump pumps, backwater valves, new drain installation and frozen pipe thawing. Same
-                upfront flat-rate pricing, same 24/7 availability, right across Winnipeg, Selkirk,
-                St. Norbert and 100 km around.
+                Sump pump repair and installation, leak detection, pipe and water line repair, faucets,
+                toilets, garbage disposals, backwater valves, new drain installation and frozen pipe
+                thawing. Same upfront flat-rate pricing, same 24/7 availability — one of the most
+                trusted plumbing companies in Winnipeg, Selkirk, St. Norbert and 100 km around.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 mb-5">
                 <PhoneLink className="btn-primary shimmer-btn text-base">
@@ -328,15 +352,30 @@ export default function PlumbingServicesWinnipegPage() {
               Clearing drains is what we&apos;re known for, but a blocked line is often a symptom
               of something else — a failed sump pump, a leaking supply line, a toilet that&apos;s
               been running since March, or a section of pipe that froze last February and never
-              fully recovered. Pro Drain Cleaning handles the plumbing repairs and
-              installations that go with the drains: faucets, toilets, garbage disposals, leak
-              detection, pipe and water line repair, sump pumps, backwater valves, new drain
-              installation and frozen pipe thawing.
+              fully recovered. As one of the most trusted plumbing companies in Winnipeg, Pro Drain
+              Cleaning handles the full range of plumbing repairs and installations: sump pump repair
+              and installation, leak detection, pipe and water line repair, faucets, toilets, garbage
+              disposals, backwater valves, new drain installation and frozen pipe thawing.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--muted)' }}>
               Same upfront flat-rate pricing, same 24/7 availability, same
               protect-the-floors-and-clean-up-after approach, right across Winnipeg, Selkirk, St.
-              Norbert and 100 km around.
+              Norbert and 100 km around. If your sump pump is due for service before spring
+              thaw,{' '}
+              <Link
+                href="/blog/spring-thaw-flooding-sump-pump-winnipeg"
+                style={{ color: 'var(--orange-600)' }}
+                className="hover:underline"
+              >
+                read our spring readiness guide
+              </Link>
+              {' '}or call us now at{' '}
+              <PhoneLink
+                className="font-700 hover:underline"
+                style={{ color: 'var(--orange-600)', fontWeight: 700 }}
+              >
+                +1 (204) 399-4413
+              </PhoneLink>.
             </p>
           </div>
         </section>
@@ -467,7 +506,9 @@ export default function PlumbingServicesWinnipegPage() {
                 Related articles:
               </p>
               {[
+                { label: 'Sump Pump Repair & Spring Readiness Winnipeg', href: '/blog/spring-thaw-flooding-sump-pump-winnipeg' },
                 { label: 'Sump Pump Maintenance Checklist', href: '/blog/sump-pump-maintenance-checklist' },
+                { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/clogged-drain-cleaning-near-me-cost-winnipeg' },
                 { label: 'Backwater Valve Winnipeg Guide', href: '/blog/backwater-valve-winnipeg' },
                 { label: 'Prevent Frozen Pipes Winnipeg', href: '/blog/prevent-frozen-pipes-winnipeg' },
               ].map((link) => (

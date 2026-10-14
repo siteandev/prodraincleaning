@@ -45,6 +45,14 @@ const faqs = [
 {
   q: 'Can you inspect and service a sump pump the same day I call?',
   a: 'Call with your timeline — we prioritize seasonal readiness checks before peak thaw when we can.'
+},
+{
+  q: 'Do you do sump pump repair in Winnipeg on the same day?',
+  a: 'Yes — sump pump repair in Winnipeg is a same-day service when parts are available. We carry common float switches, check valves and impeller assemblies on the truck. If the motor has failed entirely, we can also handle sump pump installation in the same visit. Call +1 (204) 399-4413.'
+},
+{
+  q: 'What\'s the difference between sump pump repair and sump pump replacement in Winnipeg?',
+  a: 'Repair makes sense when the pump is under 7–8 years old and the failure is a component (float switch, check valve, impeller). Replacement is the better call for a pump over 10 years old, one that\'s failed before, or one that\'s undersized for the pit. We\'ll tell you honestly which one applies before any work starts.'
 }];
 
 
@@ -53,9 +61,9 @@ const pageSchema = {
   '@graph': [
   {
     '@type': 'BlogPosting',
-    headline: 'Spring Thaw Flooding in Winnipeg — Is Your Sump Pump Ready?',
+    headline: 'Sump Pump Repair & Spring Readiness in Winnipeg — Is Your Pump Ready for Thaw?',
     description:
-    "Manitoba's spring thaw puts real strain on sump pumps. Here's how to check yours is ready before the melt — and what to do if it's already failing.",
+    "Sump pump repair and installation in Winnipeg. Manitoba's spring thaw puts real strain on sump pumps — here's how to check yours before the melt, and what to do if it's already failing.",
     url: 'https://prodraincleaning.ca/blog/spring-thaw-flooding-sump-pump-winnipeg',
     datePublished: '2026-09-03',
     dateModified: '2026-09-03',
@@ -241,7 +249,7 @@ export default function SpringThawSumpPumpPost() {
             </div>
 
             <h1 className="mb-4">
-              Spring Thaw Flooding in Winnipeg — Is Your Sump Pump Ready?
+              Sump Pump Repair &amp; Spring Readiness in Winnipeg — Is Your Pump Ready for Thaw?
             </h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
@@ -282,7 +290,7 @@ export default function SpringThawSumpPumpPost() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                Manitoba's spring thaw sends a sudden, sustained volume of meltwater into the ground around your foundation — exactly the kind of load a sump pump is built for, but only if it's actually working before the melt starts. A quick test before the season begins (not after the first heavy melt) is the difference between a non-event and a flooded basement. Pro Drain Cleaning checks and services sump pumps across Winnipeg and every community within 100km before the thaw arrives. Call or WhatsApp{' '}
+                Manitoba's spring thaw sends a sudden, sustained volume of meltwater into the ground around your foundation — exactly the kind of load a sump pump is built for, but only if it's working. A quick test before the season begins (not after the first heavy melt) is the difference between a non-event and a flooded basement. Pro Drain Cleaning provides sump pump repair, sump pump installation, and spring readiness checks across Winnipeg and every community within 100km before the thaw arrives. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>.
@@ -463,7 +471,14 @@ export default function SpringThawSumpPumpPost() {
                 <div id="more-than-quick-test" className="scroll-mt-24 mt-12">
                   <h2 className="mb-4">Signs Your Sump Pump Needs More Than a Quick Test</h2>
                   <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                    A pump that's more than 7–10 years old, one that's already cycled unusually often in past wet seasons, visible rust or corrosion on the unit, or a pit that fills unusually fast even in light rain are all signs worth a professional look before you're relying on it during peak thaw.
+                    A pump that's more than 7–10 years old, one that's already cycled unusually often in past wet seasons, visible rust or corrosion on the unit, or a pit that fills unusually fast even in light rain are all signs worth a professional look before you're relying on it during peak thaw. Our{' '}
+                    <Link
+                      href="/plumbing-services-winnipeg"
+                      className="hover:underline font-600"
+                      style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
+                      Winnipeg plumbing services
+                    </Link>{' '}
+                    page covers sump pump repair, sump pump installation, and the full range of plumbing work we handle across the city.
                   </p>
                 </div>
 

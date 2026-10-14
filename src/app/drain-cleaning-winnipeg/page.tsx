@@ -381,6 +381,7 @@ export default function DrainCleaningWinnipegPage() {
             <div className="flex flex-wrap gap-3">
               <p className="text-sm font-600 w-full mb-1" style={{ color: 'var(--muted)', fontWeight: 600 }}>Related articles:</p>
               {[
+              { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/clogged-drain-cleaning-near-me-cost-winnipeg' },
               { label: 'Why Winnipeg Drains Block So Often', href: '/blog/why-winnipeg-drains-block' },
               { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/drain-snaking-vs-hydro-jetting' },
               { label: 'How to Prevent Kitchen Drain Clogs', href: '/blog/prevent-kitchen-drain-clogs' }].

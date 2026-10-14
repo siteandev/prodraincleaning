@@ -87,7 +87,7 @@ const pageSchema = {
   '@graph': [
     {
       '@type': 'BlogPosting',
-      headline: 'Clogged Drain Cleaning Near Me: What It Actually Costs in Winnipeg',
+      headline: 'Drain Cleaning Winnipeg Prices — What It Actually Costs to Unclog a Drain',
       description:
         'How much does drain cleaning cost in Winnipeg? What drives the cost to unclog a drain or snake a sewer line up or down, and how to get an honest upfront price. Call +1 (204) 399-4413, 24/7.',
       url: 'https://prodraincleaning.ca/blog/clogged-drain-cleaning-near-me-cost-winnipeg',
@@ -243,7 +243,7 @@ export default function CloggedDrainCostPage() {
               <span className="text-sm" style={{ color: 'var(--muted)' }}>7 min read</span>
             </div>
 
-            <h1 className="mb-4">Clogged Drain Cleaning Near Me: What It Actually Costs in Winnipeg</h1>
+            <h1 className="mb-4">Drain Cleaning Winnipeg Prices — What It Actually Costs to Unclog a Drain</h1>
 
             <p className="text-sm mb-6" style={{ color: 'var(--muted)' }}>
               By <strong>Manpreet Chahal</strong> · Published September 10, 2026
@@ -279,11 +279,11 @@ export default function CloggedDrainCostPage() {
                 The Short Answer
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
-                How much does drain cleaning cost? There is no honest flat number anyone can give you without seeing the actual clog — the cost to unclog a drain depends on
-                where the blockage is, how it is reached, and what is causing it. What you can count on: a clear,
-                upfront price confirmed on the phone or at the door before any work starts, never a surprise after the
-                fact. Pro Drain Cleaning serves Winnipeg, Selkirk, St. Norbert and every community within
-                100km. Call or WhatsApp{' '}
+                How much does drain cleaning cost in Winnipeg? Drain cleaning prices in Winnipeg depend on where
+                the blockage is, how it is reached, and what is causing it — there is no honest flat number anyone
+                can give you without seeing the actual clog. What you can count on: a clear, upfront price confirmed
+                on the phone or at the door before any work starts, never a surprise after the fact. Pro Drain
+                Cleaning serves Winnipeg, Selkirk, St. Norbert and every community within 100km. Call or WhatsApp{' '}
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>{' '}
@@ -387,7 +387,15 @@ export default function CloggedDrainCostPage() {
                     The cost to unclog a drain moves up when the blockage is in a main line, when a camera inspection is needed to see what
                     is actually happening, or when the fix requires hydro jetting instead of a standard snake. None of
                     that is guesswork on our end — a look with a camera before quoting anything beyond the basic call
-                    tells us (and you) exactly what is involved.
+                    tells us (and you) exactly what is involved. For the full range of{' '}
+                    <Link
+                      href="/drain-cleaning-winnipeg"
+                      className="hover:underline font-600"
+                      style={{ color: 'var(--brand-700)', fontWeight: 600 }}
+                    >
+                      drain cleaning services in Winnipeg
+                    </Link>
+                    {' '}we offer, see our main service page.
                   </p>
                 </div>
 
@@ -611,6 +619,10 @@ export default function CloggedDrainCostPage() {
                   <h2 className="mb-5">Related Reading</h2>
                   <div className="flex flex-col gap-3">
                     {[
+                      {
+                        href: '/drain-cleaning-winnipeg',
+                        label: 'Professional Drain Cleaning Winnipeg — Services & Pricing',
+                      },
                       {
                         href: '/blog/clogged-drain-winnipeg-what-to-do',
                         label: 'Clogged Drain Near Winnipeg and Areas',
