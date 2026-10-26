@@ -13,7 +13,7 @@ const serviceLinks = [
   { label: 'Sewer Camera Inspection', href: '/drain-cleaning-winnipeg#camera-drain-inspections' },
   { label: 'Tree Root Removal', href: '/main-sewer-line-unclogging-winnipeg#tree-root-removal' },
   { label: 'Backwater Valve Installation', href: '/plumbing-services-winnipeg#backwater-valve-installation' },
-  { label: 'Sump Pump Service', href: '/plumbing-services-winnipeg#sump-pump-installation-repair' },
+  { label: 'Sump Pump Repair', href: '/sump-pump-repair-winnipeg' },
 ];
 
 const companyLinks = [
@@ -28,7 +28,7 @@ const companyLinks = [
 ];
 
 const areaLinks = [
-  { label: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { label: 'Winnipeg', href: '/' },
   { label: 'St. Norbert', href: '/areas/drain-cleaning-st-norbert' },
   { label: 'Selkirk', href: '/areas/drain-cleaning-selkirk' },
   { label: 'Headingley', href: '/areas/drain-cleaning-headingley' },

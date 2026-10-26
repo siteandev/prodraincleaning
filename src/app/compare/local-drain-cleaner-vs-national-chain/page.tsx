@@ -574,7 +574,7 @@ export default function LocalDrainCleanerVsNationalChainPage() {
                           </span>
                           {town.slug ? (
                             <Link
-                              href={`/areas/${town.slug}`}
+                              href={town.slug === 'drain-cleaning-winnipeg' ? '/' : `/areas/${town.slug}`}
                               className="hover:underline"
                               style={{ color: 'var(--brand-700)' }}
                             >
@@ -678,15 +678,15 @@ export default function LocalDrainCleanerVsNationalChainPage() {
                   <div className="flex flex-col gap-3">
                     {[
                       {
-                        href: '/blog/drain-cleaning-near-me-winnipeg',
+                        href: '/',
                         label: 'Choosing a Drain Cleaning Service in Winnipeg',
                       },
                       {
-                        href: '/blog/drain-cleaning-company-near-me-response-time-winnipeg',
+                        href: '/',
                         label: 'Drain Cleaning Company Near Me — Response Time',
                       },
                       {
-                        href: '/blog/24-hour-emergency-drain-cleaning-winnipeg',
+                        href: '/blog/emergency-drain-cleaning-winnipeg-24-7-complete-guide',
                         label: '24 Hour Emergency Drain Cleaning in Winnipeg',
                       },
                     ].map((link, i) => (

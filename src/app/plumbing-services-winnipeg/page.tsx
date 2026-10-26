@@ -15,11 +15,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Plumbing Companies Winnipeg | Sump Pump Repair, Leak Detection & Pipe Repair 24/7',
+  title: 'Plumber Winnipeg | Plumbing Company for Leaks, Pipes & Backwater Valves 24/7',
   description: 'Winnipeg plumbing services: sump pump repair & installation, leak detection, pipe & water line repair, faucets, toilets, backwater valves, frozen pipe thawing. Flat-rate pricing. 24/7.',
   alternates: { canonical: `${baseUrl}/plumbing-services-winnipeg` },
   openGraph: {
-    title: 'Plumbing Companies Winnipeg | Sump Pump Repair, Leak Detection & Pipe Repair 24/7',
+    title: 'Plumber Winnipeg | Plumbing Company for Leaks, Pipes & Backwater Valves 24/7',
     description: 'Winnipeg plumbing services: sump pump repair & installation, leak detection, pipe & water line repair, faucets, toilets, backwater valves, frozen pipe thawing. Flat-rate pricing. 24/7.',
     url: `${baseUrl}/plumbing-services-winnipeg`,
     siteName: 'Pro Drain Cleaning',
@@ -306,7 +306,7 @@ export default function PlumbingServicesWinnipegPage() {
                 className="text-white mb-5"
                 style={{ fontWeight: 800 }}
               >
-                Plumbing Companies in Winnipeg — Sump Pump Repair, Leak Detection &amp; Pipe Repair, 24/7
+                Plumber in Winnipeg — Leak Detection, Pipe Repair, Backwater Valves &amp; Sump Pumps, 24/7
               </h1>
               <p
                 className="text-xl leading-relaxed mb-8"
@@ -508,7 +508,7 @@ export default function PlumbingServicesWinnipegPage() {
               {[
                 { label: 'Sump Pump Repair & Spring Readiness Winnipeg', href: '/blog/spring-thaw-flooding-sump-pump-winnipeg' },
                 { label: 'Sump Pump Maintenance Checklist', href: '/blog/sump-pump-maintenance-checklist' },
-                { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/clogged-drain-cleaning-near-me-cost-winnipeg' },
+                { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
                 { label: 'Backwater Valve Winnipeg Guide', href: '/blog/backwater-valve-winnipeg' },
                 { label: 'Prevent Frozen Pipes Winnipeg', href: '/blog/prevent-frozen-pipes-winnipeg' },
               ].map((link) => (

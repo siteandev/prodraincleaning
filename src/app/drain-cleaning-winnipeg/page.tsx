@@ -15,11 +15,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning Winnipeg | 24/7 Clogged Drain Service | Pro Drain Cleaning',
+  title: 'Clogged Drain Cleaning Winnipeg | Kitchen, Floor & Toilet Drains Unclogged 24/7',
   description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7.',
   alternates: { canonical: `${baseUrl}/drain-cleaning-winnipeg` },
   openGraph: {
-    title: 'Drain Cleaning Winnipeg | 24/7 Clogged Drain Service | Pro Drain Cleaning',
+    title: 'Clogged Drain Cleaning Winnipeg | Kitchen, Floor & Toilet Drains Unclogged 24/7',
     description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7.',
     url: `${baseUrl}/drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning',
@@ -182,7 +182,7 @@ export default function DrainCleaningWinnipegPage() {
                 WINNIPEG · SELKIRK · ST. NORBERT · 100 KM AROUND — OPEN 24/7
               </p>
               <h1 id="drain-hero-h1" className="text-white mb-5" style={{ fontWeight: 800 }}>
-                Drain Cleaning in Winnipeg — Every Drain in Your Home or Business, Cleared 24/7
+                Clogged Drain Cleaning in Winnipeg — Kitchen, Bathroom, Floor &amp; Main Drains Unclogged 24/7
               </h1>
               <p className="text-xl leading-relaxed mb-8" style={{ color: 'rgba(255,255,255,0.88)' }}>
                 If water is standing in your sink, pooling around your feet in the shower, or backing up out of a floor drain, you don&apos;t need a lecture about pipes — you need it gone. Same-day service across Winnipeg, Selkirk, St. Norbert and everywhere within 100 km, at any hour, with a flat price you approve before we start.
@@ -381,7 +381,7 @@ export default function DrainCleaningWinnipegPage() {
             <div className="flex flex-wrap gap-3">
               <p className="text-sm font-600 w-full mb-1" style={{ color: 'var(--muted)', fontWeight: 600 }}>Related articles:</p>
               {[
-              { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/clogged-drain-cleaning-near-me-cost-winnipeg' },
+              { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
               { label: 'Why Winnipeg Drains Block So Often', href: '/blog/why-winnipeg-drains-block' },
               { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/drain-snaking-vs-hydro-jetting' },
               { label: 'How to Prevent Kitchen Drain Clogs', href: '/blog/prevent-kitchen-drain-clogs' }].

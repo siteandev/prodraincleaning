@@ -222,9 +222,9 @@ export default function RankingStrategyBlogPost() {
           <div style={{ background: '#f7faff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '20px 24px', marginTop: 48 }}>
             <p style={{ fontWeight: 700, color: '#0f2044', marginBottom: 12, fontSize: 15 }}>Related Articles</p>
             <ul style={{ margin: 0, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <li><Link href="/blog/drain-cleaning-near-me-winnipeg" style={{ color: '#1a56db', fontSize: 15 }}>Drain Cleaning Near Me in Winnipeg — What to Look For</Link></li>
+              <li><Link href="/" style={{ color: '#1a56db', fontSize: 15 }}>Drain Cleaning Near Me in Winnipeg — What to Look For</Link></li>
               <li><Link href="/blog/emergency-drain-cleaning-winnipeg-24-7-complete-guide" style={{ color: '#1a56db', fontSize: 15 }}>Emergency Drain Cleaning Winnipeg — 24/7 Complete Guide</Link></li>
-              <li><Link href="/blog/plumber-near-me-winnipeg-complete-guide" style={{ color: '#1a56db', fontSize: 15 }}>Plumber Near Me Winnipeg — Complete Guide</Link></li>
+              <li><Link href="/plumbing-services-winnipeg" style={{ color: '#1a56db', fontSize: 15 }}>Plumber Near Me Winnipeg — Complete Guide</Link></li>
             </ul>
           </div>
 

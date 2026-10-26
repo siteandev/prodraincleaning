@@ -46,14 +46,14 @@ export const metadata: Metadata = {
 };
 
 const nearbyAreas = [
-  { name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { name: 'Winnipeg', href: '/' },
   { name: 'Headingley', href: '/areas/drain-cleaning-headingley' },
   { name: 'Stonewall', href: '/areas/drain-cleaning-stonewall' },
 ];
 
 const services = [
   { name: 'Septic System Drain Lines', href: '/drain-cleaning-winnipeg#preventive-drain-maintenance' },
-  { name: 'Sump Pump Service', href: '/plumbing-services-winnipeg#sump-pump-installation-repair' },
+  { name: 'Sump Pump Service', href: '/sump-pump-repair-winnipeg' },
   { name: 'HD Camera Inspection', href: '/drain-cleaning-winnipeg#camera-drain-inspections' },
   { name: 'Hydro Jetting', href: '/drain-cleaning-winnipeg#hydro-jet-drain-cleaning' },
   { name: 'Main Sewer Line Clearing', href: '/main-sewer-line-unclogging-winnipeg#tree-root-removal' },

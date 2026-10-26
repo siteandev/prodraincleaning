@@ -70,7 +70,7 @@ const fixtureRows = [
 
 
 const towns = [
-{ name: 'Winnipeg', slug: '/areas/drain-cleaning-winnipeg', note: 'every neighbourhood' },
+{ name: 'Winnipeg', slug: '/', note: 'every neighbourhood' },
 { name: 'Selkirk', slug: '/areas/drain-cleaning-selkirk', note: null },
 { name: 'St. Norbert', slug: '/areas/drain-cleaning-st-norbert', note: null },
 { name: 'Headingley', slug: '/areas/drain-cleaning-headingley', note: null },

@@ -70,7 +70,7 @@ export default function AreasPage() {
             {serviceAreas.map((area) => (
               <Link
                 key={area.slug}
-                href={`/areas/${area.slug}`}
+                href={area.slug === 'drain-cleaning-winnipeg' ? '/' : `/areas/${area.slug}`}
                 style={{
                   display: 'block',
                   padding: '1.25rem 1.5rem',

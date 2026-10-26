@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 };
 
 const nearbyAreas = [
-  { name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { name: 'Winnipeg', href: '/' },
   { name: 'Steinbach', href: '/areas/drain-cleaning-steinbach' },
   { name: 'St. Norbert', href: '/areas/drain-cleaning-st-norbert' },
 ];
@@ -55,7 +55,7 @@ const services = [
   { name: 'Main Sewer Line Clearing', href: '/main-sewer-line-unclogging-winnipeg#tree-root-removal' },
   { name: 'Hydro Jetting', href: '/drain-cleaning-winnipeg#hydro-jet-drain-cleaning' },
   { name: 'New Drain Installation', href: '/plumbing-services-winnipeg#drain-installation' },
-  { name: 'Sump Pump Service', href: '/plumbing-services-winnipeg#sump-pump-installation-repair' },
+  { name: 'Sump Pump Service', href: '/sump-pump-repair-winnipeg' },
   { name: 'Sewer Line Locating', href: '/main-sewer-line-unclogging-winnipeg#sewer-line-locating' },
   { name: 'Emergency Drain Response', href: '/emergency-drain-plumbing-winnipeg' },
 ];

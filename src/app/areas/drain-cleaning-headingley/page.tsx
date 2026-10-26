@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 };
 
 const nearbyAreas = [
-  { name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { name: 'Winnipeg', href: '/' },
   { name: 'Oak Bluff', href: '/areas/drain-cleaning-oak-bluff' },
   { name: 'Stonewall', href: '/areas/drain-cleaning-stonewall' },
 ];
@@ -56,7 +56,7 @@ const services = [
   { name: 'HD Camera Inspection', href: '/drain-cleaning-winnipeg#camera-drain-inspections' },
   { name: 'Hydro Jetting', href: '/drain-cleaning-winnipeg#hydro-jet-drain-cleaning' },
   { name: 'Iron Scale Removal', href: '/drain-cleaning-winnipeg#hydro-jet-drain-cleaning' },
-  { name: 'Sump Pump Service', href: '/plumbing-services-winnipeg#sump-pump-installation-repair' },
+  { name: 'Sump Pump Service', href: '/sump-pump-repair-winnipeg' },
   { name: 'Backwater Valve Installation', href: '/plumbing-services-winnipeg#backwater-valve-installation' },
   { name: 'Emergency Drain Response', href: '/emergency-drain-plumbing-winnipeg' },
 ];

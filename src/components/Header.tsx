@@ -33,7 +33,7 @@ const mobileMenuSections = [
       { label: 'Sewer Camera Inspection', href: '/drain-cleaning-winnipeg#camera-drain-inspections' },
       { label: 'Tree Root Removal', href: '/main-sewer-line-unclogging-winnipeg#tree-root-removal' },
       { label: 'Backwater Valve Installation', href: '/plumbing-services-winnipeg#backwater-valve-installation' },
-      { label: 'Sump Pump Service', href: '/plumbing-services-winnipeg#sump-pump-installation-repair' },
+      { label: 'Sump Pump Repair', href: '/sump-pump-repair-winnipeg' },
     ],
   },
   {
@@ -54,6 +54,7 @@ const parentMap: Record<string, string> = {
   '/main-sewer-line-unclogging-winnipeg': '/',
   '/restaurant-commercial-drain-cleaning-winnipeg': '/',
   '/plumbing-services-winnipeg': '/',
+  '/sump-pump-repair-winnipeg': '/plumbing-services-winnipeg',
   '/emergency-drain-plumbing-winnipeg': '/',
   '/contact': '/',
   '/book-online': '/',

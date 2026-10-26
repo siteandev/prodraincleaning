@@ -799,7 +799,7 @@ export default function EmergencyDrainPillarPost() {
                     {[
                     {
                       name: 'Winnipeg',
-                      href: '/areas/drain-cleaning-winnipeg',
+                      href: '/',
                       detail: '— every neighbourhood, from older clay-pipe areas like River Heights, Wolseley and Elmwood to newer developments like Sage Creek and Bridgwater.'
                     },
                     {
@@ -923,7 +923,7 @@ export default function EmergencyDrainPillarPost() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {[
                     { href: '/blog/sewer-backup-what-to-do', label: 'Sewer Backup in Your Basement? Do These 7 Things First' },
-                    { href: '/blog/emergency-plumber-winnipeg-when-to-call', label: 'When to Call an Emergency Plumber in Winnipeg (And When It Can Wait)' },
+                    { href: '/blog/emergency-plumber-winnipeg-24-7-guide', label: 'When to Call an Emergency Plumber in Winnipeg (And When It Can Wait)' },
                     { href: '/blog/signs-main-sewer-line-clogged', label: '9 Signs Your Main Sewer Line Is Clogged' },
                     { href: '/emergency-drain-plumbing-winnipeg', label: '24/7 Emergency Drain & Plumbing Winnipeg — our full emergency service page' },
                     { href: '/blog/hydro-jetting-vs-snaking', label: 'Drain & Sewer Specialist vs. a General Plumber' }].

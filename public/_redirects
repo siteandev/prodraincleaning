@@ -7,7 +7,7 @@
 # must be a genuinely different file; it just needs identical content.
 /googlea238e09fd2761b06.html /assets/google-site-verification-content.txt 200
 
-/areas-we-serve /areas/drain-cleaning-winnipeg 301
+/areas-we-serve /areas 301
 /blog/prevent-frozen-pipes-winnipeg-winter /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
 /blog/prevent-frozen-pipes-winnipeg /blog/frozen-pipes-winnipeg-how-to-thaw-safely 301
 /emergency-drain-plumbing /emergency-drain-plumbing-winnipeg 301
@@ -20,3 +20,23 @@
 # Trailing-slash variants — prevents redirect errors logged in GSC
 /blog/what-not-to-flush/ /blog/what-not-to-flush 301
 /areas/ /areas 301
+
+# Keyword-map consolidation 2026-10-27 — one owner page per search cluster
+/areas/drain-cleaning-winnipeg / 301
+/blog/drain-cleaning-near-me-winnipeg / 301
+/blog/drain-cleaning-service-winnipeg-and-areas / 301
+/blog/drain-cleaning-company-near-me-response-time-winnipeg / 301
+/blog/plumbing-drain-cleaning-services-winnipeg /plumbing-services-winnipeg 301
+/blog/plumber-near-me-winnipeg-complete-guide /plumbing-services-winnipeg 301
+/blog/clogged-drain-cleaning-near-me-cost-winnipeg /blog/drain-cleaning-winnipeg-cost-guide 301
+/blog/24-hour-emergency-drain-cleaning-winnipeg /blog/emergency-drain-cleaning-winnipeg-24-7-complete-guide 301
+/blog/emergency-plumber-winnipeg-when-to-call /blog/emergency-plumber-winnipeg-24-7-guide 301
+/blog/sewer-line-cleaning-near-me-winnipeg /main-sewer-line-unclogging-winnipeg 301
+/blog/basement-floor-drain-backing-up /blog/basement-floor-drain-clogged-whats-wrong 301
+/blog/clay-pipe-sewer-lines-winnipeg /blog/cast-iron-clay-pipes-older-winnipeg-homes 301
+/blog/drain-cleaning-selkirk /areas/drain-cleaning-selkirk 301
+/blog/drain-cleaning-st-norbert /areas/drain-cleaning-st-norbert 301
+/blog/drain-cleaning-steinbach-niverville /areas/drain-cleaning-steinbach 301
+/blog/why-drain-smells-like-sewage /blog/drain-smells-like-sewage 301
+/blog/sump-pump-repair-winnipeg-and-areas /sump-pump-repair-winnipeg 301
+/areas/drain-cleaning-winnipeg/ / 301

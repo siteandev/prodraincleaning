@@ -87,7 +87,7 @@ const faqs = [
 ];
 
 const areaLinks: { name: string; href: string | null }[] = [
-  { name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { name: 'Winnipeg', href: '/' },
   { name: 'Selkirk', href: '/areas/drain-cleaning-selkirk' },
   { name: 'St. Norbert', href: '/areas/drain-cleaning-st-norbert' },
   { name: 'Headingley', href: '/areas/drain-cleaning-headingley' },

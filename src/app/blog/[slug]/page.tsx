@@ -355,7 +355,7 @@ Jet the line once if it has been clogging repeatedly, then keep up the habits ab
 If your kitchen sink has clogged more than once in the past year, or if it is slow and getting slower, call us. We will tell you honestly whether snaking or jetting is the right call, and we will fix it properly rather than just opening a hole through the middle. We serve Winnipeg, Selkirk, Steinbach, and everywhere within 100 km, 24/7. Call +1 (204) 399-4413.`,
   },
   'sewer-backup-what-to-do': {
-    title: 'Sewer Backup in Your Basement? Do These 7 Things First',
+    title: 'Sewer Backup in Your Basement (Winnipeg)? Do These 7 Things First',
     category: 'Emergency',
     readTime: 6,
     date: '2026-02-25',
@@ -363,7 +363,7 @@ If your kitchen sink has clogged more than once in the past year, or if it is sl
     excerpt: 'A sewer backup is a contamination event, not a plumbing inconvenience. What you do in the first fifteen minutes materially changes what it costs you.',
     serviceLink: '/emergency-drain-plumbing-winnipeg#emergency-sewer-backup-service',
     serviceLinkText: 'emergency sewer backup service in Winnipeg',
-    relatedSlugs: ['signs-main-sewer-line-clogged', 'backwater-valve-winnipeg', 'basement-floor-drain-backing-up'],
+    relatedSlugs: ['signs-main-sewer-line-clogged', 'backwater-valve-winnipeg'],
     faqs: [
       { q: 'Is a sewer backup covered by insurance?', a: 'Sewer backup coverage is usually an optional endorsement in Manitoba. Check your policy now, not during a backup. Keep our invoice and the camera footage — insurers ask for both.' },
       { q: 'Can I clean up a sewer backup myself?', a: 'Small, freshly-stopped backups on hard surfaces can be handled with proper PPE and disinfection. Anything larger, anything that reached carpet or drywall, or anything that sat — get a professional. This is Category 3 water: it carries bacteria and pathogens.' },
@@ -421,7 +421,7 @@ The moment you see sewage coming up a floor drain or laundry tub, call +1 (204) 
     excerpt: 'Practical steps to stop pipes freezing in Winnipeg\'s deep cold, plus exactly what to do if one has already frozen.',
     serviceLink: '/plumbing-services-winnipeg#frozen-pipe-thawing',
     serviceLinkText: 'frozen pipe thawing in Winnipeg',
-    relatedSlugs: ['emergency-plumber-winnipeg-when-to-call', 'spring-thaw-basement-flooding-winnipeg', 'backwater-valve-winnipeg'],
+    relatedSlugs: ['spring-thaw-basement-flooding-winnipeg', 'backwater-valve-winnipeg'],
     faqs: [
       { q: 'How cold does it have to be for pipes to freeze?', a: 'Sustained temperatures below about −6°C put exposed pipes at risk. In Winnipeg, that is most of the winter, which is why insulation and draught-sealing matter more than watching the forecast.' },
       { q: 'My water service froze last winter. Will it happen again?', a: 'Very likely, unless the cause is addressed. We can tell you whether it is depth, insulation or a draught path. Call +1 (204) 399-4413 to book an assessment before the next cold snap.' },
@@ -641,54 +641,6 @@ We send you the footage the same day. [Camera inspection costs](/blog/drain-clea
 
 Call +1 (204) 399-4413 or book online. We'll confirm your appointment time and work around your conditions timeline.`,
   },
-  'basement-floor-drain-backing-up': {
-    title: 'Basement Floor Drain Backing Up? Here\'s What It Actually Means',
-    category: 'Drain Cleaning',
-    readTime: 6,
-    date: '2026-03-28',
-    updatedDate: '2026-08-17',
-    excerpt: 'A backing-up basement floor drain is rarely a floor drain problem. Here is what is actually happening and what to do first.',
-    serviceLink: '/drain-cleaning-winnipeg#floor-drain-cleaning',
-    serviceLinkText: 'floor drain cleaning in Winnipeg',
-    relatedSlugs: ['signs-main-sewer-line-clogged', 'sewer-backup-what-to-do', 'backwater-valve-winnipeg'],
-    faqs: [
-      { q: 'Should I pour water down my floor drain periodically?', a: 'Yes. A floor drain in a dry basement loses its trap seal to evaporation, and then sewer gas enters the house. A jug of water every couple of months solves it.' },
-      { q: 'Why does my floor drain only back up when it rains?', a: 'That points to surcharging in the City sewer system or groundwater entering your line through cracks. Both are worth investigating with a camera inspection. A backwater valve prevents the surcharging scenario.' },
-      { q: 'Is the smell from my floor drain dangerous?', a: 'Sewer gas should not be in living space. It is usually a dry trap — easily fixed by pouring water down the drain — but if refilling the trap does not stop it, there is a real defect to find. Call us.' },
-      { q: 'What is the difference between a floor drain backup and a main sewer line backup?', a: 'If water comes up the floor drain when you use other fixtures — flush a toilet, run the washing machine — the main sewer line is blocked. If only the floor drain is slow and every other fixture is fine, the floor drain\'s own line is the likely culprit.' },
-    ],
-    content: `Your basement floor drain is the lowest opening in your drainage system. When something downstream cannot take the flow, that is where it comes out. So water appearing at the floor drain almost never means the floor drain is blocked — it usually means the main sewer line is.
-
-**The quick test**
-
-Run the washing machine, or flush an upstairs toilet, and watch the floor drain. If water rises there when you use a different fixture, the shared line below is restricted. That is a main line call, and you should stop using water in the building until it is cleared.
-
-**The four causes, in order of likelihood**
-
-Main sewer line blockage. Roots, grease, scale, or a foreign object. Multiple fixtures will be affected. This is the most common cause in Winnipeg by a wide margin.
-
-The City system is surcharged. During heavy rain or fast melt, the municipal system fills and pushes back into homes through the lowest opening. Nothing in your house is broken — the volume is the problem. This is the scenario a backwater valve prevents.
-
-The floor drain line itself is blocked. Silt, laundry lint, rust scale, construction debris and hair build up in the drain's own trap and branch. If only the floor drain is slow and every other fixture is fine, this is the likely one — and it is the least expensive.
-
-Sump or weeping tile issues. Some older Winnipeg homes have weeping tile connected in ways that send groundwater through the sanitary system. Heavy groundwater then overwhelms a line that is fine in dry weather.
-
-**What to do right now**
-
-Stop using all water in the building. Keep people and pets off the floor — water coming up a floor drain is sewage. Photograph it before cleanup. Then call. If this has happened before, mention that, because a repeating pattern points strongly at roots or at surcharging, and it changes what we bring.
-
-**The permanent fixes**
-
-Depending on which cause the camera reveals: clearing and jetting the main line and setting a maintenance interval for roots; installing a backwater valve if the City system is surcharging; a straightforward clean-and-flush if it is the floor drain's own line; or drainage correction if groundwater is being routed into the sanitary system.
-
-**Floor drain backups in Selkirk and St. Norbert**
-
-Properties in Selkirk and St. Norbert are particularly vulnerable to City system surcharging during spring melt and heavy rain. If your floor drain backs up every spring, a backwater valve is almost certainly the right long-term answer. We install them across the region.
-
-**When to call a pro**
-
-The moment you see water coming up a floor drain, stop using all water in the building and call +1 (204) 399-4413. We serve Winnipeg, Selkirk, Steinbach, and everywhere within 100 km, 24/7. Sewer backups get priority dispatch.`,
-  },
   'restaurant-grease-trap-line-cleaning': {
     title: 'Restaurant Grease Line Cleaning: How Often Winnipeg Kitchens Really Need It',
     category: 'Commercial',
@@ -829,7 +781,7 @@ Call +1 (204) 399-4413 or book online. We confirm your appointment time and work
     excerpt: 'A sewage smell indoors means sewer gas is entering living space. Air freshener masks it; it does not fix it. Here are the six causes.',
     serviceLink: '/drain-cleaning-winnipeg',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
-    relatedSlugs: ['basement-floor-drain-backing-up', 'what-not-to-flush', 'signs-main-sewer-line-clogged'],
+    relatedSlugs: ['what-not-to-flush', 'signs-main-sewer-line-clogged'],
     faqs: [
       { q: 'Is sewer gas dangerous?', a: 'Hydrogen sulphide and methane in an enclosed space are genuinely hazardous at concentration and the gases are flammable. Beyond the health question, a persistent smell means something is defective. Do not ignore it.' },
       { q: 'Why is the sewage smell worse in summer?', a: 'Heat speeds evaporation from traps and accelerates bacterial activity. Both increase the amount of gas entering the space.' },
@@ -1046,120 +998,6 @@ A professional clean when it keeps coming back. Cabling or jetting removes the c
 
 If the drain is still blocked after plunging, call us. We serve Winnipeg, Selkirk, Steinbach, and everywhere within 100 km, 24/7. Call +1 (204) 399-4413.`,
   },
-  'emergency-plumber-winnipeg-when-to-call': {
-    title: 'When to Call an Emergency Plumber in Winnipeg (And When It Can Wait)',
-    category: 'Emergency',
-    readTime: 7,
-    date: '2026-05-12',
-    updatedDate: '2026-08-17',
-    excerpt: 'Which plumbing problems are genuine emergencies in Winnipeg, which can wait until morning, and what to do while you wait.',
-    serviceLink: '/emergency-drain-plumbing-winnipeg',
-    serviceLinkText: 'emergency drain and plumbing service in Winnipeg',
-    relatedSlugs: ['sewer-backup-what-to-do', 'prevent-frozen-pipes-winnipeg', 'basement-floor-drain-backing-up'],
-    faqs: [
-      { q: 'Do you cover Selkirk, Steinbach and outside Winnipeg at night?', a: 'Yes, everywhere within 100 km. Response time depends on distance and we will be honest with you on the phone.' },
-      { q: 'Do you answer on statutory holidays?', a: 'Yes — including Christmas. When you call +1 (204) 399-4413, a technician answers, not an answering service.' },
-      { q: 'Can you help with my insurance claim?', a: 'We provide dated invoices, photos and camera footage, which is what insurers ask for.' },
-      { q: 'What does "24/7" actually mean when I call?', a: 'When you call +1 (204) 399-4413, a technician answers — someone who can diagnose the problem over the phone, tell you what to do right now, and give you a price before we roll. We give you the rate upfront, even at 3 a.m.' },
-    ],
-    content: `**Call immediately — these get worse by the minute**
-
-Sewage backing up into the building. Contaminated water, spreading damage, and every additional minute means more porous material written off.
-
-A burst or actively leaking pipe. Shut your main water valve first, then call. Water under pressure does structural damage fast.
-
-A frozen pipe. Water expands as it freezes and pipes split with almost no warning. A frozen pipe caught early is a thaw; caught late it is a burst.
-
-A failed sump pump with water rising in the pit — particularly during melt or a storm.
-
-No water at all in the building, especially in winter, which usually means a frozen service line.
-
-A blocked toilet in a single-bathroom home or an operating business. Not dramatic, genuinely urgent.
-
-Any drain backup where water is currently rising and you have already stopped using water.
-
-Gas smell, or sewer gas strong enough to be a health concern. For natural gas, leave the building and call the utility emergency line first.
-
-**It can usually wait until morning**
-
-A single slow drain with other fixtures working normally. A dripping tap. A running toilet — turn the supply off at the wall and it is contained. Low pressure at one fixture. A minor drip you can catch in a bucket. A water heater that is cool but not leaking — annoying, not an emergency.
-
-The dividing question is simple: is it causing damage right now, is it a health hazard, or does it stop the building being usable? If yes, call. If no, book it properly and get a normal appointment.
-
-**What to do while you wait**
-
-Know where your main water shut-off is before you need it — and make sure it turns. In a backup, stop all water use in the building immediately. Photograph everything before cleanup for your insurer. Keep people and pets away from contaminated water. Move belongings up and out if it is safe. Do not start demolition before your insurer has seen it.
-
-**What "24/7" should actually mean**
-
-Ask when you call. Some companies advertise 24/7 and route you to an answering service that takes a message for the morning, and some charge a substantial after-hours premium on top. When you call +1 (204) 399-4413, a technician answers — someone who can diagnose the problem over the phone, tell you what to do right now, and give you a price before we roll. We give you the rate upfront, even at 3 a.m.
-
-**When to call a pro**
-
-If the situation is causing damage right now, is a health hazard, or stops the building being usable — call +1 (204) 399-4413 immediately. We serve Winnipeg, Selkirk, Steinbach, and everywhere within 100 km, 24/7.`,
-  },
-  'clay-pipe-sewer-lines-winnipeg': {
-    title: 'Clay Sewer Pipe in Older Winnipeg Homes: What Every Owner Should Know',
-    category: 'Sewer Lines',
-    readTime: 8,
-    date: '2026-05-20',
-    updatedDate: '2026-08-17',
-    excerpt: 'If your Winnipeg home predates 1970, your sewer line is probably clay tile. Here is what that means, what fails, and how to manage it.',
-    serviceLink: '/main-sewer-line-unclogging-winnipeg',
-    serviceLinkText: 'main sewer line unclogging in Winnipeg',
-    relatedSlugs: ['tree-roots-sewer-line-winnipeg', 'sewer-line-repair-vs-replacement', 'sewer-camera-inspection-before-buying-house'],
-    faqs: [
-      { q: 'How long does clay sewer pipe last?', a: '50–100 years, though joint performance degrades much sooner. The pipe itself is chemically inert and durable; the joints are where failure occurs.' },
-      { q: 'Can I tell what material my sewer line is without a camera?', a: 'Sometimes from the visible pipe at the cleanout, but the buried run can be different material. A camera inspection is the only reliable way to know what you have and what condition it is in.' },
-      { q: 'Does insurance cover a collapsed sewer line?', a: 'Usually not — it is typically classed as maintenance or wear. Resulting water damage may be covered if you have the right endorsement. Check your policy.' },
-      { q: 'Do you offer pipe lining (CIPP) as an alternative to replacement?', a: 'We partner with a specialist lining contractor for CIPP work and can coordinate the full project — camera inspection, lining, and post-lining verification. Pipe lining creates a new jointless pipe within the old one — no trench, and it eliminates root entry. It requires a structurally intact host pipe.' },
-    ],
-    content: `[Vitrified clay pipe](/glossary#vitrified-clay-pipe) was the standard sewer material for most of the 20th century, and it is genuinely good material: chemically inert, resistant to almost everything that goes down a drain, and lines laid a century ago are still in service. Its weakness is not the pipe — it is the joints.
-
-Clay comes in short sections, roughly a metre each, so a typical Winnipeg run has dozens of joints. Those joints were sealed with mortar or bituminous compound that degrades over decades. Every joint is a potential entry point.
-
-If your home is in River Heights, Wolseley, the West End, the North End, Elmwood, St. Boniface, Norwood, Fort Rouge, older St. James, East Kildonan, or the older parts of St. Norbert and Selkirk, and it was built before roughly 1970, clay is the likely material.
-
-**What actually fails**
-
-Root intrusion at the joints — by far the most common. Roots find the degraded seal, get in, and grow into a mat.
-
-Joint offsets — decades of freeze-thaw and soil movement shift sections out of alignment, creating a lip that catches solids.
-
-Bellies — a section settles and holds standing water permanently. Solids drop out and accumulate there.
-
-Cracking — from ground movement, heavy loads above, or an aggressive cable used carelessly.
-
-Collapse — the end state, and the reason to catch the earlier stages.
-
-**How to manage it sensibly**
-
-You do not need to panic about clay pipe. Millions of homes run on it fine. You need to know its condition and act accordingly.
-
-Get a camera inspection so you know what you have. Everything else follows from that.
-
-Set a maintenance interval based on what the camera shows — commonly annual or every two years where roots are present.
-
-Cut and jet rather than just cabling, so root hair and debris leave the system.
-
-Do not plant trees over the run, and be careful with landscaping near it.
-
-Consider a backwater valve, particularly with a finished basement.
-
-Plan for eventual repair. If the camera shows serious defects, budget for it rather than being surprised by it at 2 a.m.
-
-**Repair options when you get there**
-
-Spot repair — excavate and replace the failed section only. Right when the rest of the line is sound.
-
-Pipe lining (CIPP) — a resin liner cured in place inside the existing pipe, creating a new jointless pipe within the old one. No trench, and it eliminates root entry. Needs a structurally intact host pipe. We partner with a specialist lining contractor for CIPP work and can coordinate the full project.
-
-Full replacement — the answer for a collapsed or badly deteriorated line.
-
-**When to call a pro**
-
-If you have clay pipe and have never had a camera inspection, or if you are having repeat backups, call us. We serve Winnipeg, Selkirk, Steinbach, and everywhere within 100 km, 24/7. Call +1 (204) 399-4413.`,
-  },
   'bathtub-shower-draining-slowly': {
     title: 'Bathtub or Shower Draining Slowly? Here\'s the Real Cause',
     category: 'Drain Cleaning',
@@ -1217,7 +1055,7 @@ If the DIY steps above have not cleared it, or if the tub blocks repeatedly, cal
     excerpt: 'A washing machine pumps out a large volume of water very fast — far faster than a sink or a shower. Here are the four real causes.',
     serviceLink: '/drain-cleaning-winnipeg',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
-    relatedSlugs: ['basement-floor-drain-backing-up', 'how-often-clean-drains', 'signs-main-sewer-line-clogged'],
+    relatedSlugs: ['how-often-clean-drains', 'signs-main-sewer-line-clogged'],
     faqs: [
       { q: 'Can I just pour bleach down the laundry standpipe?', a: 'No. Bleach does not remove lint and scale from a pipe wall, and it does nothing useful for the blockage. Mechanical cleaning is what removes the coating.' },
       { q: 'How often should a laundry line be cleaned?', a: 'For a busy household, every couple of years is reasonable; more often if you have already had one overflow. The line needs jetting, not just cabling, to remove the wall coating.' },
@@ -1450,133 +1288,6 @@ Stop flushing. Shut the supply valve behind the toilet. If you can see it and re
 
 Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
   },
-  'drain-cleaning-selkirk': {
-    title: 'Drain Cleaning in Selkirk, MB: Local Problems and Local Fixes',
-    category: 'Areas',
-    readTime: 7,
-    date: '2026-08-17',
-    updatedDate: '2026-08-17',
-    excerpt: 'Drain and sewer issues specific to Selkirk homes — river levels, older housing stock, tree roots — and 24/7 local service.',
-    serviceLink: '/areas/drain-cleaning-selkirk',
-    serviceLinkText: 'drain cleaning in Selkirk',
-    relatedSlugs: ['tree-roots-sewer-line-winnipeg', 'sump-pump-maintenance-checklist', 'signs-main-sewer-line-clogged'],
-    faqs: [
-      { q: 'Do you actually come to Selkirk at night?', a: 'Yes — 24/7, same as Winnipeg. We\'ll give you an honest travel time on the phone.' },
-      { q: 'Is there a travel charge outside Winnipeg?', a: 'No travel surcharge within our standard 100 km service area. We give you the full price on the phone before we roll.' },
-      { q: 'Do you work on septic systems in the rural areas around Selkirk?', a: 'We service interior drain lines and the run from the house to the septic tank — camera inspections, root removal, and blockage clearing. For tank pumping and field work, we can refer you to a licensed septic contractor.' },
-    ],
-    content: `**Selkirk's drains have their own personality**
-
-Selkirk sits about 34 km north of Winnipeg on the Red River, and both facts show up in local drainage. The Red means a high water table through much of the community and seasonal groundwater swings tied to river levels — which puts real load on sump pumps and means basements here are less forgiving of a drainage problem than they are further from the river.
-
-The housing stock matters too. Selkirk has a substantial older core, which means older [sewer laterals](/glossary#sewer-lateral), more clay tile, and mature boulevard trees with root systems that have had decades to find joint seals. Alongside that there's newer development with modern PVC, plus a marine and industrial base along the river with commercial drainage needs of its own. **What we're called out for most in Selkirk**
-
-Root intrusion in older laterals. Same pattern as Winnipeg's older neighbourhoods: clay pipe, mature trees, decades of freeze-thaw. Repeat backups every 6–18 months are the giveaway.
-
-Sump pump load and failure. High groundwater means pumps here work hard, particularly during spring melt when river levels rise. Pumps that would last a decade elsewhere wear out faster.
-
-Basement backups during high water. When groundwater is up and the system is loaded, a partly restricted line that coped all year suddenly doesn't.
-
-Commercial and marine-related drainage along the riverfront and in the industrial area — floor drains, grease lines, and yard drainage.
-
-Frozen lines in deep winter, particularly in older homes with shallow services or poorly insulated crawlspaces.
-
-**Practical advice for Selkirk homeowners**
-
-Get a camera inspection if your home predates 1980 and you've never had one — you need to know whether you're on clay and whether roots are present. Test your sump pump every three months and before every melt, and seriously consider a battery backup given local groundwater. If you've had one backup, assume there'll be another unless the cause is found and address it. And keep your basement floor drain trap topped up so sewer gas stays out.
-
-**24/7 service to Selkirk**
-
-We cover Selkirk fully, at any hour, as part of our 100 km service area — drain cleaning, main sewer line unclogging, root cutting, hydro jetting, camera inspections, sump pumps, backwater valves and emergency response. Same upfront flat-rate pricing as in the city.
-
-**Blocked drain right now?**
-
-Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
-  },
-  'drain-cleaning-st-norbert': {
-    title: 'Drain and Sewer Issues in St. Norbert: What the River Does to Your Pipes',
-    category: 'Areas',
-    readTime: 7,
-    date: '2026-08-17',
-    updatedDate: '2026-08-17',
-    excerpt: 'High water tables, river proximity and mature trees make St. Norbert drainage its own challenge. Local 24/7 drain and sewer service.',
-    serviceLink: '/areas/drain-cleaning-st-norbert',
-    serviceLinkText: 'drain cleaning in St. Norbert',
-    relatedSlugs: ['sump-pump-maintenance-checklist', 'backwater-valve-winnipeg', 'spring-thaw-basement-flooding-winnipeg'],
-    faqs: [
-      { q: 'Does river level actually affect my basement?', a: 'Indirectly but substantially — it drives the local water table, which drives how hard your sump pump works.' },
-      { q: 'Is a backwater valve worth it here?', a: 'For a finished basement in an area with flood history, it\'s one of the better investments available.' },
-      { q: 'Do you service septic properties?', a: 'Yes — we service interior drain lines and the run from the house to the septic tank. For tank pumping and field work, we can refer you to a licensed septic contractor.' },
-    ],
-    content: `**Where the Red meets the La Salle**
-
-St. Norbert sits at the confluence of the Red and La Salle rivers at Winnipeg's southern edge, and that geography drives most of what we see here. High water tables are normal. Spring flood history is part of the community's identity. Ground conditions are heavy clay that shifts noticeably through the seasonal wet-dry cycle.
-
-The building stock is genuinely mixed: heritage riverside properties, mid-century homes, newer subdivisions, and rural-edge properties on private septic and well. Each has a different drainage profile, so there's no single St. Norbert answer.
-
-**The four issues we see most**
-
-Sump pump dependency. With the water table where it is, many St. Norbert basements are only dry because a pump is running. That makes pump failure a much bigger deal here than in a drier part of the city, and it makes battery backup close to essential for a finished basement.
-
-Ground movement and pipe stress. Heavy clay soil expands when wet and contracts when dry, and that seasonal movement works on buried pipe over decades — opening joints, creating offsets, and setting up bellies that hold standing water. It's a major reason older lines here develop root entry points.
-
-Root intrusion. Mature trees on established riverside lots plus older clay laterals is the classic combination.
-
-Septic system issues on rural-edge properties: field saturation during high groundwater, drain lines to the tank, and the drainage habits that keep a septic system healthy.
-
-**What St. Norbert homeowners should do**
-
-Test the sump pump quarterly and always before spring melt, and treat a battery backup as insurance rather than a luxury. Get a camera inspection on any older property so you know your pipe material and condition. Take backwater valves seriously here — flood history plus a finished basement is exactly the case they're built for. And if you're on septic, be deliberate about what goes down the drain and space out heavy water use.
-
-**24/7 service to St. Norbert**
-
-St. Norbert is one of our core service areas — drain cleaning, main sewer line unclogging, root cutting, hydro jetting, camera inspections, sump pumps, backwater valves and emergency response, at any hour.
-
-**Blocked drain right now?**
-
-Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
-  },
-  'drain-cleaning-steinbach-niverville': {
-    title: 'Drain Cleaning in Steinbach and Niverville: New Builds, New Problems',
-    category: 'Areas',
-    readTime: 7,
-    date: '2026-08-17',
-    updatedDate: '2026-08-17',
-    excerpt: 'New construction creates its own drain problems — debris, settling and bellies. What Steinbach and Niverville homeowners should know.',
-    serviceLink: '/areas/drain-cleaning-steinbach',
-    serviceLinkText: 'drain cleaning in Steinbach',
-    relatedSlugs: ['sewer-camera-inspection-before-buying-house', 'signs-main-sewer-line-clogged', 'how-often-clean-drains'],
-    faqs: [
-      { q: 'Would construction debris be covered by my new home warranty?', a: 'Often yes, if you document it. Camera footage is the evidence that matters.' },
-      { q: 'How soon can a new sewer line develop a belly?', a: 'Settling shows up within the first two to five years, sometimes sooner where backfill was poorly compacted.' },
-      { q: 'Do you serve restaurants in Steinbach?', a: 'Yes, including overnight and pre-open scheduling.' },
-    ],
-    content: `**New house, new drainage problems**
-
-There's a comfortable assumption that a new home can't have drain problems. It isn't true, and Steinbach and Niverville — two of the fastest-growing communities in the region — see the specific failure modes that come with new construction.
-
-Construction debris in the lines. Drywall mud, mortar, sand, grout, paint, plaster, wood chips and packaging get washed or dropped into drain lines during the build. It settles in low points and hardens. Six months after you move in, a brand-new line blocks. It's more common than most homeowners would believe, and it's the number one new-build drain issue.
-
-Settling and bellies. Backfill around a new foundation compacts over the first few years. If a drain line runs through it, sections settle unevenly, creating a low spot that permanently holds water. Solids drop out there and accumulate.
-
-Improper slope or venting. Rushed rough-ins in a fast-moving build occasionally leave a line without enough fall or with inadequate venting. It works well enough to pass, then behaves badly under real household load.
-
-Landscaping damage. Post-possession landscaping, fencing, deck footings and irrigation get installed by people who don't know where the sewer line runs. **Steinbach's other side: commercial**
-
-Steinbach has a substantial commercial and restaurant sector, and that brings the full set of commercial drainage needs — grease trap lines, commercial kitchen drains, floor drain maintenance, washroom lines, and storm drains and catch basins in retail parking. Those need scheduled jetting on the same logic as any Winnipeg restaurant.
-
-**What to do**
-
-If your build is under warranty and you have a drain problem in the first couple of years, get a camera inspection and document it — construction debris and improper slope are workmanship issues, and video evidence is what makes a warranty claim straightforward. Find out where your sewer line runs before you landscape. And don't assume "new" means "fine": a camera inspection on a two-year-old home finds problems often enough to be worth it.
-
-**24/7 service to Steinbach and Niverville**
-
-Both are well inside our 100 km service area, covered at any hour — residential drain cleaning, main sewer lines, camera inspections, plus full commercial and restaurant service.
-
-**Blocked drain right now?**
-
-Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100 km. Call or WhatsApp +1 (204) 399-4413, or email prodraincleaningcentre@gmail.com. Upfront pricing before we start — always.`,
-  },
   'septic-vs-city-sewer-manitoba': {
     title: 'Septic vs City Sewer in Rural Manitoba: What Changes for Your Drains',
     category: 'Areas',
@@ -1586,7 +1297,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
     excerpt: 'If you\'re on septic near Winnipeg, your drain habits matter far more. What changes, what to avoid, and how to protect the system.',
     serviceLink: '/drain-cleaning-winnipeg',
     serviceLinkText: 'drain cleaning and plumbing services',
-    relatedSlugs: ['what-not-to-flush', 'drain-cleaning-steinbach-niverville', 'drain-cleaning-st-norbert'],
+    relatedSlugs: ['what-not-to-flush'],
     faqs: [
       { q: 'Can I use a garbage disposal on septic?', a: 'You can, but it substantially increases solids load and pumping frequency. Most septic professionals recommend against it.' },
       { q: 'Are enzyme drain products septic-safe?', a: 'Generally yes — they\'re bacterial rather than caustic. Never use caustic drain cleaners on septic.' },
@@ -1725,7 +1436,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
     excerpt: 'When sewer pipe repair is enough, when trenchless lining works, and when full sewer line replacement is the only honest answer. Winnipeg sewer specialists.',
     serviceLink: '/main-sewer-line-unclogging-winnipeg',
     serviceLinkText: 'main sewer line services in Winnipeg',
-    relatedSlugs: ['clay-pipe-sewer-lines-winnipeg', 'sewer-camera-inspection-before-buying-house', 'tree-roots-sewer-line-winnipeg'],
+    relatedSlugs: ['sewer-camera-inspection-before-buying-house', 'tree-roots-sewer-line-winnipeg'],
     faqs: [
       { q: 'Should I get a second opinion on a sewer replacement quote?', a: 'Yes, always, on a job this size — and bring the camera footage with you.' },
       { q: 'Does insurance cover sewer line replacement?', a: 'Usually not, as it\'s typically classed as maintenance or wear. Resulting damage may be covered with the right endorsement.' },

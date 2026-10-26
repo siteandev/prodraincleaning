@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 };
 
 const nearbyAreas = [
-  { name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { name: 'Winnipeg', href: '/' },
   { name: 'Selkirk', href: '/areas/drain-cleaning-selkirk' },
   { name: 'Headingley', href: '/areas/drain-cleaning-headingley' },
 ];
@@ -57,7 +57,7 @@ const services = [
   { name: 'Hydro Jetting', href: '/drain-cleaning-winnipeg#hydro-jet-drain-cleaning' },
   { name: 'Kitchen Sink Drain Cleaning', href: '/drain-cleaning-winnipeg#kitchen-sink-drain-cleaning' },
   { name: 'Drain Odour Diagnosis', href: '/drain-cleaning-winnipeg#drain-odour-diagnosis' },
-  { name: 'Sump Pump Service', href: '/plumbing-services-winnipeg#sump-pump-installation-repair' },
+  { name: 'Sump Pump Service', href: '/sump-pump-repair-winnipeg' },
   { name: 'Emergency Drain Response', href: '/emergency-drain-plumbing-winnipeg' },
 ];
 

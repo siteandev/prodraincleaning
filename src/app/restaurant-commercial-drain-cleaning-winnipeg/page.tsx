@@ -15,11 +15,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Restaurant & Commercial Drain Cleaning Winnipeg | Grease Line Jetting 24/7',
+  title: 'Commercial Drain Cleaning Winnipeg | Restaurant Grease Trap Line Jetting 24/7',
   description: 'Commercial drain cleaning for Winnipeg restaurants: grease trap lines, floor drains, kitchen & washroom drains, storm drains.',
   alternates: { canonical: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg` },
   openGraph: {
-    title: 'Restaurant & Commercial Drain Cleaning Winnipeg | Grease Line Jetting 24/7',
+    title: 'Commercial Drain Cleaning Winnipeg | Restaurant Grease Trap Line Jetting 24/7',
     description: 'Commercial drain cleaning for Winnipeg restaurants: grease trap lines, floor drains, kitchen & washroom drains, storm drains.',
     url: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning',

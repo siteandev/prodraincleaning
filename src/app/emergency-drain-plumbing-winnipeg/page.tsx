@@ -15,12 +15,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: '24/7 Emergency Plumber Near Me Winnipeg | 24 Hour Drain Cleaning, Sewer Backup',
+  title: 'Emergency Plumber Winnipeg 24/7 | Sewer Backup & Emergency Drain Cleaning',
   description: 'Emergency plumber near you in Winnipeg — 24 hour drain cleaning, sewer backup & flood response across Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing.',
   alternates: { canonical: `${baseUrl}/emergency-drain-plumbing-winnipeg` },
   openGraph: {
     title:
-      '24/7 Emergency Plumber Near Me Winnipeg | 24 Hour Drain Cleaning, Sewer Backup',
+      'Emergency Plumber Winnipeg 24/7 | Sewer Backup & Emergency Drain Cleaning',
     description: 'Emergency plumber near you in Winnipeg — 24 hour drain cleaning, sewer backup & flood response across Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing.',
     url: `${baseUrl}/emergency-drain-plumbing-winnipeg`,
     siteName: 'Pro Drain Cleaning',
@@ -448,7 +448,7 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
               </p>
               {[
                 { label: 'Sewer Backup — What to Do', href: '/blog/sewer-backup-what-to-do' },
-                { label: 'Emergency Plumber Winnipeg — When to Call', href: '/blog/emergency-plumber-winnipeg-when-to-call' },
+                { label: 'Emergency Plumber Winnipeg — When to Call', href: '/blog/emergency-plumber-winnipeg-24-7-guide' },
                 { label: 'Spring Thaw Basement Flooding Winnipeg', href: '/blog/spring-thaw-basement-flooding-winnipeg' },
               ].map((link) => (
                 <Link

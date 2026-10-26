@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 };
 
 const nearbyAreas = [
-  { name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+  { name: 'Winnipeg', href: '/' },
   { name: 'St. Norbert', href: '/areas/drain-cleaning-st-norbert' },
   { name: 'East & West St. Paul', href: '/areas/drain-cleaning-east-west-st-paul' },
   { name: 'Stonewall', href: '/areas/drain-cleaning-stonewall' },

@@ -144,7 +144,7 @@ function FAQItem({ faq, index }: {faq: {q: string;a: string;};index: number;}) {
 
 // Town list with /areas/ links where pages exist
 const serviceAreaTowns: {name: string;href?: string;}[] = [
-{ name: 'Winnipeg', href: '/areas/drain-cleaning-winnipeg' },
+{ name: 'Winnipeg', href: '/' },
 { name: 'Selkirk', href: '/areas/drain-cleaning-selkirk' },
 { name: 'St. Norbert', href: '/areas/drain-cleaning-st-norbert' },
 { name: 'Headingley', href: '/areas/drain-cleaning-headingley' },
@@ -513,7 +513,7 @@ export default function BuyingOldHousePlumbingChecklistPost() {
                       label: "Condo Plumbing in Winnipeg: Your Responsibility or the Condo Corporation's?"
                     },
                     {
-                      href: '/blog/clay-pipe-sewer-lines-winnipeg',
+                      href: '/blog/cast-iron-clay-pipes-older-winnipeg-homes',
                       label: 'Clay Sewer Pipe in Older Winnipeg Homes: What Every Owner Should Know'
                     }].
                     map((link) =>

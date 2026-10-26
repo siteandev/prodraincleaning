@@ -23,11 +23,11 @@ import { homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema } from 
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca'),
-  title: 'Pro Drain Cleaning — 24/7 Winnipeg Drain & Sewer',
+  title: 'Drain Cleaning Winnipeg 24/7 | Sewer & Emergency Plumbing | Pro Drain Cleaning',
   description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified. Call +1 (204) 399-4413 anytime.',
   alternates: { canonical: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca' },
   openGraph: {
-    title: 'Pro Drain Cleaning — 24/7 Winnipeg Drain & Sewer',
+    title: 'Drain Cleaning Winnipeg 24/7 | Sewer & Emergency Plumbing | Pro Drain Cleaning',
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca',
     siteName: 'Pro Drain Cleaning',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pro Drain Cleaning — 24/7 Winnipeg Drain & Sewer',
+    title: 'Drain Cleaning Winnipeg 24/7 | Sewer & Emergency Plumbing | Pro Drain Cleaning',
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Call +1 (204) 399-4413.'
   },
   robots: { index: true, follow: true }
@@ -626,6 +626,48 @@ export default function HomePage() {
                   Service area covers Winnipeg, Selkirk, St. Norbert, Headingley, Steinbach, Stonewall and every community within 100 km radius
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== SERVICES & GUIDES LINK HUB (keyword map owners) ===== */}
+        <section className="section-padding" style={{ backgroundColor: 'var(--white)' }} aria-labelledby="services-hub-heading">
+          <div className="container-wide max-w-5xl mx-auto">
+            <h2 id="services-hub-heading" className="mb-2" style={{ color: 'var(--navy-900)' }}>
+              Drain, Sewer &amp; Plumbing Services in Winnipeg
+            </h2>
+            <p className="text-base" style={{ color: 'var(--muted)' }}>
+              Every service we offer, the problems we fix most often, and the communities within 100 km we cover — 24/7.
+            </p>
+            <h3 className="font-700 text-base mt-6 mb-3" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>Services</h3>
+            <div className="flex flex-wrap gap-2">
+                <Link href="/drain-cleaning-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Clogged drain cleaning</Link>
+                <Link href="/main-sewer-line-unclogging-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Sewer line cleaning Winnipeg</Link>
+                <Link href="/emergency-drain-plumbing-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Emergency plumber Winnipeg 24/7</Link>
+                <Link href="/plumbing-services-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Plumber Winnipeg</Link>
+                <Link href="/sump-pump-repair-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Sump pump repair Winnipeg</Link>
+                <Link href="/restaurant-commercial-drain-cleaning-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Commercial drain &amp; grease line cleaning</Link>
+            </div>
+            <h3 className="font-700 text-base mt-6 mb-3" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>Common problems</h3>
+            <div className="flex flex-wrap gap-2">
+                <Link href="/blog/basement-floor-drain-clogged-whats-wrong" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Basement floor drain clogged</Link>
+                <Link href="/blog/sewer-backup-what-to-do" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Sewer backup in the basement</Link>
+                <Link href="/blog/signs-main-sewer-line-clogged" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Signs your main sewer line is clogged</Link>
+                <Link href="/blog/tree-roots-sewer-line-winnipeg" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Tree roots in the sewer line</Link>
+                <Link href="/blog/frozen-pipes-winnipeg-how-to-thaw-safely" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Frozen pipes</Link>
+                <Link href="/blog/drain-cleaning-winnipeg-cost-guide" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Drain cleaning cost in Winnipeg</Link>
+            </div>
+            <h3 className="font-700 text-base mt-6 mb-3" style={{ color: 'var(--navy-900)', fontWeight: 700 }}>Areas we serve</h3>
+            <div className="flex flex-wrap gap-2">
+                <Link href="/areas/drain-cleaning-selkirk" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Selkirk</Link>
+                <Link href="/areas/drain-cleaning-st-norbert" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>St. Norbert</Link>
+                <Link href="/areas/drain-cleaning-headingley" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Headingley</Link>
+                <Link href="/areas/drain-cleaning-stonewall" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Stonewall</Link>
+                <Link href="/areas/drain-cleaning-steinbach" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Steinbach</Link>
+                <Link href="/areas/drain-cleaning-niverville" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Niverville</Link>
+                <Link href="/areas/drain-cleaning-oak-bluff" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Oak Bluff</Link>
+                <Link href="/areas/drain-cleaning-lorette" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>Lorette</Link>
+                <Link href="/areas/drain-cleaning-east-west-st-paul" className="text-sm px-4 py-2 rounded-full border font-600 hover:underline" style={{ borderColor: 'var(--brand-700)', color: 'var(--brand-700)', fontWeight: 600 }}>East &amp; West St. Paul</Link>
             </div>
           </div>
         </section>
