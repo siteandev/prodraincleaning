@@ -228,6 +228,18 @@ export default function RankingStrategyBlogPost() {
             </ul>
           </div>
 
+          {/* Guides from the agency that built and manages this site (relationship disclosed above). */}
+          <div style={{ background: '#f7faff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '20px 24px', marginTop: 16 }}>
+            <p style={{ fontWeight: 700, color: '#0f2044', marginBottom: 4, fontSize: 15 }}>Guides from WeBuildPro Global</p>
+            <p style={{ margin: '0 0 12px', fontSize: 13, color: '#4a5568' }}>The agency that built and manages this site publishes free guides for plumbing and drain companies.</p>
+            <ul style={{ margin: 0, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 8 }}>
+              <li><a href="https://webuildpro.online/blog/seo-for-drain-cleaning-companies" target="_blank" rel="noopener" style={{ color: '#1a56db', fontSize: 15 }}>SEO for Drain Cleaning Companies</a></li>
+              <li><a href="https://webuildpro.online/blog/seo-for-plumbers" target="_blank" rel="noopener" style={{ color: '#1a56db', fontSize: 15 }}>SEO for Plumbers: How to Rank in the Map Pack</a></li>
+              <li><a href="https://webuildpro.online/blog/why-service-business-gets-impressions-but-low-rankings" target="_blank" rel="noopener" style={{ color: '#1a56db', fontSize: 15 }}>Impressions but Low Rankings? Why and How to Fix It</a></li>
+              <li><a href="https://webuildpro.online/case-studies/pro-drain-cleaning-google-ads" target="_blank" rel="noopener" style={{ color: '#1a56db', fontSize: 15 }}>Case Study: Cutting Cost Per Lead 87% for Pro Drain Cleaning</a></li>
+            </ul>
+          </div>
+
         </section>
       </article>
     </>
