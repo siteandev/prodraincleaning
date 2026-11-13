@@ -15,13 +15,13 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Emergency Plumber Winnipeg 24/7 | Sewer Backup & Emergency Drain Cleaning',
-  description: 'Emergency plumber near you in Winnipeg — 24 hour drain cleaning, sewer backup & flood response across Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing.',
+  title: 'Emergency Plumber Winnipeg 24/7 | Sewer Backup & Drains',
+  description: '24/7 emergency drain cleaning in Winnipeg: sewer backups, flooded basements and blocked main lines. Real person answers, fast dispatch, upfront pricing.',
   alternates: { canonical: `${baseUrl}/emergency-drain-plumbing-winnipeg` },
   openGraph: {
     title:
-      'Emergency Plumber Winnipeg 24/7 | Sewer Backup & Emergency Drain Cleaning',
-    description: 'Emergency plumber near you in Winnipeg — 24 hour drain cleaning, sewer backup & flood response across Winnipeg, Selkirk & 100 km. Real person answers, fast dispatch, upfront pricing.',
+      'Emergency Plumber Winnipeg 24/7 | Sewer Backup & Drains',
+    description: '24/7 emergency drain cleaning in Winnipeg: sewer backups, flooded basements and blocked main lines. Real person answers, fast dispatch, upfront pricing.',
     url: `${baseUrl}/emergency-drain-plumbing-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [
@@ -448,6 +448,8 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
               </p>
               {[
                 { label: 'Sewer Backup — What to Do', href: '/blog/sewer-backup-what-to-do' },
+                { label: 'Sewer Backup: Who to Call First', href: '/blog/sewer-backup-who-to-call-first-winnipeg' },
+                { label: 'Floor Drain Backing Up After Heavy Rain', href: '/blog/floor-drain-backing-up-after-heavy-rain-winnipeg' },
                 { label: 'Emergency Plumber Winnipeg — When to Call', href: '/blog/emergency-plumber-winnipeg-24-7-guide' },
                 { label: 'Spring Thaw Basement Flooding Winnipeg', href: '/blog/spring-thaw-basement-flooding-winnipeg' },
               ].map((link) => (

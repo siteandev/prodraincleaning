@@ -15,12 +15,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Commercial Drain Cleaning Winnipeg | Restaurant Grease Trap Line Jetting 24/7',
-  description: 'Commercial drain cleaning for Winnipeg restaurants: grease trap lines, floor drains, kitchen & washroom drains, storm drains.',
+  title: 'Commercial Drain Cleaning Winnipeg | Restaurants 24/7',
+  description: 'Commercial drain cleaning in Winnipeg for restaurants and businesses: grease lines, floor drains, kitchen & washroom drains. Scheduled or emergency, 24/7.',
   alternates: { canonical: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg` },
   openGraph: {
-    title: 'Commercial Drain Cleaning Winnipeg | Restaurant Grease Trap Line Jetting 24/7',
-    description: 'Commercial drain cleaning for Winnipeg restaurants: grease trap lines, floor drains, kitchen & washroom drains, storm drains.',
+    title: 'Commercial Drain Cleaning Winnipeg | Restaurants 24/7',
+    description: 'Commercial drain cleaning in Winnipeg for restaurants and businesses: grease lines, floor drains, kitchen & washroom drains. Scheduled or emergency, 24/7.',
     url: `${baseUrl}/restaurant-commercial-drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-restaurant-commercial.jpg', width: 1200, height: 630 }],
@@ -344,9 +344,10 @@ export default function CommercialDrainCleaningPage() {
             <div className="flex flex-wrap gap-3">
               <p className="text-sm font-600 w-full mb-1" style={{ color: 'var(--muted)', fontWeight: 600 }}>Related articles:</p>
               {[
-                { label: 'Restaurant Drain Maintenance Guide', href: '/blog/restaurant-drain-maintenance' },
-                { label: 'Why Grease Traps Overflow', href: '/blog/why-grease-traps-overflow' },
-                { label: 'Commercial Kitchen Drain Cleaning', href: '/blog/commercial-kitchen-drain-cleaning' },
+                { label: 'Restaurant Grease Trap and Drain Line Cleaning', href: '/blog/restaurant-grease-trap-line-cleaning' },
+                { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
+                { label: 'Hydro Jetting vs Drain Snaking', href: '/blog/hydro-jetting-vs-snaking' },
+                { label: 'How Often to Clean Drains', href: '/blog/how-often-clean-drains' },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="text-sm px-4 py-2 rounded-full border font-600 hover:bg-navy-900 hover:text-white transition-colors" style={{ borderColor: 'var(--navy-700)', color: 'var(--navy-700)', fontWeight: 600 }}>
                   {link.label}

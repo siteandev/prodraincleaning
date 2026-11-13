@@ -8,8 +8,8 @@ import MobileActionBar from '@/components/MobileActionBar';
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca';
 
 export const metadata: Metadata = {
-  title: 'Service Areas — Pro Drain Cleaning | Winnipeg & Surrounding Areas',
-  description: 'Pro Drain Cleaning serves Winnipeg, Headingley, Selkirk, St. Norbert, Steinbach, Stonewall, and more.',
+  title: 'Drain Cleaning Service Areas Near Winnipeg, MB',
+  description: 'Drain cleaning and emergency plumbing in Winnipeg, Selkirk, Headingley, St. Norbert, Steinbach, Stonewall and every community within 100 km. 24/7.',
   alternates: { canonical: `${BASE_URL}/areas` },
   openGraph: {
     title: 'Service Areas — Pro Drain Cleaning',

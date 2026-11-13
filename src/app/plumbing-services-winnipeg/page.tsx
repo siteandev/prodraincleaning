@@ -15,12 +15,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Plumber Winnipeg | Plumbing Company for Leaks, Pipes & Backwater Valves 24/7',
-  description: 'Winnipeg plumbing services: sump pump repair & installation, leak detection, pipe & water line repair, faucets, toilets, backwater valves, frozen pipe thawing. Flat-rate pricing. 24/7.',
+  title: 'Plumber Winnipeg | Leaks, Sump Pumps & Pipes 24/7',
+  description: 'Winnipeg plumbing services: sump pump repair, leak detection, pipe and water line repair, toilets, backwater valves and frozen pipe thawing. 24/7.',
   alternates: { canonical: `${baseUrl}/plumbing-services-winnipeg` },
   openGraph: {
-    title: 'Plumber Winnipeg | Plumbing Company for Leaks, Pipes & Backwater Valves 24/7',
-    description: 'Winnipeg plumbing services: sump pump repair & installation, leak detection, pipe & water line repair, faucets, toilets, backwater valves, frozen pipe thawing. Flat-rate pricing. 24/7.',
+    title: 'Plumber Winnipeg | Leaks, Sump Pumps & Pipes 24/7',
+    description: 'Winnipeg plumbing services: sump pump repair, leak detection, pipe and water line repair, toilets, backwater valves and frozen pipe thawing. 24/7.',
     url: `${baseUrl}/plumbing-services-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [
@@ -510,7 +510,7 @@ export default function PlumbingServicesWinnipegPage() {
                 { label: 'Sump Pump Maintenance Checklist', href: '/blog/sump-pump-maintenance-checklist' },
                 { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
                 { label: 'Backwater Valve Winnipeg Guide', href: '/blog/backwater-valve-winnipeg' },
-                { label: 'Prevent Frozen Pipes Winnipeg', href: '/blog/prevent-frozen-pipes-winnipeg' },
+                { label: 'Prevent Frozen Pipes Winnipeg', href: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely' },
               ].map((link) => (
                 <Link
                   key={link.href}

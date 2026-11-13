@@ -15,11 +15,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Sewer Line Cleaning Winnipeg | Main Line Unclogging, Root Removal & Jetting 24/7',
+  title: 'Sewer Line Cleaning Winnipeg | Roots, Jetting & Camera',
   description: 'Blocked sewer line in Winnipeg? Same-day sewer line cleaning — tree root removal, hydro jetting, camera inspection. 24/7 across Winnipeg, Selkirk & 100 km. Call now.',
   alternates: { canonical: `${baseUrl}/main-sewer-line-unclogging-winnipeg` },
   openGraph: {
-    title: 'Sewer Line Cleaning Winnipeg | Main Line Unclogging, Root Removal & Jetting 24/7',
+    title: 'Sewer Line Cleaning Winnipeg | Roots, Jetting & Camera',
     description: 'Blocked sewer line in Winnipeg? Same-day sewer line cleaning — tree root removal, hydro jetting, camera inspection. 24/7 across Winnipeg, Selkirk & 100 km. Call now.',
     url: `${baseUrl}/main-sewer-line-unclogging-winnipeg`,
     siteName: 'Pro Drain Cleaning',
@@ -367,9 +367,12 @@ export default function SewerLineUncloggingPage() {
             <div className="flex flex-wrap gap-3">
               <p className="text-sm font-600 w-full mb-1" style={{ color: 'var(--muted)', fontWeight: 600 }}>Related articles:</p>
               {[
-                { label: 'Tree Roots in Winnipeg Sewer Lines', href: '/blog/tree-roots-winnipeg-sewer' },
-                { label: 'Sewer Camera Inspection Guide', href: '/blog/sewer-camera-inspection-winnipeg' },
-                { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/drain-snaking-vs-hydro-jetting' },
+                { label: 'Tree Roots in Winnipeg Sewer Lines', href: '/blog/tree-roots-sewer-line-winnipeg' },
+                { label: 'Sewer Camera Inspection Guide', href: '/blog/sewer-camera-inspection-before-buying-house' },
+                { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/hydro-jetting-vs-snaking' },
+                { label: 'Where Is the Main Sewer Cleanout in a Winnipeg House?', href: '/blog/where-is-main-sewer-cleanout-winnipeg-house' },
+                { label: 'Toilet Flush Backs Up Into the Bathtub', href: '/blog/toilet-flush-backs-up-into-bathtub-winnipeg' },
+                { label: 'Sewer Backup: Who to Call First', href: '/blog/sewer-backup-who-to-call-first-winnipeg' },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="text-sm px-4 py-2 rounded-full border font-600 hover:bg-navy-900 hover:text-white transition-colors" style={{ borderColor: 'var(--navy-700)', color: 'var(--navy-700)', fontWeight: 600 }}>
                   {link.label}

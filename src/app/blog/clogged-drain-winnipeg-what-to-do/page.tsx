@@ -652,7 +652,7 @@ export default function CloggedDrainWhatToDoPost() {
                     { href: '/blog/chemical-drain-cleaners-damage-pipes', label: 'Do Chemical Drain Cleaners Damage Your Pipes?', note: null },
                     { href: '/blog/signs-main-sewer-line-clogged', label: '9 Signs Your Main Sewer Line Is Clogged', note: null },
                     { href: '/blog/hydro-jetting-vs-snaking', label: 'Hydro Jetting vs Drain Snaking: Which Does Your Pipe Actually Need?', note: null },
-                    { href: '/compare/pro-drain-cleaning-vs-diy', label: 'Pro Drain Cleaning vs. DIY', note: null }].
+                    { href: '/blog/drain-cleaning-mistakes-homeowners-make', label: 'Drain Cleaning Mistakes Homeowners Make', note: null }].
                     map((link, i) =>
                     <li key={i} className="flex items-start gap-2 text-sm">
                         <span style={{ color: 'var(--brand-700)', flexShrink: 0, marginTop: '2px' }}>→</span>

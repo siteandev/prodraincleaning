@@ -8,27 +8,22 @@ import FinalCTABand from '@/components/FinalCTABand';
 import Footer from '@/components/Footer';
 import MobileActionBar from '@/components/MobileActionBar';
 
+import type { BlogPost } from '@/lib/blogTypes';
+import { extraPosts } from '@/lib/extraPosts';
+import { parseBlocks, headingsOf, RenderBlocks } from '@/lib/richText';
+
 // Blog post data
-const allPosts: Record<string, {
-  title: string;
-  category: string;
-  readTime: number;
-  date: string;
-  updatedDate: string;
-  excerpt: string;
-  content: string;
-  relatedSlugs: string[];
-  serviceLink: string;
-  serviceLinkText: string;
-  faqs: { q: string; a: string }[];
-}> = {
+const basePosts: Record<string, BlogPost> = {
   'drain-cleaning-winnipeg-cost-guide': {
     title: 'How Much Does Drain Cleaning Cost in Winnipeg? (2026 Price Guide)',
+    metaTitle: 'Cost of Drain Cleaning in Winnipeg (2026 Guide)',
     category: 'Drain Cleaning',
     readTime: 7,
     date: '2026-01-15',
     updatedDate: '2026-08-17',
     excerpt: 'A straight answer on what drain cleaning actually costs in Winnipeg — by service type, pipe size, and urgency level.',
+    metaDescription: 'What drain cleaning costs in Winnipeg depends on the line, the blockage and the machine. See what moves the price and how to get a firm quote.',
+    quickAnswer: 'Drain cleaning in Winnipeg is priced by the job, not a single rate: a single sink drain, a grease-coated kitchen line and a rooted main sewer line need different machines and different time. Call with the symptoms and a realistic range is given on the phone; a firm flat price is confirmed in writing on site, before any work starts.',
     serviceLink: '/drain-cleaning-winnipeg',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['tree-roots-sewer-line-winnipeg', 'sewer-camera-inspection-before-buying-house', 'restaurant-grease-trap-line-cleaning'],
@@ -38,7 +33,7 @@ const allPosts: Record<string, {
       { q: 'Does hydro jetting cost more than snaking?', a: 'Hydro jetting typically costs more than snaking because it requires specialized equipment and takes longer — but it also delivers a more thorough result. For repeat clogs and grease lines, jetting is more cost-effective over time because it actually removes the blockage rather than just punching through it.' },
       { q: 'Do you charge for a quote or diagnosis?', a: 'We give you a realistic price range on the phone and a firm flat price in writing on site, before we start. No charge for the quote — you approve the number before any work begins.' },
     ],
-    content: `If you have a blocked drain in Winnipeg and you want to know what it is going to cost before you call, this is the guide for you. We are going to give you real numbers — not vague ranges designed to get us in the door — and explain what drives the price up or down.
+    content: `If you have a blocked drain in Winnipeg and you want to know what it is going to cost before you call, this is the guide for you. We are going to explain exactly what drives the price of drain cleaning up or down in Winnipeg, so a quote you receive from anyone actually means something.
 
 **The honest answer: it depends on the line.**
 
@@ -78,6 +73,8 @@ In Winnipeg, Selkirk, Steinbach, and across the 100 km service area, we give you
   },
   'signs-main-sewer-line-clogged': {
     title: '9 Signs Your Main Sewer Line Is Clogged (Not Just One Drain)',
+    metaTitle: '9 Signs Your Main Sewer Line Is Clogged (Not Just One Drain)',
+    metaDescription: 'Several drains slow or gurgling at once? Here are 9 signs your main sewer line is clogged, how it differs from a single-drain clog, and when to call a pro.',
     category: 'Sewer Lines',
     readTime: 6,
     date: '2026-01-22',
@@ -85,7 +82,7 @@ In Winnipeg, Selkirk, Steinbach, and across the 100 km service area, we give you
     excerpt: 'Multiple fixtures backing up at once is the big one — but there are 8 other signs your main line is failing.',
     serviceLink: '/main-sewer-line-unclogging-winnipeg',
     serviceLinkText: 'main sewer line unclogging in Winnipeg',
-    relatedSlugs: ['tree-roots-sewer-line-winnipeg', 'sewer-backup-what-to-do', 'sewer-camera-inspection-before-buying-house'],
+    relatedSlugs: ['tree-roots-sewer-line-winnipeg', 'sewer-backup-what-to-do', 'sewer-camera-inspection-before-buying-house', 'where-is-main-sewer-cleanout-winnipeg-house', 'toilet-flush-backs-up-into-bathtub-winnipeg', 'basement-drain-gurgling-when-toilet-flushes'],
     faqs: [
       { q: 'How do I know if it is my main sewer line or just one drain?', a: 'The key indicator is multiple fixtures. If one drain is slow, it is probably a branch line problem. If your toilet, tub, and floor drain are all backing up at the same time — especially on the lowest floor — that is almost always the main sewer line.' },
       { q: 'What should I do if my main sewer line is blocked?', a: 'Stop using all water in the building immediately. Every flush and every wash cycle adds volume to a line that has nowhere to send it. Then call +1 (204) 399-4413 — we answer 24/7 and will walk you through what to do while we are on the way.' },
@@ -136,6 +133,8 @@ Signs 1, 2, and 3 are emergencies. Stop using all water in the building and call
   },
   'tree-roots-sewer-line-winnipeg': {
     title: "Tree Roots in Your Sewer Line: Why It's Winnipeg's #1 Drain Problem",
+    metaTitle: 'Tree Roots in Your Sewer Line: Signs and Fixes in Winnipeg',
+    metaDescription: "Tree roots in your sewer line? Warning signs, why Winnipeg's mature elm and maple trees put older lines at risk, and how roots are cleared and managed.",
     category: 'Sewer Lines',
     readTime: 8,
     date: '2026-02-01',
@@ -143,7 +142,7 @@ Signs 1, 2, and 3 are emergencies. Stop using all water in the building and call
     excerpt: "Winnipeg's elm and maple canopy is beautiful. It's also the leading cause of sewer line blockages in the city.",
     serviceLink: '/main-sewer-line-unclogging-winnipeg#tree-root-removal',
     serviceLinkText: 'tree root removal from Winnipeg sewer lines',
-    relatedSlugs: ['sewer-camera-inspection-before-buying-house', 'drain-cleaning-winnipeg-cost-guide', 'hydro-jetting-vs-snaking'],
+    relatedSlugs: ['sewer-camera-inspection-before-buying-house', 'drain-cleaning-winnipeg-cost-guide', 'hydro-jetting-vs-snaking', 'where-is-main-sewer-cleanout-winnipeg-house'],
     faqs: [
       { q: 'How do roots get into a sewer line?', a: 'Roots do not drill through healthy pipe. They find a joint or a hairline crack that is already there, follow the moisture and nutrients inside, and then grow into a dense mat. In Winnipeg, clay tile sewer joints are the most common entry point.' },
       { q: 'How do I know if I have roots in my sewer line?', a: 'The most common signs are repeat backups every few months, gurgling from fixtures when you use other drains, and slow drains throughout the house. A camera inspection is the only way to confirm root intrusion and see how bad it is.' },
@@ -244,6 +243,7 @@ We serve Winnipeg, Selkirk, Steinbach, and surrounding communities 24/7. Emergen
   },
   'hydro-jetting-vs-snaking': {
     title: 'Hydro Jetting vs Drain Snaking: Which Does Your Pipe Actually Need?',
+    metaTitle: 'Hydro Jetting vs Snaking: Which Does Your Drain Need?',
     category: 'Drain Cleaning',
     readTime: 7,
     date: '2026-02-10',
@@ -300,6 +300,7 @@ If your drain has clogged more than once in the past year, or if you have a kitc
   },
   'kitchen-sink-keeps-clogging': {
     title: 'Why Your Kitchen Sink Keeps Clogging (And How to Stop It for Good)',
+    metaTitle: 'Why Your Kitchen Sink Keeps Clogging (and How to Stop It)',
     category: 'Drain Cleaning',
     readTime: 6,
     date: '2026-02-18',
@@ -307,7 +308,7 @@ If your drain has clogged more than once in the past year, or if you have a kitc
     excerpt: 'Grease is why your kitchen sink keeps clogging. Here is what is really happening in the pipe and how to stop it permanently.',
     serviceLink: '/drain-cleaning-winnipeg#kitchen-sink-drain-cleaning',
     serviceLinkText: 'kitchen sink drain cleaning in Winnipeg',
-    relatedSlugs: ['hydro-jetting-vs-snaking', 'chemical-drain-cleaners-damage-pipes', 'drain-cleaning-winnipeg-cost-guide'],
+    relatedSlugs: ['hydro-jetting-vs-snaking', 'chemical-drain-cleaners-damage-pipes', 'drain-cleaning-winnipeg-cost-guide', 'kitchen-drain-clogged-after-holiday-cooking-winnipeg'],
     faqs: [
       { q: 'Are baking soda and vinegar effective for kitchen clogs?', a: 'They are fine as a mild deodoriser. They will not clear an established grease blockage — the reaction is over in seconds and has no mechanical force behind it. For a grease-coated kitchen line, you need hydro jetting.' },
       { q: 'Is a garbage disposal bad for my drains?', a: 'It is fine within limits, but it does not change the fact that fibrous, starchy and greasy waste is hard on a drain line. Do not treat it as a bin. Scrape plates into the compost or garbage before they reach the sink.' },
@@ -356,6 +357,7 @@ If your kitchen sink has clogged more than once in the past year, or if it is sl
   },
   'sewer-backup-what-to-do': {
     title: 'Sewer Backup in Your Basement (Winnipeg)? Do These 7 Things First',
+    metaTitle: 'Sewer Backup in Your Winnipeg Basement: 7 Things to Do',
     category: 'Emergency',
     readTime: 6,
     date: '2026-02-25',
@@ -363,7 +365,7 @@ If your kitchen sink has clogged more than once in the past year, or if it is sl
     excerpt: 'A sewer backup is a contamination event, not a plumbing inconvenience. What you do in the first fifteen minutes materially changes what it costs you.',
     serviceLink: '/emergency-drain-plumbing-winnipeg#emergency-sewer-backup-service',
     serviceLinkText: 'emergency sewer backup service in Winnipeg',
-    relatedSlugs: ['signs-main-sewer-line-clogged', 'backwater-valve-winnipeg'],
+    relatedSlugs: ['signs-main-sewer-line-clogged', 'backwater-valve-winnipeg', 'sewer-backup-who-to-call-first-winnipeg', 'floor-drain-backing-up-after-heavy-rain-winnipeg'],
     faqs: [
       { q: 'Is a sewer backup covered by insurance?', a: 'Sewer backup coverage is usually an optional endorsement in Manitoba. Check your policy now, not during a backup. Keep our invoice and the camera footage — insurers ask for both.' },
       { q: 'Can I clean up a sewer backup myself?', a: 'Small, freshly-stopped backups on hard surfaces can be handled with proper PPE and disinfection. Anything larger, anything that reached carpet or drywall, or anything that sat — get a professional. This is Category 3 water: it carries bacteria and pathogens.' },
@@ -476,6 +478,7 @@ If you cannot locate or reach the frozen section, or if water starts spraying wh
   },
   'backwater-valve-winnipeg': {
     title: 'Backwater Valves in Winnipeg: What They Cost and Why They\'re Worth It',
+    metaTitle: 'Backwater Valves in Winnipeg: Cost & Why They\'re Worth It',
     category: 'Plumbing',
     readTime: 7,
     date: '2026-03-12',
@@ -483,7 +486,7 @@ If you cannot locate or reach the frozen section, or if water starts spraying wh
     excerpt: 'How a backwater valve stops sewage backing into your Winnipeg basement, what installation involves, and whether a City subsidy applies.',
     serviceLink: '/plumbing-services-winnipeg#backwater-valve-installation',
     serviceLinkText: 'backwater valve installation in Winnipeg',
-    relatedSlugs: ['sewer-backup-what-to-do', 'spring-thaw-basement-flooding-winnipeg', 'signs-main-sewer-line-clogged'],
+    relatedSlugs: ['sewer-backup-what-to-do', 'spring-thaw-basement-flooding-winnipeg', 'signs-main-sewer-line-clogged', 'floor-drain-backing-up-after-heavy-rain-winnipeg', 'sewer-backup-who-to-call-first-winnipeg'],
     faqs: [
       { q: 'Does a backwater valve stop all basement flooding?', a: 'No. It stops sewer backup through your sewer line. It does not stop overland flooding, groundwater seepage through the foundation, or a failed sump pump — those need different solutions.' },
       { q: 'Will a backwater valve cause problems if the City line backs up while I am using water?', a: 'The valve closes, so your wastewater has nowhere to go until pressure normalises. That is why you stop using water during a heavy storm event if you know the system is stressed.' },
@@ -532,6 +535,7 @@ If you have had a sewer backup, or if you are in an older Winnipeg neighbourhood
   },
   'sewer-camera-inspection-before-buying-house': {
     title: 'Should You Get a Sewer Camera Inspection Before Buying a Winnipeg Home?',
+    metaTitle: 'Sewer Camera Inspection Before Buying a Winnipeg Home',
     category: 'Sewer Lines',
     readTime: 6,
     date: '2026-03-20',
@@ -643,6 +647,7 @@ Call +1 (204) 399-4413 or book online. We'll confirm your appointment time and w
   },
   'restaurant-grease-trap-line-cleaning': {
     title: 'Restaurant Grease Line Cleaning: How Often Winnipeg Kitchens Really Need It',
+    metaTitle: 'Restaurant Grease Line Cleaning: How Often in Winnipeg',
     category: 'Commercial',
     readTime: 8,
     date: '2026-04-05',
@@ -824,6 +829,8 @@ If pouring water down every drain does not stop the smell within a day, call us.
   },
   'toilet-wont-flush-troubleshooting': {
     title: "Toilet Won't Flush? A Step-by-Step Fix Before You Call a Plumber",
+    metaTitle: "Toilet Won't Flush? Fixes to Try Before You Call",
+    metaDescription: "Toilet won't flush? Work through these steps in order, from the water level to the flapper and the trap, and learn the three signs that mean stop and call now.",
     category: 'Plumbing',
     readTime: 7,
     date: '2026-04-20',
@@ -942,6 +949,7 @@ If any of the signs above apply, or if your pump is approaching the end of its s
   },
   'chemical-drain-cleaners-damage-pipes': {
     title: 'Do Chemical Drain Cleaners Damage Your Pipes? (Yes — Here\'s How)',
+    metaTitle: 'Do Chemical Drain Cleaners Damage Pipes?',
     category: 'Drain Cleaning',
     readTime: 6,
     date: '2026-05-05',
@@ -949,7 +957,7 @@ If any of the signs above apply, or if your pump is approaching the end of its s
     excerpt: 'What caustic drain cleaners actually do inside your pipes, why they rarely clear a real blockage, and what to use instead.',
     serviceLink: '/drain-cleaning-winnipeg',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
-    relatedSlugs: ['kitchen-sink-keeps-clogging', 'drain-cleaning-mistakes-homeowners-make', 'hydro-jetting-vs-snaking'],
+    relatedSlugs: ['kitchen-sink-keeps-clogging', 'drain-cleaning-mistakes-homeowners-make', 'hydro-jetting-vs-snaking', 'basement-drain-gurgling-when-toilet-flushes'],
     faqs: [
       { q: 'Is any drain product safe for pipes?', a: 'Enzyme and bacterial maintenance products are non-caustic and reasonable for upkeep. Anything that heats up in the pipe is not. Caustic and acid-based products degrade pipe materials and rubber seals over time.' },
       { q: 'What about baking soda and vinegar?', a: 'Harmless, useful as a deodoriser, and no real force behind it. It will not clear an established blockage. The reaction is over in seconds.' },
@@ -1148,6 +1156,7 @@ To set up a maintenance plan or to book a one-time cleaning, call +1 (204) 399-4
   },
   'spring-thaw-basement-flooding-winnipeg': {
     title: 'Spring Thaw and Basement Flooding in Winnipeg: A Prevention Guide',
+    metaTitle: 'Spring Thaw Basement Flooding in Winnipeg: Prevention',
     category: 'Emergency',
     readTime: 8,
     date: '2026-08-17',
@@ -1155,7 +1164,7 @@ To set up a maintenance plan or to book a one-time cleaning, call +1 (204) 399-4
     excerpt: 'What causes basement flooding during Winnipeg\'s spring melt and the checklist that prevents it. Sump pumps, backwater valves, drains.',
     serviceLink: '/emergency-drain-plumbing-winnipeg',
     serviceLinkText: 'emergency drain and plumbing service in Winnipeg',
-    relatedSlugs: ['sump-pump-maintenance-checklist', 'backwater-valve-winnipeg', 'signs-main-sewer-line-clogged'],
+    relatedSlugs: ['sump-pump-maintenance-checklist', 'backwater-valve-winnipeg', 'signs-main-sewer-line-clogged', 'floor-drain-backing-up-after-heavy-rain-winnipeg'],
     faqs: [
       { q: 'My basement has never flooded. Am I fine?', a: 'Never-flooded is a good sign, not a guarantee. Melt severity varies enormously year to year, and pipe condition degrades over time.' },
       { q: 'Is overland flooding covered by insurance?', a: 'Usually a separate optional endorsement in Manitoba, distinct from sewer backup coverage. Check both.' },
@@ -1290,6 +1299,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
   },
   'septic-vs-city-sewer-manitoba': {
     title: 'Septic vs City Sewer in Rural Manitoba: What Changes for Your Drains',
+    metaTitle: 'Septic vs City Sewer in Rural Manitoba: Drain Impacts',
     category: 'Areas',
     readTime: 8,
     date: '2026-08-17',
@@ -1333,6 +1343,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
   },
   'landlord-drain-maintenance-guide': {
     title: 'A Winnipeg Landlord\'s Guide to Drain Maintenance (and Fewer 2 a.m. Calls)',
+    metaTitle: 'Winnipeg Landlord\'s Guide to Drain Maintenance',
     category: 'Commercial',
     readTime: 8,
     date: '2026-08-17',
@@ -1429,6 +1440,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
   },
   'sewer-line-repair-vs-replacement': {
     title: 'Sewer Line Repair vs Replacement: How to Decide on Sewer Pipe Repair (and What It Costs)',
+    metaTitle: 'Sewer Line Repair vs Replacement: How to Decide',
     category: 'Sewer Lines',
     readTime: 8,
     date: '2026-08-17',
@@ -1481,6 +1493,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
   },
   'drain-cleaning-mistakes-homeowners-make': {
     title: '11 Drain Cleaning Mistakes Winnipeg Homeowners Make Every Year',
+    metaTitle: '11 Drain Cleaning Mistakes Winnipeg Homeowners Make',
     category: 'Drain Cleaning',
     readTime: 7,
     date: '2026-08-17',
@@ -1546,11 +1559,30 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
   },
 };
 
+const allPosts: Record<string, BlogPost> = { ...basePosts, ...extraPosts };
+
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
 }
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca';
+const OG_IMAGE = `${baseUrl}/assets/images/og/og-default.jpg`;
+const SUFFIX = ' | Pro Drain Cleaning';
+
+/** Keep <title> short enough to survive SERP truncation; brand suffix only when it fits. */
+function pageTitle(post: BlogPost): string {
+  const base = post.metaTitle ?? post.title;
+  return base.length + SUFFIX.length <= 62 ? base + SUFFIX : base;
+}
+
+const SERVICE_LINKS = [
+  { href: '/drain-cleaning-winnipeg', label: 'Drain cleaning in Winnipeg' },
+  { href: '/main-sewer-line-unclogging-winnipeg', label: 'Main sewer line unclogging' },
+  { href: '/emergency-drain-plumbing-winnipeg', label: '24/7 emergency drain & plumbing service' },
+  { href: '/restaurant-commercial-drain-cleaning-winnipeg', label: 'Restaurant & commercial drain cleaning' },
+  { href: '/plumbing-services-winnipeg', label: 'Plumbing services in Winnipeg' },
+  { href: '/areas', label: 'Every Winnipeg-area community we serve' },
+];
 
 export async function generateStaticParams() {
   return Object.keys(allPosts).map((slug) => ({ slug }));
@@ -1560,21 +1592,32 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const { slug } = await params;
   const post = allPosts[slug];
   if (!post) return { title: 'Post Not Found' };
+  const title = pageTitle(post);
+  const description = post.metaDescription ?? post.excerpt;
+  const url = `${baseUrl}/blog/${slug}`;
   return {
     metadataBase: new URL(baseUrl),
-    title: `${post.title} | Pro Drain Cleaning`,
-    description: post.excerpt,
-    alternates: { canonical: `${baseUrl}/blog/${slug}` },
+    title,
+    description,
+    alternates: { canonical: url },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      url: `${baseUrl}/blog/${slug}`,
+      title: post.metaTitle ?? post.title,
+      description,
+      url,
+      siteName: 'Pro Drain Cleaning',
+      locale: 'en_CA',
       type: 'article',
       publishedTime: post.date,
       modifiedTime: post.updatedDate,
+      authors: ['Manpreet Chahal'],
+      images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: post.title }],
     },
+    twitter: { card: 'summary_large_image', title: post.metaTitle ?? post.title, description, images: [OG_IMAGE] },
   };
 }
+
+const fmt = (d: string) =>
+  new Date(d + 'T12:00:00').toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' });
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
@@ -1584,36 +1627,76 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
 
+  const url = `${baseUrl}/blog/${slug}`;
+  const blocks = parseBlocks(post.content);
+  const toc = headingsOf(blocks);
+  const wordCount = post.content.split(/\s+/).filter(Boolean).length;
+
+  // Mid-article CTA goes after a non-heading block near the middle
+  let ctaIndex = Math.floor(blocks.length / 2);
+  while (ctaIndex > 0 && blocks[ctaIndex]?.type === 'h2') ctaIndex--;
+
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'BlogPosting',
+        '@id': `${url}#article`,
         headline: post.title,
-        description: post.excerpt,
+        description: post.metaDescription ?? post.excerpt,
         datePublished: post.date,
         dateModified: post.updatedDate,
-        author: { '@type': 'Person', name: 'Manpreet Chahal' },
-        publisher: { '@type': 'Organization', name: 'Pro Drain Cleaning', url: baseUrl },
-        mainEntityOfPage: `${baseUrl}/blog/${slug}`,
-        image: 'https://prodraincleaning.ca/assets/images/og/og-default.jpg',
+        inLanguage: 'en-CA',
+        articleSection: post.category,
+        wordCount,
+        author: { '@type': 'Person', name: 'Manpreet Chahal', url: `${baseUrl}/about` },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Pro Drain Cleaning',
+          url: baseUrl,
+          logo: { '@type': 'ImageObject', url: `${baseUrl}/assets/images/app_logo.png` },
+        },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        image: { '@type': 'ImageObject', url: OG_IMAGE, width: 1200, height: 630 },
+        about: { '@type': 'Service', name: post.serviceLinkText, url: `${baseUrl}${post.serviceLink}` },
+        ...(post.quickAnswer
+          ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#quick-answer'] } }
+          : {}),
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
           { '@type': 'ListItem', position: 2, name: 'Blog', item: `${baseUrl}/blog` },
-          { '@type': 'ListItem', position: 3, name: post.title, item: `${baseUrl}/blog/${slug}` },
+          { '@type': 'ListItem', position: 3, name: post.title, item: url },
         ],
       },
       {
         '@type': 'FAQPage',
-        mainEntity: post.faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+        mainEntity: post.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
       },
     ],
   };
 
-  const paragraphs = post.content.split('\n\n').filter(Boolean);
+  const midCta = (
+    <div className="my-8 p-6 rounded-xl" style={{ backgroundColor: 'var(--orange-100)', border: '2px solid var(--orange-600)' }}>
+      <p className="font-700 mb-3" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
+        Need help with a drain or sewer problem right now?
+      </p>
+      <p className="text-sm mb-4" style={{ color: 'var(--muted)' }}>
+        We answer 24/7 — a real technician picks up, not an answering service. Upfront pricing before we start.
+      </p>
+      <Link href="tel:+12043994413" className="btn-primary inline-flex">
+        Call +1 (204) 399-4413 — 24/7
+      </Link>
+    </div>
+  );
+
+  const relatedPosts = post.relatedSlugs.map((s) => ({ slug: s, post: allPosts[s] })).filter((r) => r.post);
 
   return (
     <>
@@ -1645,7 +1728,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
             <h1 className="mb-4">{post.title}</h1>
             <p className="text-sm" style={{ color: 'var(--muted)' }}>
-              By <strong>Manpreet Chahal</strong> · Published {new Date(post.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated {new Date(post.updatedDate).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })}
+              By <Link href="/about" className="font-bold hover:underline" style={{ color: 'var(--navy-900)' }}>Manpreet Chahal</Link> · Published <time dateTime={post.date}>{fmt(post.date)}</time> · Updated <time dateTime={post.updatedDate}>{fmt(post.updatedDate)}</time>
             </p>
           </div>
         </section>
@@ -1656,62 +1739,59 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
               {/* Main content */}
               <article className="lg:col-span-3">
+                {post.quickAnswer && (
+                  <div
+                    id="quick-answer"
+                    className="mb-8 p-5 rounded-xl"
+                    style={{ backgroundColor: 'var(--navy-100)', borderLeft: '4px solid var(--navy-700)' }}
+                  >
+                    <p className="text-xs font-bold uppercase tracking-wider mb-2" style={{ color: 'var(--navy-700)' }}>
+                      Quick answer
+                    </p>
+                    <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>{post.quickAnswer}</p>
+                  </div>
+                )}
+
+                {/* Mobile table of contents */}
+                {toc.length > 2 && (
+                  <details className="lg:hidden mb-8 card p-4">
+                    <summary className="font-bold cursor-pointer" style={{ color: 'var(--navy-900)' }}>On this page</summary>
+                    <ul className="mt-3 flex flex-col gap-2">
+                      {toc.map((h) => (
+                        <li key={h.id}>
+                          <a href={`#${h.id}`} className="text-sm blog-link">{h.text}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                )}
+
                 <div className="prose-body max-w-none">
-                  {paragraphs.map((para, i) => {
-                    // Inline CTA halfway through
-                    if (i === Math.floor(paragraphs.length / 2)) {
-                      return (
-                        <React.Fragment key={i}>
-                          <div className="my-8 p-6 rounded-xl" style={{ backgroundColor: 'var(--orange-100)', border: '2px solid var(--orange-600)' }}>
-                            <p className="font-700 mb-3" style={{ fontWeight: 700, color: 'var(--navy-900)' }}>
-                              Need help with a drain or sewer problem right now?
-                            </p>
-                            <p className="text-sm mb-4" style={{ color: 'var(--muted)' }}>
-                              We answer 24/7 — a real technician picks up, not an answering service. Upfront pricing before we start.
-                            </p>
-                            <Link href="tel:+12043994413" className="btn-primary inline-flex">
-                              Call +1 (204) 399-4413 — 24/7
-                            </Link>
-                          </div>
-                          {para.startsWith('**') ? (
-                            <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                              {para.replace(/\*\*(.*?)\*\*/g, '$1')}
-                            </p>
-                          ) : (
-                            <p className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>{para}</p>
-                          )}
-                        </React.Fragment>
-                      );
-                    }
-                    if (para.startsWith('**') && para.endsWith('**')) {
-                      return <h2 key={i} className="mt-8 mb-4">{para.replace(/\*\*/g, '')}</h2>;
-                    }
-                    if (para.startsWith('**')) {
-                      return (
-                        <p key={i} className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>
-                          <strong>{para.match(/\*\*(.*?)\*\*/)?.[1]}</strong>
-                          {para.replace(/\*\*(.*?)\*\*/, '')}
-                        </p>
-                      );
-                    }
-                    return <p key={i} className="mb-4 leading-relaxed" style={{ color: 'var(--ink)' }}>{para}</p>;
-                  })}
+                  <RenderBlocks blocks={blocks} injectAfter={ctaIndex} inject={midCta} />
                 </div>
 
-                {/* Service link */}
-                <div className="mt-8 p-5 rounded-xl" style={{ backgroundColor: 'var(--navy-100)' }}>
-                  <p className="text-sm" style={{ color: 'var(--muted)' }}>
+                {/* Service links */}
+                <div className="mt-10 p-5 rounded-xl" style={{ backgroundColor: 'var(--navy-100)' }}>
+                  <p className="text-sm mb-3" style={{ color: 'var(--muted)' }}>
                     Learn more about our{' '}
                     <Link href={post.serviceLink} className="font-700 hover:underline" style={{ color: 'var(--orange-600)', fontWeight: 700 }}>
                       {post.serviceLinkText}
                     </Link>
                     {' '}— including what&apos;s included, how it works, and how to book.
                   </p>
+                  <p className="text-sm font-bold mb-2" style={{ color: 'var(--navy-900)' }}>Related Pro Drain Cleaning services</p>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1">
+                    {SERVICE_LINKS.filter((l) => l.href !== post.serviceLink).map((l) => (
+                      <li key={l.href}>
+                        <Link href={l.href} className="text-sm blog-link">{l.label}</Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
                 {/* FAQ */}
-                <div className="mt-12">
-                  <h2 className="mb-6">Frequently Asked Questions</h2>
+                <div className="mt-12" id="faq">
+                  <h2 className="mb-6 scroll-mt-28">Frequently Asked Questions</h2>
                   <div className="flex flex-col gap-4">
                     {post.faqs.map((faq, i) => (
                       <div key={i} className="card p-6">
@@ -1734,20 +1814,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 </div>
 
                 {/* Related posts */}
-                {post.relatedSlugs.length > 0 && (
+                {relatedPosts.length > 0 && (
                   <div className="mt-12">
                     <h2 className="mb-6">Related Articles</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                      {post.relatedSlugs.map((relSlug) => {
-                        const relPost = allPosts[relSlug];
-                        if (!relPost) return null;
-                        return (
-                          <Link key={relSlug} href={`/blog/${relSlug}`} className="card p-5 hover:shadow-brand transition-shadow group" style={{ textDecoration: 'none' }}>
-                            <span className="text-xs font-700 block mb-2" style={{ color: 'var(--orange-600)', fontWeight: 700 }}>{relPost.category}</span>
-                            <span className="text-sm font-600 group-hover:text-orange-600 transition-colors" style={{ fontWeight: 600, color: 'var(--navy-900)' }}>{relPost.title}</span>
-                          </Link>
-                        );
-                      })}
+                      {relatedPosts.map(({ slug: relSlug, post: relPost }) => (
+                        <Link key={relSlug} href={`/blog/${relSlug}`} className="card p-5 hover:shadow-brand transition-shadow group" style={{ textDecoration: 'none' }}>
+                          <span className="text-xs font-700 block mb-2" style={{ color: 'var(--orange-600)', fontWeight: 700 }}>{relPost.category}</span>
+                          <span className="text-sm font-600 group-hover:text-orange-600 transition-colors" style={{ fontWeight: 600, color: 'var(--navy-900)' }}>{relPost.title}</span>
+                        </Link>
+                      ))}
                     </div>
                   </div>
                 )}
@@ -1758,13 +1834,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <div className="sticky top-24 card p-5">
                   <h3 className="text-sm font-700 mb-4 uppercase tracking-wider" style={{ fontWeight: 700, color: 'var(--navy-900)', fontSize: '0.75rem' }}>On This Page</h3>
                   <ul className="flex flex-col gap-2">
-                    {paragraphs.filter(p => p.startsWith('**') && p.endsWith('**')).map((heading, i) => (
-                      <li key={i}>
-                        <span className="text-xs leading-relaxed" style={{ color: 'var(--muted)' }}>
-                          {heading.replace(/\*\*/g, '')}
-                        </span>
+                    {toc.map((h) => (
+                      <li key={h.id}>
+                        <a href={`#${h.id}`} className="text-xs leading-relaxed hover:underline" style={{ color: 'var(--navy-700)' }}>
+                          {h.text}
+                        </a>
                       </li>
                     ))}
+                    <li>
+                      <a href="#faq" className="text-xs leading-relaxed hover:underline" style={{ color: 'var(--navy-700)' }}>
+                        Frequently Asked Questions
+                      </a>
+                    </li>
                   </ul>
                   <div className="mt-6 pt-6 border-t" style={{ borderColor: 'var(--line)' }}>
                     <Link href="tel:+12043994413" className="btn-primary w-full text-sm justify-center">

@@ -4,11 +4,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain & Sewer Terms Explained | Glossary | Pro Drain Cleaning',
+  title: 'Drain & Sewer Glossary | Pro Drain Cleaning',
   description: "Plain-language definitions of drain, sewer and plumbing terms — from auger to weeping tile. A homeowner's glossary from Pro Drain Cleaning, Winnipeg.",
   alternates: { canonical: `${baseUrl}/glossary` },
   openGraph: {
-    title: 'Drain & Sewer Terms Explained | Glossary | Pro Drain Cleaning',
+    title: 'Drain & Sewer Glossary | Pro Drain Cleaning',
     description: "Plain-language definitions of drain, sewer and plumbing terms — from auger to weeping tile. A homeowner's glossary from Pro Drain Cleaning, Winnipeg.",
     url: `${baseUrl}/glossary`,
     siteName: 'Pro Drain Cleaning',

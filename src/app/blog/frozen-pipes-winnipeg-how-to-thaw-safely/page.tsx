@@ -592,8 +592,8 @@ export default function FrozenPipesWinnipegPost() {
                       label: 'Emergency Plumber in Winnipeg: 24/7 Guide'
                     },
                     {
-                      href: '/blog/prevent-frozen-pipes-winnipeg',
-                      label: 'Preventing Frozen Pipes in Winnipeg'
+                      href: '/blog/frozen-drain-winnipeg-how-to-thaw',
+                      label: 'How to Thaw a Frozen Drain in Winnipeg'
                     }].
                     map((link) =>
                     <li key={link.href} className="flex items-start gap-2 text-sm">

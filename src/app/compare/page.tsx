@@ -11,12 +11,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Compare Drain & Plumbing Options | Pro Drain Cleaning — Winnipeg',
+  title: 'Compare Drain Cleaning Options | Pro Drain Cleaning',
   description:
     'Side-by-side comparisons to help you make an informed decision about drain cleaning, plumbing, and sewer services in Winnipeg. Pro Drain Cleaning.',
   alternates: { canonical: `${baseUrl}/compare` },
   openGraph: {
-    title: 'Compare Drain & Plumbing Options | Pro Drain Cleaning — Winnipeg',
+    title: 'Compare Drain Cleaning Options | Pro Drain Cleaning',
     description:
       'Side-by-side comparisons to help you make an informed decision about drain cleaning, plumbing, and sewer services in Winnipeg.',
     url: `${baseUrl}/compare`,
@@ -27,38 +27,35 @@ export const metadata: Metadata = {
 const comparePages = [
   {
     slug: 'local-drain-cleaner-vs-national-chain',
+    href: undefined as string | undefined,
     title: 'Local Drain Cleaner vs. a National Chain — What Actually Matters',
     excerpt:
       'Dispatch, pricing structure, and accountability — the structural differences that matter most for a time-sensitive drain problem.',
     category: 'Company',
   },
   {
-    slug: 'specialist-vs-general-plumber',
-    title: 'Drain & Sewer Specialist vs. a General Plumber',
+    slug: 'hydro-jetting-vs-snaking',
+    href: '/blog/hydro-jetting-vs-snaking',
+    title: 'Hydro Jetting vs. Drain Snaking',
     excerpt:
-      'When a drain specialist is the right call versus a general plumber — and how to tell which one your problem actually needs.',
-    category: 'Services',
-  },
-  {
-    slug: 'pro-drain-cleaning-vs-diy',
-    title: 'Pro Drain Cleaning vs. DIY',
-    excerpt:
-      'What professional drain cleaning actually does that DIY methods cannot — and when it is worth the call.',
+      'The difference between a drain snake and professional hydro jetting, and which one your line actually needs.',
     category: 'Methods',
   },
   {
-    slug: 'hydro-jetting-vs-rented-drain-machine',
-    title: 'Hydro Jetting vs. a Rented Drain Machine',
+    slug: 'sewer-camera-inspection',
+    href: '/blog/sewer-camera-inspection-before-buying-house',
+    title: 'Sewer Camera Inspection vs. Guessing',
     excerpt:
-      'The difference between renting a drain snake and professional hydro jetting — and which one your line actually needs.',
-    category: 'Methods',
+      'Why a camera inspection gives you a real answer instead of a best guess, and when it is worth doing.',
+    category: 'Services',
   },
   {
-    slug: 'camera-inspection-vs-guessing',
-    title: 'Camera Inspection vs. Guessing',
+    slug: 'diy-vs-professional',
+    href: '/blog/drain-cleaning-mistakes-homeowners-make',
+    title: 'DIY Drain Cleaning vs. Calling a Pro',
     excerpt:
-      'Why a sewer camera inspection gives you a real answer instead of a best guess — and when it is worth doing.',
-    category: 'Services',
+      'The common DIY mistakes that turn a small clog into a bigger repair, and when it is time to call.',
+    category: 'Methods',
   },
 ];
 
@@ -116,7 +113,7 @@ export default function CompareIndexPage() {
               {comparePages.map((page) => (
                 <Link
                   key={page.slug}
-                  href={`/compare/${page.slug}`}
+                  href={page.href ?? `/compare/${page.slug}`}
                   className="flex flex-col p-6 rounded-xl hover:shadow-md transition-shadow"
                   style={{
                     border: '1px solid var(--line)',

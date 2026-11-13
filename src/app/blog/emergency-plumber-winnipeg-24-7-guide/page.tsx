@@ -456,7 +456,7 @@ export default function EmergencyPlumberPillarPost() {
                     </div>
                     <p className="text-sm" style={{ color: 'var(--muted)' }}>
                       Full detail:{' '}
-                      <Link href="/blog/prevent-frozen-pipes-winnipeg" className="hover:underline font-600" style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
+                      <Link href="/blog/frozen-pipes-winnipeg-how-to-thaw-safely" className="hover:underline font-600" style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
                         Preventing Frozen Pipes in Winnipeg
                       </Link>
                     </p>
@@ -706,7 +706,7 @@ export default function EmergencyPlumberPillarPost() {
                       label: 'Plumbing Services Winnipeg — our full plumbing service page'
                     },
                     {
-                      href: '/blog/prevent-frozen-pipes-winnipeg',
+                      href: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely',
                       label: 'Preventing Frozen Pipes in Winnipeg'
                     },
                     {

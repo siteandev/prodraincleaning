@@ -434,7 +434,7 @@ export default function SewerLineSignsPage() {
                 <h2>Don&apos;t Wait for the Full Backup</h2>
                 <p className="leading-relaxed mb-4" style={{ color: 'var(--ink)' }}>
                   Every sign above is the system telling you something before it becomes an emergency. A sewer line that&apos;s cleaned when it&apos;s still just &ldquo;a bit slow and gurgly&rdquo; is a planned, straightforward visit. The same problem ignored becomes a sewage backup — messier, more urgent, and usually more expensive to deal with. Full detail:{' '}
-                  <Link href="/blog/sewer-line-repair-near-winnipeg" className="underline" style={{ color: 'var(--brand-700)' }}>
+                  <Link href="/blog/sewer-line-repair-vs-replacement" className="underline" style={{ color: 'var(--brand-700)' }}>
                     Sewer Line Repair Near Winnipeg and Areas
                   </Link>
                 </p>
@@ -507,7 +507,7 @@ export default function SewerLineSignsPage() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/blog/sewer-line-repair-near-winnipeg"
+                      href="/blog/sewer-line-repair-vs-replacement"
                       className="underline font-700"
                       style={{ color: 'var(--brand-700)', fontWeight: 700 }}
                     >

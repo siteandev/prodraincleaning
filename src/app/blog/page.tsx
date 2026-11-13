@@ -12,11 +12,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain & Sewer Blog | Pro Drain Cleaning — Winnipeg',
+  title: 'Drain & Sewer Blog Winnipeg | Pro Drain Cleaning',
   description: 'Expert drain cleaning and sewer advice for Winnipeg homeowners, landlords, and businesses. Covering costs, DIY tips, local problems, and when to call a pro.',
   alternates: { canonical: `${baseUrl}/blog` },
   openGraph: {
-    title: 'Drain & Sewer Blog | Pro Drain Cleaning — Winnipeg',
+    title: 'Drain & Sewer Blog Winnipeg | Pro Drain Cleaning',
     description: 'Expert drain cleaning and sewer advice for Winnipeg homeowners, landlords, and businesses.',
     url: `${baseUrl}/blog`,
     siteName: 'Pro Drain Cleaning',

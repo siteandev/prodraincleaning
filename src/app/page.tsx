@@ -23,11 +23,11 @@ import { homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema } from 
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca'),
-  title: 'Drain Cleaning Winnipeg 24/7 | Sewer & Emergency Plumbing | Pro Drain Cleaning',
+  title: 'Drain Cleaning Winnipeg 24/7 | Pro Drain Cleaning',
   description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified. Call +1 (204) 399-4413 anytime.',
   alternates: { canonical: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca' },
   openGraph: {
-    title: 'Drain Cleaning Winnipeg 24/7 | Sewer & Emergency Plumbing | Pro Drain Cleaning',
+    title: 'Drain Cleaning Winnipeg 24/7 | Pro Drain Cleaning',
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca',
     siteName: 'Pro Drain Cleaning',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Drain Cleaning Winnipeg 24/7 | Sewer & Emergency Plumbing | Pro Drain Cleaning',
+    title: 'Drain Cleaning Winnipeg 24/7 | Pro Drain Cleaning',
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Call +1 (204) 399-4413.'
   },
   robots: { index: true, follow: true }

@@ -439,3 +439,14 @@
     letter-spacing: -0.03em;
   }
 }
+/* Blog body links — visible, underlined, accessible contrast */
+.blog-link {
+  color: var(--navy-700);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+.blog-link:hover {
+  color: var(--orange-600);
+}

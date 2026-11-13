@@ -6,8 +6,6 @@ import {
   generateOrganizationSchema,
   generateWebsiteSchema,
   generateServiceSchema,
-  generateWebPageSchema,
-  generateFAQPageSchema,
 } from '@/lib/localServicesSchema';
 
 interface LocalServicesSchemaMarkupProps {
@@ -28,8 +26,6 @@ export default function LocalServicesSchemaMarkup({
   const organizationSchema = generateOrganizationSchema();
   const websiteSchema = generateWebsiteSchema();
   const serviceSchemas = generateServiceSchema();
-  const webPageSchema = generateWebPageSchema(pageTitle, pageDescription);
-  const faqPageSchema = generateFAQPageSchema();
 
   return (
     <>
@@ -60,16 +56,6 @@ export default function LocalServicesSchemaMarkup({
         }}
       />
 
-      {/* WebPage Schema - Page-level context */}
-      <script
-        id="schema-webpage"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(webPageSchema),
-        }}
-      />
-
-
       {/* Service Schemas - Explicit service definitions */}
       {serviceSchemas.map((schema, index) => (
         <script
@@ -82,14 +68,8 @@ export default function LocalServicesSchemaMarkup({
         />
       ))}
 
-      {/* FAQPage Schema - Powers AI answer extraction and featured snippets */}
-      <script
-        id="schema-faqpage"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqPageSchema),
-        }}
-      />
+      {/* FAQPage and WebPage schema are intentionally NOT emitted site-wide: each page emits its own
+          page-specific FAQPage that matches its visible FAQ, and a site-wide copy duplicated it on every URL. */}
 
     </>
   );

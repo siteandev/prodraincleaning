@@ -15,12 +15,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Clogged Drain Cleaning Winnipeg | Kitchen, Floor & Toilet Drains Unclogged 24/7',
-  description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7.',
+  title: 'Drain Cleaning Services Winnipeg | Clogged Drain Fix 24/7',
+  description: 'Drain cleaning services in Winnipeg: kitchen, bathroom, floor & main drains cleared 24/7. Same-day, flat price before we start. Call +1 (204) 399-4413.',
   alternates: { canonical: `${baseUrl}/drain-cleaning-winnipeg` },
   openGraph: {
-    title: 'Clogged Drain Cleaning Winnipeg | Kitchen, Floor & Toilet Drains Unclogged 24/7',
-    description: 'Fast drain cleaning in Winnipeg, Selkirk & St. Norbert. Kitchen sinks, tubs, showers, toilets, floor & main drains cleared 24/7.',
+    title: 'Drain Cleaning Services Winnipeg | Clogged Drain Fix 24/7',
+    description: 'Drain cleaning services in Winnipeg: kitchen, bathroom, floor & main drains cleared 24/7. Same-day, flat price before we start. Call +1 (204) 399-4413.',
     url: `${baseUrl}/drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/og/og-drain-cleaning-winnipeg.jpg", width: 1200, height: 630, alt: 'Drain cleaning service in Winnipeg' }],
@@ -382,9 +382,11 @@ export default function DrainCleaningWinnipegPage() {
               <p className="text-sm font-600 w-full mb-1" style={{ color: 'var(--muted)', fontWeight: 600 }}>Related articles:</p>
               {[
               { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
-              { label: 'Why Winnipeg Drains Block So Often', href: '/blog/why-winnipeg-drains-block' },
-              { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/drain-snaking-vs-hydro-jetting' },
-              { label: 'How to Prevent Kitchen Drain Clogs', href: '/blog/prevent-kitchen-drain-clogs' }].
+              { label: 'Clogged Drain: What to Do First', href: '/blog/clogged-drain-winnipeg-what-to-do' },
+              { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/hydro-jetting-vs-snaking' },
+              { label: 'Why Your Kitchen Sink Keeps Clogging', href: '/blog/kitchen-sink-keeps-clogging' },
+              { label: 'Basement Drain Gurgling When the Toilet Flushes', href: '/blog/basement-drain-gurgling-when-toilet-flushes' },
+              { label: 'Frozen Drain: How to Thaw It Safely', href: '/blog/frozen-drain-winnipeg-how-to-thaw' }].
               map((link) =>
               <Link key={link.href} href={link.href} className="text-sm px-4 py-2 rounded-full border font-600 hover:bg-navy-900 hover:text-white transition-colors" style={{ borderColor: 'var(--navy-700)', color: 'var(--navy-700)', fontWeight: 600 }}>
                   {link.label}

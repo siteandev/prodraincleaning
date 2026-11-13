@@ -14,12 +14,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Sump Pump Repair Winnipeg | Sump Pump Installation & Replacement 24/7",
-  description: "Sump pump repair, replacement and installation in Winnipeg — pedestal, submersible and battery backup pumps. Diagnosed first, flat price before work starts. 24/7 across Winnipeg and 100 km.",
+  title: "Sump Pump Repair Winnipeg | Install & Replace 24/7",
+  description: "Sump pump repair, replacement and installation in Winnipeg: pedestal, submersible and battery backup pumps. Diagnosed first, price before work starts. 24/7.",
   alternates: { canonical: `${baseUrl}/sump-pump-repair-winnipeg` },
   openGraph: {
-    title: "Sump Pump Repair Winnipeg | Sump Pump Installation & Replacement 24/7",
-    description: "Sump pump repair, replacement and installation in Winnipeg — pedestal, submersible and battery backup pumps. Diagnosed first, flat price before work starts. 24/7 across Winnipeg and 100 km.",
+    title: "Sump Pump Repair Winnipeg | Install & Replace 24/7",
+    description: "Sump pump repair, replacement and installation in Winnipeg: pedestal, submersible and battery backup pumps. Diagnosed first, price before work starts. 24/7.",
     url: `${baseUrl}/sump-pump-repair-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [

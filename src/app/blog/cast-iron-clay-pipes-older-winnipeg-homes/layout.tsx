@@ -4,14 +4,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Cast Iron and Clay Pipes in Older Winnipeg Homes — What Owners Should Know',
-  description: "Own an older Winnipeg home? Cast iron and clay drain pipes age differently than modern materials.",
+  title: 'Cast Iron & Clay Pipes in Older Winnipeg Homes',
+  description: "Own an older Winnipeg home? How cast iron and clay drain pipes age, the warning signs to watch for, and when a camera inspection is worth it.",
   alternates: {
     canonical: `${baseUrl}/blog/cast-iron-clay-pipes-older-winnipeg-homes`,
   },
   openGraph: {
-    title: 'Cast Iron and Clay Pipes in Older Winnipeg Homes — What Owners Should Know',
-    description: "Own an older Winnipeg home? Cast iron and clay drain pipes age differently than modern materials.",
+    title: 'Cast Iron & Clay Pipes in Older Winnipeg Homes',
+    description: "Own an older Winnipeg home? How cast iron and clay drain pipes age, the warning signs to watch for, and when a camera inspection is worth it.",
     url: `${baseUrl}/blog/cast-iron-clay-pipes-older-winnipeg-homes`,
     type: 'article',
   },

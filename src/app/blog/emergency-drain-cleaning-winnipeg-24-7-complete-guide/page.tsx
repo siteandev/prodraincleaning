@@ -516,7 +516,7 @@ export default function EmergencyDrainPillarPost() {
                     </div>
                     <p className="text-sm" style={{ color: 'var(--muted)' }}>
                       Full prevention guide:{' '}
-                      <Link href="/blog/prevent-frozen-pipes-winnipeg" className="hover:underline font-600" style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
+                      <Link href="/blog/frozen-pipes-winnipeg-how-to-thaw-safely" className="hover:underline font-600" style={{ color: 'var(--brand-700)', fontWeight: 600 }}>
                         How to Prevent Frozen Pipes in a Winnipeg Winter
                       </Link>
                     </p>

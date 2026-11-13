@@ -538,7 +538,7 @@ export default function WaterHeaterReplacementPost() {
                     { href: '/plumbing-services-winnipeg', label: 'Plumbing Services Winnipeg — our full plumbing service page' },
                     { href: '/blog/emergency-plumber-winnipeg-24-7-guide', label: 'Emergency Plumber in Winnipeg: 24/7 Guide' },
                     { href: '/blog/leak-detection-winnipeg', label: 'Leak Detection in Winnipeg' },
-                    { href: '/blog/prevent-frozen-pipes-winnipeg', label: 'Preventing Frozen Pipes in Winnipeg' }].
+                    { href: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely', label: 'Preventing Frozen Pipes in Winnipeg' }].
                     map((link) =>
                     <li key={link.href}>
                         <Link
