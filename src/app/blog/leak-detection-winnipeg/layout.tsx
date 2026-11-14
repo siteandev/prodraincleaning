@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Suspect a hidden leak in your Winnipeg home? Here\'s how we find it, what it costs, and how to prevent water damage.',
     url: `${baseUrl}/blog/leak-detection-winnipeg`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

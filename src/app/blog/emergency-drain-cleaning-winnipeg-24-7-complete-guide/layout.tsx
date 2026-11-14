@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Drain backed up at 2 AM? Here\'s what to do right now, what it costs, and how to prevent it next time. 24/7 emergency service.',
     url: `${baseUrl}/blog/emergency-drain-cleaning-winnipeg-24-7-complete-guide`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

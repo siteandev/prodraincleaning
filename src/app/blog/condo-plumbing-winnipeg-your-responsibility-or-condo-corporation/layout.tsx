@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       "Plumbing issue in your Winnipeg condo? Here's how responsibility typically splits between unit owners and the condo corporation — and who to call first.",
     url: `${baseUrl}/blog/condo-plumbing-winnipeg-your-responsibility-or-condo-corporation`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

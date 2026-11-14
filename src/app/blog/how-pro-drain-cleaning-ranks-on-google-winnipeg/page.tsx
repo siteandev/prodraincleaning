@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Pro Drain Cleaning Ranks #1 on Google in Winnipeg | Digital Strategy',
+  title: 'How Pro Drain Cleaning Ranks #1 on Google in Winnipeg',
   description: 'Behind the scenes: how Pro Drain Cleaning built Winnipeg\'s top-ranking drain cleaning website — SEO, GEO, Google Ads, and the agency that made it happen.',
   alternates: {
     canonical: 'https://prodraincleaning.ca/blog/how-pro-drain-cleaning-ranks-on-google-winnipeg',
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     locale: 'en_CA',
     type: 'article',
     publishedTime: '2026-10-12T00:00:00Z',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

@@ -263,7 +263,7 @@ export default function CloggedToiletPost() {
               className="w-full rounded-xl overflow-hidden mb-8"
               style={{ aspectRatio: '16/7', backgroundColor: 'var(--brand-100)', border: '1px solid var(--line)' }}>
               <img
-                src="/assets/images/clogged-toilet-winnipeg-hero.png"
+                src="/assets/images/clogged-toilet-winnipeg-hero.webp"
                 alt="Clearing a clogged toilet in a Winnipeg bathroom"
                 width={1600}
                 height={900}

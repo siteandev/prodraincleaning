@@ -260,7 +260,7 @@ export default function EmergencyPlumberPillarPost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/hero-emergency-drain-placeholder.png"
+                src="/assets/images/hero-emergency-drain-placeholder.webp"
                 alt="Emergency plumber responding to a call in Winnipeg at night"
                 lazy={false}
                 width={1600}
@@ -409,7 +409,7 @@ export default function EmergencyPlumberPillarPost() {
                     style={{ aspectRatio: '3/2', backgroundColor: 'var(--brand-100)', border: '1px solid var(--line)' }}
                   >
                     <img
-                      src="/assets/images/emergency-plumber-main-shutoff-valve.png"
+                      src="/assets/images/emergency-plumber-main-shutoff-valve.webp"
                       alt="Homeowner shutting off the main water valve during a plumbing emergency"
                       width={1200}
                       height={800}

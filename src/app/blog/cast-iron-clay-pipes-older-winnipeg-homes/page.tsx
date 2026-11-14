@@ -67,7 +67,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/drain-camera-inspection-monitor.png',
+      url: 'https://prodraincleaning.ca/assets/images/drain-camera-inspection-monitor.webp',
       description: 'Inspecting an older cast iron drain pipe in a Winnipeg home'
     },
     mainEntityOfPage: {
@@ -256,7 +256,7 @@ export default function CastIronClayPipesPost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/drain-camera-inspection-monitor.png"
+                src="/assets/images/drain-camera-inspection-monitor.webp"
                 alt="Inspecting an older cast iron drain pipe in a Winnipeg home"
                 lazy={false}
                 width={1600}

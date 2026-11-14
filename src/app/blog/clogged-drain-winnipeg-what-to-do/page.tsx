@@ -320,7 +320,7 @@ export default function CloggedDrainWhatToDoPost() {
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
               <img
-                src="/assets/images/basement-floor-drain-backup.png"
+                src="/assets/images/basement-floor-drain-backup.webp"
                 alt="Homeowner dealing with a clogged drain in a Winnipeg kitchen sink"
                 width={1600}
                 height={900}

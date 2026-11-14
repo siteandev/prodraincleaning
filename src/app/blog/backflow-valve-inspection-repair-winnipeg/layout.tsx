@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Backflow valve failing? Here\'s what it does, why it matters, and when to get it inspected or repaired. Winnipeg service.',
     url: `${baseUrl}/blog/backflow-valve-inspection-repair-winnipeg`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

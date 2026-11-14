@@ -18,7 +18,7 @@ const FinalCTABand = dynamic(() => import('@/components/FinalCTABand'));
 const Footer = dynamic(() => import('@/components/Footer'));
 
 import { homepageFAQItems } from '@/components/FAQAccordion';
-import { homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema } from '@/lib/pageSchemas';
+import { homepageFaqSchema, homepageSpeakableSchema } from '@/lib/pageSchemas';
 
 
 export const metadata: Metadata = {
@@ -90,7 +90,7 @@ export default function HomePage() {
       <AnnouncementBar />
       <Header />
 
-      {[homepageFaqSchema, homepageHowToSchema, homepageSpeakableSchema].map((schema, i) => (
+      {[homepageFaqSchema, homepageSpeakableSchema].map((schema, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       ))}
       <main id="main-content" className="mobile-pb">
@@ -487,7 +487,7 @@ export default function HomePage() {
                 See what our customers say
               </p>
               <Link
-                href="https://www.google.com/maps/place/Pro+Drain+Cleaning"
+                href="https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-brand text-sm font-600 transition-colors hover:opacity-90"

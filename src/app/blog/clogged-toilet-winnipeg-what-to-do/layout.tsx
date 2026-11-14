@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Toilet clogged? Here\'s what actually works, what doesn\'t, and when to call a pro. Real answers, no BS.',
     url: `${baseUrl}/blog/clogged-toilet-winnipeg-what-to-do`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

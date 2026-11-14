@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Water heater dying? Here\'s how to choose between tank and tankless, what it costs, and why the decision matters.',
     url: `${baseUrl}/blog/water-heater-replacement-winnipeg`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

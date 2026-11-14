@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Pipe burst at 3 AM? Here\'s how to find an emergency plumber in Winnipeg who won\'t overcharge. Real 24/7 service.',
     url: `${baseUrl}/blog/emergency-plumber-winnipeg-24-7-guide`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

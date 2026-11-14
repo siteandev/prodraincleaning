@@ -23,15 +23,6 @@ const emergencyFaqs: QA[] = [
   { q: 'Do you handle burst pipes and plumbing emergencies, not just drains?', a: 'Yes — we handle emergency drain clearing, sewer backups, and plumbing emergencies including burst pipes and water shut-offs. If your emergency is beyond our scope, we\'ll tell you on the phone and point you in the right direction.' },
 ];
 
-const processSteps = [
-  { name: 'You call or WhatsApp — 24/7', text: 'A real technician picks up. Tell us what you\'re seeing: which fixtures, how fast, whether water is currently rising. We pick up fast — you won\'t be waiting.' },
-  { name: 'We diagnose over the phone first', text: 'Which drains are affected tells us whether it\'s one fixture or your main line. You get a realistic price range before we roll a truck, not after.' },
-  { name: 'We arrive fully equipped', text: 'Same-day for most calls, priority dispatch for active flooding. Mats and boot covers go down before anything else does.' },
-  { name: 'On-site inspection & upfront quote', text: 'We locate the cleanout, assess the line, and give you a flat price in writing. You approve it before any work starts. No surprises on the invoice.' },
-  { name: 'We clear it — and verify it', text: 'The right machine for the pipe. Then a full-flow water test and, where useful, a camera pass so you can see the line is genuinely clear.' },
-  { name: 'Cleanup, video and a prevention plan', text: 'Everything wiped down, debris removed, camera footage sent to you, and honest advice on what to do so it doesn\'t come back.' },
-];
-
 const faqPage = (items: QA[]) => ({
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -44,19 +35,6 @@ const faqPage = (items: QA[]) => ({
 
 export const homepageFaqSchema = faqPage(homepageFaqs);
 export const emergencyFaqSchema = faqPage(emergencyFaqs);
-
-export const homepageHowToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: 'How a Pro Drain Cleaning job works, from your call to a clear line',
-  description: 'Most drain and sewer jobs in Winnipeg are completed in a single visit.',
-  step: processSteps.map((s, i) => ({
-    '@type': 'HowToStep',
-    position: i + 1,
-    name: s.name,
-    text: s.text,
-  })),
-};
 
 export const homepageSpeakableSchema = {
   '@context': 'https://schema.org',

@@ -16,7 +16,7 @@ export const extraPosts: Record<string, BlogPost> = {
     title: 'How to Thaw a Frozen Drain in Winnipeg: Shower, Sink, Floor Drain and Sewer Line',
     metaTitle: 'How to Thaw a Frozen Drain in Winnipeg (Safely)',
     metaDescription:
-      'Drain frozen or draining slowly in a Winnipeg cold snap? How to thaw a frozen shower, sink or floor drain safely, what not to do, and when a sewer line needs a pro.',
+      'Drain frozen in a Winnipeg cold snap? How to thaw a frozen shower, sink or floor drain safely, what not to do, and when a sewer line needs a pro.',
     category: 'Winter Plumbing',
     readTime: 7,
     date: '2026-11-13',
@@ -219,7 +219,7 @@ Sewage backing up right now? Call Pro Drain Cleaning on +1 (204) 399-4413 any ti
     title: 'Water Coming Up Through the Basement Floor Drain After Heavy Rain in Winnipeg',
     metaTitle: 'Floor Drain Backing Up After Rain in Winnipeg: Causes',
     metaDescription:
-      'Basement floor drain backing up after heavy rain in Winnipeg? Why it happens, what to check first, when it means a blocked line, and how a backwater valve fits in.',
+      'Floor drain backing up after heavy rain in Winnipeg? Why it happens, what to check first, when it means a blocked line, and how a backwater valve fits in.',
     category: 'Basement Flooding',
     readTime: 7,
     date: '2026-11-13',

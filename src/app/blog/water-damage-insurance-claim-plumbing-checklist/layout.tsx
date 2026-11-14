@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description: "Filing a water damage claim in Winnipeg? See the documentation a plumber can provide to support it, and what to gather before the adjuster visits.",
     url: `${baseUrl}/blog/water-damage-insurance-claim-plumbing-checklist`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

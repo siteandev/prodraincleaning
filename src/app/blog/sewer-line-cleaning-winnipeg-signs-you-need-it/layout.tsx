@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Sewer line backing up? Here\'s what the warning signs are, what causes them, and when to call for cleaning. Real answers.',
     url: `${baseUrl}/blog/sewer-line-cleaning-winnipeg-signs-you-need-it`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

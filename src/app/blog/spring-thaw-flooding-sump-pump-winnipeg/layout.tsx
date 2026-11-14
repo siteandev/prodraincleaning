@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       "Manitoba's spring thaw puts real strain on sump pumps. Here's how to check yours is ready before the melt — and what to do if it's already failing.",
     url: `${baseUrl}/blog/spring-thaw-flooding-sump-pump-winnipeg`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

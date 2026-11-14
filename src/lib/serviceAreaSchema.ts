@@ -1,7 +1,7 @@
 /**
  * Service Area Page Schema Generator
  * Creates LSA-optimized schema for individual service area pages
- * Includes: LocalBusiness with specific area, service types, and reviews
+ * Includes: reference to the main #business entity with the area served, and breadcrumbs
  */
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca';
@@ -57,12 +57,17 @@ export const serviceAreas = {
 };
 
 /**
- * Generate LocalBusiness schema for a specific service area
+ * Generate the service-area reference for an area page.
+ *
+ * This is a service-area business with one real entity (#business). Area pages
+ * must NOT declare a separate "Pro Drain Cleaning - <Town>" LocalBusiness with
+ * its own address/geo — that reads as a fake branch location. Instead we point
+ * at the main entity by @id and add the town to areaServed.
  */
 export function generateServiceAreaSchema(
 areaKey: string,
 areaName: string,
-pageUrl: string)
+_pageUrl: string)
 {
   const area = serviceAreas[areaKey as keyof typeof serviceAreas];
   if (!area) {
@@ -72,81 +77,14 @@ pageUrl: string)
 
   return {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': `${pageUrl}#business`,
-    name: `Pro Drain Cleaning - ${areaName}`,
-    url: pageUrl,
+    '@type': 'Plumber',
+    '@id': `${baseUrl}/#business`,
+    name: 'Pro Drain Cleaning',
     telephone: '+12043994413',
-    email: 'prodraincleaningcentre@gmail.com',
-    priceRange: '$$',
-    image: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_11c8c04d2-1772209925689.jpg",
-    logo: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_11c8c04d2-1772209925689.jpg",
-    description: `Professional drain cleaning and emergency plumbing services in ${areaName} and surrounding areas. 24/7 availability, upfront pricing, camera-verified results.`,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: areaName,
-      addressRegion: 'MB',
-      addressCountry: 'CA'
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: area.center.latitude,
-      longitude: area.center.longitude
-    },
-    // Service area polygon for LSA
     areaServed: {
-      '@type': 'GeoShape',
-      polygon: area.polygon.
-      map((point) => `${point.latitude},${point.longitude}`).
-      join(' ')
-    },
-    // 24/7 hours
-    openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday',
-      'Sunday'],
-
-      opens: '00:00',
-      closes: '23:59'
-    }],
-
-    // Service types
-    knowsAbout: [
-    'Drain Cleaning',
-    'Sewer Line Unclogging',
-    'Emergency Plumbing',
-    'Hydro Jetting',
-    'Sewer Camera Inspection'],
-
-    additionalType: 'Plumber',
-    availableLanguage: ['English'],
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'Customer Service',
-      telephone: '+12043994413',
-      areaServed: 'CA',
-      availableLanguage: ['English'],
-      hoursAvailable: {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: [
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-        'Sunday'],
-
-        opens: '00:00',
-        closes: '23:59'
-      }
+      '@type': 'City',
+      name: area.name,
+      containedInPlace: { '@type': 'AdministrativeArea', name: 'Manitoba' }
     }
   };
 }

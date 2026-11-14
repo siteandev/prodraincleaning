@@ -68,7 +68,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/drain-camera-inspection-monitor.png',
+      url: 'https://prodraincleaning.ca/assets/images/drain-camera-inspection-monitor.webp',
       description: 'Inspecting a Winnipeg sewer line affected by clay soil movement'
     },
     mainEntityOfPage: {
@@ -257,7 +257,7 @@ export default function ClaySoilSewerLinePost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/drain-camera-inspection-monitor.png"
+                src="/assets/images/drain-camera-inspection-monitor.webp"
                 alt="Inspecting a Winnipeg sewer line affected by clay soil movement"
                 lazy={false}
                 width={1600}

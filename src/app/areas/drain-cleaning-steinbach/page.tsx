@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     description: 'Expert drain cleaning & sewer service in Steinbach, MB (R5G). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7.',
     url: PAGE_URL,
     type: 'website',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
   other: {
     'geo.region': 'CA-MB',
@@ -74,7 +75,7 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'LocalBusiness',
+      '@type': 'Plumber',
       '@id': 'https://prodraincleaning.ca/#business',
       name: 'Pro Drain Cleaning',
       telephone: '+12043994413',

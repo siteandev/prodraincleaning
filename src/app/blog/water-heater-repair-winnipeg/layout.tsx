@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Water heater acting up? Here\'s how to tell if it\'s a simple repair or actually needs replacing — real answers, no upsell. Call +1 (204) 399-4413, 24/7.',
     url: `${baseUrl}/blog/water-heater-repair-winnipeg`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

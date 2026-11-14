@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Pipe just burst? Shut off water, protect what you can, then get help fast. Step-by-step emergency guide for Winnipeg homeowners.',
     url: `${baseUrl}/blog/burst-pipe-emergency-what-to-do`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

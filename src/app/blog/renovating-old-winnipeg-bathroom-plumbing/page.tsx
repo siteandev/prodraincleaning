@@ -67,7 +67,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/emergency-plumber-main-shutoff-valve.png',
+      url: 'https://prodraincleaning.ca/assets/images/emergency-plumber-main-shutoff-valve.webp',
       description: 'Plumber checking pipes behind the wall during a Winnipeg bathroom renovation'
     },
     mainEntityOfPage: {
@@ -256,7 +256,7 @@ export default function RenovatingOldBathroomPost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/emergency-plumber-main-shutoff-valve.png"
+                src="/assets/images/emergency-plumber-main-shutoff-valve.webp"
                 alt="Plumber checking pipes behind the wall during a Winnipeg bathroom renovation"
                 lazy={false}
                 width={1600}

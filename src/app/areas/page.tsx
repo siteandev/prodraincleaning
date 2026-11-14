@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/areas`,
     siteName: 'Pro Drain Cleaning',
     type: 'website',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

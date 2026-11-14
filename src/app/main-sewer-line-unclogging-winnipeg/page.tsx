@@ -16,11 +16,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'Sewer Line Cleaning Winnipeg | Roots, Jetting & Camera',
-  description: 'Blocked sewer line in Winnipeg? Same-day sewer line cleaning — tree root removal, hydro jetting, camera inspection. 24/7 across Winnipeg, Selkirk & 100 km. Call now.',
+  description: 'Blocked sewer line in Winnipeg? Same-day sewer line cleaning — tree root removal, hydro jetting, camera inspection. 24/7 across Winnipeg, Selkirk & 100 km.',
   alternates: { canonical: `${baseUrl}/main-sewer-line-unclogging-winnipeg` },
   openGraph: {
     title: 'Sewer Line Cleaning Winnipeg | Roots, Jetting & Camera',
-    description: 'Blocked sewer line in Winnipeg? Same-day sewer line cleaning — tree root removal, hydro jetting, camera inspection. 24/7 across Winnipeg, Selkirk & 100 km. Call now.',
+    description: 'Blocked sewer line in Winnipeg? Same-day sewer line cleaning — tree root removal, hydro jetting, camera inspection. 24/7 across Winnipeg, Selkirk & 100 km.',
     url: `${baseUrl}/main-sewer-line-unclogging-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [{ url: 'https://prodraincleaning.ca/assets/images/og/og-main-sewer-line.jpg', width: 1200, height: 630 }],

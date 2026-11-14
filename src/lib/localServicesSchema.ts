@@ -90,12 +90,11 @@ export function generateLocalBusinessSchema() {
     'Tree Root Removal'],
 
     availableLanguage: ['English'],
-    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning',
-    sameAs: [
-      'https://www.google.com/maps/place/Pro+Drain+Cleaning',
-      'https://www.facebook.com/prodraincleaning',
-      'https://www.instagram.com/prodraincleaning',
-    ],
+    // sameAs intentionally omitted: facebook.com/prodraincleaning belongs to an
+    // unrelated New York business. Add only verified profiles of THIS business
+    // (e.g. the Google Business Profile share link) — a wrong sameAs merges our
+    // entity with someone else's in Google's Knowledge Graph.
+    hasMap: 'https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg',
     // OfferCatalog: machine-readable pricing policy for AI agent decision-making
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -318,12 +317,11 @@ export function generateOrganizationSchema() {
       addressRegion: 'MB',
       addressCountry: 'CA'
     },
-    hasMap: 'https://www.google.com/maps/place/Pro+Drain+Cleaning',
-    sameAs: [
-      'https://www.google.com/maps/place/Pro+Drain+Cleaning',
-      'https://www.facebook.com/prodraincleaning',
-      'https://www.instagram.com/prodraincleaning',
-    ],
+    // sameAs intentionally omitted: facebook.com/prodraincleaning belongs to an
+    // unrelated New York business. Add only verified profiles of THIS business
+    // (e.g. the Google Business Profile share link) — a wrong sameAs merges our
+    // entity with someone else's in Google's Knowledge Graph.
+    hasMap: 'https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',

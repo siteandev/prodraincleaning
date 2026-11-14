@@ -105,7 +105,7 @@ export default function Footer() {
                 Open 24 hours, 7 days a week
               </p>
               <Link
-                href="https://www.google.com/maps/place/Pro+Drain+Cleaning"
+                href="https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm hover:text-white transition-colors"

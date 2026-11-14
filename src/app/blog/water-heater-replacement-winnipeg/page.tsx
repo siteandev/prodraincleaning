@@ -373,7 +373,7 @@ export default function WaterHeaterReplacementPost() {
                     style={{ aspectRatio: '3/2', backgroundColor: 'var(--brand-100)', border: '1px solid var(--line)' }}
                   >
                     <img
-                      src="/assets/images/water-heater-tank-vs-tankless-comparison.png"
+                      src="/assets/images/water-heater-tank-vs-tankless-comparison.webp"
                       alt="Comparison of a tank and tankless water heater"
                       width={1200}
                       height={800}

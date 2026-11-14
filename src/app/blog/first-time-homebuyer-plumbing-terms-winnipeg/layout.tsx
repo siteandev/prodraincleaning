@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       "Buying your first home in Winnipeg? Here are the plumbing terms you're most likely to hear from your inspector or agent, explained in plain language.",
     url: `${baseUrl}/blog/first-time-homebuyer-plumbing-terms-winnipeg`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

@@ -39,6 +39,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   twitter: { card: 'summary_large_image' },
+  // Fallback for pages that don't define their own openGraph block
+  openGraph: {
+    siteName: 'Pro Drain Cleaning',
+    locale: 'en_CA',
+    type: 'website',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
+  },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca'),
   title: 'Pro Drain Cleaning — 24/7 Winnipeg Drain & Sewer',
   description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg, Selkirk & 100km around. Upfront pricing, camera-verified results.',

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description: "Inspection report flagged a plumbing issue in Winnipeg? Get a second opinion, understand the real cost, and decide your next move before closing.",
     url: `${baseUrl}/blog/home-inspection-plumbing-issue-now-what`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     description: 'Expert drain cleaning & sewer service in Selkirk, MB (R1A). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections — 24/7.',
     url: PAGE_URL,
     type: 'website',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
   other: {
     'geo.region': 'CA-MB',
@@ -122,12 +123,7 @@ export default function SelkirkLocationPage() {
     name: 'Drain Cleaning & Sewer Service — Selkirk MB',
     description:
       'Professional drain cleaning, tree root removal, hydro jetting, sewer camera inspection, and emergency plumbing for residential and commercial properties in Selkirk, Manitoba.',
-    provider: {
-      '@type': 'LocalBusiness',
-      name: 'Pro Drain Cleaning',
-      telephone: '+12043994413',
-      url: 'https://prodraincleaning.ca',
-    },
+    provider: { '@id': 'https://prodraincleaning.ca/#business' },
     areaServed: {
       '@type': 'City',
       name: 'Selkirk',

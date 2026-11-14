@@ -401,7 +401,7 @@ export default function LeakDetectionPost() {
                     style={{ aspectRatio: '3/2', backgroundColor: 'var(--brand-100)', border: '1px solid var(--line)' }}>
                     
                     <img
-                      src="/assets/images/leak-detection-hidden-leak-basement-wall.png"
+                      src="/assets/images/leak-detection-hidden-leak-basement-wall.webp"
                       alt="Signs of a hidden water leak on a basement wall"
                       width={1200}
                       height={800}

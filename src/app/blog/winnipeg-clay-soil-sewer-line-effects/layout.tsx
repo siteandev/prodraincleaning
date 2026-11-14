@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       "Winnipeg sits on heavy clay soil that shifts with moisture — a real factor in sewer line problems most homeowners never hear about. Here's how it works.",
     url: `${baseUrl}/blog/winnipeg-clay-soil-sewer-line-effects`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

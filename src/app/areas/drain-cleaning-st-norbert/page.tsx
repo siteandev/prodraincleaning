@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     description: 'Expert drain cleaning & sewer service in St. Norbert, MB (R3V). Clogged drains, sewer backups, tree root removal, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
   other: {
     'geo.region': 'CA-MB',
@@ -123,12 +124,7 @@ export default function StNorbertLocationPage() {
     name: 'Drain Cleaning & Sewer Service — St. Norbert',
     description:
       'Professional drain cleaning, hydro jetting, sewer camera inspection, and emergency plumbing for residential and septic properties in St. Norbert, Winnipeg MB.',
-    provider: {
-      '@type': 'LocalBusiness',
-      name: 'Pro Drain Cleaning',
-      telephone: '+12043994413',
-      url: 'https://prodraincleaning.ca',
-    },
+    provider: { '@id': 'https://prodraincleaning.ca/#business' },
     areaServed: {
       '@type': 'Place',
       name: 'St. Norbert',

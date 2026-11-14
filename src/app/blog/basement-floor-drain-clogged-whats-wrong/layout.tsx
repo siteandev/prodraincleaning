@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       'Basement floor drain backing up? Here\'s what causes it, what it means, and when to call for help. Winnipeg service.',
     url: `${baseUrl}/blog/basement-floor-drain-clogged-whats-wrong`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

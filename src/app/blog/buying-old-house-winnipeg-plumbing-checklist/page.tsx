@@ -67,7 +67,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/drain-camera-inspection-monitor.png',
+      url: 'https://prodraincleaning.ca/assets/images/drain-camera-inspection-monitor.webp',
       description: 'Plumber inspecting older plumbing in a Winnipeg home before purchase'
     },
     mainEntityOfPage: {
@@ -256,7 +256,7 @@ export default function BuyingOldHousePlumbingChecklistPost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/drain-camera-inspection-monitor.png"
+                src="/assets/images/drain-camera-inspection-monitor.webp"
                 alt="Plumber inspecting older plumbing in a Winnipeg home before purchase"
                 lazy={false}
                 width={1600}

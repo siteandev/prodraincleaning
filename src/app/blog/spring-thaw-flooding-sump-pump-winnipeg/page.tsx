@@ -75,7 +75,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/sump-pump-placeholder.png',
+      url: 'https://prodraincleaning.ca/assets/images/sump-pump-placeholder.webp',
       description: 'Technician checking a sump pump before spring thaw in a Winnipeg home'
     },
     mainEntityOfPage: {
@@ -264,7 +264,7 @@ export default function SpringThawSumpPumpPost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/sump-pump-placeholder.png"
+                src="/assets/images/sump-pump-placeholder.webp"
                 alt="Technician checking a sump pump before spring thaw in a Winnipeg home"
                 lazy={false}
                 width={1600}

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description: "Frozen pipe damage and wondering if it's covered? See how most Manitoba policies typically treat frozen pipe claims, and what can affect coverage.",
     url: `${baseUrl}/blog/does-home-insurance-cover-frozen-pipes-manitoba`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

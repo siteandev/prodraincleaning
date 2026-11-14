@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description: "Before you renovate an older Winnipeg bathroom, see what's typically behind the wall: pipe material, hidden damage, and why a plumbing check comes first.",
     url: `${baseUrl}/blog/renovating-old-winnipeg-bathroom-plumbing`,
     type: 'article',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
 };
 

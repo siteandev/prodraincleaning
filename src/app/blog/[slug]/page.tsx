@@ -885,6 +885,7 @@ If plunging and augering have not cleared it, or if any of the three emergency s
   },
   'sump-pump-maintenance-checklist': {
     title: 'Winnipeg Sump Pump Maintenance: The Pre-Spring-Melt Checklist',
+    metaTitle: 'Winnipeg Sump Pump Maintenance: Pre-Spring Checklist',
     category: 'Plumbing',
     readTime: 7,
     date: '2026-04-28',
@@ -1100,6 +1101,7 @@ If the standpipe overflows every wash, call us. We serve Winnipeg, Selkirk, Stei
   },
   'how-often-clean-drains': {
     title: 'How Often Should You Have Your Drains Professionally Cleaned?',
+    metaTitle: 'How Often Should Drains Be Professionally Cleaned?',
     category: 'Drain Cleaning',
     readTime: 7,
     date: '2026-06-12',
@@ -1214,6 +1216,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
   },
   'what-not-to-flush': {
     title: '14 Things You Should Never Flush (Including "Flushable" Wipes)',
+    metaTitle: '14 Things Never to Flush (Even "Flushable" Wipes)',
     category: 'Drain Cleaning',
     readTime: 7,
     date: '2026-08-17',
@@ -1572,7 +1575,7 @@ const SUFFIX = ' | Pro Drain Cleaning';
 /** Keep <title> short enough to survive SERP truncation; brand suffix only when it fits. */
 function pageTitle(post: BlogPost): string {
   const base = post.metaTitle ?? post.title;
-  return base.length + SUFFIX.length <= 62 ? base + SUFFIX : base;
+  return base.length + SUFFIX.length <= 60 ? base + SUFFIX : base;
 }
 
 const SERVICE_LINKS = [

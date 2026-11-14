@@ -68,7 +68,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/hero-emergency-drain-placeholder.png',
+      url: 'https://prodraincleaning.ca/assets/images/hero-emergency-drain-placeholder.webp',
       description: 'Frozen pipe under a sink in a Winnipeg home'
     },
     mainEntityOfPage: {
@@ -83,19 +83,6 @@ const pageSchema = {
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a }
     }))
-  },
-  {
-    '@type': 'HowTo',
-    name: 'How to Thaw a Frozen Pipe Safely in Winnipeg',
-    description: 'Steps to safely thaw a frozen pipe before it bursts, specific to Winnipeg winter conditions.',
-    step: [
-      { '@type': 'HowToStep', position: 1, name: 'Turn on the nearest tap', text: 'Open the tap connected to the suspected frozen pipe — even a trickle confirms which section is affected and relieves pressure as ice begins to melt.' },
-      { '@type': 'HowToStep', position: 2, name: 'Locate the frozen section', text: 'Check exposed pipes near exterior walls, under sinks, in unheated crawl spaces and utility rooms — these freeze first in Winnipeg winters.' },
-      { '@type': 'HowToStep', position: 3, name: 'Apply gentle heat from the tap end', text: 'Use a hair dryer, electric heating pad, or warm towels. Work from the tap side back toward the frozen section — never start from the middle of the pipe.' },
-      { '@type': 'HowToStep', position: 4, name: 'Never use open flame', text: 'Propane torches and heat guns can burst pipes, ignite insulation, and cause house fires. No exceptions — stick to safe heat sources only.' },
-      { '@type': 'HowToStep', position: 5, name: 'Verify flow has returned', text: 'Once water flows freely, run the tap for 30 seconds and check every exposed joint for dripping — a hairline crack may now be leaking.' },
-      { '@type': 'HowToStep', position: 6, name: 'Call a plumber if you cannot locate or access the frozen section', text: 'If you cannot find the frozen section, if access is inside a wall or under a slab, or if you see any sign of pipe damage, stop and call Pro Drain Cleaning at +1 (204) 399-4413 immediately.' },
-    ],
   },
   {
     '@type': 'BreadcrumbList',
@@ -270,7 +257,7 @@ export default function FrozenPipesWinnipegPost() {
                 This is the only line you need to change.
               */}
               <SwappableHeroImage
-                src="/assets/images/hero-emergency-drain-placeholder.png"
+                src="/assets/images/hero-emergency-drain-placeholder.webp"
                 alt="Frozen pipe under a sink in a Winnipeg home"
                 lazy={false}
                 width={1600}

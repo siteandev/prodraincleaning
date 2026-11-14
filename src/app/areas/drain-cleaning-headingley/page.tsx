@@ -18,7 +18,7 @@ const PAGE_URL = `${baseUrl}/areas/drain-cleaning-headingley`;
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'Drain Cleaning Headingley MB | Pro Drain Cleaning',
-  description: 'Expert drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic service, tree root removal, hydro jetting & camera inspections.',
+  description: 'Drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic lines, tree root removal, hydro jetting & camera inspections.',
   keywords: [
     'drain cleaning Headingley',
     'sewer cleaning Headingley Manitoba',
@@ -33,9 +33,10 @@ export const metadata: Metadata = {
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: 'Drain Cleaning Headingley MB | Pro Drain Cleaning',
-    description: 'Expert drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic service, tree root removal, hydro jetting & camera inspections.',
+    description: 'Drain cleaning & sewer service in Headingley, MB (R4H). Clogged drains, sewer backups, septic lines, tree root removal, hydro jetting & camera inspections.',
     url: PAGE_URL,
     type: 'website',
+    images: [{ url: '/assets/images/og/og-default.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning — 24/7 drain and sewer service in Winnipeg' }],
   },
   other: {
     'geo.region': 'CA-MB',
@@ -120,12 +121,7 @@ export default function HeadingleyLocationPage() {
     name: 'Drain Cleaning & Septic Line Service — Headingley MB',
     description:
       'Professional drain cleaning, septic system drain line service, iron scale removal, hydro jetting, sewer camera inspection, and emergency plumbing for acreage and rural residential properties in Headingley, Manitoba.',
-    provider: {
-      '@type': 'LocalBusiness',
-      name: 'Pro Drain Cleaning',
-      telephone: '+12043994413',
-      url: 'https://prodraincleaning.ca',
-    },
+    provider: { '@id': 'https://prodraincleaning.ca/#business' },
     areaServed: {
       '@type': 'Place',
       name: 'Headingley',
