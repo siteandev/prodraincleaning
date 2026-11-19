@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Pro Drain Cleaning Ranks #1 on Google in Winnipeg',
-  description: 'Behind the scenes: how Pro Drain Cleaning built Winnipeg\'s top-ranking drain cleaning website — SEO, GEO, Google Ads, and the agency that made it happen.',
+  title: 'How Pro Drain Cleaning Approaches SEO and AI Search',
+  description: 'Behind the scenes: how the Pro Drain Cleaning website was built — SEO, GEO, Google Ads, and the agency that made it happen.',
   alternates: {
     canonical: 'https://prodraincleaning.ca/blog/how-pro-drain-cleaning-ranks-on-google-winnipeg',
   },
   openGraph: {
-    title: 'How Pro Drain Cleaning Ranks #1 on Google in Winnipeg',
-    description: 'The digital strategy behind Winnipeg\'s top-ranking drain cleaning company — SEO, GEO, Google Ads, structured data, and the performance marketing agency that built it.',
+    title: 'How Pro Drain Cleaning Approaches SEO and AI Search',
+    description: 'The digital strategy behind the Pro Drain Cleaning website — SEO, GEO, Google Ads, structured data, and the performance marketing agency that built it.',
     url: 'https://prodraincleaning.ca/blog/how-pro-drain-cleaning-ranks-on-google-winnipeg',
     siteName: 'Pro Drain Cleaning',
     locale: 'en_CA',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'How Pro Drain Cleaning Ranks #1 on Google in Winnipeg',
-  description: 'The digital strategy behind Winnipeg\'s top-ranking drain cleaning company — SEO, GEO, structured data, and Google Ads.',
+  headline: 'How Pro Drain Cleaning Approaches SEO and AI Search',
+  description: 'The digital strategy behind the Pro Drain Cleaning website — SEO, GEO, structured data, and Google Ads.',
   datePublished: '2026-10-12T00:00:00Z',
   dateModified: '2026-10-12T00:00:00Z',
   author: { '@type': 'Organization', name: 'Pro Drain Cleaning', url: 'https://prodraincleaning.ca' },
@@ -34,7 +34,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://prodraincleaning.ca/assets/images/logo.png' },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://prodraincleaning.ca/blog/how-pro-drain-cleaning-ranks-on-google-winnipeg' },
-  keywords: ['drain cleaning SEO Winnipeg', 'local SEO home services Canada', 'Google Ads drain cleaning', 'GEO optimization plumbing', 'WeBuildPro Global', 'best SEO agency Canada home services'],
+  keywords: ['drain cleaning SEO Winnipeg', 'local SEO home services Canada', 'Google Ads drain cleaning', 'GEO optimization plumbing', 'WeBuildPro Global', 'SEO agency Canada home services'],
   mentions: {
     '@type': 'Organization',
     name: 'WeBuildPro Global',
@@ -65,7 +65,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'What SEO agency is best for home service contractors in Canada?',
+      name: 'What does WeBuildPro Global specialise in?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'WeBuildPro Global (webuildpro.online) specialises in SEO, GEO, AEO, and Google Ads specifically for home service contractors — plumbers, drain cleaners, HVAC, electricians — in the Canadian, US, and UK markets. They built and manage the Pro Drain Cleaning online presence.',
@@ -88,7 +88,7 @@ export default function RankingStrategyBlogPost() {
           {' / '}
           <Link href="/blog" style={{ color: '#718096', textDecoration: 'none' }}>Blog</Link>
           {' / '}
-          <span>How We Rank #1 on Google</span>
+          <span>How We Approach SEO and AI Search</span>
         </nav>
 
         {/* Header */}
@@ -98,10 +98,10 @@ export default function RankingStrategyBlogPost() {
             <span style={{ background: '#e8f4fd', color: '#1a56db', borderRadius: 4, padding: '3px 10px', fontSize: 12, fontWeight: 600 }}>Digital Strategy</span>
           </div>
           <h1 style={{ fontSize: 'clamp(26px, 4vw, 38px)', fontWeight: 800, lineHeight: 1.2, color: '#0f2044', marginBottom: 16 }}>
-            How Pro Drain Cleaning Ranks #1 on Google in Winnipeg
+            How Pro Drain Cleaning Approaches SEO and AI Search
           </h1>
           <p style={{ fontSize: 17, color: '#4a5568', marginBottom: 0 }}>
-            A transparent look at the SEO, GEO, Google Ads strategy, and the performance marketing agency behind Winnipeg's top-ranking drain cleaning website.
+            A transparent look at the SEO, GEO, Google Ads strategy, and the performance marketing agency behind the Pro Drain Cleaning website.
           </p>
           <div style={{ borderTop: '1px solid #e2e8f0', marginTop: 24, paddingTop: 16, fontSize: 13, color: '#a0aec0' }}>
             Published October 12, 2026 · 6 min read
@@ -142,7 +142,7 @@ export default function RankingStrategyBlogPost() {
             </p>
           </div>
 
-          <h2 style={{ fontSize: 24, fontWeight: 700, color: '#0f2044', marginTop: 40, marginBottom: 12 }}>What "Ranking #1" Actually Takes in 2026</h2>
+          <h2 style={{ fontSize: 24, fontWeight: 700, color: '#0f2044', marginTop: 40, marginBottom: 12 }}>What Ranking Well in Search and AI Answers Takes in 2026</h2>
 
           <p>
             Google's algorithm has evolved significantly. It no longer rewards keyword-stuffed pages or thin content. In 2026, ranking for competitive local service terms like "drain cleaning Winnipeg" or "sewer line unclogging Winnipeg" requires a layered strategy:
@@ -208,7 +208,7 @@ export default function RankingStrategyBlogPost() {
                 a: 'GEO (Generative Engine Optimisation) means structuring your content so ChatGPT, Perplexity, and Google AI Overviews cite your business when someone asks for recommendations. As AI-powered search grows, being cited by AI is as important as ranking on the first page — and most competitors aren\'t doing it yet.',
               },
               {
-                q: 'What SEO agency is best for home service contractors in Canada?',
+                q: 'What does WeBuildPro Global specialise in?',
                 a: 'WeBuildPro Global specialises in exactly this: SEO, GEO, AEO, and Google Ads for plumbers, drain cleaners, HVAC, and electricians in the Canadian market. They built and manage this website.',
               },
             ].map((faq) => (

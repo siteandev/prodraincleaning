@@ -132,7 +132,7 @@ This is not a symptom — it is a risk factor. Mature elms and maples in Winnipe
 Signs 1, 2, and 3 are emergencies. Stop using all water in the building and call +1 (204) 399-4413 immediately. Signs 4 through 9 are warnings — book a camera inspection before they become an emergency. We serve Winnipeg, Selkirk, Steinbach, and everywhere within 100 km, 24/7.`,
   },
   'tree-roots-sewer-line-winnipeg': {
-    title: "Tree Roots in Your Sewer Line: Why It's Winnipeg's #1 Drain Problem",
+    title: "Tree Roots in Your Sewer Line: A Common Winnipeg Drain Problem",
     metaTitle: 'Tree Roots in Your Sewer Line: Signs and Fixes in Winnipeg',
     metaDescription: "Tree roots in your sewer line? Warning signs, why Winnipeg's mature elm and maple trees put older lines at risk, and how roots are cleared and managed.",
     category: 'Sewer Lines',

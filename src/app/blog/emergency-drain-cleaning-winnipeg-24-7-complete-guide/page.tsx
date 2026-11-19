@@ -46,10 +46,6 @@ const faqs = [
   a: 'Same-day for most Winnipeg calls, with priority dispatch when water is actively rising. For towns further out — Steinbach, Portage la Prairie, Gimli — response depends on distance and time of day, and we\'ll tell you honestly on the phone rather than guess.'
 },
 {
-  q: 'Do you charge more for emergency or after-hours calls?',
-  a: '[VERIFY — state your after-hours pricing policy here before publishing]'
-},
-{
   q: 'What\'s the very first thing I should do before calling?',
   a: 'Stop using every tap, toilet and appliance connected to water in the building. That single step limits more damage than anything else you can do in the first five minutes.'
 },
