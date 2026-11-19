@@ -197,8 +197,8 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
       <link
         rel="preload"
         as="image"
-        href="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&fm=webp&q=50"
-        imageSrcSet="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1280&fm=webp&q=60 1280w"
+        href="/assets/images/jobs/job-toilet-flange-auger-480.webp"
+        imageSrcSet="/assets/images/jobs/job-toilet-flange-auger-480.webp 480w, /assets/images/jobs/job-toilet-flange-auger-768.webp 768w, /assets/images/jobs/job-toilet-flange-auger-1200.webp 1200w"
         imageSizes="100vw"
         fetchPriority="high"
       />
@@ -269,11 +269,11 @@ export default function EmergencyDrainPlumbingWinnipegPage() {
           >
             <source
               type="image/webp"
-              srcSet="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1280&fm=webp&q=60 1280w"
+              srcSet="/assets/images/jobs/job-toilet-flange-auger-480.webp 480w, /assets/images/jobs/job-toilet-flange-auger-768.webp 768w, /assets/images/jobs/job-toilet-flange-auger-1200.webp 1200w"
               sizes="100vw"
             />
             <img
-              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1280&fm=webp&q=50"
+              src="/assets/images/jobs/job-toilet-flange-auger-1200.webp"
               alt=""
               width={1280}
               height={720}

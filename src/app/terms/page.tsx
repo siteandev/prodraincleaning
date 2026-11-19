@@ -59,7 +59,7 @@ export default function TermsPage() {
                   <li>We provide drain cleaning, sewer line unclogging, camera inspection, hydro jetting, and related plumbing services in Winnipeg, Manitoba and within 100 km of Winnipeg.</li>
                   <li>Service availability is subject to technician availability and travel distance. We make reasonable efforts to provide same-day service for Winnipeg calls and timely service for surrounding communities.</li>
                   <li>We reserve the right to decline service at our discretion, including where site conditions are unsafe or where the scope of work is outside our capabilities.</li>
-                  <li>All work is performed by qualified technicians. We are licensed and insured in Manitoba.</li>
+                  <li>All work is performed by qualified technicians.</li>
                   <li>We take reasonable precautions to protect your property, including the use of floor mats, boot covers, and drop sheets. We are not responsible for pre-existing damage to pipes, fixtures, or property.</li>
                 </ul>
               </section>

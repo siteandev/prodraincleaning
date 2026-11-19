@@ -1,12 +1,16 @@
 /**
  * Local Services Ads (LSA) Structured Data Generator
  * Generates comprehensive schema markup for Local Services Ads eligibility
- * Includes: service areas with GeoShape polygons, verified hours, license, phone, reviews
+ * Includes: service areas with GeoShape polygons, verified hours, phone, Google Business Profile
  */
 
 import { faqs } from './faqs';
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca';
+
+/** Google Business Profile — share link and knowledge-graph URL */
+export const GBP_URL = 'https://share.google/w9mTdNzb99PsA3uMT';
+export const GBP_KG_URL = 'https://www.google.com/search?kgmid=/g/11xlz_bkh1';
 
 /**
  * Service area polygon coordinates (Winnipeg metro + surrounding areas)
@@ -27,7 +31,7 @@ const serviceAreaPolygon = [
 
 /**
  * Generate LocalBusiness schema with LSA-specific fields
- * Includes: service area, verified hours, license, phone
+ * Single business entity (#business) — every other node references it by @id
  */
 export function generateLocalBusinessSchema() {
   return {
@@ -35,12 +39,24 @@ export function generateLocalBusinessSchema() {
     '@type': 'Plumber',
     '@id': `${baseUrl}/#business`,
     name: 'Pro Drain Cleaning',
+    legalName: 'Pro Drain Cleaning Limited',
     url: baseUrl,
     telephone: '+12043994413',
     email: 'prodraincleaningcentre@gmail.com',
     priceRange: '$$',
-    image: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_14d17e7fd-1769695449201.jpg",
-    logo: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_117a0c03b-1783186949327.jpg",
+    image: `${baseUrl}/assets/images/jobs/og-pro-drain-cleaning-job.jpg`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${baseUrl}/assets/images/app_logo-192.png`,
+      width: 192,
+      height: 192
+    },
+    founder: {
+      '@type': 'Person',
+      name: 'Manpreet Chahal',
+      jobTitle: 'Owner & Lead Technician',
+      worksFor: { '@id': `${baseUrl}/#business` }
+    },
     description: '24/7 drain cleaning, main sewer line unclogging, restaurant and commercial drain service and emergency plumbing in Winnipeg, Selkirk, St. Norbert and within 100 km of Winnipeg.',
     address: {
       '@type': 'PostalAddress',
@@ -90,11 +106,11 @@ export function generateLocalBusinessSchema() {
     'Tree Root Removal'],
 
     availableLanguage: ['English'],
-    // sameAs intentionally omitted: facebook.com/prodraincleaning belongs to an
-    // unrelated New York business. Add only verified profiles of THIS business
-    // (e.g. the Google Business Profile share link) — a wrong sameAs merges our
-    // entity with someone else's in Google's Knowledge Graph.
-    hasMap: 'https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg',
+    // Google Business Profile (knowledge graph id /g/11xlz_bkh1). Only add
+    // verified profiles of THIS business — facebook.com/prodraincleaning is an
+    // unrelated New York business and must never be added here.
+    sameAs: [GBP_URL, GBP_KG_URL],
+    hasMap: GBP_URL,
     // OfferCatalog: machine-readable pricing policy for AI agent decision-making
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -262,11 +278,7 @@ export function generateServiceSchema() {
     '@id': `${baseUrl}/#service-${service.name.toLowerCase().replace(/\s+/g, '-')}`,
     name: service.name,
     description: service.description,
-    provider: {
-      '@type': 'Plumber',
-      name: 'Pro Drain Cleaning',
-      url: baseUrl
-    },
+    provider: { '@id': `${baseUrl}/#business` },
     areaServed: {
       '@type': 'GeoShape',
       polygon: serviceAreaPolygon.
@@ -275,66 +287,6 @@ export function generateServiceSchema() {
     },
     availableLanguage: ['English']
   }));
-}
-
-/**
- * Generate Organization schema for brand identity
- * Establishes business authority and trust signals
- */
-export function generateOrganizationSchema() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    '@id': `${baseUrl}/#organization`,
-    name: 'Pro Drain Cleaning',
-    legalName: 'Pro Drain Cleaning Limited',
-    url: baseUrl,
-    logo: 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_117a0c03b-1783186949327.jpg',
-    description: '24/7 drain cleaning and emergency plumbing in Winnipeg. Locally owned and operated by Manpreet Chahal. Licensed, insured and WCB covered.',
-    telephone: '+12043994413',
-    email: 'prodraincleaningcentre@gmail.com',
-    founder: {
-      '@type': 'Person',
-      name: 'Manpreet Chahal',
-      jobTitle: 'Owner & Lead Technician',
-      worksFor: { '@id': `${baseUrl}/#organization` }
-    },
-    knowsAbout: [
-      'Drain Cleaning',
-      'Sewer Line Unclogging',
-      'Hydro Jetting',
-      'HD Sewer Camera Inspection',
-      'Emergency Plumbing',
-      'Commercial Restaurant Drain Service',
-      'Backwater Valve Installation',
-      'Sump Pump Service',
-      'Tree Root Removal from Sewer Lines',
-      'Winnipeg Drain Services'
-    ],
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Winnipeg',
-      addressRegion: 'MB',
-      addressCountry: 'CA'
-    },
-    // sameAs intentionally omitted: facebook.com/prodraincleaning belongs to an
-    // unrelated New York business. Add only verified profiles of THIS business
-    // (e.g. the Google Business Profile share link) — a wrong sameAs merges our
-    // entity with someone else's in Google's Knowledge Graph.
-    hasMap: 'https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg',
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'Customer Service',
-      telephone: '+12043994413',
-      availableLanguage: ['English'],
-      hoursAvailable: {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
-        opens: '00:00',
-        closes: '23:59'
-      }
-    }
-  };
 }
 
 /**
@@ -349,15 +301,7 @@ export function generateWebsiteSchema() {
     name: 'Pro Drain Cleaning',
     url: baseUrl,
     description: '24/7 drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg',
-    // SearchAction enables sitelinks search box in Google and AI agent search routing
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${baseUrl}/?s={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
+    publisher: { '@id': `${baseUrl}/#business` },
   };
 }
 
@@ -377,7 +321,7 @@ export function generateWebPageSchema(pageTitle?: string, pageDescription?: stri
       '@id': `${baseUrl}/#website`
     },
     publisher: {
-      '@id': `${baseUrl}/#organization`
+      '@id': `${baseUrl}/#business`
     },
     // mainEntity links the page to its primary subject — helps AI engines understand what the page is about
     mainEntity: { '@id': `${baseUrl}/#business` },

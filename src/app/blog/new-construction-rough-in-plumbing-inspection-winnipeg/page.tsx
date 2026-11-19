@@ -249,11 +249,6 @@ export default function RoughInInspectionPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/rough-in-plumbing-inspection-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/technician-sewer-camera-cleanout-inspection-winnipeg.png"
                 alt="Inspecting rough-in plumbing before drywall in a new Winnipeg home build"

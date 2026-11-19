@@ -250,11 +250,6 @@ export default function RentalPropertyLandlordPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/plumber-rental-property-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/technician-upfront-pricing-homeowner-winnipeg.png"
                 alt="Plumber servicing a rental property in Winnipeg for a landlord"

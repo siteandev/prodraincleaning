@@ -27,6 +27,6 @@ export const faqs: FAQItem[] = [
   },
   {
     question: 'What makes Pro Drain Cleaning different from other plumbers?',
-    answer: 'We specialize in drains and sewers only — not a sideline between furnace calls. We answer 24/7 with a real technician, not an answering service. We give upfront flat-rate pricing before we start. We use commercial-grade equipment and show you camera-verified results on screen. We\'re licensed, insured and WCB covered. We protect your home with boot covers, floor mats and drop sheets on every job. We\'re locally owned in Winnipeg and our reputation here is the whole business.'
+    answer: 'We specialize in drains and sewers only — not a sideline between furnace calls. We answer 24/7 with a real technician, not an answering service. We give upfront flat-rate pricing before we start. We use commercial-grade equipment and show you camera-verified results on screen. We protect your home with boot covers, floor mats and drop sheets on every job. We\'re locally owned in Winnipeg and our reputation here is the whole business.'
   },
 ];

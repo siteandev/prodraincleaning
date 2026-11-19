@@ -2,17 +2,9 @@
 import React from 'react';
 
 /**
- * SwappableHeroImage — single-source upload placeholder.
- *
- * To replace with your own photo:
- *   1. Upload your image to /public/assets/images/
- *   2. Change the `src` prop on this component in the page file.
- *
- * That's the only change needed — width, height, alt, and loading
- * attributes are all controlled here.
+ * SwappableHeroImage — blog post hero image with fixed dimensions and eager/lazy loading.
  */
 interface SwappableHeroImageProps {
-  /** Path to the image — swap this one value to replace the photo */
   src: string;
   alt: string;
   /** Set to false for the page's own hero (above the fold) */

@@ -223,8 +223,8 @@ export default function PlumbingServicesWinnipegPage() {
       <link
         rel="preload"
         as="image"
-        href="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&fm=webp&q=50"
-        imageSrcSet="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=60 1280w"
+        href="/assets/images/jobs/job-water-heater-480.webp"
+        imageSrcSet="/assets/images/jobs/job-water-heater-480.webp 480w, /assets/images/jobs/job-water-heater-768.webp 768w, /assets/images/jobs/job-water-heater-1200.webp 1200w"
         imageSizes="100vw"
         fetchPriority="high"
       />
@@ -275,11 +275,11 @@ export default function PlumbingServicesWinnipegPage() {
           >
             <source
               type="image/webp"
-              srcSet="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=60 1280w"
+              srcSet="/assets/images/jobs/job-water-heater-480.webp 480w, /assets/images/jobs/job-water-heater-768.webp 768w, /assets/images/jobs/job-water-heater-1200.webp 1200w"
               sizes="100vw"
             />
             <img
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=50"
+              src="/assets/images/jobs/job-water-heater-1200.webp"
               alt=""
               width={1280}
               height={720}
@@ -511,6 +511,13 @@ export default function PlumbingServicesWinnipegPage() {
                 { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
                 { label: 'Backwater Valve Winnipeg Guide', href: '/blog/backwater-valve-winnipeg' },
                 { label: 'Prevent Frozen Pipes Winnipeg', href: '/blog/frozen-pipes-winnipeg-how-to-thaw-safely' },
+                { label: 'Leak Detection in Winnipeg', href: '/blog/leak-detection-winnipeg' },
+                { label: 'Water Heater Repair', href: '/blog/water-heater-repair-winnipeg' },
+                { label: 'Water Heater Replacement', href: '/blog/water-heater-replacement-winnipeg' },
+                { label: 'Renovating an Old Winnipeg Bathroom', href: '/blog/renovating-old-winnipeg-bathroom-plumbing' },
+                { label: 'New Construction Rough-In Inspection', href: '/blog/new-construction-rough-in-plumbing-inspection-winnipeg' },
+                { label: 'Plumbing Terms for First-Time Buyers', href: '/blog/first-time-homebuyer-plumbing-terms-winnipeg' },
+                { label: 'Does Home Insurance Cover Frozen Pipes?', href: '/blog/does-home-insurance-cover-frozen-pipes-manitoba' },
               ].map((link) => (
                 <Link
                   key={link.href}

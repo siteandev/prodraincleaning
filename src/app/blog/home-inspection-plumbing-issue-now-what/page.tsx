@@ -250,11 +250,6 @@ export default function HomeInspectionPlumbingIssuePost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/plumber-reviewing-inspection-report-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/technician-upfront-pricing-homeowner-winnipeg.png"
                 alt="Plumber reviewing a home inspection report flagging a plumbing issue in Winnipeg"

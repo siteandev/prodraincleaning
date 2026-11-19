@@ -250,11 +250,6 @@ export default function CastIronClayPipesPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/cast-iron-clay-pipe-inspection-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/drain-camera-inspection-monitor.webp"
                 alt="Inspecting an older cast iron drain pipe in a Winnipeg home"

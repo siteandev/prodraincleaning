@@ -75,7 +75,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/sump-pump-placeholder.webp',
+      url: 'https://prodraincleaning.ca/assets/images/sump-pump-basement-pit.webp',
       description: 'Technician checking a sump pump before spring thaw in a Winnipeg home'
     },
     mainEntityOfPage: {
@@ -258,13 +258,8 @@ export default function SpringThawSumpPumpPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/sump-pump-spring-readiness-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
-                src="/assets/images/sump-pump-placeholder.webp"
+                src="/assets/images/sump-pump-basement-pit.webp"
                 alt="Technician checking a sump pump before spring thaw in a Winnipeg home"
                 lazy={false}
                 width={1600}

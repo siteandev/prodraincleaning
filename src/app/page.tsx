@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca',
     siteName: 'Pro Drain Cleaning',
-    images: [{ url: "https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_171eeaeb9-1772665883159.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning technician clearing a blocked drain in Winnipeg' }],
+    images: [{ url: "https://prodraincleaning.ca/assets/images/jobs/og-pro-drain-cleaning-job.jpg", width: 1200, height: 630, alt: 'Pro Drain Cleaning technician clearing a toilet drain line on a Winnipeg job' }],
     locale: 'en_CA',
     type: 'website'
   },
@@ -44,17 +44,17 @@ export const metadata: Metadata = {
 };
 
 // LCP hero image — preload hint so browser fetches it immediately
-const LCP_IMAGE_URL = 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg';
+const LCP_IMAGE_URL = 'https://prodraincleaning.ca/assets/images/jobs/job-toilet-auger-1200.webp';
 
 /* Structured data is rendered globally via LocalServicesSchemaMarkup in layout.tsx */
 
 const authorityPoints = [
-{ icon: null, title: 'Drains & sewers only', body: 'Not a sideline between furnace calls. Drain specialists resolve 94% of residential blockages in a single visit — no second truck, no callback week.' },
+{ icon: null, title: 'Drains & sewers only', body: 'Not a sideline between furnace calls. Drains and sewers are the whole job, so the truck arrives with the machines a drain problem actually needs.' },
 { icon: null, title: 'Answered 24/7 by a real person', body: 'Nights, weekends, Christmas, −35°C. No answering service, no callback queue.' },
 { icon: null, title: 'Upfront flat-rate pricing', body: 'You approve the number before we start. No hourly meter running while we diagnose.' },
 { icon: null, title: 'Commercial-grade equipment', body: 'Sectional and drum augers, hydro jetter, HD camera, line locator. We don\'t leave and come back.' },
 { icon: null, title: 'Camera-verified results', body: 'We show you the cleared line on screen and send you the video. Proof, not promises.' },
-{ icon: null, title: 'Licensed, insured & WCB covered', body: 'Fully licensed in Manitoba, insured, and WCB covered on every job.' },
+{ icon: null, title: 'Straight answers on the phone', body: 'Tell us what you\'re seeing and we\'ll tell you honestly whether it sounds like one fixture or the main line — before anyone drives over.' },
 { icon: null, title: 'We protect your home', body: 'Boot covers, floor mats, drop sheets and containment on every job. Cleaned up before we leave.' },
 { icon: null, title: 'Locally owned in Winnipeg', body: 'We work in these neighbourhoods, know these pipes, and our reputation here is the whole business.' }];
 
@@ -105,8 +105,8 @@ export default function HomePage() {
           {/* Background image */}
           <div className="absolute inset-0 z-0">
             <AppImage
-              src="/assets/images/remote/rocket_gen_img_17b757e33-1771885503955.jpg"
-              alt="Pro Drain Cleaning technician clearing a blocked drain in a Winnipeg basement"
+              src="/assets/images/jobs/job-toilet-auger-1200.webp"
+              alt="Pro Drain Cleaning technician running a drain auger through a toilet flange on a Winnipeg job"
               fill
               priority
               fetchPriority="high"
@@ -461,7 +461,7 @@ export default function HomePage() {
             {/* Authority grid — 4×2 */}
             {/* BENTO AUDIT: 8 cards, grid-cols-4 on lg, 2 rows */}
             {/* Row 1: [col-1: Specialists] [col-2: 24/7] [col-3: Flat Rate] [col-4: Equipment] */}
-            {/* Row 2: [col-1: Camera] [col-2: Licensed] [col-3: Home Protection] [col-4: Local] */}
+            {/* Row 2: [col-1: Camera] [col-2: Phone diagnosis] [col-3: Home Protection] [col-4: Local] */}
             {/* Placed 8/8 */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
               {authorityPoints.map((point, i) =>
@@ -487,7 +487,7 @@ export default function HomePage() {
                 See what our customers say
               </p>
               <Link
-                href="https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg"
+                href="https://share.google/w9mTdNzb99PsA3uMT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-brand text-sm font-600 transition-colors hover:opacity-90"
@@ -808,7 +808,7 @@ export default function HomePage() {
                 {/* Map */}
                 <div className="mb-2 text-right">
                   <a
-                    href="https://www.google.com/maps/d/edit?mid=1WTMIUI_cNbAJVJeoTI-UZldqFW0dTZ8"
+                    href="https://www.google.com/maps/d/viewer?mid=1WTMIUI_cNbAJVJeoTI-UZldqFW0dTZ8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs"

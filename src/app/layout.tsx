@@ -51,19 +51,17 @@ export const metadata: Metadata = {
   description: 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg, Selkirk & 100km around. Upfront pricing, camera-verified results.',
   icons: {
     icon: [
-      { url: '/assets/images/app_logo.png', type: 'image/png', sizes: '512x512' },
+      { url: '/assets/images/app_logo-192.png', type: 'image/png', sizes: '192x192' },
       { url: '/favicon.ico', type: 'image/x-icon', sizes: 'any' },
     ],
     // apple-touch-icon intentionally omitted from metadata.icons — Next.js
     // auto-generates fetchPriority="high" preloads for apple entries, which
     // competes with the LCP hero image. Added as a plain <link> below instead.
-    shortcut: '/assets/images/app_logo.png',
+    shortcut: '/favicon.ico',
   },
 };
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-// GTM placeholder — replace GTM-XXXXXXX with your actual GTM container ID or remove if not using GTM
-const GTM_ID = 'GTM-XXXXXXX'; // Replace GTM-XXXXXXX with your actual GTM container ID or remove if not using GTM
 const GADS_ID = 'AW-17370235539';
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -75,10 +73,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 
         {/* apple-touch-icon as a plain link — avoids Next.js auto-inserting
             fetchPriority="high" preload that competes with the LCP hero image */}
-        <link rel="apple-touch-icon" href="/assets/images/app_logo.png" sizes="180x180" type="image/png" />
-
-        <link rel="preconnect" href="https://images.unsplash.com" />
-        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link rel="apple-touch-icon" href="/assets/images/app_logo-192.png" sizes="192x192" type="image/png" />
 
         {/* Critical CSS inline — eliminates render-blocking for above-the-fold paint */}
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
@@ -86,14 +81,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {/* Local Services Ads Structured Data */}
         <LocalServicesSchemaMarkup />
 
-        {/* GTM head snippet — only fires if a real GTM ID is configured */}
-        {GTM_ID && GTM_ID !== 'GTM-XXXXXXX' && (
-          <Script id="gtm-head" strategy="lazyOnload">
-            {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`}
-          </Script>
-        )}
         {/* GA4 — deferred to lazyOnload so it does not compete with LCP */}
-        {GA_ID && GA_ID !== 'your-google-analytics-id-here' && (
+        {GA_ID && (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
@@ -146,18 +135,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </Script>
 </head>
       <body className={`${manrope.className} pb-18 lg:pb-0`}>
-        {/* GTM noscript */}
-        {GTM_ID && GTM_ID !== 'GTM-XXXXXXX' && (
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-              height="0"
-              width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
-              title="Google Tag Manager"
-            />
-          </noscript>
-        )}
         <Analytics />
         <FloatingCallButton />
         {children}

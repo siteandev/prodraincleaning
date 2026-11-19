@@ -250,11 +250,6 @@ export default function RenovatingOldBathroomPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/bathroom-renovation-plumbing-check-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/emergency-plumber-main-shutoff-valve.webp"
                 alt="Plumber checking pipes behind the wall during a Winnipeg bathroom renovation"

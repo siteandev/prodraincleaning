@@ -1657,7 +1657,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           '@type': 'Organization',
           name: 'Pro Drain Cleaning',
           url: baseUrl,
-          logo: { '@type': 'ImageObject', url: `${baseUrl}/assets/images/app_logo.png` },
+          logo: { '@type': 'ImageObject', url: `${baseUrl}/assets/images/app_logo-192.png` },
         },
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         image: { '@type': 'ImageObject', url: OG_IMAGE, width: 1200, height: 630 },

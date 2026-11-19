@@ -112,8 +112,8 @@ export default function SewerLineUncloggingPage() {
       <link
         rel="preload"
         as="image"
-        href="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&fm=webp&q=50"
-        imageSrcSet="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=60 1280w"
+        href="/assets/images/jobs/job-under-slab-drain-line-480.webp"
+        imageSrcSet="/assets/images/jobs/job-under-slab-drain-line-480.webp 480w, /assets/images/jobs/job-under-slab-drain-line-768.webp 768w, /assets/images/jobs/job-under-slab-drain-line-1200.webp 1200w"
         imageSizes="100vw"
         fetchPriority="high"
       />
@@ -143,11 +143,11 @@ export default function SewerLineUncloggingPage() {
           <picture className="absolute inset-0 z-0 opacity-20" aria-hidden="true">
             <source
               type="image/webp"
-              srcSet="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=60 1280w"
+              srcSet="/assets/images/jobs/job-under-slab-drain-line-480.webp 480w, /assets/images/jobs/job-under-slab-drain-line-768.webp 768w, /assets/images/jobs/job-under-slab-drain-line-1200.webp 1200w"
               sizes="100vw"
             />
             <img
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&fm=webp&q=50"
+              src="/assets/images/jobs/job-under-slab-drain-line-1200.webp"
               alt="Sewer line being cleared for a blocked main drain in Winnipeg"
               width={1280}
               height={720}
@@ -373,6 +373,9 @@ export default function SewerLineUncloggingPage() {
                 { label: 'Where Is the Main Sewer Cleanout in a Winnipeg House?', href: '/blog/where-is-main-sewer-cleanout-winnipeg-house' },
                 { label: 'Toilet Flush Backs Up Into the Bathtub', href: '/blog/toilet-flush-backs-up-into-bathtub-winnipeg' },
                 { label: 'Sewer Backup: Who to Call First', href: '/blog/sewer-backup-who-to-call-first-winnipeg' },
+                { label: 'Septic vs City Sewer in Manitoba', href: '/blog/septic-vs-city-sewer-manitoba' },
+                { label: 'Clay Soil and Your Sewer Line', href: '/blog/winnipeg-clay-soil-sewer-line-effects' },
+                { label: 'Cast Iron and Clay Pipes in Older Homes', href: '/blog/cast-iron-clay-pipes-older-winnipeg-homes' },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="text-sm px-4 py-2 rounded-full border font-600 hover:bg-navy-900 hover:text-white transition-colors" style={{ borderColor: 'var(--navy-700)', color: 'var(--navy-700)', fontWeight: 600 }}>
                   {link.label}

@@ -15,37 +15,37 @@ import PhoneLink from '@/components/PhoneLink';
 
 // Credential chips
 const credentialChips = [
-{ label: 'Licensed & Insured' },
-{ label: 'Liability Coverage' },
-{ label: 'WCB Covered' },
-{ label: '10+ years in the trade' }];
+{ label: 'Answered 24/7' },
+{ label: 'Upfront flat-rate pricing' },
+{ label: 'HD camera inspections' },
+{ label: 'Locally owned in Winnipeg' }];
 
 
-// Photo gallery images — replace URLs with real photos when available
+// Photo gallery — real job photos
 const galleryImages = [
 {
-  src: "/assets/images/man1-1787308009216.jpeg",
-  alt: 'Manpreet Chahal, owner of Pro Drain Cleaning, on a job site in Winnipeg'
+  src: "/assets/images/jobs/job-toilet-auger.webp",
+  alt: 'Pro Drain Cleaning technician feeding a drain auger into a toilet flange on a Winnipeg job'
 },
 {
-  src: "/assets/images/man7-1787308541465.jpeg",
-  alt: 'Pro Drain Cleaning technician ready for a drain service call in Winnipeg'
+  src: "/assets/images/jobs/job-floor-drain-cable.webp",
+  alt: 'Basement floor drain opened and cleared with a sectional drain cable, debris pulled out'
 },
 {
-  src: "/assets/images/man3-1787308261944.jpeg",
-  alt: 'Pro Drain Cleaning technician on a drain service job in Winnipeg'
+  src: "/assets/images/jobs/job-toilet-flange-auger.webp",
+  alt: 'Toilet removed and drain cable run down the flange to clear a blocked line'
 },
 {
-  src: "/assets/images/man4-1787308261362.jpeg",
-  alt: 'Pro Drain Cleaning crew member ready for a residential drain cleaning call'
+  src: "/assets/images/jobs/job-pump-pulled-winter.webp",
+  alt: 'Submersible pump pulled from its pit for service during a Winnipeg winter call'
 },
 {
-  src: "/assets/images/man5-1787308397229.jpeg",
-  alt: 'Pro Drain Cleaning technician on a residential drain cleaning job in Winnipeg'
+  src: "/assets/images/jobs/job-under-slab-drain-line.webp",
+  alt: 'Basement floor opened to expose an under-slab drain line during a repair'
 },
 {
-  src: "/assets/images/man6-1787308397319.jpeg",
-  alt: 'Pro Drain Cleaning crew member completing a drain service call in Winnipeg'
+  src: "/assets/images/jobs/job-water-heater.webp",
+  alt: 'Hot water tank supply and vent connections on a Winnipeg service call'
 }];
 
 

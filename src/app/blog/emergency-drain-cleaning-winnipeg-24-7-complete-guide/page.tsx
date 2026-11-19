@@ -278,7 +278,11 @@ export default function EmergencyDrainPillarPost() {
                 <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>
                   {PHONE_DISPLAY}
                 </PhoneLink>
-                . Pro Drain Cleaning is your 24 hour plumber for emergency plumbing and emergency sewer situations — we answer live, 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km of Winnipeg — including Steinbach, Niverville, Stonewall, Headingley, Gimli and Portage la Prairie. A real technician talks you through what to do while help is on the way, and every job is quoted with a flat price you approve before any work starts.
+                . Pro Drain Cleaning is your 24 hour plumber for emergency plumbing and emergency sewer situations — we answer live, 24 hours a day, 7 days a week, across Winnipeg, Selkirk, St. Norbert and every community within 100km of Winnipeg — including Steinbach, Niverville, Stonewall, Headingley, Gimli and Portage la Prairie. A real technician talks you through what to do while help is on the way, and every job is quoted with a flat price you approve before any work starts. For non-urgent jobs, see our{' '}
+                <Link href="/" className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>drain cleaning service in Winnipeg</Link>
+                {' '}or, for a slow or blocked fixture, our{' '}
+                <Link href="/drain-cleaning-winnipeg" className="font-700 hover:underline" style={{ color: 'var(--brand-700)', fontWeight: 700 }}>clogged drain cleaning</Link>
+                {' '}page.
               </p>
             </div>
 

@@ -3,7 +3,6 @@
 import React from 'react';
 import {
   generateLocalBusinessSchema,
-  generateOrganizationSchema,
   generateWebsiteSchema,
   generateServiceSchema,
 } from '@/lib/localServicesSchema';
@@ -23,7 +22,6 @@ export default function LocalServicesSchemaMarkup({
   pageDescription = 'Drain cleaning, sewer line unclogging & emergency plumbing in Winnipeg. Same-day service, upfront pricing, camera-verified.',
 }: LocalServicesSchemaMarkupProps) {
   const localBusinessSchema = generateLocalBusinessSchema();
-  const organizationSchema = generateOrganizationSchema();
   const websiteSchema = generateWebsiteSchema();
   const serviceSchemas = generateServiceSchema();
 
@@ -35,15 +33,6 @@ export default function LocalServicesSchemaMarkup({
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(localBusinessSchema),
-        }}
-      />
-
-      {/* Organization Schema - Verified business identity */}
-      <script
-        id="schema-organization"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(organizationSchema),
         }}
       />
 

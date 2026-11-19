@@ -250,11 +250,6 @@ export default function BurstPipeEmergencyPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/burst-pipe-shutoff-valve-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/emergency-plumber-main-shutoff-valve.webp"
                 alt="Shutting off the main water valve during a burst pipe emergency in Winnipeg"

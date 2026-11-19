@@ -249,11 +249,6 @@ export default function WaterDamageInsuranceClaimPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/plumber-documenting-water-damage-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/technician-upfront-pricing-homeowner-winnipeg.png"
                 alt="Plumber documenting water damage for an insurance claim in Winnipeg"

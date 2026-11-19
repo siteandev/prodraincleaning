@@ -249,11 +249,6 @@ export default function CondoPlumbingResponsibilityPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/plumber-condo-unit-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/technician-repairing-water-heater-winnipeg-basement.png"
                 alt="Plumber addressing a condo plumbing issue in Winnipeg"

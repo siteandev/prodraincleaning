@@ -15,12 +15,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: 'Drain Cleaning Services Winnipeg | Clogged Drain Fix 24/7',
-  description: 'Drain cleaning services in Winnipeg: kitchen, bathroom, floor & main drains cleared 24/7. Same-day, flat price before we start. Call +1 (204) 399-4413.',
+  title: 'Clogged Drain Cleaning Services in Winnipeg | Same-Day',
+  description: 'Clogged kitchen, bathroom, toilet, laundry or basement floor drain in Winnipeg? Cleared same-day, 24/7, flat price approved before we start. +1 (204) 399-4413.',
   alternates: { canonical: `${baseUrl}/drain-cleaning-winnipeg` },
   openGraph: {
-    title: 'Drain Cleaning Services Winnipeg | Clogged Drain Fix 24/7',
-    description: 'Drain cleaning services in Winnipeg: kitchen, bathroom, floor & main drains cleared 24/7. Same-day, flat price before we start. Call +1 (204) 399-4413.',
+    title: 'Clogged Drain Cleaning Services in Winnipeg | Same-Day',
+    description: 'Clogged kitchen, bathroom, toilet, laundry or basement floor drain in Winnipeg? Cleared same-day, 24/7, flat price approved before we start. +1 (204) 399-4413.',
     url: `${baseUrl}/drain-cleaning-winnipeg`,
     siteName: 'Pro Drain Cleaning',
     images: [{ url: "https://prodraincleaning.ca/assets/images/og/og-drain-cleaning-winnipeg.jpg", width: 1200, height: 630, alt: 'Drain cleaning service in Winnipeg' }],
@@ -131,8 +131,8 @@ export default function DrainCleaningWinnipegPage() {
       <link
         rel="preload"
         as="image"
-        href="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=480&fm=webp&q=50"
-        imageSrcSet="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1280&fm=webp&q=60 1280w"
+        href="/assets/images/jobs/job-floor-drain-cable-480.webp"
+        imageSrcSet="/assets/images/jobs/job-floor-drain-cable-480.webp 480w, /assets/images/jobs/job-floor-drain-cable-768.webp 768w, /assets/images/jobs/job-floor-drain-cable-1200.webp 1200w"
         imageSizes="100vw"
         fetchPriority="high"
       />
@@ -162,11 +162,11 @@ export default function DrainCleaningWinnipegPage() {
           <picture className="absolute inset-0 z-0 opacity-20" aria-hidden="true">
             <source
               type="image/webp"
-              srcSet="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1280&fm=webp&q=60 1280w"
+              srcSet="/assets/images/jobs/job-floor-drain-cable-480.webp 480w, /assets/images/jobs/job-floor-drain-cable-768.webp 768w, /assets/images/jobs/job-floor-drain-cable-1200.webp 1200w"
               sizes="100vw" />
             
             <img
-              src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1280&fm=webp&q=50"
+              src="/assets/images/jobs/job-floor-drain-cable-1200.webp"
               alt=""
               width={1280}
               height={720}
@@ -386,7 +386,11 @@ export default function DrainCleaningWinnipegPage() {
               { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/hydro-jetting-vs-snaking' },
               { label: 'Why Your Kitchen Sink Keeps Clogging', href: '/blog/kitchen-sink-keeps-clogging' },
               { label: 'Basement Drain Gurgling When the Toilet Flushes', href: '/blog/basement-drain-gurgling-when-toilet-flushes' },
-              { label: 'Frozen Drain: How to Thaw It Safely', href: '/blog/frozen-drain-winnipeg-how-to-thaw' }].
+              { label: 'Frozen Drain: How to Thaw It Safely', href: '/blog/frozen-drain-winnipeg-how-to-thaw' },
+              { label: 'Bathtub or Shower Draining Slowly', href: '/blog/bathtub-shower-draining-slowly' },
+              { label: 'Laundry Drain Overflowing', href: '/blog/laundry-drain-overflowing' },
+              { label: 'Kitchen Drain Clogged After Holiday Cooking', href: '/blog/kitchen-drain-clogged-after-holiday-cooking-winnipeg' },
+              { label: 'Clogged Toilet: What to Do', href: '/blog/clogged-toilet-winnipeg-what-to-do' }].
               map((link) =>
               <Link key={link.href} href={link.href} className="text-sm px-4 py-2 rounded-full border font-600 hover:bg-navy-900 hover:text-white transition-colors" style={{ borderColor: 'var(--navy-700)', color: 'var(--navy-700)', fontWeight: 600 }}>
                   {link.label}

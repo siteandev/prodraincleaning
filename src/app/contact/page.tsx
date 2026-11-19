@@ -166,6 +166,20 @@ export default function ContactPage() {
 
                     <div>
                       <p className="text-xs font-700 uppercase tracking-wider mb-2" style={{ color: 'var(--muted)', fontWeight: 700 }}>
+                        Google Business Profile
+                      </p>
+                      <a
+                        href="https://share.google/w9mTdNzb99PsA3uMT"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-600 hover:underline"
+                        style={{ color: 'var(--navy-900)', fontWeight: 600 }}>
+                        Find Pro Drain Cleaning on Google ↗
+                      </a>
+                    </div>
+
+                    <div>
+                      <p className="text-xs font-700 uppercase tracking-wider mb-2" style={{ color: 'var(--muted)', fontWeight: 700 }}>
                         Service Area
                       </p>
                       <p className="text-sm leading-relaxed" style={{ color: 'var(--ink)' }}>
@@ -179,7 +193,7 @@ export default function ContactPage() {
                 <div>
                   <div className="mb-2 text-right">
                     <a
-                      href="https://www.google.com/maps/d/edit?mid=1WTMIUI_cNbAJVJeoTI-UZldqFW0dTZ8"
+                      href="https://www.google.com/maps/d/viewer?mid=1WTMIUI_cNbAJVJeoTI-UZldqFW0dTZ8"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs"

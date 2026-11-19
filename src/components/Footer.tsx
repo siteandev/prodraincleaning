@@ -105,18 +105,18 @@ export default function Footer() {
                 Open 24 hours, 7 days a week
               </p>
               <Link
-                href="https://www.google.com/maps/search/?api=1&query=Pro+Drain+Cleaning+Winnipeg"
+                href="https://share.google/w9mTdNzb99PsA3uMT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm hover:text-white transition-colors"
                 style={{ color: 'rgba(255,255,255,0.65)' }}
-                aria-label="Find Pro Drain Cleaning on Google Maps"
+                aria-label="Pro Drain Cleaning on Google"
               >
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" strokeWidth="2"/>
                   <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2"/>
                 </svg>
-                Find us on Google Maps
+                Find us on Google
               </Link>
             </div>
           </div>

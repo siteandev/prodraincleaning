@@ -5,14 +5,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://prodraincleaning.ca
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: 'About Pro Drain Cleaning — Winnipeg Drain Specialists',
-  description: 'Meet the Pro Drain Cleaning team. Licensed, insured, WCB-covered specialists serving Winnipeg, Selkirk & St. Norbert since 2014. 24/7 emergency drain service.',
+  description: 'Meet Pro Drain Cleaning — locally owned drain and sewer specialists serving Winnipeg, Selkirk, St. Norbert and 100 km around. Answered 24/7 by a real person.',
   alternates: { canonical: `${baseUrl}/about` },
   openGraph: {
     title: 'About Pro Drain Cleaning — Winnipeg Drain Specialists',
-    description: 'Licensed, insured, WCB-covered drain specialists. 24/7 emergency service across Winnipeg, Selkirk & St. Norbert.',
+    description: 'Locally owned drain and sewer specialists. 24/7 emergency service across Winnipeg, Selkirk & St. Norbert.',
     url: `${baseUrl}/about`,
     siteName: 'Pro Drain Cleaning',
-    images: [{ url: 'https://prodraincleaning.ca/assets/images/remote/rocket_gen_img_12e011ced-1766887878812.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning team' }],
+    images: [{ url: 'https://prodraincleaning.ca/assets/images/jobs/og-pro-drain-cleaning-job.jpg', width: 1200, height: 630, alt: 'Pro Drain Cleaning technician on a Winnipeg drain job' }],
     locale: 'en_CA',
     type: 'website'
   },

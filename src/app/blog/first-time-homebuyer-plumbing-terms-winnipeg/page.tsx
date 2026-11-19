@@ -290,11 +290,6 @@ export default function FirstTimeHomebuyerTermsPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/plumber-explains-terms-first-time-buyer-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/technician-upfront-pricing-homeowner-winnipeg.png"
                 alt="Plumber explaining plumbing terms to a first-time homebuyer in Winnipeg"

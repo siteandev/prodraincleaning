@@ -107,8 +107,8 @@ export default function CommercialDrainCleaningPage() {
       <link
         rel="preload"
         as="image"
-        href="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=480&fm=webp&q=50"
-        imageSrcSet="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1280&fm=webp&q=60 1280w"
+        href="/assets/images/jobs/commercial-kitchen-480.webp"
+        imageSrcSet="/assets/images/jobs/commercial-kitchen-480.webp 480w, /assets/images/jobs/commercial-kitchen-768.webp 768w, /assets/images/jobs/commercial-kitchen-1200.webp 1200w"
         imageSizes="100vw"
         fetchPriority="high"
       />
@@ -138,11 +138,11 @@ export default function CommercialDrainCleaningPage() {
           <picture className="absolute inset-0 z-0 opacity-20" aria-hidden="true">
             <source
               type="image/webp"
-              srcSet="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=480&fm=webp&q=50 480w, https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=768&fm=webp&q=55 768w, https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1280&fm=webp&q=60 1280w"
+              srcSet="/assets/images/jobs/commercial-kitchen-480.webp 480w, /assets/images/jobs/commercial-kitchen-768.webp 768w, /assets/images/jobs/commercial-kitchen-1200.webp 1200w"
               sizes="100vw"
             />
             <img
-              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1280&fm=webp&q=50"
+              src="/assets/images/jobs/commercial-kitchen-1200.webp"
               alt=""
               width={1280}
               height={720}
@@ -348,6 +348,9 @@ export default function CommercialDrainCleaningPage() {
                 { label: 'Drain Cleaning Cost in Winnipeg', href: '/blog/drain-cleaning-winnipeg-cost-guide' },
                 { label: 'Hydro Jetting vs Drain Snaking', href: '/blog/hydro-jetting-vs-snaking' },
                 { label: 'How Often to Clean Drains', href: '/blog/how-often-clean-drains' },
+                { label: 'Landlord Drain Maintenance Guide', href: '/blog/landlord-drain-maintenance-guide' },
+                { label: 'Landlord Plumbing Responsibilities in Manitoba', href: '/blog/rental-property-plumbing-manitoba-landlord-responsibilities' },
+                { label: 'Shared Line Clogs in Apartments', href: '/blog/apartment-shared-line-clogs-winnipeg' },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="text-sm px-4 py-2 rounded-full border font-600 hover:bg-navy-900 hover:text-white transition-colors" style={{ borderColor: 'var(--navy-700)', color: 'var(--navy-700)', fontWeight: 600 }}>
                   {link.label}

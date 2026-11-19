@@ -254,13 +254,8 @@ export default function EmergencyPlumberPillarPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/your-emergency-plumber-photo.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
-                src="/assets/images/hero-emergency-drain-placeholder.webp"
+                src="/assets/images/emergency-drain-call.webp"
                 alt="Emergency plumber responding to a call in Winnipeg at night"
                 lazy={false}
                 width={1600}

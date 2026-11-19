@@ -250,11 +250,6 @@ export default function BuyingOldHousePlumbingChecklistPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/plumber-inspecting-old-house-pipes-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/drain-camera-inspection-monitor.webp"
                 alt="Plumber inspecting older plumbing in a Winnipeg home before purchase"

@@ -250,11 +250,6 @@ export default function ApartmentSharedLineClogsPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/apartment-shared-drain-line-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/pro-drain-service-van-plumbing-drain-equipment-winnipeg.png"
                 alt="Plumber clearing a shared drain line in a Winnipeg apartment building"

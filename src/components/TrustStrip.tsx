@@ -2,7 +2,7 @@ import React from 'react';
 
 const trustItems = [
   'Answered 24/7 by a real person',
-  'Licensed & insured',
+  'Same-day for most Winnipeg calls',
   'Upfront flat-rate pricing',
   'Hydro jetting & HD camera',
   'Floors protected, mess cleaned up',

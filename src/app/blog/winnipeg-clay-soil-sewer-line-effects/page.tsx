@@ -251,11 +251,6 @@ export default function ClaySoilSewerLinePost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/clay-soil-sewer-line-offset-joint-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
                 src="/assets/images/drain-camera-inspection-monitor.webp"
                 alt="Inspecting a Winnipeg sewer line affected by clay soil movement"

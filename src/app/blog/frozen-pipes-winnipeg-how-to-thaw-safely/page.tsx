@@ -68,7 +68,7 @@ const pageSchema = {
     },
     image: {
       '@type': 'ImageObject',
-      url: 'https://prodraincleaning.ca/assets/images/hero-emergency-drain-placeholder.webp',
+      url: 'https://prodraincleaning.ca/assets/images/emergency-drain-call.webp',
       description: 'Frozen pipe under a sink in a Winnipeg home'
     },
     mainEntityOfPage: {
@@ -251,13 +251,8 @@ export default function FrozenPipesWinnipegPost() {
 
             {/* Hero image */}
             <div className="rounded-xl overflow-hidden mb-8">
-              {/*
-                UPLOAD PLACEHOLDER — replace the src below with your own photo path.
-                Example: src="/assets/images/frozen-pipe-under-sink-winnipeg.jpg"
-                This is the only line you need to change.
-              */}
               <SwappableHeroImage
-                src="/assets/images/hero-emergency-drain-placeholder.webp"
+                src="/assets/images/emergency-drain-call.webp"
                 alt="Frozen pipe under a sink in a Winnipeg home"
                 lazy={false}
                 width={1600}
