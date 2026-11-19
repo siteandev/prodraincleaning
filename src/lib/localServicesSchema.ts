@@ -30,6 +30,22 @@ const serviceAreaPolygon = [
 ];
 
 /**
+ * Named towns in the service area — same list as the site's "every town we serve" sections.
+ */
+const SERVICE_TOWNS = [
+  'Winnipeg', 'Selkirk', 'St. Norbert', 'Headingley', 'Oak Bluff', 'Lorette',
+  'Niverville', 'Steinbach', 'Stonewall', 'East St. Paul', 'West St. Paul',
+  'Île des Chênes', 'St. Adolphe', 'Oakbank', 'Dugald', 'Beausejour', 'Teulon',
+  'Gimli', 'Portage la Prairie', 'Morris', 'Carman'
+];
+
+const namedServiceTowns = SERVICE_TOWNS.map((name) => ({
+  '@type': 'City',
+  name,
+  containedInPlace: { '@type': 'AdministrativeArea', name: 'Manitoba' }
+}));
+
+/**
  * Generate LocalBusiness schema with LSA-specific fields
  * Single business entity (#business) — every other node references it by @id
  */
@@ -58,25 +74,30 @@ export function generateLocalBusinessSchema() {
       worksFor: { '@id': `${baseUrl}/#business` }
     },
     description: '24/7 drain cleaning, main sewer line unclogging, restaurant and commercial drain service and emergency plumbing in Winnipeg, Selkirk, St. Norbert and within 100 km of Winnipeg.',
+    // Must match the Google Business Profile exactly
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '671 Pasadena Ave',
       addressLocality: 'Winnipeg',
       addressRegion: 'MB',
-      postalCode: 'R3B',
+      postalCode: 'R3T 2T2',
       addressCountry: 'CA'
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 49.8951,
-      longitude: -97.1384
+      latitude: 49.80125,
+      longitude: -97.13989
     },
-    // Service area with GeoShape polygon for LSA eligibility
-    areaServed: {
-      '@type': 'GeoShape',
-      polygon: serviceAreaPolygon.
-      map((point) => `${point.latitude},${point.longitude}`).
-      join(' ')
-    },
+    // Service area: ~100 km GeoShape plus every named town we serve
+    areaServed: [
+      {
+        '@type': 'GeoShape',
+        polygon: serviceAreaPolygon.
+        map((point) => `${point.latitude},${point.longitude}`).
+        join(' ')
+      },
+      ...namedServiceTowns
+    ],
     // Verified hours (24/7 operation)
     openingHoursSpecification: [
     {
