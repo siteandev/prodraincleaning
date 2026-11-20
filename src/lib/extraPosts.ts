@@ -25,7 +25,7 @@ export const extraPosts: Record<string, BlogPost> = {
       'A frozen drain is not the same as a frozen water pipe. Here is how to tell which one you have, how to thaw a frozen drain safely, and when to stop and call.',
     quickAnswer:
       'To thaw a frozen drain, warm it gently and from the outside in: pour warm (not boiling) water slowly, or wrap the accessible pipe with warm towels, and let it work for several minutes. Never use an open flame, a torch, or chemical drain cleaner. If more than one drain is slow, a floor drain is backing up, or the problem is underground, stop and call a drain specialist.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'drain cleaning in Winnipeg',
     relatedSlugs: ['sewer-backup-what-to-do', 'chemical-drain-cleaners-damage-pipes', 'what-not-to-flush'],
     faqs: [
@@ -576,7 +576,7 @@ Call right away if water is rising. Pro Drain Cleaning answers 24 hours a day on
       'Big holiday meals put more fat, starch and food scraps down the kitchen drain in a day than a normal week. Here is why it clogs and what to do about it.',
     quickAnswer:
       'Holiday cooking sends far more grease, starch and food scraps down the kitchen drain than a normal week, and the grease cools and hardens inside the pipe. For a slow sink, run hot tap water with dish soap, then try a plunger. Do not use chemical cleaners. If the sink and the dishwasher back up together, or other drains are slow too, the blockage is deeper and needs a professional.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'drain cleaning in Winnipeg',
     relatedSlugs: ['kitchen-sink-keeps-clogging', 'what-not-to-flush', 'chemical-drain-cleaners-damage-pipes'],
     faqs: [
@@ -652,6 +652,6 @@ A kitchen that gets heavy use is worth professional maintenance. Our guide on [h
 
 ## When to call
 
-If the drain will not clear, or the problem is bigger than the sink, call Pro Drain Cleaning on +1 (204) 399-4413. We answer 24/7, including holidays, across Winnipeg and the surrounding 100 km. Learn more about [drain cleaning in Winnipeg](/drain-cleaning-winnipeg).`,
+If the drain will not clear, or the problem is bigger than the sink, call Pro Drain Cleaning on +1 (204) 399-4413. We answer 24/7, including holidays, across Winnipeg and the surrounding 100 km. Learn more about [drain cleaning in Winnipeg](/).`,
   },
 };

@@ -24,7 +24,7 @@ const basePosts: Record<string, BlogPost> = {
     excerpt: 'A straight answer on what drain cleaning actually costs in Winnipeg — by service type, pipe size, and urgency level.',
     metaDescription: 'What drain cleaning costs in Winnipeg depends on the line, the blockage and the machine. See what moves the price and how to get a firm quote.',
     quickAnswer: 'Drain cleaning in Winnipeg is priced by the job, not a single rate: a single sink drain, a grease-coated kitchen line and a rooted main sewer line need different machines and different time. Call with the symptoms and a realistic range is given on the phone; a firm flat price is confirmed in writing on site, before any work starts.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['tree-roots-sewer-line-winnipeg', 'sewer-camera-inspection-before-buying-house', 'restaurant-grease-trap-line-cleaning'],
     faqs: [
@@ -784,7 +784,7 @@ Call +1 (204) 399-4413 or book online. We confirm your appointment time and work
     date: '2026-04-12',
     updatedDate: '2026-08-17',
     excerpt: 'A sewage smell indoors means sewer gas is entering living space. Air freshener masks it; it does not fix it. Here are the six causes.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['what-not-to-flush', 'signs-main-sewer-line-clogged'],
     faqs: [
@@ -956,7 +956,7 @@ If any of the signs above apply, or if your pump is approaching the end of its s
     date: '2026-05-05',
     updatedDate: '2026-08-17',
     excerpt: 'What caustic drain cleaners actually do inside your pipes, why they rarely clear a real blockage, and what to use instead.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['kitchen-sink-keeps-clogging', 'drain-cleaning-mistakes-homeowners-make', 'hydro-jetting-vs-snaking', 'basement-drain-gurgling-when-toilet-flushes'],
     faqs: [
@@ -1014,7 +1014,7 @@ If the drain is still blocked after plunging, call us. We serve Winnipeg, Selkir
     date: '2026-05-28',
     updatedDate: '2026-08-17',
     excerpt: 'Almost every slow tub or shower is the same thing: hair binding with soap scum into a dense plug, usually within the first metre or two of the drain.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['signs-main-sewer-line-clogged', 'hard-water-scale-drains-manitoba', 'chemical-drain-cleaners-damage-pipes'],
     faqs: [
@@ -1062,7 +1062,7 @@ If the DIY steps above have not cleared it, or if the tub blocks repeatedly, cal
     date: '2026-06-05',
     updatedDate: '2026-08-17',
     excerpt: 'A washing machine pumps out a large volume of water very fast — far faster than a sink or a shower. Here are the four real causes.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['how-often-clean-drains', 'signs-main-sewer-line-clogged'],
     faqs: [
@@ -1107,7 +1107,7 @@ If the standpipe overflows every wash, call us. We serve Winnipeg, Selkirk, Stei
     date: '2026-06-12',
     updatedDate: '2026-08-17',
     excerpt: 'Realistic professional drain cleaning intervals for Winnipeg homes, rentals and restaurants — and the factors that change them.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['restaurant-grease-trap-line-cleaning', 'tree-roots-sewer-line-winnipeg', 'signs-main-sewer-line-clogged'],
     faqs: [
@@ -1222,7 +1222,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
     date: '2026-08-17',
     updatedDate: '2026-08-17',
     excerpt: 'The 14 items that cause the most toilet and sewer blockages — including the ones labelled flushable. Winnipeg drain specialists.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['toilet-wont-flush-troubleshooting', 'drain-cleaning-mistakes-homeowners-make', 'signs-main-sewer-line-clogged'],
     faqs: [
@@ -1502,7 +1502,7 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
     date: '2026-08-17',
     updatedDate: '2026-08-17',
     excerpt: 'The eleven mistakes that turn a routine drain problem into an expensive one — and what to do instead. Winnipeg 24/7.',
-    serviceLink: '/drain-cleaning-winnipeg',
+    serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['chemical-drain-cleaners-damage-pipes', 'signs-main-sewer-line-clogged', 'sewer-backup-what-to-do'],
     faqs: [
@@ -1579,7 +1579,8 @@ function pageTitle(post: BlogPost): string {
 }
 
 const SERVICE_LINKS = [
-  { href: '/drain-cleaning-winnipeg', label: 'Drain cleaning in Winnipeg' },
+  { href: '/', label: 'Drain cleaning in Winnipeg' },
+  { href: '/drain-cleaning-winnipeg', label: 'Clogged sink, toilet & floor drain cleaning' },
   { href: '/main-sewer-line-unclogging-winnipeg', label: 'Main sewer line unclogging' },
   { href: '/emergency-drain-plumbing-winnipeg', label: '24/7 emergency drain & plumbing service' },
   { href: '/restaurant-commercial-drain-cleaning-winnipeg', label: 'Restaurant & commercial drain cleaning' },
