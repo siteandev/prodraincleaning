@@ -282,6 +282,10 @@ export default function SumpPumpRepairWinnipegPage() {
               price before work starts. Not sure your pump is ready for spring?{' '}
               <Link href="/blog/sump-pump-maintenance-checklist" style={{ color: 'var(--orange-600)' }} className="hover:underline">
                 Use our pre-spring checklist
+              </Link>
+              , read{' '}
+              <Link href="/blog/spring-thaw-flooding-sump-pump-winnipeg" style={{ color: 'var(--orange-600)' }} className="hover:underline">
+                how to get ready for spring thaw flooding
               </Link>{' '}
               or call{' '}
               <PhoneLink className="font-700 hover:underline" style={{ color: 'var(--orange-600)', fontWeight: 700 }}>

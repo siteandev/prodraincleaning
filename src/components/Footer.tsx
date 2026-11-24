@@ -20,6 +20,7 @@ const companyLinks = [
   { label: 'About', href: '/about' },
   { label: 'Blog', href: '/blog' },
   { label: 'Glossary', href: '/glossary' },
+  { label: 'Local vs National Chain', href: '/compare/local-drain-cleaner-vs-national-chain' },
   { label: 'Contact', href: '/contact' },
   { label: 'Book Online', href: '/book-online' },
   { label: 'Privacy Policy', href: '/privacy-policy' },
@@ -38,6 +39,7 @@ const areaLinks = [
   { label: 'Steinbach', href: '/areas/drain-cleaning-steinbach' },
   { label: 'Stonewall', href: '/areas/drain-cleaning-stonewall' },
   { label: 'East & West St. Paul', href: '/areas/drain-cleaning-east-west-st-paul' },
+  { label: 'All Service Areas', href: '/areas' },
 ];
 
 export default function Footer() {

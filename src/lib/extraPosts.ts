@@ -102,7 +102,7 @@ Stop running water in the house right away. Every flush and every load of laundr
 - Do not pour grease down any drain. Grease narrows the pipe and gives frost an easier place to catch. See [what not to flush or pour down your drains](/blog/what-not-to-flush).
 - Know where your main shutoff and your main sewer cleanout are before you need them.
 
-For a winter checklist for your supply pipes, read our guide to [frozen pipes in Winnipeg](/blog/frozen-pipes-winnipeg-how-to-thaw-safely).
+For a winter checklist for your supply pipes, read our guide to [frozen pipes in Winnipeg](/blog/frozen-pipes-winnipeg-how-to-thaw-safely). If frost has already caused damage, see [whether home insurance covers frozen pipes in Manitoba](/blog/does-home-insurance-cover-frozen-pipes-manitoba) for the questions to ask your insurer.
 
 ## When to stop and call
 
@@ -452,7 +452,7 @@ These are safe checks. None of them involves opening the sewer line.
 
 1. Run one fixture at a time and note which one makes the floor drain gurgle: toilet, tub, sink, or washing machine.
 2. Check whether any other fixture is draining slowly.
-3. If the floor drain has a smell but no gurgling, pour a pail of water into it. A dry trap can let sewer gas in. This is the same step the City of Winnipeg suggests for odours.
+3. If the floor drain has a smell but no gurgling, pour a pail of water into it. A dry trap can let sewer gas in. This is the same step the City of Winnipeg suggests for odours. More on this in [basement floor drain clogged: what is actually wrong](/blog/basement-floor-drain-clogged-whats-wrong).
 4. Avoid running the washing machine and dishwasher while you are waiting to have it checked.
 
 Do not use chemical drain cleaners in the hope of clearing a line you cannot reach. Read [why chemical drain cleaners damage pipes](/blog/chemical-drain-cleaners-damage-pipes).
@@ -538,7 +538,7 @@ If more than one of these is happening, assume the main line. Our guide to [9 si
 
 1. Stop using water in the house. That means no flushing, no laundry, no dishwasher and no showers.
 2. Do not try to force it with a plunger or a chemical drain cleaner. Chemical cleaners do not reach a main line blockage, and they leave a hazardous mix in the pipe. See [why chemical drain cleaners damage pipes](/blog/chemical-drain-cleaners-damage-pipes).
-3. Check the other fixtures, especially the lowest ones. If a basement floor drain is wet, the line is full.
+3. Check the other fixtures, especially the lowest ones. If a basement floor drain is wet, the line is full (see [basement floor drain clogged](/blog/basement-floor-drain-clogged-whats-wrong) for what to check at the drain itself).
 4. Do not open the main cleanout if water is backed up. Our guide on [finding your main sewer cleanout](/blog/where-is-main-sewer-cleanout-winnipeg-house) explains why.
 5. Call a drain and sewer specialist.
 

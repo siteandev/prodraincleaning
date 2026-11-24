@@ -306,6 +306,10 @@ If your drain has clogged more than once in the past year, or if you have a kitc
     date: '2026-02-18',
     updatedDate: '2026-08-17',
     excerpt: 'Grease is why your kitchen sink keeps clogging. Here is what is really happening in the pipe and how to stop it permanently.',
+    metaDescription:
+      "Kitchen sink keeps clogging? Why grease builds up inside the pipe, why a cable alone will not fix it, and what actually stops the cycle. Winnipeg advice.",
+    quickAnswer:
+      "A kitchen sink that keeps clogging usually has a grease and food-scrap coating on the pipe wall that a cable only punches a hole through. Check the P-trap, the dishwasher air gap or high loop, and the disposal first. If it returns within weeks or months, the pipe wall needs hydro jetting, not another cable.",
     serviceLink: '/drain-cleaning-winnipeg#kitchen-sink-drain-cleaning',
     serviceLinkText: 'kitchen sink drain cleaning in Winnipeg',
     relatedSlugs: ['hydro-jetting-vs-snaking', 'chemical-drain-cleaners-damage-pipes', 'drain-cleaning-winnipeg-cost-guide', 'kitchen-drain-clogged-after-holiday-cooking-winnipeg'],
@@ -363,6 +367,10 @@ If your kitchen sink has clogged more than once in the past year, or if it is sl
     date: '2026-02-25',
     updatedDate: '2026-08-17',
     excerpt: 'A sewer backup is a contamination event, not a plumbing inconvenience. What you do in the first fifteen minutes materially changes what it costs you.',
+    metaDescription:
+      "Sewer backup in your Winnipeg basement? The first 7 things to do, from stopping all water use to photographing damage, before you call. 24/7 response.",
+    quickAnswer:
+      "If sewage is backing up, stop using all water in the building, keep people and pets off the affected floor, cut power to the area only if you can do it safely, photograph everything before touching anything, and call a drain specialist. Sewer backup water carries bacteria, so treat it as a contamination event, not just a plumbing problem.",
     serviceLink: '/emergency-drain-plumbing-winnipeg#emergency-sewer-backup-service',
     serviceLinkText: 'emergency sewer backup service in Winnipeg',
     relatedSlugs: ['signs-main-sewer-line-clogged', 'backwater-valve-winnipeg', 'sewer-backup-who-to-call-first-winnipeg', 'floor-drain-backing-up-after-heavy-rain-winnipeg'],
@@ -484,6 +492,10 @@ If you cannot locate or reach the frozen section, or if water starts spraying wh
     date: '2026-03-12',
     updatedDate: '2026-08-17',
     excerpt: 'How a backwater valve stops sewage backing into your Winnipeg basement, what installation involves, and whether a City subsidy applies.',
+    metaDescription:
+      "What a backwater valve does, who needs one, what installation involves and how it protects a Winnipeg basement from sewer backup. Subsidy notes included.",
+    quickAnswer:
+      "A backwater valve is a one-way gate in your sewer line that closes when pressure reverses, so sewage from an overloaded City sewer cannot flow back into your basement. It does not stop overland flooding, groundwater seepage or a failed sump pump, which need different fixes.",
     serviceLink: '/plumbing-services-winnipeg#backwater-valve-installation',
     serviceLinkText: 'backwater valve installation in Winnipeg',
     relatedSlugs: ['sewer-backup-what-to-do', 'spring-thaw-basement-flooding-winnipeg', 'signs-main-sewer-line-clogged', 'floor-drain-backing-up-after-heavy-rain-winnipeg', 'sewer-backup-who-to-call-first-winnipeg'],
@@ -784,6 +796,10 @@ Call +1 (204) 399-4413 or book online. We confirm your appointment time and work
     date: '2026-04-12',
     updatedDate: '2026-08-17',
     excerpt: 'A sewage smell indoors means sewer gas is entering living space. Air freshener masks it; it does not fix it. Here are the six causes.',
+    metaDescription:
+      "Drain smells like sewage? Six causes, from a dry P-trap to a blocked vent or main line, and how to tell which one you have. Winnipeg drain specialists.",
+    quickAnswer:
+      "A drain that smells like sewage most often has a dry P-trap, a biofilm coating inside the pipe, or a blocked vent. Pour a couple of litres of water down every rarely used drain first. If the smell continues, a failed toilet seal, a cracked drain line or a main sewer problem is likely, and that needs a camera inspection.",
     serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['what-not-to-flush', 'signs-main-sewer-line-clogged'],
@@ -836,9 +852,11 @@ If pouring water down every drain does not stop the smell within a day, call us.
     date: '2026-04-20',
     updatedDate: '2026-08-17',
     excerpt: 'Work through these steps before calling a plumber — and know the three signs that mean stop and call now.',
+    quickAnswer:
+      "If a toilet will not flush, turn the shut-off valve behind it clockwise to stop an overflow, then decide whether it is a tank problem (no water, or a loose chain) or a blockage (use a flange plunger, then a closet auger). Stop and call if other fixtures gurgle or water rises elsewhere in the house.",
     serviceLink: '/plumbing-services-winnipeg',
     serviceLinkText: 'plumbing services in Winnipeg',
-    relatedSlugs: ['emergency-drain-plumbing-winnipeg', 'what-not-to-flush', 'drain-smells-like-sewage'],
+    relatedSlugs: ['signs-main-sewer-line-clogged', 'what-not-to-flush', 'drain-smells-like-sewage'],
     faqs: [
       { q: 'Will hot water and dish soap clear a toilet blockage?', a: 'Sometimes on a soft paper clog. Use hot, not boiling — boiling water can crack porcelain. It will not work on a solid object or a compacted blockage.' },
       { q: 'Are "flushable" wipes actually flushable?', a: 'They pass through the toilet and then do not break down. They are a leading cause of blockages in both homes and municipal systems. Do not flush them.' },
@@ -874,6 +892,8 @@ Other fixtures are affected too. If plunging the toilet makes the tub gurgle or 
 Water is coming up somewhere else — a floor drain, a laundry tub. That is a main line backup and it is an emergency.
 
 You know something solid went down there — a toy, a toothbrush, a phone. Plunging pushes it further into the trapway. That toilet needs to come off.
+
+For a shorter checklist of what to do before you call, see [clogged toilet in Winnipeg: what to do](/blog/clogged-toilet-winnipeg-what-to-do).
 
 **What we do**
 
@@ -1014,6 +1034,10 @@ If the drain is still blocked after plunging, call us. We serve Winnipeg, Selkir
     date: '2026-05-28',
     updatedDate: '2026-08-17',
     excerpt: 'Almost every slow tub or shower is the same thing: hair binding with soap scum into a dense plug, usually within the first metre or two of the drain.',
+    metaDescription:
+      "Slow bathtub or shower drain? It is usually hair and soap scum in the first metre of pipe. Fixes that work, and when to call a Winnipeg drain pro.",
+    quickAnswer:
+      "A slow bathtub or shower drain is usually a plug of hair and soap scum within the first metre or two of the drain. Remove and clean the stopper, pull the plug out with a plastic hair-removal strip, then flush with hot water. If the toilet or a basement drain also gurgles or backs up, stop: that points to the main sewer line, not the tub.",
     serviceLink: '/',
     serviceLinkText: 'professional drain cleaning in Winnipeg',
     relatedSlugs: ['signs-main-sewer-line-clogged', 'hard-water-scale-drains-manitoba', 'chemical-drain-cleaners-damage-pipes'],
@@ -1352,6 +1376,10 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
     date: '2026-08-17',
     updatedDate: '2026-08-17',
     excerpt: 'How Winnipeg landlords and property managers cut emergency drain calls, protect units, and keep documentation that holds up.',
+    metaDescription:
+      "Winnipeg landlord drain maintenance: how scheduled cleaning cuts emergency calls, protects units and builds records that hold up. For property managers.",
+    quickAnswer:
+      "Landlords and property managers cut emergency drain calls by cleaning on a schedule, scoping repeat-problem lines with a camera, and keeping dated records of every visit. In Manitoba, plumbing maintenance generally sits with the landlord, but tenant-caused damage can be treated differently, so document what was found.",
     serviceLink: '/drain-cleaning-winnipeg',
     serviceLinkText: 'professional drain cleaning for rental properties',
     relatedSlugs: ['how-often-clean-drains', 'restaurant-grease-trap-line-cleaning', 'tree-roots-sewer-line-winnipeg'],
@@ -1381,6 +1409,8 @@ The cost profile is different too. An emergency call is the small part. The expe
 6. Keep documentation. Dated invoices and reports for every visit, per address. This matters for tax, for insurance, for disputes over responsibility, and for your own scheduling.
 
 7. Use one company for the whole portfolio. One number, one set of records, and a contractor who already knows which of your buildings has the clay line with roots.
+
+For who is responsible for what in a rental, see [rental property plumbing in Manitoba: landlord duties](/blog/rental-property-plumbing-manitoba-landlord-responsibilities).
 
 **What we do for landlords and property managers**
 
@@ -1449,6 +1479,10 @@ Pro Drain Cleaning answers 24 hours a day, 7 days a week, across Winnipeg, Selki
     date: '2026-08-17',
     updatedDate: '2026-08-17',
     excerpt: 'When sewer pipe repair is enough, when trenchless lining works, and when full sewer line replacement is the only honest answer. Winnipeg sewer specialists.',
+    metaDescription:
+      "Sewer line repair, trenchless lining or full replacement? How a camera inspection decides, when each fits, and what drives cost. Winnipeg specialists.",
+    quickAnswer:
+      "Whether to repair, line or replace a sewer line depends on what the camera shows. One defect in an otherwise sound line points to a spot repair. Roots at several joints in intact pipe points to lining. A collapse, a belly holding water or defects along the run points to excavation and replacement.",
     serviceLink: '/main-sewer-line-unclogging-winnipeg',
     serviceLinkText: 'main sewer line services in Winnipeg',
     relatedSlugs: ['sewer-camera-inspection-before-buying-house', 'tree-roots-sewer-line-winnipeg'],

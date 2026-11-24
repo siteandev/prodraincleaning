@@ -20,6 +20,7 @@ const tocItems = [
   { id: 'common-causes', label: 'Basement Floor Drain — Common Causes' },
   { id: 'first-warning-sign', label: 'Why It Is Often the First Warning Sign' },
   { id: 'dry-trap', label: 'Is It Just a Dry Trap?' },
+  { id: 'unclog-steps', label: 'How to Unclog a Basement Drain, Step by Step' },
   { id: 'bigger-problem', label: 'When It Is More Than the Floor Drain Itself' },
   { id: 'what-we-do', label: 'What We Do to Fix It' },
   { id: 'areas-we-serve', label: 'Every Area We Serve' },
@@ -76,6 +77,14 @@ const faqs = [
     q: 'How do I unclog a basement floor drain myself?',
     a: 'You can remove the grate and clear visible debris, then pour water to test flow. If the clogged basement drain persists or water backs up from other fixtures, stop using water and call a professional — that typically means the blockage is in the main line, not at the drain itself.',
   },
+  {
+    q: 'Can I pour chemical drain cleaner down a clogged basement drain?',
+    a: 'We advise against it. Chemical cleaners can sit in standing water, can damage older pipe, and leave a hazard behind for whoever clears the line next. If the drain is blocked by debris, clearing it mechanically is safer.',
+  },
+  {
+    q: 'My basement drain clogs every spring or after heavy rain. Why?',
+    a: 'A drain that backs up when it rains or the snow melts often points to the main sewer line or groundwater, not a local clog. Our guide to floor drains backing up after heavy rain explains what to check.',
+  },
 ];
 
 const areaLinks: { name: string; href: string | null }[] = [
@@ -111,7 +120,7 @@ const pageSchema = {
         "Clogged basement floor drain or sewer backup through the floor? Here's what's actually causing it — and when it means a bigger sewer line issue. Call +1 (204) 399-4413, 24/7.",
       url: 'https://prodraincleaning.ca/blog/basement-floor-drain-clogged-whats-wrong',
       datePublished: '2026-09-10',
-      dateModified: '2026-09-10',
+      dateModified: '2026-11-24',
       author: { '@type': 'Person', name: 'Manpreet Chahal' },
       publisher: {
         '@type': 'Organization',
@@ -391,6 +400,53 @@ export default function BasementFloorDrainPage() {
                 </p>
               </section>
 
+              {/* How to unclog — targets "unclog basement drain" / "clogged basement drain" queries */}
+              <section id="unclog-steps" className="mb-10">
+                <h2>How to Unclog a Basement Drain, Step by Step</h2>
+                <p className="leading-relaxed mb-4" style={{ color: 'var(--ink)' }}>
+                  If the drain is slow but nothing is coming back up through the floor, work through these in order. Stop the moment water rises from any other drain in the house.
+                </p>
+                <ol className="space-y-3 mb-4 list-decimal pl-6" style={{ color: 'var(--ink)' }}>
+                  <li>
+                    <strong>Rule out a dry trap.</strong> Pour a litre or two of water in slowly. If the smell clears and the water drains normally, that was the problem.
+                  </li>
+                  <li>
+                    <strong>Lift the grate and clear what you can see.</strong> Wear gloves. Lint, hair and sediment collect right under the cover and are the most common cause of a slow floor drain.
+                  </li>
+                  <li>
+                    <strong>Test the flow.</strong> Pour a bucket of water in and watch. Steady drainage means you are done. Pooling or a slow gurgle means the blockage is further down.
+                  </li>
+                  <li>
+                    <strong>Try a hand auger only if the drain is slow, not backing up.</strong> Feed it in gently and stop if it meets hard resistance. Forcing it can damage the pipe or push the blockage deeper.
+                  </li>
+                  <li>
+                    <strong>Re-test, then run a tap or the washing machine.</strong> If the floor drain fills while other water is running, the blockage is not in the floor drain.
+                  </li>
+                </ol>
+                <p className="leading-relaxed mb-4" style={{ color: 'var(--ink)' }}>
+                  <strong>Stop and call if</strong> sewage is coming up, the drain refills after you clear it, other fixtures gurgle, or you smell sewage rather than just damp. Those point to the main line. Keep children and pets away from standing water, and skip chemical cleaners: they{' '}
+                  <Link href="/blog/chemical-drain-cleaners-damage-pipes" className="underline" style={{ color: 'var(--brand-700)' }}>
+                    can damage pipe and leave a hazard behind
+                  </Link>
+                  .
+                </p>
+                <p className="leading-relaxed" style={{ color: 'var(--ink)' }}>
+                  Backs up mainly when it rains or the snow melts? That is a different pattern, covered in{' '}
+                  <Link href="/blog/floor-drain-backing-up-after-heavy-rain-winnipeg" className="underline" style={{ color: 'var(--brand-700)' }}>
+                    floor drain backing up after heavy rain
+                  </Link>
+                  . If it gurgles when a toilet flushes, see{' '}
+                  <Link href="/blog/basement-drain-gurgling-when-toilet-flushes" className="underline" style={{ color: 'var(--brand-700)' }}>
+                    basement drain gurgling when the toilet flushes
+                  </Link>
+                  . For a professional clear, see our{' '}
+                  <Link href="/drain-cleaning-winnipeg" className="underline" style={{ color: 'var(--brand-700)' }}>
+                    drain cleaning service in Winnipeg
+                  </Link>
+                  .
+                </p>
+              </section>
+
               {/* When It's More Than the Floor Drain Itself */}
               <section id="bigger-problem" className="mb-10">
                 <h2>When It&apos;s More Than the Floor Drain Itself</h2>
@@ -558,7 +614,25 @@ export default function BasementFloorDrainPage() {
                       className="underline font-700"
                       style={{ color: 'var(--brand-700)', fontWeight: 700 }}
                     >
-                      Sump Pump Repair in Winnipeg &amp; Areas
+                      Sump Pump Maintenance Checklist for Winnipeg Homes
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/blog/floor-drain-backing-up-after-heavy-rain-winnipeg"
+                      className="underline font-700"
+                      style={{ color: 'var(--brand-700)', fontWeight: 700 }}
+                    >
+                      Floor Drain Backing Up After Heavy Rain in Winnipeg
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/sump-pump-repair-winnipeg"
+                      className="underline font-700"
+                      style={{ color: 'var(--brand-700)', fontWeight: 700 }}
+                    >
+                      Sump Pump Repair in Winnipeg
                     </Link>
                   </li>
                 </ul>
