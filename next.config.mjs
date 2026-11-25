@@ -16,9 +16,11 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
 
-  // FIX 3: Inline critical CSS and load the rest asynchronously — eliminates render-blocking CSS
+  // Inline the (small, ~10 KB compressed) stylesheet into each page's HTML so no CSS file blocks
+  // first paint. The old optimizeCss/critters flag did nothing under the App Router — the
+  // live HTML still shipped a render-blocking <link rel="stylesheet">.
   experimental: {
-    optimizeCss: true,
+    inlineCss: true,
     optimizePackageImports: ['@heroicons/react'],
   },
 

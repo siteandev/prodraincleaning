@@ -104,15 +104,19 @@ export default function HomePage() {
           
           {/* Background image */}
           <div className="absolute inset-0 z-0">
-            <AppImage
-              src="/assets/images/jobs/job-toilet-auger-1200.webp"
-              alt="Pro Drain Cleaning technician running a drain auger through a toilet flange on a Winnipeg job"
-              fill
-              priority
-              fetchPriority="high"
-              quality={40}
+            {/* Plain <img> with srcSet: next/image is unoptimized on this static export, so it
+                never emits srcSet and phones were downloading the 1200px file (59 KB). */}
+            <img
+              src="/assets/images/jobs/job-toilet-auger-768.webp"
+              srcSet="/assets/images/jobs/job-toilet-auger-480.webp 480w, /assets/images/jobs/job-toilet-auger-768.webp 768w, /assets/images/jobs/job-toilet-auger-1200.webp 1200w"
               sizes="100vw"
-              className="object-cover" />
+              alt="Pro Drain Cleaning technician running a drain auger through a toilet flange on a Winnipeg job"
+              width={1200}
+              height={675}
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+              className="absolute inset-0 h-full w-full object-cover" />
             
             {/* Hero overlay — brand-900 to brand-700 gradient */}
             <div
