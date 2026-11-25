@@ -29,6 +29,8 @@ function getPageType(pathname: string): string {
   if (
     pathname.startsWith('/drain-cleaning') ||
     pathname.startsWith('/main-sewer') ||
+    pathname.startsWith('/hydro-jetting') ||
+    pathname.startsWith('/sewer-camera-inspection') ||
     pathname.startsWith('/restaurant-commercial') ||
     pathname.startsWith('/plumbing-services')
   ) return 'service';

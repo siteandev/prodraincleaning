@@ -29,8 +29,8 @@ const mobileMenuSections = [
   {
     label: 'POPULAR',
     items: [
-      { label: 'Hydro Jetting', href: '/drain-cleaning-winnipeg#hydro-jet-drain-cleaning' },
-      { label: 'Sewer Camera Inspection', href: '/drain-cleaning-winnipeg#camera-drain-inspections' },
+      { label: 'Hydro Jetting', href: '/hydro-jetting-winnipeg' },
+      { label: 'Sewer Camera Inspection', href: '/sewer-camera-inspection-winnipeg' },
       { label: 'Tree Root Removal', href: '/main-sewer-line-unclogging-winnipeg#tree-root-removal' },
       { label: 'Backwater Valve Installation', href: '/plumbing-services-winnipeg#backwater-valve-installation' },
       { label: 'Sump Pump Repair', href: '/sump-pump-repair-winnipeg' },
@@ -52,6 +52,8 @@ const mobileMenuSections = [
 const parentMap: Record<string, string> = {
   '/drain-cleaning-winnipeg': '/',
   '/main-sewer-line-unclogging-winnipeg': '/',
+  '/hydro-jetting-winnipeg': '/',
+  '/sewer-camera-inspection-winnipeg': '/',
   '/restaurant-commercial-drain-cleaning-winnipeg': '/',
   '/plumbing-services-winnipeg': '/',
   '/sump-pump-repair-winnipeg': '/plumbing-services-winnipeg',

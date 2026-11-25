@@ -368,6 +368,8 @@ export default function SewerLineUncloggingPage() {
               <p className="text-sm font-600 w-full mb-1" style={{ color: 'var(--muted)', fontWeight: 600 }}>Related articles:</p>
               {[
                 { label: 'Tree Roots in Winnipeg Sewer Lines', href: '/blog/tree-roots-sewer-line-winnipeg' },
+                { label: 'Hydro Jetting in Winnipeg', href: '/hydro-jetting-winnipeg' },
+                { label: 'Sewer Camera Inspection in Winnipeg', href: '/sewer-camera-inspection-winnipeg' },
                 { label: 'Sewer Camera Inspection Guide', href: '/blog/sewer-camera-inspection-before-buying-house' },
                 { label: 'Drain Snaking vs Hydro Jetting', href: '/blog/hydro-jetting-vs-snaking' },
                 { label: 'Where Is the Main Sewer Cleanout in a Winnipeg House?', href: '/blog/where-is-main-sewer-cleanout-winnipeg-house' },
